@@ -10,6 +10,7 @@ Append-only record of meaningful play.
 - Adopted SRD 5.2.1 as the only D&D-derived creator rules source.
 - Imported Augrant causal-magic principles.
 - Established The Wayfarer as the first signature high-skill archetype.
+- Player explicitly chose a Bard-like weird, high-skill-ceiling playstyle; canonical player archetype is now Wayfarer, with origin/stats still unresolved.
 - Established Barony of Veyr and Dunmarrow as starting region.
 - Opening hanging-tree scene remains **not yet started** until character creation is finalized.
 
