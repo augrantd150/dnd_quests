@@ -1,0 +1,200 @@
+# The Wayfarer — High-Skill Player Archetype
+
+## Purpose
+
+The Wayfarer is the project's first signature magical playstyle.
+
+It is inspired by the **mastery structure** of unusual roaming utility characters such as League of Legends' Bard: power comes from map knowledge, geometry, preparation, timing, risk, and abilities that can create opportunities for either side.
+
+This is not a Bard adaptation. Names, lore, visuals, and exact abilities are original.
+
+## Fantasy
+
+A Wayfarer studies the hidden relationships between:
+- paths;
+- motion;
+- thresholds;
+- landmarks;
+- stored energy;
+- places where repeated human action has left magical resonance.
+
+They are not primarily a blaster.
+
+An expert Wayfarer makes a battlefield feel unfair because they understood its geometry earlier.
+
+## Skill-ceiling targets
+
+A beginning player sees:
+- strange utility magic;
+- movement tricks;
+- control effects.
+
+An expert sees:
+- route networks;
+- commitment windows;
+- escape geometry;
+- vector alignment;
+- delayed consequences;
+- bait;
+- pursuit traps;
+- pre-positioned recovery points;
+- when **not** to spend a powerful technique.
+
+## Core resource: Resonance
+
+Resonance is not generic mana.
+
+It is recoverable magical potential associated with meaningful places, motion, prepared anchors, and specific occult structures.
+
+The player can gain usable Resonance through:
+- discovering liminal sites;
+- carefully studying active magic;
+- completing risky traversals;
+- recovering charged materials;
+- preparing certain waymarks;
+- later, safely capturing limited transferable quantities.
+
+Repeatedly walking in circles does not create infinite Resonance.
+
+## System 1 — Waymarks
+
+The Wayfarer can prepare small magical anchors on valid surfaces.
+
+A Waymark records limited information such as:
+- location;
+- orientation;
+- local material;
+- selected magical tuning.
+
+Uses include:
+- receiving redirected momentum;
+- stabilizing later techniques;
+- defining a route;
+- improving precision near a prepared location.
+
+Waymarks take time and can be found, damaged, altered, or exploited.
+
+## System 2 — Vector Knot
+
+A short-range transfer technique couples a moving target to a second mass, surface, or prepared Waymark.
+
+Possible results:
+- spoil a lunge;
+- pull a shield line off angle;
+- dump part of a falling object's motion into a structural anchor;
+- turn a charge into a stumble;
+- redirect a projectile slightly;
+- help an ally complete a leap.
+
+It becomes much stronger when:
+- the target is already committed;
+- the geometry is favorable;
+- the receiver is stable and compatible.
+
+It is weak against a well-braced target if the caster has little transferable momentum to work with.
+
+## System 3 — Folded Route
+
+Advanced Waymarks can briefly establish a shortened path between two causally connected thresholds.
+
+Rules:
+- endpoints must satisfy strict geometric/material constraints;
+- distance and intervening structure determine cost;
+- the route is physically traversable, not teleportation by narration;
+- anything that can enter the route may potentially use it;
+- enemies can follow;
+- a badly chosen exit can be fatal;
+- damage to either anchor can destabilize the route.
+
+This technique should create both brilliant escapes and disastrous mistakes.
+
+## System 4 — Hearth Mark
+
+A prepared support mark stores limited, explicitly sourced energy/material assistance for later use.
+
+Early versions may:
+- warm a hypothermic body;
+- reduce shock;
+- provide clean water;
+- release a prepared stimulant;
+- stabilize a position for treatment;
+- provide a short movement burst by releasing stored mechanical energy.
+
+It does **not** magically erase severe wounds without an appropriate healing mechanism.
+
+The high-skill element is placement before the crisis.
+
+## System 5 — Conservation Seal
+
+A late, difficult technique temporarily captures part of a chosen physical transfer occurring inside a small prepared region.
+
+Examples:
+- absorb part of a hammer blow's momentum;
+- delay part of falling rubble's motion;
+- soften a collision;
+- capture vibration from a bell strike;
+- store a burst for a later release.
+
+Limits:
+- finite capacity;
+- short retention;
+- decay;
+- vector matters;
+- incomplete capture;
+- the uncaptured remainder still occurs;
+- releasing the stored quantity has reaction consequences.
+
+This creates dramatic timing plays without literal universal time-stop magic.
+
+## System 6 — The Witness
+
+The Wayfarer may eventually bind or befriend one small occult companion called a **Witness**.
+
+A Witness is primarily an information and interaction tool.
+
+Possible functions:
+- notice resonance the character has learned to identify;
+- carry tiny objects;
+- repeat simple sounds;
+- mark a route;
+- observe from a nearby location;
+- react to magical disturbances.
+
+It is not automatically loyal, immortal, omniscient, or safe.
+
+Its personality and origin should emerge in play.
+
+## Weaknesses
+
+The Wayfarer should be vulnerable when:
+- surprised in featureless terrain;
+- denied preparation;
+- exhausted;
+- unable to access anchors;
+- forced into sustained direct damage trading;
+- facing enemies who understand and destroy their setup;
+- overcommitting to cleverness when a simple retreat was better.
+
+## Mastery tests
+
+The archetype succeeds when an expert can do things such as:
+
+1. read an enemy's committed charge, use a tiny Vector Knot, step aside, and win with mundane steel;
+2. prepare an escape route before entering a hostile building;
+3. deliberately leave a traversable route that tempts pursuit into bad terrain;
+4. spend an hour preparing Hearth Marks that later save resources during a multi-stage expedition;
+5. capture only enough force to survive a blow, then release it somewhere useful;
+6. decide correctly that a signature technique is too risky and fight normally;
+7. use the same tools outside combat for rescue, travel, investigation, theft, medicine, construction, or sabotage.
+
+## Visual direction
+
+Dark-medieval rather than bright cosmic:
+- old road shrines;
+- cords, nails, carved stones, bone/wood/bronze tokens;
+- candle soot and chalk geometry;
+- worn travel cloak;
+- small impossible distortions near prepared thresholds;
+- sound motifs like distant bells, strained wood, wind in stone passages.
+
+No League of Legends assets, terminology, character design, or copied effects should be used in production.
