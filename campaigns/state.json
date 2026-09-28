@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 13,
-      "Waymark Craft": 12
+      "Waymark Craft": 13
     },
     "wounds": [],
     "exhaustion": 0,
@@ -115,6 +115,12 @@
       "modifier": 3,
       "total": 20,
       "outcome": "strong success"
+    },
+    "learning": {
+      "skill": "Waymark Craft",
+      "from": 12,
+      "to": 13,
+      "reason": "Successfully identified and disrupted an active hostile transfer geometry under time pressure."
     }
   },
   "meta": {
