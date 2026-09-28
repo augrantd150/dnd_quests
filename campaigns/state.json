@@ -1,0 +1,50 @@
+{
+  "campaign_id": "black-tithe-001",
+  "working_title": "The Black Tithe",
+  "status": "session-zero",
+  "rules_reference": "SRD 5.2.1 + Black Tithe house systems",
+  "design_upstream": "Augrant causal magic and skill progression",
+  "world": {
+    "region": "Barony of Veyr",
+    "starting_town": "Dunmarrow",
+    "season": "late autumn",
+    "tone": "dark medieval",
+    "world_scaling": false
+  },
+  "player": {
+    "name": null,
+    "origin": null,
+    "archetype": "Wayfarer candidate",
+    "alive": true,
+    "location": "road outside Dunmarrow",
+    "hp": null,
+    "max_hp": null,
+    "wounds": [],
+    "skills": {},
+    "inventory": []
+  },
+  "magic": {
+    "tradition": "Wayfarer transfer practice",
+    "known_techniques": [],
+    "notes": [
+      "Magic is causal.",
+      "Momentum is the intended first transfer domain.",
+      "No technique is available until character creation establishes training."
+    ]
+  },
+  "scene": {
+    "id": "opening-hanging-tree",
+    "started": false,
+    "canonical_facts": [
+      "Dunmarrow has a gate curfew.",
+      "An execution ground stands outside the town.",
+      "The Black Tithe is a working central mystery, not a predetermined single explanation."
+    ]
+  },
+  "meta": {
+    "plot_armor": false,
+    "death_is_canonical": true,
+    "persistent_consequences": true,
+    "visible_skill_progression": true
+  }
+}
