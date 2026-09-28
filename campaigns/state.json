@@ -107,14 +107,19 @@
       "The transfer structure collapsed immediately.",
       "The abnormal motion in the ditch ceased.",
       "The hanging man's movements stopped feeding the ditch effect.",
-      "The concealed entity lost part of whatever effect had hidden or sustained it."
+      "The concealed entity lost part of whatever effect had hidden or sustained it.",
+      "The player chose to help the hanging man rather than pursue the fleeing entity.",
+      "The player cut the hanging man down without causing a serious fall.",
+      "The hanging man was alive but weak, with obvious neck compression and breathing difficulty.",
+      "The player immediately explained the active transfer mark, the hidden ditch figure, and the abnormal water movement to the approaching guard.",
+      "The concealed figure escaped farther along the drainage ditch while attention shifted to the victim."
     ],
     "last_resolution": {
-      "action": "Sever the transfer mark",
-      "roll": 17,
+      "action": "Cut down and assist the hanging man while explaining the situation to the guard",
+      "roll": 11,
       "modifier": 3,
-      "total": 20,
-      "outcome": "strong success"
+      "total": 14,
+      "outcome": "success with time cost"
     },
     "learning": {
       "skill": "Waymark Craft",
