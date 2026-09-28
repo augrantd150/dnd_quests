@@ -14,7 +14,7 @@
   "player": {
     "name": null,
     "origin": null,
-    "archetype": "Wayfarer candidate",
+    "archetype": "Wayfarer",
     "alive": true,
     "location": "road outside Dunmarrow",
     "hp": null,
