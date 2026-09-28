@@ -1,0 +1,130 @@
+# World Direction — The Black Tithe
+
+## Tone
+
+Late-medieval hardship with grounded supernatural systems.
+
+The world is:
+- wet;
+- cold;
+- hungry;
+- politically fragmented;
+- deeply religious and superstitious;
+- economically constrained;
+- dangerous outside defended settlements.
+
+Magic is real, but understanding of it is uneven.
+
+Some magical practices are:
+- folk craft;
+- institutional;
+- military;
+- monastic;
+- criminal;
+- experimental;
+- ancient infrastructure nobody fully understands.
+
+## Starting region
+
+### The Barony of Veyr
+
+A poor border barony surviving bad harvests, missing tax revenue, road violence, disease, and old magical infrastructure beneath newer settlements.
+
+### Dunmarrow
+
+The first town.
+
+Key traits:
+- walled;
+- gate curfew;
+- crowded lower ward;
+- old bell tower;
+- guild workshops;
+- church/monastic presence;
+- execution ground outside the walls;
+- river trade;
+- abandoned structures incorporated into newer construction.
+
+## The Black Tithe
+
+Working central mystery.
+
+People in Veyr speak of a second tithe that appears during bad years.
+
+Officially, no such levy exists.
+
+Yet:
+- names disappear from parish rolls;
+- families leave food or coins at old roadside stones;
+- some condemned bodies are marked;
+- travelers report bells where there are no towers;
+- local officials become evasive around certain records.
+
+The campaign should not decide too early whether the "Black Tithe" is:
+- a criminal system;
+- a feudal secret;
+- a religious practice;
+- magical infrastructure;
+- a misunderstood natural phenomenon;
+- several overlapping causes.
+
+The world creates the truth. Quests expose pieces of it.
+
+## Social reality
+
+Important forces may include:
+- baronial household;
+- town watch;
+- church;
+- craft guilds;
+- landholders;
+- tenant farmers;
+- smugglers;
+- mercenaries;
+- healers;
+- occult practitioners;
+- travelers;
+- neighboring powers.
+
+Nobody should exist merely to hand out quests.
+
+## Travel
+
+Travel consumes:
+- time;
+- food;
+- warmth;
+- light;
+- footwear;
+- attention.
+
+Road quality, weather, daylight, patrols, bridges, ferries, bandit activity, illness, and local reputation matter.
+
+## Horror rule
+
+Horror should emerge from uncertainty plus causal detail.
+
+Prefer:
+- evidence;
+- patterns;
+- consequences;
+- things partly understood;
+- ordinary institutions colliding with the supernatural.
+
+Avoid constant random gore as a substitute for tension.
+
+## Hope
+
+The setting must contain things worth protecting:
+- competent craftspeople;
+- good meals;
+- festivals;
+- friendships;
+- animals;
+- music;
+- dry rooms;
+- beautiful landscapes;
+- acts of courage;
+- odd local traditions.
+
+Without these, darkness becomes flat.
