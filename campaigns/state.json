@@ -101,8 +101,21 @@
       "The tree carving and the ditch disturbance appear to participate in the same transfer geometry, but the exact relationship is not yet understood.",
       "The player directly asked the concealed ditch entity whether it was their enemy.",
       "The player shouted to alert the Dunmarrow gate guards while keeping the concealed ditch entity in view.",
-      "The concealed entity had previously said it was not the player's enemy unless made into one and demanded that the hanging man be cut down."
-    ]
+      "The concealed entity had previously said it was not the player's enemy unless made into one and demanded that the hanging man be cut down.",
+      "The player rushed to the execution tree and cut through the active transfer carving with the long knife.",
+      "A strong technical read let the player sever the geometry cleanly rather than merely damaging the bark.",
+      "The transfer structure collapsed immediately.",
+      "The abnormal motion in the ditch ceased.",
+      "The hanging man's movements stopped feeding the ditch effect.",
+      "The concealed entity lost part of whatever effect had hidden or sustained it."
+    ],
+    "last_resolution": {
+      "action": "Sever the transfer mark",
+      "roll": 17,
+      "modifier": 3,
+      "total": 20,
+      "outcome": "strong success"
+    }
   },
   "meta": {
     "plot_armor": false,
