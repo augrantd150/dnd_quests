@@ -1,7 +1,7 @@
 {
   "campaign_id": "black-tithe-001",
   "working_title": "The Black Tithe",
-  "status": "session-zero",
+  "status": "active",
   "rules_reference": "SRD 5.2.1 + Black Tithe house systems",
   "design_upstream": "Augrant causal magic and skill progression",
   "world": {
@@ -12,33 +12,90 @@
     "world_scaling": false
   },
   "player": {
-    "name": null,
-    "origin": null,
+    "name": "Unnamed Wayfarer",
+    "origin": "Road-Shrine Apprentice",
     "archetype": "Wayfarer",
     "alive": true,
+    "level": 1,
     "location": "road outside Dunmarrow",
-    "hp": null,
-    "max_hp": null,
+    "hp": 10,
+    "max_hp": 10,
+    "ac": 14,
+    "speed_ft": 30,
+    "abilities": {
+      "STR": 8,
+      "DEX": 16,
+      "CON": 14,
+      "INT": 12,
+      "WIS": 16,
+      "CHA": 10
+    },
+    "skills": {
+      "Observation": 18,
+      "Footwork": 16,
+      "Knife Fighting": 11,
+      "Stealth": 14,
+      "Survival": 15,
+      "Field Medicine": 9,
+      "Transfer Control": 13,
+      "Waymark Craft": 12
+    },
     "wounds": [],
-    "skills": {},
-    "inventory": []
+    "exhaustion": 0,
+    "silver": 14,
+    "inventory": [
+      "travel cloak",
+      "patched gambeson",
+      "walking staff",
+      "long knife",
+      "chalk",
+      "waxed cord",
+      "3 bronze waymark nails",
+      "flint and steel",
+      "waterskin",
+      "2 days of coarse rations",
+      "small field notebook"
+    ]
   },
   "magic": {
     "tradition": "Wayfarer transfer practice",
-    "known_techniques": [],
-    "notes": [
-      "Magic is causal.",
-      "Momentum is the intended first transfer domain.",
-      "No technique is available until character creation establishes training."
+    "resonance": 2,
+    "resonance_max": 3,
+    "known_techniques": [
+      {
+        "name": "Waymark",
+        "summary": "Prepare a small anchor on a valid surface. Slow, visible, and physically vulnerable."
+      },
+      {
+        "name": "Vector Knot",
+        "summary": "Redirect a small amount of existing momentum between a moving source and a compatible receiver. Strongest against committed motion."
+      },
+      {
+        "name": "Resonance Sense",
+        "summary": "Slow observation can detect nearby prepared marks, active transfer effects, or strong residual magical disturbance; it is not omniscient."
+      }
+    ],
+    "limits": [
+      "No full telekinesis.",
+      "Cannot create momentum from nothing.",
+      "Cannot stop large moving masses.",
+      "Poor geometry or an incompatible receiver can make a transfer fail.",
+      "Using magic under pressure requires concentration and can be interrupted."
     ]
   },
   "scene": {
     "id": "opening-hanging-tree",
-    "started": false,
+    "started": true,
+    "time": "Day 1, 18:17",
+    "weather": "cold rain after three wet days",
     "canonical_facts": [
-      "Dunmarrow has a gate curfew.",
-      "An execution ground stands outside the town.",
-      "The Black Tithe is a working central mystery, not a predetermined single explanation."
+      "Dunmarrow's gate closes in roughly forty minutes.",
+      "Four bodies hang from the execution tree outside town.",
+      "One body moved.",
+      "Two gate guards have seen the player approaching but appear not to have noticed the movement.",
+      "Fresh muddy footprints lead from Dunmarrow to the tree and do not return.",
+      "A small geometric transfer symbol is cut into the bark beneath the fourth body.",
+      "The Black Tithe remains a working central mystery, not a predetermined single explanation."
     ]
   },
   "meta": {
