@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "road outside Dunmarrow",
+    "location": "inside Dunmarrow gate",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -86,7 +86,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 1, 18:17",
+    "time": "Day 1, 18:24",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -112,21 +112,22 @@
       "The player cut the hanging man down without causing a serious fall.",
       "The hanging man was alive but weak, with obvious neck compression and breathing difficulty.",
       "The player immediately explained the active transfer mark, the hidden ditch figure, and the abnormal water movement to the approaching guard.",
-      "The concealed figure escaped farther along the drainage ditch while attention shifted to the victim."
+      "The concealed figure escaped farther along the drainage ditch while attention shifted to the victim.",
+      "The player chose not to pursue the escaped entity or investigate the missing boot.",
+      "The player left Edrin Vale and the execution-site evidence in the guards' custody.",
+      "The player entered Dunmarrow through the gate with the responding guards before curfew."
     ],
     "last_resolution": {
-      "action": "Cut down and assist the hanging man while explaining the situation to the guard",
-      "roll": 11,
-      "modifier": 3,
-      "total": 14,
-      "outcome": "success with time cost"
+      "action": "Leave the scene to the guards and enter Dunmarrow with them",
+      "outcome": "automatic success"
     },
     "learning": {
       "skill": "Waymark Craft",
       "from": 12,
       "to": 13,
       "reason": "Successfully identified and disrupted an active hostile transfer geometry under time pressure."
-    }
+    },
+    "next_scene": "dunmarrow-gatehouse"
   },
   "meta": {
     "plot_armor": false,
