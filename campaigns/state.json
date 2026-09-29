@@ -59,7 +59,7 @@
   },
   "magic": {
     "tradition": "Wayfarer transfer practice",
-    "resonance": 0,
+    "resonance": 1,
     "resonance_max": 3,
     "known_techniques": [
       {
@@ -176,27 +176,21 @@
       "When the boot was brought close to Edrin Vale's carved name, the name and empty socket reacted immediately.",
       "The boot pulled slightly toward the socket as if under tension, while the chain below slackened a fraction.",
       "The bell above did not ring.",
-      "The reaction occurred before the boot touched the socket, supporting the Keeper's claim that the personal object functions as a keyed token tied to Edrin's claim."
+      "The reaction occurred before the boot touched the socket, supporting the Keeper's claim that the personal object functions as a keyed token tied to Edrin's claim.",
+      "The player inserted Edrin Vale's missing boot into the keyed socket beside his name while the party held formation.",
+      "The socket accepted the token without violent discharge.",
+      "Edrin Vale's carved name faded from active resonance and the chain below slackened significantly.",
+      "The bell remained still.",
+      "The boot lost its keyed resonance and became an ordinary damaged personal object after the claim released.",
+      "The result strongly supports the Keeper Below's claim that placing the keyed token releases the stored claim associated with that person."
     ],
     "last_resolution": {
-      "action": "Hold Edrin Vale's boot near his carved name without inserting it",
-      "outcome": "test performed without surrendering the token"
+      "action": "Insert Edrin Vale's keyed token into the claim socket",
+      "outcome": "successful claim release without hostile discharge"
     },
     "learning": {
-      "skills": [
-        {
-          "skill": "Waymark Craft",
-          "from": 13,
-          "to": 14,
-          "reason": "Successfully tuned a false receiver to an unfamiliar living keyed transfer under combat pressure."
-        },
-        {
-          "skill": "Transfer Control",
-          "from": 13,
-          "to": 14,
-          "reason": "Timed a live reroute window and redirected an active transfer without injuring the conduit."
-        }
-      ]
+      "skill": "Transfer Control",
+      "reason": "Observed and completed a full keyed claim-release cycle in an ancient transfer network."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
@@ -289,7 +283,14 @@
           "well chain slackened slightly",
           "bell remained still"
         ],
-        "interpretation": "Strong evidence that the boot is a keyed identity/claim token linked to Edrin Vale, but not proof of all Keeper claims."
+        "interpretation": "Strong evidence that the boot is a keyed identity/claim token linked to Edrin Vale, but not proof of all Keeper claims.",
+        "release_result": {
+          "claim_released": true,
+          "bell_reaction": "none",
+          "chain_reaction": "slackened",
+          "token_reaction": "lost keyed resonance",
+          "confidence": "high that the token/socket mechanism releases a stored claim"
+        }
       }
     }
   },
