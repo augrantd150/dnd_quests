@@ -293,3 +293,16 @@ An advanced spatial architecture in which one prepared traversal relationship re
 - **Losses:** Instability, error, and energy cost compound across nested transitions.
 - **Failure modes:** Ambiguous routing, mismatched orientation, stale endpoint state, overloaded intermediate capacity, or collapse of one layer can invalidate the full path.
 - **Current status:** The player has demonstrated a supervised two-stage nested route for a weighted object under Keeper-supplied power.
+
+
+## Junction Mesh
+
+A high-complexity prepared architecture combining nested spatial routing with Waymark authorization, distributed warnings, and bounded local response nodes.
+
+- **Routing:** Multiple prepared entrances may resolve through nested intermediate relationships to different prepared exits.
+- **Authorization:** Waymark identities determine which routes a traveler or object may use.
+- **Warnings:** Invalid or unauthorized traversal attempts may signal locally or through a distributed Watch network.
+- **Isolation:** Local response nodes remain causally separate from the spatial router so a fault in one does not automatically destabilize the other.
+- **Fail-safe behavior:** Uncertain identity or routing state fails closed. The system refuses traversal before risking an ambiguous exit.
+- **Current limitation:** Near-simultaneous valid identities can create an unresolved authorization state at a shared junction. The present prototype locks that junction safely rather than choosing between concurrent requests.
+- **Status:** Spatial routing and transfer isolation are proven under Keeper-supplied power; shared-junction concurrency remains incomplete.
