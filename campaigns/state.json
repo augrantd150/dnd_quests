@@ -141,19 +141,17 @@
       "During the stairwell fight, the player used Vector Knot against the robed man's committed downhill lunge.",
       "The player redirected a small portion of the attacker's existing momentum sideways and downward into the inner stair geometry rather than trying to stop him outright.",
       "The attacker lost his footing, struck the stone steps/inner wall, and collapsed immediately in front of Harl's shield.",
-      "The shield-and-spear formation prevented the falling attacker from crashing through into the player."
+      "The shield-and-spear formation prevented the falling attacker from crashing through into the player.",
+      "The player attacked the prone robed man with the long knife using the left hand while the right remained impaired.",
+      "The attack landed cleanly and caused a serious but not immediately fatal wound."
     ],
     "last_resolution": {
-      "action": "Use Vector Knot to spoil the attacker's committed downhill lunge",
-      "rolls": [
-        17,
-        2
-      ],
-      "advantage_reason": "Target was already committed downhill on a narrow spiral stair with limited recovery space.",
-      "modifier": 3,
-      "total": 20,
-      "resonance_spent": 1,
-      "outcome": "strong success"
+      "action": "Knife attack against prone bell-linked attacker",
+      "roll": 17,
+      "modifier": 5,
+      "total": 22,
+      "damage": 7,
+      "outcome": "hit"
     },
     "learning": {
       "skill": "Waymark Craft",
@@ -221,9 +219,10 @@
       "active": true,
       "enemy": {
         "description": "barefoot robed man linked to the bell",
-        "condition": "prone at the front of Harl's shield",
+        "condition": "prone, seriously wounded, alive, still magically linked",
         "visibly_armed": false,
-        "status": "alive, disoriented, still magically linked"
+        "status": "alive, disoriented, still magically linked",
+        "damage_taken": 7
       },
       "party_formation": "Harl front with shield raised; Joren second, thrusting spear past/around shield; player third with left-hand knife and magic ready; Maelin rear guard."
     }
