@@ -118,11 +118,16 @@
       "Dunmarrow closes its town gates at dusk, but there is no established general stay-indoors curfew.",
       "The player chose to meet Dunmarrow's reeve immediately after entering town.",
       "The meeting takes place in the gatehouse while Edrin Vale is being treated nearby.",
-      "The player gave Reeve Maelin Voss a complete truthful account of the execution-ground incident, including speaking to the concealed entity, using Resonance Sense, the entity's demand to cut Edrin down, the transfer link, alerting the guards, severing the mark, seeing the fleeing figure, and Edrin's missing boot."
+      "The player gave Reeve Maelin Voss a complete truthful account of the execution-ground incident, including speaking to the concealed entity, using Resonance Sense, the entity's demand to cut Edrin down, the transfer link, alerting the guards, severing the mark, seeing the fleeing figure, and Edrin's missing boot.",
+      "The player reconstructed the execution-tree transfer mark from memory for Reeve Maelin Voss.",
+      "The reconstruction preserved the two-receiver structure and the severed hooked diagonal closely enough to support further analysis."
     ],
     "last_resolution": {
-      "action": "Give the reeve the full truth",
-      "outcome": "truthful testimony recorded; credibility judged against corroborating evidence rather than by deception"
+      "action": "Reconstruct the transfer mark from memory",
+      "roll": 14,
+      "modifier": 3,
+      "total": 17,
+      "outcome": "clear success"
     },
     "learning": {
       "skill": "Waymark Craft",
