@@ -100,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 07:41",
+    "time": "Day 3, 07:46",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -317,17 +317,22 @@
       "SYSTEM provenance: the reactive contact-retention roll was 13.",
       "The player succeeded: they accepted the ordinary impact with a small backward give, captured a limited component of the incoming momentum through the torso and stance, held it briefly, and released it into the recovery step.",
       "The attempt caused no HP loss and no Wound.",
-      "The Keeper's apparatus still supplied the active magical scaffold; the player spent no Resonance."
+      "The Keeper's apparatus still supplied the active magical scaffold; the player spent no Resonance.",
+      "The Keeper advanced impact-retention training into a chained transfer: receive a controlled torso strike, retain only a safe fraction, preserve footing, then release the retained momentum through the walking staff into a separate target before decay.",
+      "SYSTEM provenance: the chained impact-retention roll was 12.",
+      "The player partially succeeded: they captured a safe fraction of the impact and kept their footing, then transferred it through the staff into the target, but noticeable retention decay and grip losses reduced the final effect.",
+      "The player suffered no injury and spent no Resonance because the Keeper's apparatus still supplied the active magical scaffold.",
+      "This exercise confirmed that chained transfers compound losses across capture, retention, body routing, weapon coupling, and final release."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First controlled body-retention attempt during an actual physical strike",
-      "roll": 13,
-      "outcome": "success; partial momentum captured at contact; no injury"
+      "action": "Controlled impact -> body retention -> staff -> separate target",
+      "roll": 12,
+      "outcome": "partial success; full chain completed with significant losses; no injury"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Successfully integrated ordinary impact absorption with selective magical retention during contact; mastery score unchanged pending repetition."
+      "reason": "Completed the full chained transfer under contact pressure, but efficiency was too poor for a mastery increase."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
