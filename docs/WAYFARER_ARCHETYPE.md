@@ -266,3 +266,17 @@ A prepared multi-node defensive architecture derived from Distributed Watch netw
 - **Fault handling:** Severed or damaged branches should fail locally rather than dumping stored energy unpredictably.
 - **Limits:** This is a prepared infrastructure technique, not an instant spell. It requires physical anchors, prepared relay paths, local energy sources or stored charge, setup time, maintenance, and sufficient Resonance or another causal power source.
 - **Field status:** The player has independently deployed and operated a portable two-branch version using 2 personal Resonance, two bronze Waymark nails, and local stored mechanical energy. Larger networks still require additional anchors, preparation, and power.
+
+
+## Sanctuary Mesh
+
+A high-complexity prepared defensive architecture combining keyed authorization, distributed warnings, spatial redirection, and bounded physical fallback effects.
+
+- **Authorization:** Explicitly keyed allies and authorized tokens pass without escalation.
+- **Warning layer:** Unauthorized crossings can first produce local and/or central warning signals.
+- **Spatial response:** Prepared branches may redirect an unauthorized crossing through a bounded adjacency fold into a designated safe exit or holding zone.
+- **Fallback defense:** If spatial diversion is unavailable, a separately prepared local emitter may produce a bounded concussive pulse.
+- **Fail-safe priority:** If identity, spatial geometry, containment, or routing is uncertain, the dangerous response remains inhibited rather than firing blindly.
+- **Isolation:** A failed, cut, or unsafe branch should fail locally without cross-triggering neighboring branches.
+- **Limits:** Requires prepared anchors, relay paths, power, local energy stores, maintenance, and substantial setup. It is infrastructure, not an instant cast.
+- **Current status:** The player has demonstrated the integrated architecture under Keeper-supplied power. Warning and spatial-redirection layers worked; one concussive fallback branch failed containment and was correctly suppressed by the fail-safe logic.
