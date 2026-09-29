@@ -306,3 +306,19 @@ A high-complexity prepared architecture combining nested spatial routing with Wa
 - **Fail-safe behavior:** Uncertain identity or routing state fails closed. The system refuses traversal before risking an ambiguous exit.
 - **Current limitation:** Near-simultaneous valid identities can create an unresolved authorization state at a shared junction. The present prototype locks that junction safely rather than choosing between concurrent requests.
 - **Status:** Spatial routing and transfer isolation are proven under Keeper-supplied power; shared-junction concurrency remains incomplete.
+
+
+## Causal Mesh
+
+The umbrella term for a prepared architecture that combines multiple Wayfarer systems into one causally integrated network.
+
+A Causal Mesh may combine:
+- Waymark identity and authorization;
+- conditional state, sequencing, lockout, and reset;
+- distributed warnings and relays;
+- transfer routing and stored-energy handling;
+- spatial paths, folds, nested routes, and junctions;
+- fail-safe behavior and branch isolation;
+- bounded local response systems.
+
+**Junction Mesh** and **Sanctuary Mesh** are specialized Causal Mesh architectures.
