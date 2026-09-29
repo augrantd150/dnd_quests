@@ -102,7 +102,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 2, 08:36",
+    "time": "Day 2, 08:42",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -277,20 +277,25 @@
       "The exercise was chosen to test whether the player could route stored momentum through stance, hands, and weapon without localizing dangerous load in the already strained right shoulder/wrist.",
       "The player succeeded partially: the retained momentum transferred through the staff and moved the target, but some of the load bled into the hands and shoulders, making the strike less efficient than intended.",
       "The existing strain did not worsen and no additional HP was lost.",
-      "The player learned that a weapon becomes part of the transfer structure and must be aligned, braced, and compatible with the release vector."
+      "The player learned that a weapon becomes part of the transfer structure and must be aligned, braced, and compatible with the release vector.",
+      "The Keeper advanced the lesson to delayed weapon release against a moving receiver.",
+      "The player had to capture momentum from one pendulum, retain it through the whole body, wait for a second pendulum to align, and then release through the walking staff.",
+      "The active shoulder/wrist strain continued to impose disadvantage.",
+      "The player succeeded cleanly: they captured conservatively, held through brief decay, waited for alignment, and released through the staff into the moving target without losing balance or worsening the strain.",
+      "The exercise demonstrated that retention can create tactical timing windows rather than merely increasing force."
     ],
     "last_resolution": {
-      "action": "Body retention into staff-mediated release",
+      "action": "Delayed body-retention release through staff into a moving target",
       "rolls": [
-        14,
-        10
+        16,
+        15
       ],
-      "used_roll": 10,
-      "outcome": "partial success under disadvantage; target moved, inefficient transfer, no new injury"
+      "used_roll": 15,
+      "outcome": "success under disadvantage"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Learned to route retained momentum through a held weapon and discovered grip/alignment losses; mastery score unchanged pending cleaner repetition."
+      "reason": "Successfully used retention to delay release until a moving receiver aligned, improving timing discipline; mastery score unchanged."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
