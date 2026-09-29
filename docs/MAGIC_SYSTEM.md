@@ -136,3 +136,19 @@ Distributed magic does not create free long-range information transfer. Greater 
 A prepared node may release stored mechanical or pressure-like energy as a brief local pulse if the source, storage, coupling, receiver space, direction, and losses are all accounted for.
 
 This is not an abstract explosion. The pulse has finite energy and geometry. It may shove, stagger, or damage within its designed envelope, but stronger effects require proportionally greater stored energy, stronger structures, and greater risk. Poor containment can redirect load into the emitter, nearby structure, or unintended receivers.
+
+
+### Spatial relationships
+
+Spatial magic operates on prepared relationships such as path, adjacency, orientation, traversal, and anchored endpoints.
+
+It does not begin as free teleportation or arbitrary distance deletion. Early spatial work requires:
+- explicit physical or magical anchors;
+- a defined relationship between endpoints;
+- a traversal or coupling rule;
+- bounded range and capacity;
+- continuity or a prepared path;
+- failure behavior if an anchor moves, breaks, or becomes ambiguous;
+- accounting for what moves, what does not, and what happens to momentum and orientation.
+
+A spatial relationship may exist without moving matter. More advanced techniques may later alter traversal cost or effective adjacency only when the causal structure can support it.
