@@ -229,11 +229,12 @@
       "The Keeper made clear that instruction would not instantly grant mastery; learning would require demonstration, practice, correction, and risk-appropriate exercises.",
       "During the first formal lesson, the player defined transfer as 'magic from one point to another.'",
       "The Keeper corrected the definition: transfer magic does not simply move 'magic'; it establishes a lawful relationship in which a specific quantity, state, or claim moves or is reassigned from a source to a receiver under defined constraints.",
-      "The Keeper emphasized that source, transferable quantity, receiver, compatibility, capacity, and consequence must all be identified."
+      "The Keeper emphasized that source, transferable quantity, receiver, compatibility, capacity, and consequence must all be identified.",
+      "In the Keeper's first transfer lesson, the player correctly answered that transferring momentum out of the larger moving weight should reduce the larger weight's momentum."
     ],
     "last_resolution": {
-      "action": "First Keeper lesson: define transfer",
-      "outcome": "concept corrected and refined"
+      "action": "Answer conservation question in Keeper lesson",
+      "outcome": "correct"
     },
     "learning": {
       "skill": "Transfer Control",
