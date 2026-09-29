@@ -181,3 +181,19 @@ Nested spatial routing must account for:
 - prevention of duplication, indefinite suspension, or ambiguous routing.
 
 An intermediate spatial relationship is not automatically a pocket universe. Persistent enclosed spaces require separate causal support and are substantially more demanding than nested routing.
+
+
+### Concurrent spatial routing
+
+A spatial network serving multiple travelers or objects must define what happens when more than one valid traversal request reaches a shared junction at nearly the same time.
+
+A robust router must account for:
+- request identity;
+- ordering or arbitration;
+- intermediate capacity;
+- destination capacity;
+- collision prevention;
+- whether requests queue, reject, or choose alternate prepared routes;
+- what happens when multiple requests are valid simultaneously.
+
+If concurrency is unresolved, the safe default is fail-closed behavior rather than ambiguous routing.
