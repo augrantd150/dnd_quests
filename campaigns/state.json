@@ -108,7 +108,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 08:49",
+    "time": "Day 3, 08:57",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -397,17 +397,28 @@
       "The Keeper terminated the exercise before serious injury occurred.",
       "The player lost 1 HP and gained a mild temporary forearm/wrist strain.",
       "The 1 point of Resonance committed to the attempt was spent: 1/3 -> 0/3.",
-      "No persistent Wound occurred and no combat technique was unlocked."
+      "No persistent Wound occurred and no combat technique was unlocked.",
+      "Because the player's forearm/wrist was mildly strained, the Keeper did not immediately repeat the full integrated counter at the same difficulty.",
+      "The Keeper isolated the failed component: retain a tiny amount of momentum, then release it through the walking staff with correct grip and alignment.",
+      "At the familiar supervised apparatus, 1 Resonance was rebuilt routinely and then committed to the drill.",
+      "SYSTEM provenance: because the strain affected the hands/wrists, the release drill was made at disadvantage; rolls were 13 and 10, so 10 governed the result.",
+      "The player partially succeeded: the retained motion traveled through the staff and moved the padded target, but grip/alignment losses remained noticeable.",
+      "The existing strain did not worsen, no additional HP was lost, and no persistent Wound occurred.",
+      "The committed Resonance was spent: 1/3 -> 0/3."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Integrated hostile-timing retention counter through staff",
-      "roll": 2,
-      "outcome": "failure; 1 HP strain; Resonance spent; no persistent Wound"
+      "action": "Isolated retained-momentum release through staff while strained",
+      "rolls": [
+        13,
+        10
+      ],
+      "used_roll": 10,
+      "outcome": "partial success under disadvantage; no additional injury; Resonance spent"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Failure showed that successful capture under hostile timing does not guarantee a clean immediate weapon release; grip and release alignment remain a separate bottleneck. No mastery increase."
+      "reason": "Improved the failed release component under injury pressure, but the transfer was not clean enough for a mastery increase."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
