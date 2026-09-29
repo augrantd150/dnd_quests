@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 36,
-      "Spatial Relations": 10
+      "Spatial Relations": 12
     },
     "wounds": [],
     "exhaustion": 0,
@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 15:24",
+    "time": "Day 4, 15:31",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -695,24 +695,31 @@
       "The player successfully established a brief bounded adjacency between the two prepared frames. A wooden token pushed through the first frame emerged from the second without traversing the intervening floor.",
       "The token preserved its orientation and approximate momentum through the fold. The relationship collapsed cleanly after the short window.",
       "The fold depended on both prepared anchors and Keeper-supplied power; it was not free teleportation, did not remain open, and could not yet safely carry the player's body.",
-      "Spatial Relations advanced 8 -> 10, entering Novice rank; future Spatial Relations checks now receive a +1 mastery training bonus."
+      "Spatial Relations advanced 8 -> 10, entering Novice rank; future Spatial Relations checks now receive a +1 mastery training bonus.",
+      "The Keeper advanced spatial training directly to the first living-body adjacency-fold traversal, skipping further small-object repetition.",
+      "The two prepared iron frames remained only several paces apart, the fold window was kept brief, and the Keeper retained external power and emergency collapse control.",
+      "Spatial Relations 10 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 18; total living-fold traversal check was 22.",
+      "The player crossed the prepared adjacency fold successfully. Their body passed from the first frame to the second without traversing the intervening floor.",
+      "Orientation, balance, and forward momentum were preserved through the fold, and the relationship collapsed cleanly after passage.",
+      "No injury occurred and no personal Resonance was spent because the Keeper supplied the power.",
+      "Spatial Relations advanced 10 -> 12 from the first successful living-body adjacency-fold traversal."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First supervised brief adjacency fold between two prepared endpoints",
-      "raw_roll": 17,
+      "action": "First living-body traversal through a prepared adjacency fold",
+      "raw_roll": 18,
       "ability": "Wisdom",
       "ability_modifier": 3,
-      "training_bonus": 0,
-      "total": 20,
-      "outcome": "strong success; small object crossed a brief prepared adjacency with orientation and momentum preserved"
+      "training_bonus": 1,
+      "total": 22,
+      "outcome": "strong success; living-body fold traversal completed safely with orientation and momentum preserved"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "from": 8,
-      "to": 10,
-      "rank_change": "Untrained -> Novice",
-      "reason": "Successfully established the first bounded adjacency fold between two prepared anchored surfaces."
+      "from": 10,
+      "to": 12,
+      "reason": "Successfully traversed a prepared adjacency fold personally under supervision."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
