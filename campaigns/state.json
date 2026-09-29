@@ -17,8 +17,8 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Dunmarrow, seeking lodging/rest",
-    "hp": 6,
+    "location": "Dunmarrow, common room at travelers' inn",
+    "hp": 10,
     "max_hp": 10,
     "ac": 14,
     "speed_ft": 30,
@@ -42,7 +42,7 @@
     },
     "wounds": [],
     "exhaustion": 0,
-    "silver": 14,
+    "silver": 12,
     "inventory": [
       "travel cloak",
       "patched gambeson",
@@ -68,11 +68,12 @@
           "does not reveal what lies at the other end automatically"
         ]
       }
-    }
+    },
+    "temporary_conditions": []
   },
   "magic": {
     "tradition": "Wayfarer transfer practice",
-    "resonance": 1,
+    "resonance": 0,
     "resonance_max": 3,
     "known_techniques": [
       {
@@ -99,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 1, 18:45",
+    "time": "Day 2, 07:06",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -204,11 +205,16 @@
       "GM correction: the player has not agreed to release additional claims, revive anyone, or work for the Keeper Below. Any such future involvement requires an explicit player choice.",
       "The player ended involvement in the bell-tower investigation for the night and told Reeve Maelin Voss to come find them if further help was needed.",
       "Reeve Maelin Voss accepted the boundary and did not pressure the player to continue immediately.",
-      "No new plot event was introduced solely to prevent the player from leaving."
+      "No new plot event was introduced solely to prevent the player from leaving.",
+      "The player paid 2 silver for supper and a bed at a travelers' inn.",
+      "A safe full night's rest restored 4 HP under the locked recovery formula: floor(25% of 10 max HP) + CON modifier 2.",
+      "The player's temporary right-hand shock/numbness cleared because it had not been recorded as a true Wound.",
+      "Resonance remained at 0/3 because sleep does not automatically restore Resonance.",
+      "No one came to fetch the player during the night."
     ],
     "last_resolution": {
-      "action": "Disengage from the bell-tower investigation and seek rest",
-      "outcome": "automatic success"
+      "action": "Complete safe full night's rest",
+      "outcome": "HP 6 -> 10; temporary right-hand impairment cleared; Resonance remains 0/3"
     },
     "learning": {
       "skill": "Transfer Control",
@@ -327,6 +333,7 @@
     "respect_scene_exit": true,
     "significance_not_assumed": true,
     "narrative_correction": "Future events must arise from world/NPC/clock/player/system/prep causes; do not invent twists merely to sustain drama.",
-    "last_player_boundary": "Done for the night unless actively needed."
+    "last_player_boundary": "Done for the night unless actively needed.",
+    "recovery_rule_locked": true
   }
 }
