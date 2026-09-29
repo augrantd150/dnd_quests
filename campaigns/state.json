@@ -37,7 +37,7 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 22,
+      "Transfer Control": 23,
       "Waymark Craft": 14
     },
     "wounds": [],
@@ -72,7 +72,7 @@
     "temporary_conditions": [],
     "magic": {
       "resonance": {
-        "current": 1,
+        "current": 0,
         "max": 3
       }
     }
@@ -106,7 +106,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 08:36",
+    "time": "Day 3, 08:39",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -378,20 +378,27 @@
       "The player recognized the bad geometry in time and chose ordinary defense rather than forcing body retention.",
       "Because no retention was attempted, the player's 1 point of Resonance was preserved.",
       "No HP was lost and no Wound occurred.",
-      "This drill reinforced that combat reliability includes refusing unsafe magical interactions under pressure."
+      "This drill reinforced that combat reliability includes refusing unsafe magical interactions under pressure.",
+      "The Keeper immediately followed with a second unpredictable padded-staff attack, this time on a cleaner line toward the player's ribs.",
+      "The player chose to attempt fully self-powered body retention under hostile timing.",
+      "SYSTEM provenance: the hostile-timing retention roll was 19.",
+      "The player recognized the safe capture window, took only a limited component of the strike's momentum, distributed it through whole-body structure, preserved footing, and released it into a short lateral recovery step.",
+      "The padded strike still made contact as an ordinary controlled training blow; the magic reduced and redirected part of its momentum rather than erasing the impact.",
+      "No HP was lost and no Wound occurred.",
+      "The player's 1 point of Resonance was spent: 1/3 -> 0/3.",
+      "This was the player's first clean successful fully self-powered body-retention transfer under unpredictable hostile timing."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Attune, then face first unpredictable padded-staff retention drill",
-      "rolls": {
-        "attunement": 20,
-        "reactive_judgment": 10
-      },
-      "outcome": "attunement excellent; unsafe capture correctly refused; Resonance preserved"
+      "action": "Fully self-powered body retention against unpredictable padded-staff attack",
+      "roll": 19,
+      "outcome": "strong success; hostile-timing retention completed safely; Resonance spent"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Demonstrated correct non-use of retention under hostile timing; no mastery increase because no independent retention was executed."
+      "from": 22,
+      "to": 23,
+      "reason": "Successfully executed fully self-powered body retention against an unpredictable hostile-timing strike."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
