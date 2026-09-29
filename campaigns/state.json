@@ -54,8 +54,21 @@
       "flint and steel",
       "waterskin",
       "2 days of coarse rations",
-      "small field notebook"
-    ]
+      "small field notebook",
+      "Ledger Shard"
+    ],
+    "items_detail": {
+      "Ledger Shard": {
+        "type": "investigative magical tool",
+        "effect": "pulls subtly toward genuine magical claims, keyed links, prepared transfers, or bound relationships",
+        "limitations": [
+          "does not explain the connection",
+          "does not reveal whether the connection is hostile",
+          "does not identify who created it",
+          "does not reveal what lies at the other end automatically"
+        ]
+      }
+    }
   },
   "magic": {
     "tradition": "Wayfarer transfer practice",
@@ -183,11 +196,15 @@
       "The bell remained still.",
       "The boot lost its keyed resonance and became an ordinary damaged personal object after the claim released.",
       "The result strongly supports the Keeper Below's claim that placing the keyed token releases the stored claim associated with that person.",
-      "After releasing Edrin Vale's claim, the player asked the Keeper Below for a physical item in exchange for continued help."
+      "After releasing Edrin Vale's claim, the player asked the Keeper Below for a physical item in exchange for continued help.",
+      "The player accepted the Keeper Below's Ledger Shard reward.",
+      "The Ledger Shard is now in the player's possession.",
+      "The shard gives a slight physical pull when brought near an object participating in a genuine magical claim, keyed link, prepared transfer, or bound relationship.",
+      "The shard does not identify purpose, danger, creator, or target; it only confirms that a real connection exists."
     ],
     "last_resolution": {
-      "action": "Negotiate for an item from the Keeper Below",
-      "outcome": "bargain opened"
+      "action": "Take the Ledger Shard",
+      "outcome": "item acquired safely"
     },
     "learning": {
       "skill": "Transfer Control",
