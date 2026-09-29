@@ -18,7 +18,7 @@
     "alive": true,
     "level": 1,
     "location": "Dunmarrow, lower well chamber beneath the old bell tower",
-    "hp": 9,
+    "hp": 7,
     "max_hp": 10,
     "ac": 14,
     "speed_ft": 30,
@@ -70,7 +70,7 @@
       }
     },
     "temporary_conditions": [
-      "right shoulder/wrist strain from failed body-retention attempt"
+      "aggravated right shoulder/wrist strain from failed reactive retention drill"
     ]
   },
   "magic": {
@@ -102,7 +102,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 2, 08:42",
+    "time": "Day 2, 08:47",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -282,20 +282,28 @@
       "The player had to capture momentum from one pendulum, retain it through the whole body, wait for a second pendulum to align, and then release through the walking staff.",
       "The active shoulder/wrist strain continued to impose disadvantage.",
       "The player succeeded cleanly: they captured conservatively, held through brief decay, waited for alignment, and released through the staff into the moving target without losing balance or worsening the strain.",
-      "The exercise demonstrated that retention can create tactical timing windows rather than merely increasing force."
+      "The exercise demonstrated that retention can create tactical timing windows rather than merely increasing force.",
+      "The Keeper advanced training to unpredictable incoming motion using several possible release channels.",
+      "The player had to read the source in real time, decide whether to capture, and route any retained momentum through the whole body.",
+      "Because the existing shoulder/wrist strain remained active, the attempt was made under disadvantage.",
+      "SYSTEM provenance: the disadvantage rolls were 12 and natural 1, so the natural 1 governed the result.",
+      "The player misread the incoming line, coupled too late, and localized part of the retained load into the already strained right side.",
+      "The Keeper terminated the supplied structure before a severe injury occurred, but the player took 2 HP of strain and the temporary shoulder/wrist condition worsened.",
+      "No Resonance was spent."
     ],
     "last_resolution": {
-      "action": "Delayed body-retention release through staff into a moving target",
+      "provenance": "SYSTEM",
+      "action": "Reactive body-retention drill against unpredictable incoming motion",
       "rolls": [
-        16,
-        15
+        12,
+        1
       ],
-      "used_roll": 15,
-      "outcome": "success under disadvantage"
+      "used_roll": 1,
+      "outcome": "critical failure; 2 HP strain; temporary injury aggravated"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Successfully used retention to delay release until a moving receiver aligned, improving timing discipline; mastery score unchanged."
+      "reason": "Failure exposed a new problem: deciding not to capture is part of mastery. No mastery score increase."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
