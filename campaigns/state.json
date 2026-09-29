@@ -37,7 +37,7 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 19,
+      "Transfer Control": 20,
       "Waymark Craft": 14
     },
     "wounds": [],
@@ -100,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 07:46",
+    "time": "Day 3, 07:50",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -322,17 +322,24 @@
       "SYSTEM provenance: the chained impact-retention roll was 12.",
       "The player partially succeeded: they captured a safe fraction of the impact and kept their footing, then transferred it through the staff into the target, but noticeable retention decay and grip losses reduced the final effect.",
       "The player suffered no injury and spent no Resonance because the Keeper's apparatus still supplied the active magical scaffold.",
-      "This exercise confirmed that chained transfers compound losses across capture, retention, body routing, weapon coupling, and final release."
+      "This exercise confirmed that chained transfers compound losses across capture, retention, body routing, weapon coupling, and final release.",
+      "The Keeper repeated the chained impact-retention drill at the same force, focusing only on efficiency.",
+      "SYSTEM provenance: the efficiency drill roll was 17.",
+      "The player captured a conservative portion of the torso impact, minimized retention delay, aligned the body and grip with the staff, and released into the separate target with substantially reduced losses.",
+      "The target received a clearly stronger transfer than in the previous attempt while the player maintained balance and suffered no injury.",
+      "This was the player's first clean, repeatable completion of the full chain: impact -> selective capture -> body retention -> staff coupling -> separate receiver."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Controlled impact -> body retention -> staff -> separate target",
-      "roll": 12,
-      "outcome": "partial success; full chain completed with significant losses; no injury"
+      "action": "Repeat chained impact-retention drill for efficiency",
+      "roll": 17,
+      "outcome": "strong success; full chain completed cleanly with reduced losses"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Completed the full chained transfer under contact pressure, but efficiency was too poor for a mastery increase."
+      "from": 19,
+      "to": 20,
+      "reason": "Cleanly repeated the full chained transfer with materially improved efficiency and control."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
