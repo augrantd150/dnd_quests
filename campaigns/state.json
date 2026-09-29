@@ -37,7 +37,7 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 16,
+      "Transfer Control": 17,
       "Waymark Craft": 14
     },
     "wounds": [],
@@ -100,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 2, 08:11",
+    "time": "Day 2, 08:19",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -247,17 +247,23 @@
       "The player continued supervised momentum capture practice for roughly forty minutes.",
       "The Keeper varied source speed, receiver angle, and retention duration to prevent rote repetition.",
       "Across several attempts, the player learned to notice retention decay before the iron ring's vibration made it obvious.",
-      "The player can now perform a tiny supervised capture-hold-release sequence with some consistency, but cannot yet use it independently in combat."
+      "The player can now perform a tiny supervised capture-hold-release sequence with some consistency, but cannot yet use it independently in combat.",
+      "The player attempted their first self-built momentum capture relationship using the Keeper's iron retention ring as the storage medium.",
+      "The player succeeded strongly: they identified the moving weight as source, opened a compatible coupling to the ring, captured a small amount of sideways momentum, held it briefly through visible decay, and released it cleanly into the smaller receiver.",
+      "The Keeper did not construct the capture relationship for this attempt.",
+      "The retention ring still acted as an external storage aid, so the player has not yet learned free capture without a prepared medium.",
+      "No Resonance was spent because the exercise drew on the Keeper's training apparatus rather than the player's personal reserve."
     ],
     "last_resolution": {
-      "action": "Extended supervised momentum retention practice",
-      "outcome": "meaningful training progress"
+      "action": "First self-built momentum capture relationship",
+      "roll": 17,
+      "outcome": "strong success"
     },
     "learning": {
       "skill": "Transfer Control",
-      "from": 15,
-      "to": 16,
-      "reason": "Repeated varied supervised practice built reliable perception of capture, decay, and release."
+      "from": 16,
+      "to": 17,
+      "reason": "Successfully constructed and executed a complete source-to-storage-to-receiver momentum transfer with only the prepared retention medium supplied."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
