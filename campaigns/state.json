@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "inside Dunmarrow gate",
+    "location": "Dunmarrow gatehouse",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -86,7 +86,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 1, 18:24",
+    "time": "Day 1, 18:29",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -115,7 +115,9 @@
       "The concealed figure escaped farther along the drainage ditch while attention shifted to the victim.",
       "The player chose not to pursue the escaped entity or investigate the missing boot.",
       "The player left Edrin Vale and the execution-site evidence in the guards' custody.",
-      "Dunmarrow closes its town gates at dusk, but there is no established general stay-indoors curfew."
+      "Dunmarrow closes its town gates at dusk, but there is no established general stay-indoors curfew.",
+      "The player chose to meet Dunmarrow's reeve immediately after entering town.",
+      "The meeting takes place in the gatehouse while Edrin Vale is being treated nearby."
     ],
     "last_resolution": {
       "action": "Leave the scene to the guards and enter Dunmarrow with them",
@@ -131,6 +133,16 @@
     "last_correction": {
       "issue": "The GM previously used the word 'curfew' too broadly.",
       "correction": "Only gate closure is canonical; ordinary movement inside town after gate closure is allowed unless a later event establishes otherwise."
+    },
+    "current_npc": {
+      "name": "Reeve Maelin Voss",
+      "role": "civil administrator of Dunmarrow",
+      "disposition": "controlled, suspicious, attentive",
+      "notes": [
+        "Middle-aged.",
+        "Keeps written records close at hand.",
+        "Has not yet accepted any explanation of the execution-ground incident."
+      ]
     }
   },
   "meta": {
