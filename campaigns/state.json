@@ -38,7 +38,8 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 27,
-      "Waymark Craft": 36
+      "Waymark Craft": 36,
+      "Spatial Relations": 1
     },
     "wounds": [],
     "exhaustion": 0,
@@ -114,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 13:08",
+    "time": "Day 4, 13:24",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -647,47 +648,31 @@
       "One branch fired without cross-triggering the other; the second remained armed and later fired correctly. A severed branch failed closed.",
       "The player spent Resonance 2/3 -> 0/3.",
       "After testing, the player dismantled the network cleanly and recovered both bronze Waymark nails.",
-      "This field-qualified the player's Distributed Defense Network technique at a portable two-branch scale. Larger networks still require more anchors, more preparation, and additional personal or external power."
+      "This field-qualified the player's Distributed Defense Network technique at a portable two-branch scale. Larger networks still require more anchors, more preparation, and additional personal or external power.",
+      "The player chose to begin training spatial relationships.",
+      "The Keeper explicitly framed this as manipulation of prepared path and adjacency relationships, not free teleportation.",
+      "The first exercise used two physical anchors connected by a cord. The player had to define the relationship between the endpoints without moving matter through it.",
+      "Spatial Relations began at mastery 0 (Untrained, +0 training bonus). Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 14; total first spatial-relations check was 17.",
+      "The player successfully established a weak prepared relationship that distinguished the two anchored endpoints as one connected path while preserving their ordinary physical distance.",
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "This did not shorten distance, move matter, or create a portal; it only established an explicit spatial relationship that later techniques may be able to act on."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Independent portable two-branch distributed defense network",
-      "checks": {
-        "network_construction": {
-          "raw_roll": 18,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 23,
-          "outcome": "strong success"
-        },
-        "emitter_control": {
-          "raw_roll": 12,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 17,
-          "outcome": "success"
-        }
-      },
-      "outcome": "field-qualified two-branch portable defensive network; Resonance 2/3 -> 0/3; both anchors recovered"
+      "action": "First supervised spatial relationship construction",
+      "raw_roll": 14,
+      "ability": "Wisdom",
+      "ability_modifier": 3,
+      "training_bonus": 0,
+      "total": 17,
+      "outcome": "success; prepared endpoint relationship established without altering physical distance"
     },
     "learning": {
-      "skills": [
-        "Waymark Craft",
-        "Transfer Control"
-      ],
-      "changes": {
-        "Waymark Craft": [
-          35,
-          36
-        ],
-        "Transfer Control": [
-          26,
-          27
-        ]
-      },
-      "reason": "Successfully deployed and operated the full distributed defensive architecture using only personal Resonance, portable anchors, and local stored mechanical energy."
+      "skill": "Spatial Relations",
+      "from": 0,
+      "to": 1,
+      "reason": "Successfully constructed a stable anchored path relationship between two endpoints under supervision."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
