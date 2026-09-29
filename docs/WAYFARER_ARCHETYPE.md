@@ -198,3 +198,15 @@ Dark-medieval rather than bright cosmic:
 - sound motifs like distant bells, strained wood, wind in stone passages.
 
 No League of Legends assets, terminology, character design, or copied effects should be used in production.
+
+
+## Stored Reversal
+
+A field technique earned through retention training.
+
+- **Cost:** 1 Resonance.
+- **Trigger:** A readable incoming physical strike, shove, or other compatible momentum event.
+- **Effect:** Capture only a safe fraction of the incoming momentum, retain it briefly through whole-body structure, then release it immediately into movement or through a compatible held weapon.
+- **Limits:** This does not negate the original impact, cannot absorb arbitrary mass, cannot safely use unstable or poorly understood vectors, and cannot hold momentum for long.
+- **Risk:** Bad geometry, overload, late capture, poor footing, or misaligned release can convert the stored load into strain or a real Wound.
+- **Skill expression:** The player must judge whether to capture at all, how much to take, where to route it, and when/how to release it.
