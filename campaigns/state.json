@@ -74,7 +74,10 @@
       "resonance": {
         "current": 0,
         "max": 3
-      }
+      },
+      "techniques": [
+        "Stored Reversal"
+      ]
     }
   },
   "magic": {
@@ -434,13 +437,16 @@
       "The player captured a safe fraction of the strike, retained it through whole-body structure, transitioned cleanly into the staff, and released into the padded target before meaningful decay.",
       "The player maintained balance and suffered no injury.",
       "The committed Resonance was spent: 1/3 -> 0/3.",
-      "This was the player's first clean successful completion of the full integrated hostile-timing retention counter."
+      "This was the player's first clean successful completion of the full integrated hostile-timing retention counter.",
+      "After demonstrating the full integrated sequence cleanly under unpredictable hostile timing, the player unlocked the combat technique Stored Reversal.",
+      "Stored Reversal is a constrained momentum-transfer technique: spend 1 Resonance when a readable physical strike or shove is incoming; capture only a safe fraction, retain it through whole-body structure for an instant, then release it through immediate movement or a compatible held weapon.",
+      "Stored Reversal cannot erase an attack, cannot safely catch arbitrary mass or unstable vectors, still allows ordinary impact to occur, and can injure the player on bad geometry, overload, or failed routing."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
       "action": "Integrated hostile-timing retention counter after full recovery",
       "roll": 16,
-      "outcome": "clean success; full sequence completed safely; Resonance spent"
+      "outcome": "clean success; full sequence completed safely; Resonance spent; combat technique Stored Reversal unlocked"
     },
     "learning": {
       "skill": "Transfer Control",
