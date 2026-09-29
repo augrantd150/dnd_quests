@@ -40,7 +40,7 @@
       "Transfer Control": 28,
       "Waymark Craft": 38,
       "Spatial Relations": 26,
-      "Claims & Bindings": 5
+      "Claims & Bindings": 8
     },
     "wounds": [],
     "exhaustion": 0,
@@ -118,7 +118,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 19:46",
+    "time": "Day 4, 20:18",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -830,23 +830,33 @@
       "Attempts to substitute a visually identical token or a different ring did not satisfy the binding.",
       "The binding recorded the relationship but did not force the bearer to act, move, obey, or return the ring.",
       "No personal Resonance was spent because the Keeper supplied training power.",
-      "Claims & Bindings advanced 0 -> 5 from compressed fundamentals plus the successful witnessed-claim breakthrough."
+      "Claims & Bindings advanced 0 -> 5 from compressed fundamentals plus the successful witnessed-claim breakthrough.",
+      "Claims & Bindings training skipped routine obligation drills and moved directly to a witnessed time-bounded voluntary obligation.",
+      "A volunteer agreed to carry one specific sealed token to a specific destination marker before the third bell.",
+      "The binding had to track the obligated person, the exact token, the destination, the deadline, successful completion, and breach without compelling bodily obedience.",
+      "Claims & Bindings 5 remained Untrained (+0); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 13; total obligation-binding check was 16.",
+      "The player successfully constructed the obligation. Delivery of the correct sealed token to the correct marker before the deadline terminated the obligation cleanly.",
+      "A substitute token, wrong destination, or late arrival did not count as fulfillment.",
+      "When the volunteer deliberately missed a second test deadline, the binding recorded breach and changed state but did not move, injure, or compel the volunteer.",
+      "No personal Resonance was spent because the Keeper supplied training power.",
+      "Claims & Bindings advanced 5 -> 8 from compressed practice and successful construction of a bounded obligation with completion and breach states."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Create first explicit witnessed temporary claim with clean termination",
-      "raw_roll": 16,
+      "action": "Construct a voluntary time-bounded obligation with fulfillment and breach states",
+      "raw_roll": 13,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 0,
-      "total": 19,
-      "outcome": "strong success; bounded claim formed and terminated exactly under agreed conditions"
+      "total": 16,
+      "outcome": "success; obligation tracked exact performance, completion, deadline, and breach without compulsion"
     },
     "learning": {
       "skill": "Claims & Bindings",
-      "from": 0,
-      "to": 5,
-      "reason": "Compressed supervised fundamentals plus successful construction of a specific, witnessed, reversible claim."
+      "from": 5,
+      "to": 8,
+      "reason": "Successfully formalized an explicit obligation with precise performance criteria, deadline, fulfillment, and non-coercive breach state."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
