@@ -57,3 +57,19 @@ A command-line or simple browser combat/exploration prototype with:
 - the first Wayfarer techniques;
 - visible skill progress;
 - deterministic save/load.
+
+## Narrative runtime rules
+
+Read `docs/NARRATIVE_ENGINE.md` before GMing or implementing quest/narrative generation.
+
+Hard rules:
+- Prep/simulate situations, not predetermined event sequences.
+- Every materially new event needs provenance: WORLD, NPC, CLOCK, PLAYER, SYSTEM, or PREP.
+- Never invent a new mystery merely because the player solved, understood, or left the previous one.
+- Respect scene exits. Do not add a last-second hook to retain the player.
+- Let successful actions remain successful unless an already-established cause changes the result.
+- Quiet scenes, logistics, training, recovery, work, and ordinary life are valid play.
+- NPCs act from goals and knowledge, not from a need to advance a plot.
+- Mystery clues should be redundant where useful, but never forced into the player's path.
+- A detail being strange does not automatically make it part of the central mystery.
+
