@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 16:33",
+    "time": "Day 4, 16:41",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -749,23 +749,29 @@
       "The player predicted the far anchor's position and velocity correctly enough to enter the fold and emerge through the moving frame without injury.",
       "The exit was slightly rough but controlled: the player needed one corrective step to match the frame's motion after emergence.",
       "No personal Resonance was spent because the Keeper supplied the power.",
-      "Spatial Relations advanced 17 -> 18 from the first successful living-body traversal through a predictably moving anchor."
+      "Spatial Relations advanced 17 -> 18 from the first successful living-body traversal through a predictably moving anchor.",
+      "The Keeper advanced spatial training to an unpredictably moving far anchor with stops, reversals, and changing speed.",
+      "The Keeper supplied power so the test isolated real-time spatial synchronization and traversal judgment.",
+      "Spatial Relations 18 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 8; total unpredictable-anchor check was 12.",
+      "The player managed to keep the fold attached through several changes in motion, but the exit alignment became unsafe during a sudden reversal.",
+      "The player correctly refused traversal and collapsed the fold before entering.",
+      "No injury occurred and no personal Resonance was spent.",
+      "The attempt showed that unpredictable moving-anchor traversal requires both continuous remapping and a reliable abort threshold; mastery did not increase."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First living-body traversal through a predictably moving spatial anchor",
-      "raw_roll": 11,
+      "action": "First real-time synchronization attempt with an unpredictably moving spatial anchor",
+      "raw_roll": 8,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 15,
-      "outcome": "success; safe moving-anchor traversal with minor corrective step"
+      "total": 12,
+      "outcome": "partial success; fold tracked briefly but traversal safely aborted on sudden reversal"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "from": 17,
-      "to": 18,
-      "reason": "Successfully traversed a fold whose exit anchor was moving predictably, preserving safe orientation and momentum closely enough to recover cleanly."
+      "reason": "Learned the limits of real-time synchronization and correctly aborted when exit geometry became unsafe; mastery unchanged."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
