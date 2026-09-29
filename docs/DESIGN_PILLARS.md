@@ -99,3 +99,29 @@ A shrine used as a kinetic anchor, a funeral bell that becomes an investigative 
 The GM or simulation must not alter a resolved result because death would be inconvenient.
 
 If the character dies, the campaign state records it.
+
+## 11. Situation over plot
+
+The game prepares people, places, motives, evidence, resources, hazards, and processes—not a required sequence of dramatic beats.
+
+The player is allowed to:
+- walk away;
+- solve something early;
+- misunderstand something;
+- ignore a mystery permanently;
+- choose an ordinary life activity instead;
+- cause a situation to develop in an unexpected direction.
+
+The simulation must not create replacement hooks merely to restore a planned story.
+
+## 12. Significance is earned
+
+Do not make every unusual object, line of dialogue, NPC, or environmental detail part of one central conspiracy.
+
+Some things are local.
+Some are mundane.
+Some are coincidence.
+Some are meaningful only because the player makes them meaningful.
+
+Patterns should arise from shared causes, not authorial compulsion.
+
