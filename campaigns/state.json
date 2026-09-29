@@ -39,7 +39,8 @@
       "Field Medicine": 9,
       "Transfer Control": 28,
       "Waymark Craft": 38,
-      "Spatial Relations": 26
+      "Spatial Relations": 26,
+      "Claims & Bindings": 5
     },
     "wounds": [],
     "exhaustion": 0,
@@ -117,7 +118,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 19:02",
+    "time": "Day 4, 19:46",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -818,56 +819,34 @@
       "No personal Resonance was spent and no injury occurred.",
       "Spatial Relations advanced 25 -> 26 and Transfer Control 27 -> 28. Waymark Craft remained 38 because shared-junction concurrency is the current bottleneck.",
       "The umbrella term for an integrated architecture combining Waymarks, transfer systems, spatial routing, authorization, state, warnings, and bounded responses is Causal Mesh.",
-      "Junction Mesh and Sanctuary Mesh are specialized Causal Mesh architectures rather than separate schools of magic."
+      "Junction Mesh and Sanctuary Mesh are specialized Causal Mesh architectures rather than separate schools of magic.",
+      "The player began Claims & Bindings training and asked to skip unimportant drills.",
+      "Routine supervised work on names, witnessed declarations, explicit consent, keyed objects, termination clauses, revocation, and false-claim rejection was compressed.",
+      "The Keeper emphasized that bindings do not automatically compel obedience or create ownership from nothing; they formalize an explicitly established relationship and its consequences.",
+      "The first meaningful test used a witnessed temporary claim: one iron ring was granted to a named bearer until a keyed token was returned.",
+      "Claims & Bindings began at mastery 0 (Untrained, +0); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 16; total first binding check was 19.",
+      "The player successfully created a bounded claim that recognized the named bearer, remained attached to the specific ring, and terminated cleanly when the agreed token was returned.",
+      "Attempts to substitute a visually identical token or a different ring did not satisfy the binding.",
+      "The binding recorded the relationship but did not force the bearer to act, move, obey, or return the ring.",
+      "No personal Resonance was spent because the Keeper supplied training power.",
+      "Claims & Bindings advanced 0 -> 5 from compressed fundamentals plus the successful witnessed-claim breakthrough."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Prototype integrated spatial router with Waymark authorization and distributed response logic",
-      "checks": {
-        "waymark_control": {
-          "raw_roll": 3,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 8,
-          "outcome": "failure; ambiguous simultaneous valid inputs, safe junction lockout"
-        },
-        "spatial_router": {
-          "raw_roll": 17,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 22,
-          "outcome": "strong success"
-        },
-        "transfer_integration": {
-          "raw_roll": 12,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 17,
-          "outcome": "success"
-        }
-      },
-      "outcome": "partial integrated success; concurrency in shared Waymark authorization remains unresolved"
+      "action": "Create first explicit witnessed temporary claim with clean termination",
+      "raw_roll": 16,
+      "ability": "Wisdom",
+      "ability_modifier": 3,
+      "training_bonus": 0,
+      "total": 19,
+      "outcome": "strong success; bounded claim formed and terminated exactly under agreed conditions"
     },
     "learning": {
-      "skills": [
-        "Waymark Craft",
-        "Spatial Relations",
-        "Transfer Control"
-      ],
-      "changes": {
-        "Spatial Relations": [
-          25,
-          26
-        ],
-        "Transfer Control": [
-          27,
-          28
-        ]
-      },
-      "reason": "Nested routing and bounded response integration worked; simultaneous valid-user arbitration failed safely and revealed the next architectural problem."
+      "skill": "Claims & Bindings",
+      "from": 0,
+      "to": 5,
+      "reason": "Compressed supervised fundamentals plus successful construction of a specific, witnessed, reversible claim."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
