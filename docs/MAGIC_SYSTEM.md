@@ -166,3 +166,18 @@ A robust composite network may define:
 - local branch isolation so one fault does not cascade through the network.
 
 A dangerous subsystem must not activate merely because another subsystem requested it. Its own source, receiver, capacity, geometry, and safety conditions must still be valid.
+
+
+### Nested spatial relationships
+
+Prepared spatial relationships may be composed so that traversal through one relationship enters another prepared relationship before resolving to a final endpoint.
+
+Nested spatial routing must account for:
+- identity of every intermediate and final endpoint;
+- orientation and momentum mapping at every transition;
+- bounded intermediate capacity;
+- accumulated instability and losses;
+- failure behavior if an inner relationship collapses;
+- prevention of duplication, indefinite suspension, or ambiguous routing.
+
+An intermediate spatial relationship is not automatically a pocket universe. Persistent enclosed spaces require separate causal support and are substantially more demanding than nested routing.
