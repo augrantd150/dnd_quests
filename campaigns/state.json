@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 36,
-      "Spatial Relations": 12
+      "Spatial Relations": 13
     },
     "wounds": [],
     "exhaustion": 0,
@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 15:31",
+    "time": "Day 4, 15:42",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -703,23 +703,33 @@
       "The player crossed the prepared adjacency fold successfully. Their body passed from the first frame to the second without traversing the intervening floor.",
       "Orientation, balance, and forward momentum were preserved through the fold, and the relationship collapsed cleanly after passage.",
       "No injury occurred and no personal Resonance was spent because the Keeper supplied the power.",
-      "Spatial Relations advanced 10 -> 12 from the first successful living-body adjacency-fold traversal."
+      "Spatial Relations advanced 10 -> 12 from the first successful living-body adjacency-fold traversal.",
+      "The player skipped routine setup and moved directly to the first self-powered adjacency-fold attempt.",
+      "At the familiar compatible site, the player routinely rebuilt 1 personal Resonance before the attempt.",
+      "The two prepared iron frames remained only several paces apart. The Keeper did not supply fold power, but retained emergency collapse control over the physical anchors.",
+      "Spatial Relations 12 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 14; total self-powered fold check was 18.",
+      "The player successfully established the brief adjacency fold with personal Resonance and crossed it safely.",
+      "Orientation, balance, and momentum were preserved, and the fold collapsed cleanly after passage.",
+      "The committed Resonance was spent: 1/3 -> 0/3.",
+      "This was the player's first successful self-powered living-body adjacency fold between two prepared nearby anchors.",
+      "The technique remains limited to prepared endpoints and short-range controlled conditions; it is not free-form teleportation."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First living-body traversal through a prepared adjacency fold",
-      "raw_roll": 18,
+      "action": "First self-powered living-body adjacency fold",
+      "raw_roll": 14,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 22,
-      "outcome": "strong success; living-body fold traversal completed safely with orientation and momentum preserved"
+      "total": 18,
+      "outcome": "success; self-powered fold traversal completed safely; Resonance spent"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "from": 10,
-      "to": 12,
-      "reason": "Successfully traversed a prepared adjacency fold personally under supervision."
+      "from": 12,
+      "to": 13,
+      "reason": "Successfully created and traversed a brief adjacency fold using personal Resonance rather than Keeper-supplied power."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
