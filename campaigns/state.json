@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 36,
-      "Spatial Relations": 17
+      "Spatial Relations": 18
     },
     "wounds": [],
     "exhaustion": 0,
@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 16:26",
+    "time": "Day 4, 16:33",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -741,23 +741,31 @@
       "The player successfully opened a fold to the moving endpoint's predicted position and maintained exit alignment long enough for a small test object to cross cleanly.",
       "The exit frame continued moving during the passage without tearing the relationship or leaving the object misaligned.",
       "No injury occurred and no personal Resonance was spent.",
-      "Spatial Relations advanced 15 -> 17 from the successful predictive moving-anchor breakthrough."
+      "Spatial Relations advanced 15 -> 17 from the successful predictive moving-anchor breakthrough.",
+      "The player personally traversed a prepared adjacency fold whose far anchor was moving predictably along a rail.",
+      "The Keeper supplied power so the test isolated dynamic spatial mapping and living-body exit control.",
+      "Spatial Relations 17 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 11; total moving-anchor traversal check was 15.",
+      "The player predicted the far anchor's position and velocity correctly enough to enter the fold and emerge through the moving frame without injury.",
+      "The exit was slightly rough but controlled: the player needed one corrective step to match the frame's motion after emergence.",
+      "No personal Resonance was spent because the Keeper supplied the power.",
+      "Spatial Relations advanced 17 -> 18 from the first successful living-body traversal through a predictably moving anchor."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Predictive mapping of a moving spatial anchor",
-      "raw_roll": 16,
+      "action": "First living-body traversal through a predictably moving spatial anchor",
+      "raw_roll": 11,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 20,
-      "outcome": "strong success; fold aligned to moving endpoint's predicted position and remained stable through test passage"
+      "total": 15,
+      "outcome": "success; safe moving-anchor traversal with minor corrective step"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "from": 15,
-      "to": 17,
-      "reason": "Successfully replaced reactive endpoint chasing with predictive position-and-velocity mapping for a moving anchor."
+      "from": 17,
+      "to": 18,
+      "reason": "Successfully traversed a fold whose exit anchor was moving predictably, preserving safe orientation and momentum closely enough to recover cleanly."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
