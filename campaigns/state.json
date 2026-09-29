@@ -130,14 +130,19 @@
       "The older network contained redundant/overflow routing. The cut did not stop the system; it caused a violent local discharge through the player's knife and arm.",
       "The player took 4 damage, dropped the knife, and suffered temporary numbness/shock in the weapon hand.",
       "The discharge fed additional motion into the bell above, causing it to ring again.",
-      "The failure revealed that this network reroutes interrupted transfer rather than simply collapsing when one path is cut."
+      "The failure revealed that this network reroutes interrupted transfer rather than simply collapsing when one path is cut.",
+      "After the failed cut, the player recovered the knife with the left hand and paused to observe the underground bell-tower transfer network before going upstairs.",
+      "A strong observation showed the basin objects act as person-specific anchors, while the iron rods carry transferred mechanical energy upward.",
+      "The network has redundant channels, but the rerouting is not instantaneous: there are brief moments where pressure shifts between paths.",
+      "The bell above is acting as a major receiver/reservoir and is currently closer to another discharge than before.",
+      "The player identified that blindly cutting more channels is likely to worsen the situation."
     ],
     "last_resolution": {
-      "action": "Sever the underground transfer path",
-      "roll": 1,
+      "action": "Observe the underground transfer network before going upstairs",
+      "roll": 19,
       "modifier": 3,
-      "total": 4,
-      "outcome": "critical failure with informative consequence"
+      "total": 22,
+      "outcome": "strong success"
     },
     "learning": {
       "skill": "Waymark Craft",
