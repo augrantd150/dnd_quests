@@ -37,7 +37,7 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 15,
+      "Transfer Control": 16,
       "Waymark Craft": 14
     },
     "wounds": [],
@@ -100,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 2, 07:28",
+    "time": "Day 2, 08:11",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -243,16 +243,21 @@
       "The player successfully captured a very small amount of momentum from the larger swinging weight and held it briefly, but retention decayed noticeably before release.",
       "The release into the smaller weight worked, though weaker than the original captured amount and with a slight delay.",
       "No Resonance was spent because the Keeper supplied the active structure.",
-      "The exercise demonstrated that capture, retention, decay, and release are distinct skills."
+      "The exercise demonstrated that capture, retention, decay, and release are distinct skills.",
+      "The player continued supervised momentum capture practice for roughly forty minutes.",
+      "The Keeper varied source speed, receiver angle, and retention duration to prevent rote repetition.",
+      "Across several attempts, the player learned to notice retention decay before the iron ring's vibration made it obvious.",
+      "The player can now perform a tiny supervised capture-hold-release sequence with some consistency, but cannot yet use it independently in combat."
     ],
     "last_resolution": {
-      "action": "First supervised momentum capture-and-release exercise",
-      "roll": 12,
-      "outcome": "partial success"
+      "action": "Extended supervised momentum retention practice",
+      "outcome": "meaningful training progress"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "First successful brief capture/retention/release sequence; learned that stored momentum decays and timing remains important."
+      "from": 15,
+      "to": 16,
+      "reason": "Repeated varied supervised practice built reliable perception of capture, decay, and release."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
