@@ -204,3 +204,21 @@ If concurrency is unresolved, the safe default is fail-closed behavior rather th
 A **Causal Mesh** is a prepared magical system that integrates multiple causal domains or control layers—such as identity, state, transfer, spatial routing, warnings, permissions, and bounded responses—into one network.
 
 Its complexity is limited by power, materials, maintenance, information, geometry, capacity, and the creator's ability to keep every relationship causally consistent.
+
+
+### Claims and bindings
+
+Claims and bindings formalize explicit relationships between identified people, objects, permissions, obligations, and termination conditions.
+
+Early claims-and-bindings work must account for:
+- who or what is identified;
+- what relationship is being established;
+- whether the relationship was actually created, witnessed, inherited, or transferred;
+- scope and duration;
+- revocation or termination conditions;
+- what physical or magical consequences are attached;
+- what the binding does **not** authorize.
+
+A binding does not automatically create mind control, ownership, obedience, or truth. It can recognize and enforce only the causal relationship and consequences that were validly established.
+
+A well-formed binding should fail closed when identity, consent, scope, or termination becomes ambiguous rather than inventing a stronger claim.
