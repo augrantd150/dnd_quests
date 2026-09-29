@@ -225,3 +225,17 @@ A practical field Waymark constructed from learned keying and conditional logic.
 - **Persistence:** The mark is one-shot until reset and remains tied to its physical anchor and threshold.
 - **Limits:** It does not identify the intruder, read intent, detect arbitrary nearby presence, or transmit information at unlimited distance.
 - **Materials:** A cleanly dismantled mark normally returns its anchor for reuse; failed, overloaded, or violently disrupted marks may damage or consume it.
+
+
+## Distributed Watch Network
+
+An advanced prepared Waymark architecture built from multiple local Watchmark-style nodes and one or more prepared relay paths.
+
+- **Structure:** Multiple local trigger nodes feed a central alarm receiver through explicitly prepared links.
+- **Identity:** Each branch is separately keyed so one trigger can be distinguished from another.
+- **Signal:** The network transmits a bounded causal signal through prepared media or linked Waymarks; it is not unlimited-distance telepathy.
+- **Loss:** Signal quality degrades with distance, poor materials, bad alignment, damaged links, and excessive branching.
+- **Fault isolation:** A well-built branch can fail closed when cut or damaged without necessarily collapsing unrelated branches.
+- **Authorization:** Local nodes may inherit Watchmark-style exemptions and reset permissions.
+- **Scaling cost:** More distance, branches, state, redundancy, and receiver detail increase construction time, material demand, power demand, and failure surface.
+- **Field status:** The player has demonstrated this architecture under Keeper-supplied power. Independent field deployment still requires sufficient personal Resonance, anchors, and prepared relay materials.
