@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "beneath old bell tower, newly opened lower passage",
+    "location": "Dunmarrow, seeking lodging/rest",
     "hp": 6,
     "max_hp": 10,
     "ac": 14,
@@ -99,7 +99,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 1, 18:39",
+    "time": "Day 1, 18:45",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -201,11 +201,14 @@
       "The Ledger Shard is now in the player's possession.",
       "The shard gives a slight physical pull when brought near an object participating in a genuine magical claim, keyed link, prepared transfer, or bound relationship.",
       "The shard does not identify purpose, danger, creator, or target; it only confirms that a real connection exists.",
-      "GM correction: the player has not agreed to release additional claims, revive anyone, or work for the Keeper Below. Any such future involvement requires an explicit player choice."
+      "GM correction: the player has not agreed to release additional claims, revive anyone, or work for the Keeper Below. Any such future involvement requires an explicit player choice.",
+      "The player ended involvement in the bell-tower investigation for the night and told Reeve Maelin Voss to come find them if further help was needed.",
+      "Reeve Maelin Voss accepted the boundary and did not pressure the player to continue immediately.",
+      "No new plot event was introduced solely to prevent the player from leaving."
     ],
     "last_resolution": {
-      "action": "Take the Ledger Shard",
-      "outcome": "item acquired safely"
+      "action": "Disengage from the bell-tower investigation and seek rest",
+      "outcome": "automatic success"
     },
     "learning": {
       "skill": "Transfer Control",
@@ -323,6 +326,7 @@
     "no_hook_stacking": true,
     "respect_scene_exit": true,
     "significance_not_assumed": true,
-    "narrative_correction": "Future events must arise from world/NPC/clock/player/system/prep causes; do not invent twists merely to sustain drama."
+    "narrative_correction": "Future events must arise from world/NPC/clock/player/system/prep causes; do not invent twists merely to sustain drama.",
+    "last_player_boundary": "Done for the night unless actively needed."
   }
 }
