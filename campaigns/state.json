@@ -37,8 +37,8 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 13,
-      "Waymark Craft": 13
+      "Transfer Control": 14,
+      "Waymark Craft": 14
     },
     "wounds": [],
     "exhaustion": 0,
@@ -59,7 +59,7 @@
   },
   "magic": {
     "tradition": "Wayfarer transfer practice",
-    "resonance": 1,
+    "resonance": 0,
     "resonance_max": 3,
     "known_techniques": [
       {
@@ -152,18 +152,40 @@
       "The bell is receiving the man's movement and physiological shock as transferable mechanical input.",
       "The connection can likely be interrupted by breaking synchronization rather than by cutting flesh or destroying the main network.",
       "A brief disruption of rhythm, pressure, or alignment at the convergence point may be enough to desynchronize the coupling.",
-      "Because the link is keyed to the man, a prepared Waymark could potentially be used as a temporary false receiver if the timing is precise."
+      "Because the link is keyed to the man, a prepared Waymark could potentially be used as a temporary false receiver if the timing is precise.",
+      "The player prepared a Waymark on the inner stair wall as a false receiver for the bell-linked man's keyed transfer.",
+      "The player tuned the Waymark to imitate the man's coupling signature closely enough for the network to recognize it during a reroute window.",
+      "At the moment the network shifted paths, the player used Vector Knot to redirect the live transfer into the prepared Waymark.",
+      "The false receiver accepted the transfer long enough to desynchronize the man from the bell without further injuring him.",
+      "The Waymark overloaded and fractured after the transfer, but the discharge went into the stone wall rather than into a person.",
+      "The bell's motion dropped sharply once the living link was broken."
     ],
     "last_resolution": {
-      "action": "Use Resonance Sense on the bell-linked throat markings",
-      "roll": 18,
-      "modifier": 3,
-      "total": 21,
-      "outcome": "strong success"
+      "action": "Prepare a false receiver Waymark and redirect the living transfer into it",
+      "setup_roll": 16,
+      "setup_modifier": 3,
+      "setup_total": 19,
+      "execution_roll": 18,
+      "execution_modifier": 3,
+      "execution_total": 21,
+      "resonance_spent": 1,
+      "outcome": "strong success with controlled mark failure"
     },
     "learning": {
-      "skill": "Waymark Craft",
-      "reason": "Informative failure: discovered redundant transfer routing and overflow behavior in old infrastructure."
+      "skills": [
+        {
+          "skill": "Waymark Craft",
+          "from": 13,
+          "to": 14,
+          "reason": "Successfully tuned a false receiver to an unfamiliar living keyed transfer under combat pressure."
+        },
+        {
+          "skill": "Transfer Control",
+          "from": 13,
+          "to": 14,
+          "reason": "Timed a live reroute window and redirected an active transfer without injuring the conduit."
+        }
+      ]
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
@@ -227,9 +249,9 @@
       "active": true,
       "enemy": {
         "description": "barefoot robed man linked to the bell",
-        "condition": "prone, seriously wounded, alive, still magically linked",
+        "condition": "prone, badly wounded, alive, desynchronized from bell",
         "visibly_armed": false,
-        "status": "alive, disoriented, still magically linked",
+        "status": "alive, no longer actively feeding the bell",
         "damage_taken": 7,
         "link_analysis": {
           "type": "living keyed coupling",
@@ -240,7 +262,8 @@
           ],
           "convergence_point": "left jaw/upper neck where three lines meet",
           "likely_solution": "desynchronize connection rather than injure conduit",
-          "alternate_solution": "prepare false receiver and redirect briefly"
+          "alternate_solution": "prepare false receiver and redirect briefly",
+          "solution_used": "false receiver Waymark + timed Vector Knot reroute"
         }
       },
       "party_formation": "Harl front with shield raised; Joren second, thrusting spear past/around shield; player third with left-hand knife and magic ready; Maelin rear guard."
