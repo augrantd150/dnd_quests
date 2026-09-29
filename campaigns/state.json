@@ -226,15 +226,18 @@
       "The Keeper described Sereth as powerful because she understood limits well enough to act at the edge of them without losing control.",
       "The player asked the Keeper Below to teach them.",
       "The Keeper Below agreed in principle to teach within its domains: claims, bindings, keyed transfers, anchors, conservation, and precise transfer structure.",
-      "The Keeper made clear that instruction would not instantly grant mastery; learning would require demonstration, practice, correction, and risk-appropriate exercises."
+      "The Keeper made clear that instruction would not instantly grant mastery; learning would require demonstration, practice, correction, and risk-appropriate exercises.",
+      "During the first formal lesson, the player defined transfer as 'magic from one point to another.'",
+      "The Keeper corrected the definition: transfer magic does not simply move 'magic'; it establishes a lawful relationship in which a specific quantity, state, or claim moves or is reassigned from a source to a receiver under defined constraints.",
+      "The Keeper emphasized that source, transferable quantity, receiver, compatibility, capacity, and consequence must all be identified."
     ],
     "last_resolution": {
-      "action": "Ask the Keeper Below for instruction",
-      "outcome": "Keeper agrees to begin teaching within its specialization"
+      "action": "First Keeper lesson: define transfer",
+      "outcome": "concept corrected and refined"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Observed and completed a full keyed claim-release cycle in an ancient transfer network."
+      "reason": "Received direct instruction distinguishing generic magical movement from source-quantity-receiver transfer structure."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
