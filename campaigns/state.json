@@ -18,7 +18,7 @@
     "alive": true,
     "level": 1,
     "location": "Dunmarrow, lower well chamber beneath the old bell tower",
-    "hp": 10,
+    "hp": 9,
     "max_hp": 10,
     "ac": 14,
     "speed_ft": 30,
@@ -69,7 +69,9 @@
         ]
       }
     },
-    "temporary_conditions": []
+    "temporary_conditions": [
+      "right shoulder/wrist strain from failed body-retention attempt"
+    ]
   },
   "magic": {
     "tradition": "Wayfarer transfer practice",
@@ -100,7 +102,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 2, 08:19",
+    "time": "Day 2, 08:23",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -252,18 +254,23 @@
       "The player succeeded strongly: they identified the moving weight as source, opened a compatible coupling to the ring, captured a small amount of sideways momentum, held it briefly through visible decay, and released it cleanly into the smaller receiver.",
       "The Keeper did not construct the capture relationship for this attempt.",
       "The retention ring still acted as an external storage aid, so the player has not yet learned free capture without a prepared medium.",
-      "No Resonance was spent because the exercise drew on the Keeper's training apparatus rather than the player's personal reserve."
+      "No Resonance was spent because the exercise drew on the Keeper's training apparatus rather than the player's personal reserve.",
+      "The player proposed using their own body as the retention medium for captured momentum.",
+      "The Keeper confirmed that a living body can participate as a receiver/storage medium, but warned that retained momentum must exist as real stresses, motion tendencies, deformation, or other physical state rather than disappearing abstractly.",
+      "Under supervision, the player attempted a very small body-retention capture.",
+      "The attempt failed: the player coupled the stored momentum too locally into the right arm/shoulder instead of distributing it through a stable whole-body structure.",
+      "The Keeper terminated the training structure before serious injury occurred.",
+      "The player lost 1 HP from strain and gained a temporary right shoulder/wrist strain, but suffered no persistent Wound.",
+      "No Resonance was spent because the Keeper supplied the training apparatus."
     ],
     "last_resolution": {
-      "action": "First self-built momentum capture relationship",
-      "roll": 17,
-      "outcome": "strong success"
+      "action": "First supervised attempt to use the body as a momentum retention medium",
+      "roll": 3,
+      "outcome": "failure; 1 HP strain; no persistent wound"
     },
     "learning": {
       "skill": "Transfer Control",
-      "from": 16,
-      "to": 17,
-      "reason": "Successfully constructed and executed a complete source-to-storage-to-receiver momentum transfer with only the prepared retention medium supplied."
+      "reason": "Informative failure showed that living-body retention must distribute load through body structure rather than localize it in a limb; no mastery score increase yet."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
