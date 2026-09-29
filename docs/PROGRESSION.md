@@ -112,3 +112,21 @@ Training has costs:
 - materials.
 
 This makes advancement part of the world rather than a menu.
+
+
+## Mechanical effect of mastery
+
+Mastery is not only descriptive. For uncertain checks, the current rank supplies a bounded training bonus:
+
+| Mastery | Rank | Training bonus |
+|---:|---|---:|
+| 0–9 | Untrained | +0 |
+| 10–24 | Novice | +1 |
+| 25–39 | Practiced | +2 |
+| 40–54 | Adept | +3 |
+| 55–69 | Expert | +4 |
+| 70–84 | Master | +5 |
+| 85–94 | Grandmaster | +6 |
+| 95–100 | Exceptional | +7 |
+
+Checks still use a fair d20. Better mastery improves the modifier and, where justified by demonstrated competence, can also make simple tasks routine enough that no roll is needed.
