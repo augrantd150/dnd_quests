@@ -100,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 07:56",
+    "time": "Day 3, 08:02",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -334,19 +334,23 @@
       "The player successfully established source -> prepared retention ring -> body/weapon routing without the Keeper holding the path open.",
       "The prepared retention ring itself remained an attuned magical medium, so the exercise did not consume the player's personal Resonance.",
       "This was the player's first successful full transfer structure built and operated without the Keeper actively sustaining the coupling.",
-      "The player is not yet field-independent because the prepared ring is still doing important structural work."
+      "The player is not yet field-independent because the prepared ring is still doing important structural work.",
+      "The Keeper removed the prepared retention ring from the exercise.",
+      "To avoid contradicting the player's empty Resonance reserve, the Keeper continued supplying the magical power source but did not provide the capture relationship or storage structure.",
+      "The player had to use their own body as the retention medium and construct the full source-to-body relationship personally.",
+      "SYSTEM provenance: the no-ring body-retention roll was 14.",
+      "The player succeeded: they captured a very small amount of momentum, distributed it through feet, legs, hips, and torso, held it briefly, and released it into a controlled step without localizing the load into a joint.",
+      "No Resonance was spent because the Keeper supplied the external power; the player is still not field-independent."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Construct and operate a transfer relationship without Keeper scaffold",
-      "roll": 16,
-      "outcome": "success; independent coupling construction using prepared retention medium"
+      "action": "Construct a no-ring body-retention relationship using Keeper-supplied power",
+      "roll": 14,
+      "outcome": "success; body used as retention medium without prepared ring"
     },
     "learning": {
       "skill": "Transfer Control",
-      "from": 20,
-      "to": 21,
-      "reason": "Successfully built and operated the capture relationship without the Keeper sustaining it."
+      "reason": "Successfully replaced the prepared retention ring with whole-body structural retention while personally constructing the coupling; mastery score unchanged pending repeatability."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
