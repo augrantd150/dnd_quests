@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 38,
-      "Spatial Relations": 23
+      "Spatial Relations": 25
     },
     "wounds": [],
     "exhaustion": 0,
@@ -117,7 +117,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 18:07",
+    "time": "Day 4, 18:42",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -796,56 +796,35 @@
       "Because the control layer was designed fail-safe, the unsafe emitter automatically remained inhibited instead of firing. No authorized subject was exposed to the faulty branch.",
       "The prototype therefore succeeded as an integrated warning-and-redirection network, but one defensive pulse branch remained disabled pending repair.",
       "No injury occurred and no personal Resonance was spent.",
-      "Waymark Craft advanced 36 -> 38 from exceptional integrated architecture. Spatial Relations advanced 22 -> 23 from successful portal-routing integration. Transfer Control did not increase because burst containment remained flawed."
+      "Waymark Craft advanced 36 -> 38 from exceptional integrated architecture. Spatial Relations advanced 22 -> 23 from successful portal-routing integration. Transfer Control did not increase because burst containment remained flawed.",
+      "The player asked to jump directly to nested-space training.",
+      "The Keeper prepared three anchored frames A, B, and C. The goal was not a direct A-to-C fold: traversal from A had to enter a bounded intermediate spatial relationship at B, then resolve onward to C.",
+      "The exercise tested whether one prepared spatial relationship could act as a routing stage inside another without collapsing into ambiguous geometry.",
+      "The Keeper supplied power so the test isolated spatial architecture rather than Resonance availability.",
+      "Spatial Relations 23 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 17; total nested-space check was 21.",
+      "The player successfully established a two-stage spatial route A -> B -> C for a weighted test object. The object did not traverse the ordinary floor between the frames and did not become duplicated, stalled, or misoriented at the intermediate stage.",
+      "The intermediate relationship at B existed only as a bounded routing state; it was not a free-standing pocket dimension and could not hold arbitrary matter indefinitely.",
+      "Orientation and approximate momentum were preserved through both transitions, with small compounded losses in stability across the nested route.",
+      "Spatial Relations advanced 23 -> 25 from the major nested-routing breakthrough, entering Practiced rank. Future Spatial Relations checks receive a +2 mastery training bonus.",
+      "No personal Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Build integrated ally-safe warning, portal, and defensive-trap network",
-      "checks": {
-        "waymark_architecture": {
-          "raw_roll": 19,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 24,
-          "outcome": "exceptional success"
-        },
-        "spatial_routing": {
-          "raw_roll": 15,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 1,
-          "total": 19,
-          "outcome": "strong success"
-        },
-        "transfer_fallback": {
-          "raw_roll": 7,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 12,
-          "outcome": "partial success; one emitter unsafe and automatically inhibited"
-        }
-      },
-      "outcome": "integrated prototype works for ally recognition, warning, portal redirection, isolation, and fail-safe behavior; one concussive fallback branch remains disabled"
+      "action": "First supervised nested spatial route using an intermediate routing relationship",
+      "raw_roll": 17,
+      "ability": "Wisdom",
+      "ability_modifier": 3,
+      "training_bonus": 1,
+      "total": 21,
+      "outcome": "strong success; two-stage A -> B -> C nested route completed for weighted object"
     },
     "learning": {
-      "skills": [
-        "Waymark Craft",
-        "Spatial Relations",
-        "Transfer Control"
-      ],
-      "changes": {
-        "Waymark Craft": [
-          36,
-          38
-        ],
-        "Spatial Relations": [
-          22,
-          23
-        ]
-      },
-      "reason": "Combined multiple magical subsystems into one safety-prioritized network; architecture and spatial routing succeeded, while one transfer emitter exposed a containment flaw."
+      "skill": "Spatial Relations",
+      "from": 23,
+      "to": 25,
+      "rank_change": "Novice -> Practiced",
+      "reason": "Successfully created a bounded intermediate spatial routing stage inside a larger traversal relationship."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
