@@ -215,10 +215,12 @@
       "The player was allowed back into the secured tower because of their direct involvement in the previous night's investigation.",
       "The player descended to the lower well chamber without restarting the broader investigation.",
       "The player told the Keeper Below: 'You are very powerful.'",
-      "The Keeper Below described its power as narrow, old, and domain-bound rather than general omnipotence."
+      "The Keeper Below described its power as narrow, old, and domain-bound rather than general omnipotence.",
+      "The player asked the Keeper Below whether it had once been human.",
+      "The Keeper Below answered that it had once been human, but implied that the transformation into its present role was gradual and bound to the system it serves."
     ],
     "last_resolution": {
-      "action": "Speak with the Keeper Below about its power",
+      "action": "Ask the Keeper Below whether it was once human",
       "outcome": "conversation continues"
     },
     "learning": {
