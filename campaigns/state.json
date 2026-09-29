@@ -135,14 +135,13 @@
       "A strong observation showed the basin objects act as person-specific anchors, while the iron rods carry transferred mechanical energy upward.",
       "The network has redundant channels, but the rerouting is not instantaneous: there are brief moments where pressure shifts between paths.",
       "The bell above is acting as a major receiver/reservoir and is currently closer to another discharge than before.",
-      "The player identified that blindly cutting more channels is likely to worsen the situation."
+      "The player identified that blindly cutting more channels is likely to worsen the situation.",
+      "The player ordered a shield-and-reach formation on the spiral stair.",
+      "Harl holds the choke point with shield raised while Joren uses the spear from behind him; the player remains behind them due to the impaired right hand."
     ],
     "last_resolution": {
-      "action": "Observe the underground transfer network before going upstairs",
-      "roll": 19,
-      "modifier": 3,
-      "total": 22,
-      "outcome": "strong success"
+      "action": "Set shield-forward spear-reach formation",
+      "outcome": "automatic tactical setup before contact"
     },
     "learning": {
       "skill": "Waymark Craft",
@@ -203,7 +202,7 @@
           "shield": false
         }
       ],
-      "formation": "Harl leads with shield; player directly behind to read magic; Maelin third; Joren rear guard with lantern.",
+      "formation": "Harl front with shield raised; Joren second, thrusting spear past/around shield; player third with left-hand knife and magic ready; Maelin rear guard.",
       "split_party": false
     }
   },
