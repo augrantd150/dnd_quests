@@ -238,18 +238,21 @@
       "The failure was informative and directly demonstrated that timing and receiver alignment matter separately from choosing a small transfer amount.",
       "On the second supervised momentum-transfer attempt, the player delayed the coupling until the smaller receiver aligned with its natural swing path and used a conservative transfer amount.",
       "The player succeeded cleanly: the larger weight lost a small amount of sideways momentum and the smaller weight gained a controlled swing with minimal twist.",
-      "The Keeper's supplied structure remained stable and no Resonance was spent."
+      "The Keeper's supplied structure remained stable and no Resonance was spent.",
+      "The player attempted their first supervised momentum-capture exercise using the Keeper's iron retention ring.",
+      "The player successfully captured a very small amount of momentum from the larger swinging weight and held it briefly, but retention decayed noticeably before release.",
+      "The release into the smaller weight worked, though weaker than the original captured amount and with a slight delay.",
+      "No Resonance was spent because the Keeper supplied the active structure.",
+      "The exercise demonstrated that capture, retention, decay, and release are distinct skills."
     ],
     "last_resolution": {
-      "action": "Second supervised momentum-transfer exercise",
-      "roll": 18,
-      "outcome": "strong success"
+      "action": "First supervised momentum capture-and-release exercise",
+      "roll": 12,
+      "outcome": "partial success"
     },
     "learning": {
       "skill": "Transfer Control",
-      "from": 14,
-      "to": 15,
-      "reason": "Direct instruction plus an informative supervised failure revealed a concrete timing/alignment error."
+      "reason": "First successful brief capture/retention/release sequence; learned that stored momentum decays and timing remains important."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
