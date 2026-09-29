@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 14:26",
+    "time": "Day 4, 14:34",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -671,23 +671,28 @@
       "The player crossed the prepared route successfully. Subjectively, the path felt shorter in effort and duration, but no physical distance was deleted and both endpoints remained fixed.",
       "The player preserved balance, orientation, and forward momentum on exit and suffered no injury.",
       "No personal Resonance was spent because the Keeper supplied the power.",
-      "Spatial Relations advanced 4 -> 6 from the first successful living-body traversal of an eased path."
+      "Spatial Relations advanced 4 -> 6 from the first successful living-body traversal of an eased path.",
+      "The Keeper bent the prepared spatial path around a stone pillar to test orientation and momentum through a curved route.",
+      "Spatial Relations 6 remained Untrained (+0); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 7; total curved-path traversal check was 10.",
+      "The player successfully entered and followed the eased path around the bend, but exited with poor orientation: forward momentum was preserved relative to the earlier segment rather than cleanly matching the final direction of the path.",
+      "The player stumbled on exit but recovered without HP loss or Wound.",
+      "The attempt demonstrated that path geometry and exit orientation must be explicitly defined; bending traversal does not automatically rotate a traveler safely.",
+      "No personal Resonance was spent because the Keeper supplied training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First personal traversal of an eased spatial path",
-      "raw_roll": 15,
+      "action": "Traverse a curved eased spatial path",
+      "raw_roll": 7,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 0,
-      "total": 18,
-      "outcome": "strong success; stable personal traversal with preserved orientation and momentum"
+      "total": 10,
+      "outcome": "partial success; traversal worked but exit orientation and momentum alignment were poor"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "from": 4,
-      "to": 6,
-      "reason": "Successfully traversed an eased anchored path personally while preserving orientation, balance, and momentum."
+      "reason": "Informative partial success revealed that curved paths require explicit orientation and momentum mapping; mastery unchanged."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
