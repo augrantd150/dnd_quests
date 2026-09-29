@@ -40,7 +40,7 @@
       "Transfer Control": 28,
       "Waymark Craft": 38,
       "Spatial Relations": 26,
-      "Claims & Bindings": 8
+      "Claims & Bindings": 10
     },
     "wounds": [],
     "exhaustion": 0,
@@ -118,7 +118,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 20:18",
+    "time": "Day 4, 20:52",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -840,23 +840,34 @@
       "A substitute token, wrong destination, or late arrival did not count as fulfillment.",
       "When the volunteer deliberately missed a second test deadline, the binding recorded breach and changed state but did not move, injure, or compel the volunteer.",
       "No personal Resonance was spent because the Keeper supplied training power.",
-      "Claims & Bindings advanced 5 -> 8 from compressed practice and successful construction of a bounded obligation with completion and breach states."
+      "Claims & Bindings advanced 5 -> 8 from compressed practice and successful construction of a bounded obligation with completion and breach states.",
+      "Routine consequence drills were compressed per the player's pacing preference.",
+      "The Keeper advanced Claims & Bindings to collateralized obligations rather than bodily compulsion.",
+      "A volunteer explicitly pledged one specific iron token as collateral for a time-bounded delivery obligation.",
+      "Fulfillment had to release the collateral claim back to the pledger; breach had to transfer the claim over the pledged token to the named counterparty.",
+      "Claims & Bindings 8 was Untrained (+0); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 17; total collateral-binding check was 20.",
+      "The player successfully constructed the binding. On fulfillment, the collateral released cleanly. On a second controlled breach test, the pledged token's claim transferred to the named counterparty exactly as agreed.",
+      "The consequence affected only the explicitly pledged object. It did not expand to unrelated property, bodily control, injury, or invented penalties.",
+      "No personal Resonance was spent because the Keeper supplied training power.",
+      "Claims & Bindings advanced 8 -> 10, entering Novice rank. Future Claims & Bindings checks receive a +1 mastery training bonus."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Construct a voluntary time-bounded obligation with fulfillment and breach states",
-      "raw_roll": 13,
+      "action": "Construct a collateralized obligation with automatic consequence on breach",
+      "raw_roll": 17,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 0,
-      "total": 16,
-      "outcome": "success; obligation tracked exact performance, completion, deadline, and breach without compulsion"
+      "total": 20,
+      "outcome": "strong success; collateral released on fulfillment and transferred exactly on breach"
     },
     "learning": {
       "skill": "Claims & Bindings",
-      "from": 5,
-      "to": 8,
-      "reason": "Successfully formalized an explicit obligation with precise performance criteria, deadline, fulfillment, and non-coercive breach state."
+      "from": 8,
+      "to": 10,
+      "rank_change": "Untrained -> Novice",
+      "reason": "Successfully attached a bounded, explicitly consented property consequence to an obligation without expanding its scope."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
