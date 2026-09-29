@@ -223,11 +223,14 @@
       "The player asked the Keeper Below who the most powerful human it had ever met was.",
       "The Keeper named Sereth Vale, a human transfer-worker remembered for extreme precision and control rather than spectacle.",
       "According to the Keeper, Sereth could redirect structural loads, momentum, heat, and pressure across prepared systems without collapsing them, and once stabilized a failing stone bridge long enough for hundreds to cross.",
-      "The Keeper described Sereth as powerful because she understood limits well enough to act at the edge of them without losing control."
+      "The Keeper described Sereth as powerful because she understood limits well enough to act at the edge of them without losing control.",
+      "The player asked the Keeper Below to teach them.",
+      "The Keeper Below agreed in principle to teach within its domains: claims, bindings, keyed transfers, anchors, conservation, and precise transfer structure.",
+      "The Keeper made clear that instruction would not instantly grant mastery; learning would require demonstration, practice, correction, and risk-appropriate exercises."
     ],
     "last_resolution": {
-      "action": "Ask the Keeper Below about the most powerful human it ever met",
-      "outcome": "conversation continues"
+      "action": "Ask the Keeper Below for instruction",
+      "outcome": "Keeper agrees to begin teaching within its specialization"
     },
     "learning": {
       "skill": "Transfer Control",
