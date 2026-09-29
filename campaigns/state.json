@@ -37,8 +37,8 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 26,
-      "Waymark Craft": 35
+      "Transfer Control": 27,
+      "Waymark Craft": 36
     },
     "wounds": [],
     "exhaustion": 0,
@@ -79,6 +79,9 @@
         "Stored Reversal",
         "Watchmark",
         "Distributed Defense Network"
+      ],
+      "field_qualifications": [
+        "Distributed Defense Network: portable two-branch"
       ]
     }
   },
@@ -111,7 +114,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 12:34",
+    "time": "Day 4, 13:08",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -633,30 +636,41 @@
       "The Keeper severed the third relay while armed; that branch failed closed and did not discharge unpredictably.",
       "After deliberate reset, the intact branches returned to ready state.",
       "No injury occurred and no personal Resonance was spent because the Keeper supplied training power.",
-      "The player successfully demonstrated the complete distributed defense architecture under supervision."
+      "The player successfully demonstrated the complete distributed defense architecture under supervision.",
+      "For the first independent field-scale defense test, the player was limited by available portable anchors to two branches because they possessed two bronze Waymark nails.",
+      "At the familiar compatible site, the player routinely performed two deliberate attunement cycles, building personal Resonance from 0/3 to 2/3.",
+      "Each branch used one bronze Waymark nail as a local anchor and a separate prepared mechanical energy store for its bounded concussive emitter.",
+      "Each branch cost 1 personal Resonance to establish, for a total of 2 Resonance; emitter energy came from the prepared local mechanical stores rather than being created by Resonance.",
+      "Waymark Craft 35 was Practiced rank (+2); Wisdom 16 contributed +3. SYSTEM provenance: raw field-network construction d20 was 18, total 23.",
+      "Transfer Control 26 was Practiced rank (+2); Wisdom 16 contributed +3. SYSTEM provenance: raw emitter-control d20 was 12, total 17.",
+      "The independently powered two-branch network passed unauthorized-trigger, branch-isolation, bounded-release, lockout, reset, and severed-link tests.",
+      "One branch fired without cross-triggering the other; the second remained armed and later fired correctly. A severed branch failed closed.",
+      "The player spent Resonance 2/3 -> 0/3.",
+      "After testing, the player dismantled the network cleanly and recovered both bronze Waymark nails.",
+      "This field-qualified the player's Distributed Defense Network technique at a portable two-branch scale. Larger networks still require more anchors, more preparation, and additional personal or external power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Fully armed integrated test of three-branch distributed defensive network",
+      "action": "Independent portable two-branch distributed defense network",
       "checks": {
-        "network_control": {
-          "raw_roll": 16,
+        "network_construction": {
+          "raw_roll": 18,
           "ability": "Wisdom",
           "ability_modifier": 3,
           "training_bonus": 2,
-          "total": 21,
+          "total": 23,
           "outcome": "strong success"
         },
-        "burst_control": {
-          "raw_roll": 14,
+        "emitter_control": {
+          "raw_roll": 12,
           "ability": "Wisdom",
           "ability_modifier": 3,
           "training_bonus": 2,
-          "total": 19,
-          "outcome": "strong success"
+          "total": 17,
+          "outcome": "success"
         }
       },
-      "outcome": "full supervised network passed trigger, isolation, bounded release, lockout, reset, and fail-closed tests"
+      "outcome": "field-qualified two-branch portable defensive network; Resonance 2/3 -> 0/3; both anchors recovered"
     },
     "learning": {
       "skills": [
@@ -665,15 +679,15 @@
       ],
       "changes": {
         "Waymark Craft": [
-          34,
-          35
+          35,
+          36
         ],
         "Transfer Control": [
-          25,
-          26
+          26,
+          27
         ]
       },
-      "reason": "Successfully operated a complete distributed defensive network under integrated fault and trigger testing."
+      "reason": "Successfully deployed and operated the full distributed defensive architecture using only personal Resonance, portable anchors, and local stored mechanical energy."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
