@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 28
+      "Waymark Craft": 29
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 09:05",
+    "time": "Day 4, 09:11",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -571,23 +571,29 @@
       "SYSTEM provenance: raw d20 was 19; total mutable-authorization check was 24.",
       "The player successfully added the second token as an authorized reset key, demonstrated that both tokens could independently re-arm the structure, then revoked only the temporary token while preserving the original token's authority.",
       "The decoy remained unauthorized throughout. No identity drift or accidental re-arming occurred during the permission changes.",
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "The Keeper advanced mutable authorization by combining it with one-shot state logic.",
+      "A second token was granted authority to reset the keyed structure exactly once; after its first successful reset, that token's authority had to revoke automatically while the original authorized token remained valid.",
+      "Waymark Craft 28 was Practiced rank (+2 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 13; total one-use authorization check was 18.",
+      "The player successfully constructed the temporary permission. The second token reset the structure once, immediately lost authorization, and failed on a second attempt. The original token remained authorized throughout.",
       "No Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Grant and revoke keyed authorization without reconstructing the underlying structure",
-      "raw_roll": 19,
+      "action": "Construct self-revoking one-use keyed authorization",
+      "raw_roll": 13,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 2,
-      "total": 24,
-      "outcome": "exceptionally clean success; temporary authority added and selectively revoked without disturbing the original key"
+      "total": 18,
+      "outcome": "strong success; temporary token self-revoked after one successful authorized use"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 27,
-      "to": 28,
-      "reason": "Successfully modified authorization state in place, including selective revocation, without destabilizing the keyed structure."
+      "from": 28,
+      "to": 29,
+      "reason": "Successfully combined keyed authorization, one-shot state, and selective automatic revocation in a single stable structure."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
