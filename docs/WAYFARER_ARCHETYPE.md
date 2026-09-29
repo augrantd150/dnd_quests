@@ -210,3 +210,18 @@ A field technique earned through retention training.
 - **Limits:** This does not negate the original impact, cannot absorb arbitrary mass, cannot safely use unstable or poorly understood vectors, and cannot hold momentum for long.
 - **Risk:** Bad geometry, overload, late capture, poor footing, or misaligned release can convert the stored load into strain or a real Wound.
 - **Skill expression:** The player must judge whether to capture at all, how much to take, where to route it, and when/how to release it.
+
+
+## Watchmark
+
+A practical field Waymark constructed from learned keying and conditional logic.
+
+- **Cost:** 1 Resonance.
+- **Setup:** Requires a physical threshold or bounded crossing line, chalk or another clear marking medium, and a recoverable Waymark anchor such as a bronze Waymark nail.
+- **Authorization:** The creator may exempt themself and one specifically keyed object or token when constructing the mark.
+- **Trigger:** An unauthorized physical crossing of the defined threshold.
+- **Effect:** Produces a sharp local physical warning signal at the mark, then locks itself.
+- **Reset:** Requires deliberate interaction by the creator or an explicitly authorized reset key.
+- **Persistence:** The mark is one-shot until reset and remains tied to its physical anchor and threshold.
+- **Limits:** It does not identify the intruder, read intent, detect arbitrary nearby presence, or transmit information at unlimited distance.
+- **Materials:** A cleanly dismantled mark normally returns its anchor for reuse; failed, overloaded, or violently disrupted marks may damage or consume it.
