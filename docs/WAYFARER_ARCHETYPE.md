@@ -280,3 +280,16 @@ A high-complexity prepared defensive architecture combining keyed authorization,
 - **Isolation:** A failed, cut, or unsafe branch should fail locally without cross-triggering neighboring branches.
 - **Limits:** Requires prepared anchors, relay paths, power, local energy stores, maintenance, and substantial setup. It is infrastructure, not an instant cast.
 - **Current status:** The player has demonstrated the integrated architecture under Keeper-supplied power. Warning and spatial-redirection layers worked; one concussive fallback branch failed containment and was correctly suppressed by the fail-safe logic.
+
+
+## Nested Route
+
+An advanced spatial architecture in which one prepared traversal relationship resolves through another prepared spatial relationship before reaching its final exit.
+
+- **Structure:** A -> intermediate routing relationship -> final exit.
+- **Purpose:** Allows layered routing, conditional transfer between subnetworks, and more complex spatial networks than simple paired folds.
+- **Intermediate state:** The middle stage is a bounded routing relationship, not an unlimited pocket dimension or arbitrary storage volume.
+- **Geometry:** Each transition must preserve or explicitly transform orientation and momentum.
+- **Losses:** Instability, error, and energy cost compound across nested transitions.
+- **Failure modes:** Ambiguous routing, mismatched orientation, stale endpoint state, overloaded intermediate capacity, or collapse of one layer can invalidate the full path.
+- **Current status:** The player has demonstrated a supervised two-stage nested route for a weighted object under Keeper-supplied power.
