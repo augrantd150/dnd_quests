@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 24
+      "Waymark Craft": 25
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 08:41",
+    "time": "Day 4, 08:47",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -543,23 +543,31 @@
       "Waymark Craft 23 was Novice rank (+1 training bonus); Wisdom 16 contributed +3.",
       "SYSTEM provenance: raw d20 was 15; total sequential-keying check was 19.",
       "The player successfully constructed a stateful keyed condition that remembered completion of the first step, rejected invalid orderings, and opened only after the correct A-then-B sequence.",
-      "No Resonance was spent because the Keeper supplied the training power."
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "The Keeper advanced sequential keying by adding an expiry window: the keyed receiver had to touch mark A and then mark B within three heartbeats.",
+      "If B was not reached within the allowed interval, the partial sequence state had to erase itself and return to dormant rather than remain armed indefinitely.",
+      "Waymark Craft 24 was Novice rank (+1 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 14; total timed-sequence check was 18.",
+      "The player successfully constructed a timed sequential trigger. Correct A-then-B activation inside the window opened the relationship; delayed B caused the stored sequence state to expire and reset cleanly.",
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "Waymark Craft reached 25, entering Practiced rank; future Waymark Craft checks now receive a +2 mastery training bonus instead of +1."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Construct an ordered sequential keyed trigger",
-      "raw_roll": 15,
+      "action": "Construct a timed sequential keyed trigger with automatic expiry",
+      "raw_roll": 14,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 19,
-      "outcome": "strong success; relationship activated only after the correct ordered sequence"
+      "total": 18,
+      "outcome": "strong success; sequence memory expired and reset correctly when the timing window was missed"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 23,
-      "to": 24,
-      "reason": "Successfully built a keyed condition with memory of prior state and strict trigger ordering."
+      "from": 24,
+      "to": 25,
+      "rank_change": "Novice -> Practiced",
+      "reason": "Successfully combined ordered state memory with a bounded timing window and clean automatic reset."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
