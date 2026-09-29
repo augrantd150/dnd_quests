@@ -239,3 +239,17 @@ An advanced prepared Waymark architecture built from multiple local Watchmark-st
 - **Authorization:** Local nodes may inherit Watchmark-style exemptions and reset permissions.
 - **Scaling cost:** More distance, branches, state, redundancy, and receiver detail increase construction time, material demand, power demand, and failure surface.
 - **Field status:** The player has demonstrated this architecture under Keeper-supplied power. Independent field deployment still requires sufficient personal Resonance, anchors, and prepared relay materials.
+
+
+### Distributed defensive emitters
+
+Distributed Watch-style networks may drive local defensive effects when each effect has its own prepared causal source, emitter, capacity, and failure behavior.
+
+A defensive branch must define:
+- local trigger and authorization;
+- branch identity and isolation;
+- stored or supplied energy source;
+- local emitter direction and safe capacity;
+- what happens on overload, cut links, simultaneous triggers, and partial failure.
+
+A bounded concussive emitter is treated as a local release of prepared mechanical/magical energy, not free energy or chemical explosive material. Its effect must remain limited by stored energy, emitter construction, geometry, and losses.
