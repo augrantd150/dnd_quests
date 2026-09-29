@@ -113,3 +113,19 @@ Magic can affect:
 - law.
 
 The player is not restricted to combat use.
+
+
+### Distributed networks
+
+Causal magic may be composed into prepared multi-node networks.
+
+A valid distributed network must still account for:
+- local trigger or source events;
+- prepared transmission or relay paths;
+- branch identity and routing;
+- receiver capacity;
+- losses over distance and across junctions;
+- failure behavior when links are cut, overloaded, or mis-keyed;
+- power source and maintenance.
+
+Distributed magic does not create free long-range information transfer. Greater reach or complexity requires a physically and magically supported path, and every added node creates additional failure modes.
