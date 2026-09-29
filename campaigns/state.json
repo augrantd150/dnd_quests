@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 07:49",
+    "time": "Day 4, 07:53",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -475,21 +475,30 @@
       "SYSTEM provenance: raw d20 was 6; total keyed-anchor check was 10.",
       "The key partially worked: after division it followed the fragment containing the marked region, but the termination condition was poorly specified and the relationship frayed instead of ending cleanly when the Keeper damaged the marked area.",
       "The player learned that continuation and termination are separate clauses and both must be defined precisely.",
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "The player repeated the keyed-anchor exercise with continuation and termination written as separate clauses.",
+      "Continuation rule: follow the fragment containing the deliberately punched marked region.",
+      "Termination rule: if that marked region is destroyed beyond recognition, end the relationship completely and do not search for a substitute receiver.",
+      "Waymark Craft 17 was Novice rank (+1 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 2; total keyed-anchor check was 6.",
+      "The construction failed before the destructive test: the player overconstrained the identity relationship so tightly around the physical mark that minor deformation of the marked region caused the key to flicker.",
+      "The Keeper stopped the test before division because the anchor was not stable enough to evaluate safely or meaningfully.",
+      "The player learned that a continuation criterion must be robust to ordinary variation while still having a clear terminal boundary.",
       "No Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Construct a keyed anchor with an explicit division-continuation and destruction-termination rule",
-      "raw_roll": 6,
+      "action": "Rebuild keyed anchor with separate continuation and termination clauses",
+      "raw_roll": 2,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 10,
-      "outcome": "partial success; continuation worked, termination clause was unstable"
+      "total": 6,
+      "outcome": "failure; key overconstrained to exact mark geometry and became unstable under minor deformation"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "reason": "Learned that inheritance and termination must be separately and precisely defined; mastery score unchanged."
+      "reason": "Informative failure showed that an identity criterion can be too brittle if it tracks exact physical form rather than a robust persistent feature; mastery score unchanged."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
