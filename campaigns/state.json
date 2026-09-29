@@ -816,7 +816,9 @@
       "TRANSFER integration check: raw d20 12 + Wisdom 3 + Practiced mastery 2 = 17. Bounded local response energy remained isolated from the spatial junction and did not destabilize routing.",
       "The prototype therefore proved the spatial and transfer integration but exposed a concurrency problem in Waymark authorization logic.",
       "No personal Resonance was spent and no injury occurred.",
-      "Spatial Relations advanced 25 -> 26 and Transfer Control 27 -> 28. Waymark Craft remained 38 because shared-junction concurrency is the current bottleneck."
+      "Spatial Relations advanced 25 -> 26 and Transfer Control 27 -> 28. Waymark Craft remained 38 because shared-junction concurrency is the current bottleneck.",
+      "The umbrella term for an integrated architecture combining Waymarks, transfer systems, spatial routing, authorization, state, warnings, and bounded responses is Causal Mesh.",
+      "Junction Mesh and Sanctuary Mesh are specialized Causal Mesh architectures rather than separate schools of magic."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
