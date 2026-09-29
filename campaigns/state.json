@@ -50,7 +50,7 @@
       "long knife",
       "chalk",
       "waxed cord",
-      "3 bronze waymark nails",
+      "2 bronze waymark nails",
       "flint and steel",
       "waterskin",
       "2 days of coarse rations",
@@ -158,7 +158,8 @@
       "At the moment the network shifted paths, the player used Vector Knot to redirect the live transfer into the prepared Waymark.",
       "The false receiver accepted the transfer long enough to desynchronize the man from the bell without further injuring him.",
       "The Waymark overloaded and fractured after the transfer, but the discharge went into the stone wall rather than into a person.",
-      "The bell's motion dropped sharply once the living link was broken."
+      "The bell's motion dropped sharply once the living link was broken.",
+      "One bronze waymark nail was consumed/damaged in the overloaded false receiver."
     ],
     "last_resolution": {
       "action": "Prepare a false receiver Waymark and redirect the living transfer into it",
