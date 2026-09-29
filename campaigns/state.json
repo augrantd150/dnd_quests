@@ -169,11 +169,18 @@
       "The player remained at 6/10 HP, 0/3 Resonance, with the right hand still impaired.",
       "At the lower well chamber, the player refused to return anything blindly and demanded that the unseen speaker identify itself first.",
       "The player asked the entity known as Keeper Below to explain its role.",
-      "The player challenged the Keeper Below to provide evidence that its explanation was truthful."
+      "The player challenged the Keeper Below to provide evidence that its explanation was truthful.",
+      "The player accepted the Keeper Below's reversible test.",
+      "The party stayed together, retrieved Edrin Vale's missing boot from the basin above, and returned to the lower well chamber.",
+      "The player kept physical possession of the boot and did not place it into the socket or surrender it.",
+      "When the boot was brought close to Edrin Vale's carved name, the name and empty socket reacted immediately.",
+      "The boot pulled slightly toward the socket as if under tension, while the chain below slackened a fraction.",
+      "The bell above did not ring.",
+      "The reaction occurred before the boot touched the socket, supporting the Keeper's claim that the personal object functions as a keyed token tied to Edrin's claim."
     ],
     "last_resolution": {
-      "action": "Proceed to the newly opened lower passage",
-      "outcome": "automatic movement; formation maintained"
+      "action": "Hold Edrin Vale's boot near his carved name without inserting it",
+      "outcome": "test performed without surrendering the token"
     },
     "learning": {
       "skills": [
@@ -271,6 +278,19 @@
         }
       },
       "party_formation": "Harl front with shield raised; Joren second, thrusting spear past/around shield; player third with left-hand knife and magic ready; Maelin rear guard."
+    },
+    "current_evidence": {
+      "edrin_token_test": {
+        "token": "missing boot",
+        "contact_required": false,
+        "observed_effects": [
+          "name/socket reacted at proximity",
+          "boot pulled toward socket",
+          "well chain slackened slightly",
+          "bell remained still"
+        ],
+        "interpretation": "Strong evidence that the boot is a keyed identity/claim token linked to Edrin Vale, but not proof of all Keeper claims."
+      }
     }
   },
   "meta": {
