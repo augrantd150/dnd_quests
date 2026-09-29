@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 07:35",
+    "time": "Day 4, 07:40",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -453,23 +453,28 @@
       "Waymark Craft 15 was Novice rank (+1 training bonus); Wisdom 16 contributed +3, for a total +4 on this keyed-anchor check.",
       "SYSTEM provenance: raw d20 was 15; total check was 19.",
       "The keyed relationship remained attached to the chosen token through concealment, movement, and decoy substitution.",
-      "No Resonance was spent because the Keeper supplied the active training power."
+      "No Resonance was spent because the Keeper supplied the active training power.",
+      "The Keeper altered the already-keyed iron token by deeply scratching it, heating it, and hammering one edge out of shape.",
+      "The lesson tested whether the player had keyed a persistent object relationship rather than a temporary bundle of visible properties.",
+      "Waymark Craft 16 remained Novice rank (+1 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 12; total keyed-anchor check was 16.",
+      "The player maintained the key through changes in surface, shape, and temperature. The relationship continued to identify the original token.",
+      "The Keeper emphasized that ordinary state changes do not necessarily break identity, but division, destruction, fusion, or replacement create harder identity problems.",
+      "No Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Maintain a keyed anchor through concealment, relocation, and an identical decoy",
-      "raw_roll": 15,
+      "action": "Maintain a keyed anchor while the receiver changes surface, shape, and temperature",
+      "raw_roll": 12,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 19,
-      "outcome": "strong success"
+      "total": 16,
+      "outcome": "success; key persisted through ordinary physical changes"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 15,
-      "to": 16,
-      "reason": "Maintained a persistent single-object key through concealment and decoy substitution."
+      "reason": "Demonstrated persistent keying through ordinary state and shape changes; mastery score unchanged pending harder identity problems."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
