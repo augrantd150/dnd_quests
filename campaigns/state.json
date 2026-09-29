@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 25
+      "Waymark Craft": 26
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 08:47",
+    "time": "Day 4, 08:53",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -550,24 +550,30 @@
       "SYSTEM provenance: raw d20 was 14; total timed-sequence check was 18.",
       "The player successfully constructed a timed sequential trigger. Correct A-then-B activation inside the window opened the relationship; delayed B caused the stored sequence state to expire and reset cleanly.",
       "No Resonance was spent because the Keeper supplied the training power.",
-      "Waymark Craft reached 25, entering Practiced rank; future Waymark Craft checks now receive a +2 mastery training bonus instead of +1."
+      "Waymark Craft reached 25, entering Practiced rank; future Waymark Craft checks now receive a +2 mastery training bonus instead of +1.",
+      "The Keeper advanced timed sequential keying to explicit re-arming behavior.",
+      "The keyed relationship had to activate once after the correct A-then-B sequence within the timing window, then enter a locked state that ignored further valid sequences until a deliberate reset condition was performed.",
+      "Waymark Craft 25 was Practiced rank (+2 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 13; total re-arm logic check was 18.",
+      "The player successfully constructed a one-shot sequential trigger with a persistent locked state and a separate deliberate reset action.",
+      "Repeated A-then-B sequences after activation did nothing until the reset was performed, after which the relationship could arm and activate again normally.",
+      "No Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Construct a timed sequential keyed trigger with automatic expiry",
-      "raw_roll": 14,
+      "action": "Construct one-shot sequential trigger with explicit reset/re-arm behavior",
+      "raw_roll": 13,
       "ability": "Wisdom",
       "ability_modifier": 3,
-      "training_bonus": 1,
+      "training_bonus": 2,
       "total": 18,
-      "outcome": "strong success; sequence memory expired and reset correctly when the timing window was missed"
+      "outcome": "strong success; one-shot activation, lockout, and deliberate reset all behaved correctly"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 24,
-      "to": 25,
-      "rank_change": "Novice -> Practiced",
-      "reason": "Successfully combined ordered state memory with a bounded timing window and clean automatic reset."
+      "from": 25,
+      "to": 26,
+      "reason": "Successfully added persistent post-activation state and explicit re-arm logic to a timed sequential key."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
