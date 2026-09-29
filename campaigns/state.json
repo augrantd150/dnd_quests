@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Dunmarrow, travelers' inn",
+    "location": "Dunmarrow, lower well chamber beneath the old bell tower",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -37,7 +37,7 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 24,
+      "Transfer Control": 25,
       "Waymark Craft": 14
     },
     "wounds": [],
@@ -106,7 +106,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 07:06",
+    "time": "Day 4, 07:21",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -425,16 +425,28 @@
       "Safe full rest restored 4 HP under the locked recovery formula, capped at maximum HP: 8/10 -> 10/10.",
       "The aggravated forearm/wrist strain cleared because it remained a temporary condition and had not become a persistent Wound.",
       "Resonance remained at 0/3 because ordinary sleep does not restore Resonance.",
-      "No new event was introduced merely to interrupt the player's recovery."
+      "No new event was introduced merely to interrupt the player's recovery.",
+      "The player returned to the Keeper Below after fully recovering from the forearm/wrist strain.",
+      "At the familiar compatible apparatus, the player routinely rebuilt 1 Resonance under supervision.",
+      "The Keeper immediately resumed the known bottleneck: unpredictable padded strike -> selective body retention -> immediate staff release into a separate target.",
+      "With the previous strain cleared, the attempt was made without disadvantage.",
+      "SYSTEM provenance: the integrated retention-counter roll was 16.",
+      "The player captured a safe fraction of the strike, retained it through whole-body structure, transitioned cleanly into the staff, and released into the padded target before meaningful decay.",
+      "The player maintained balance and suffered no injury.",
+      "The committed Resonance was spent: 1/3 -> 0/3.",
+      "This was the player's first clean successful completion of the full integrated hostile-timing retention counter."
     ],
     "last_resolution": {
-      "provenance": "PLAYER",
-      "action": "Stop training and take a full safe rest",
-      "outcome": "HP 8 -> 10; temporary strain cleared; silver 10 -> 8; Resonance remains 0/3"
+      "provenance": "SYSTEM",
+      "action": "Integrated hostile-timing retention counter after full recovery",
+      "roll": 16,
+      "outcome": "clean success; full sequence completed safely; Resonance spent"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "The isolated release is understood, but recombining capture and release under hostile timing still breaks down under pressure. No mastery increase."
+      "from": 24,
+      "to": 25,
+      "reason": "Successfully recombined selective hostile-timing capture, whole-body retention, and immediate weapon release after recovery."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
