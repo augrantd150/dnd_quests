@@ -115,7 +115,7 @@
       "The concealed figure escaped farther along the drainage ditch while attention shifted to the victim.",
       "The player chose not to pursue the escaped entity or investigate the missing boot.",
       "The player left Edrin Vale and the execution-site evidence in the guards' custody.",
-      "The player entered Dunmarrow through the gate with the responding guards before curfew."
+      "Dunmarrow closes its town gates at dusk, but there is no established general stay-indoors curfew."
     ],
     "last_resolution": {
       "action": "Leave the scene to the guards and enter Dunmarrow with them",
@@ -127,7 +127,11 @@
       "to": 13,
       "reason": "Successfully identified and disrupted an active hostile transfer geometry under time pressure."
     },
-    "next_scene": "dunmarrow-gatehouse"
+    "next_scene": "dunmarrow-gatehouse",
+    "last_correction": {
+      "issue": "The GM previously used the word 'curfew' too broadly.",
+      "correction": "Only gate closure is canonical; ordinary movement inside town after gate closure is allowed unless a later event establishes otherwise."
+    }
   },
   "meta": {
     "plot_armor": false,
