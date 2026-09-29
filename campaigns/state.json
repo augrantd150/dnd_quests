@@ -18,7 +18,7 @@
     "alive": true,
     "level": 1,
     "location": "Dunmarrow, lower well chamber beneath the old bell tower",
-    "hp": 10,
+    "hp": 9,
     "max_hp": 10,
     "ac": 14,
     "speed_ft": 30,
@@ -69,7 +69,9 @@
         ]
       }
     },
-    "temporary_conditions": [],
+    "temporary_conditions": [
+      "mild forearm/wrist strain from failed retained-momentum counter drill"
+    ],
     "magic": {
       "resonance": {
         "current": 0,
@@ -106,7 +108,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 08:39",
+    "time": "Day 3, 08:49",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -386,19 +388,26 @@
       "The padded strike still made contact as an ordinary controlled training blow; the magic reduced and redirected part of its momentum rather than erasing the impact.",
       "No HP was lost and no Wound occurred.",
       "The player's 1 point of Resonance was spent: 1/3 -> 0/3.",
-      "This was the player's first clean successful fully self-powered body-retention transfer under unpredictable hostile timing."
+      "This was the player's first clean successful fully self-powered body-retention transfer under unpredictable hostile timing.",
+      "At the established compatible training apparatus, supervised recovery of 1 Resonance was treated as routine rather than rolled because the player had already demonstrated the attunement method and there was no meaningful uncertainty.",
+      "The Keeper advanced training to an integrated hostile-timing counter: receive an unpredictable padded strike, capture only a safe fraction, retain it, and immediately release through the player's staff into a padded target.",
+      "SYSTEM provenance: the integrated counter roll was 2.",
+      "The player formed the capture and began retention, but the release timing and staff alignment failed under pressure.",
+      "The stored motion bled through the grip and forearms instead of transferring cleanly into the target.",
+      "The Keeper terminated the exercise before serious injury occurred.",
+      "The player lost 1 HP and gained a mild temporary forearm/wrist strain.",
+      "The 1 point of Resonance committed to the attempt was spent: 1/3 -> 0/3.",
+      "No persistent Wound occurred and no combat technique was unlocked."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Fully self-powered body retention against unpredictable padded-staff attack",
-      "roll": 19,
-      "outcome": "strong success; hostile-timing retention completed safely; Resonance spent"
+      "action": "Integrated hostile-timing retention counter through staff",
+      "roll": 2,
+      "outcome": "failure; 1 HP strain; Resonance spent; no persistent Wound"
     },
     "learning": {
       "skill": "Transfer Control",
-      "from": 22,
-      "to": 23,
-      "reason": "Successfully executed fully self-powered body retention against an unpredictable hostile-timing strike."
+      "reason": "Failure showed that successful capture under hostile timing does not guarantee a clean immediate weapon release; grip and release alignment remain a separate bottleneck. No mastery increase."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
