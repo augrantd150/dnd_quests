@@ -37,7 +37,7 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 20,
+      "Transfer Control": 21,
       "Waymark Craft": 14
     },
     "wounds": [],
@@ -100,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 07:50",
+    "time": "Day 3, 07:56",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -327,19 +327,26 @@
       "SYSTEM provenance: the efficiency drill roll was 17.",
       "The player captured a conservative portion of the torso impact, minimized retention delay, aligned the body and grip with the staff, and released into the separate target with substantially reduced losses.",
       "The target received a clearly stronger transfer than in the previous attempt while the player maintained balance and suffered no injury.",
-      "This was the player's first clean, repeatable completion of the full chain: impact -> selective capture -> body retention -> staff coupling -> separate receiver."
+      "This was the player's first clean, repeatable completion of the full chain: impact -> selective capture -> body retention -> staff coupling -> separate receiver.",
+      "The Keeper removed its active magical scaffold from the transfer exercise while leaving the prepared retention ring, weights, and staff in place.",
+      "The player had to construct the capture relationship personally rather than merely operating inside a relationship sustained by the Keeper.",
+      "SYSTEM provenance: the self-constructed transfer roll was 16.",
+      "The player successfully established source -> prepared retention ring -> body/weapon routing without the Keeper holding the path open.",
+      "The prepared retention ring itself remained an attuned magical medium, so the exercise did not consume the player's personal Resonance.",
+      "This was the player's first successful full transfer structure built and operated without the Keeper actively sustaining the coupling.",
+      "The player is not yet field-independent because the prepared ring is still doing important structural work."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Repeat chained impact-retention drill for efficiency",
-      "roll": 17,
-      "outcome": "strong success; full chain completed cleanly with reduced losses"
+      "action": "Construct and operate a transfer relationship without Keeper scaffold",
+      "roll": 16,
+      "outcome": "success; independent coupling construction using prepared retention medium"
     },
     "learning": {
       "skill": "Transfer Control",
-      "from": 19,
-      "to": 20,
-      "reason": "Cleanly repeated the full chained transfer with materially improved efficiency and control."
+      "from": 20,
+      "to": 21,
+      "reason": "Successfully built and operated the capture relationship without the Keeper sustaining it."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
