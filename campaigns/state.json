@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 36,
-      "Spatial Relations": 18
+      "Spatial Relations": 20
     },
     "wounds": [],
     "exhaustion": 0,
@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 16:41",
+    "time": "Day 4, 16:56",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -757,21 +757,32 @@
       "The player managed to keep the fold attached through several changes in motion, but the exit alignment became unsafe during a sudden reversal.",
       "The player correctly refused traversal and collapsed the fold before entering.",
       "No injury occurred and no personal Resonance was spent.",
-      "The attempt showed that unpredictable moving-anchor traversal requires both continuous remapping and a reliable abort threshold; mastery did not increase."
+      "The attempt showed that unpredictable moving-anchor traversal requires both continuous remapping and a reliable abort threshold; mastery did not increase.",
+      "Routine unpredictable-anchor synchronization drills were compressed.",
+      "The Keeper focused training on continuous remapping and explicit abort thresholds rather than repeated failed traversal attempts.",
+      "The next meaningful test used an unpredictably moving far anchor and a weighted training dummy rather than the player's body.",
+      "Spatial Relations 18 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 16; total dynamic-synchronization check was 20.",
+      "The player maintained the fold through several irregular changes in speed and direction, delayed opening during one unsafe interval, then stabilized a valid exit window long enough for the weighted dummy to pass cleanly.",
+      "The fold closed immediately after passage when the anchor motion became unsafe again.",
+      "No injury occurred and no personal Resonance was spent because the Keeper supplied the power.",
+      "Spatial Relations advanced 18 -> 20 from successfully combining real-time remapping, safe-window recognition, and immediate abort behavior."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First real-time synchronization attempt with an unpredictably moving spatial anchor",
-      "raw_roll": 8,
+      "action": "Stabilize an adjacency fold to an unpredictably moving anchor for a weighted dummy",
+      "raw_roll": 16,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 12,
-      "outcome": "partial success; fold tracked briefly but traversal safely aborted on sudden reversal"
+      "total": 20,
+      "outcome": "strong success; dynamic exit stabilized briefly and traversal completed safely"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "reason": "Learned the limits of real-time synchronization and correctly aborted when exit geometry became unsafe; mastery unchanged."
+      "from": 18,
+      "to": 20,
+      "reason": "Successfully combined live endpoint remapping with safe-window selection and immediate fold shutdown under unpredictable motion."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
