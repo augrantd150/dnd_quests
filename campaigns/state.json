@@ -110,7 +110,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 11:18",
+    "time": "Day 4, 12:07",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -605,23 +605,47 @@
       "The player built a three-branch warning network feeding one central alarm point. Each branch triggered the correct alarm signature without waking the others.",
       "The Keeper severed one relay branch during testing. That branch failed closed while the other two remained functional, demonstrating basic fault isolation rather than whole-network collapse.",
       "Signal strength degraded across the prepared relay path, so the network required bounded spacing and physical/magical continuity; it did not provide unlimited-distance communication.",
-      "This was an exceptional integrated success and generated enough meaningful evidence for Waymark Craft 31 -> 33 rather than a single-point increase."
+      "This was an exceptional integrated success and generated enough meaningful evidence for Waymark Craft 31 -> 33 rather than a single-point increase.",
+      "The player asked to build a distributed defense system whose local nodes release a small burst when triggered.",
+      "The Keeper constrained the concept to a bounded concussive pulse produced by prepared mechanical/magical energy release rather than chemical explosion or shrapnel.",
+      "The training system used three local trigger branches feeding three local burst emitters. Each branch was intended to fire only its own emitter and fail closed if damaged.",
+      "Waymark Craft 33 was Practiced rank (+2); Wisdom 16 contributed +3. SYSTEM provenance: raw architecture d20 was 7, total 12.",
+      "The distributed routing only partially succeeded: all three nodes could be keyed and armed, but one junction showed cross-talk under simultaneous testing, creating a risk that a neighboring emitter could receive a partial false trigger.",
+      "The Keeper refused to arm the full network while that fault remained.",
+      "Transfer Control 25 was Practiced rank (+2); Wisdom 16 contributed +3. SYSTEM provenance: raw burst-shaping d20 was 19, total 24.",
+      "The player successfully shaped a single local emitter into a short, bounded concussive pulse directed into a sandbag target zone with minimal lateral spill.",
+      "No personal Resonance was spent because the Keeper supplied training power. No injury occurred.",
+      "The player has demonstrated the local burst component but has not yet unlocked or field-qualified the complete distributed defense network."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Design and build first supervised distributed warning network",
-      "raw_roll": 20,
-      "ability": "Wisdom",
-      "ability_modifier": 3,
-      "training_bonus": 2,
-      "total": 25,
-      "outcome": "exceptional success; three-node network with central receiver, branch identity, loss, and basic fault isolation"
+      "action": "First integrated distributed defense network with local concussive burst emitters",
+      "checks": {
+        "architecture": {
+          "raw_roll": 7,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 12,
+          "outcome": "partial success; cross-talk at one junction"
+        },
+        "burst_shaping": {
+          "raw_roll": 19,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 24,
+          "outcome": "exceptional success; bounded local concussive pulse"
+        }
+      },
+      "outcome": "local burst emitter works; distributed network not safe to arm until routing cross-talk is fixed"
     },
     "learning": {
-      "skill": "Waymark Craft",
-      "from": 31,
-      "to": 33,
-      "reason": "Exceptional integrated construction of a multi-node warning network with branch isolation, bounded relay loss, and correct central signaling."
+      "skills": [
+        "Waymark Craft",
+        "Transfer Control"
+      ],
+      "reason": "Integrated defense construction exposed branch-isolation cross-talk while demonstrating excellent bounded burst shaping; no mastery score increase yet."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
