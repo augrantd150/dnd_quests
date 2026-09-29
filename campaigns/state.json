@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 36,
-      "Spatial Relations": 6
+      "Spatial Relations": 8
     },
     "wounds": [],
     "exhaustion": 0,
@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 14:34",
+    "time": "Day 4, 15:02",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -678,21 +678,31 @@
       "The player successfully entered and followed the eased path around the bend, but exited with poor orientation: forward momentum was preserved relative to the earlier segment rather than cleanly matching the final direction of the path.",
       "The player stumbled on exit but recovered without HP loss or Wound.",
       "The attempt demonstrated that path geometry and exit orientation must be explicitly defined; bending traversal does not automatically rotate a traveler safely.",
-      "No personal Resonance was spent because the Keeper supplied training power."
+      "No personal Resonance was spent because the Keeper supplied training power.",
+      "Routine curved-path drills were compressed per the player's pacing preference.",
+      "The Keeper taught explicit orientation mapping: the spatial relationship must define how a traveler's facing and momentum are transformed through a bend rather than assuming safe rotation.",
+      "The first meaningful test used a prepared path bending roughly ninety degrees around a stone pillar with exit orientation defined in advance.",
+      "Spatial Relations 6 remained Untrained (+0); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 16; total orientation-mapping check was 19.",
+      "The player successfully traversed the bent eased path and emerged aligned with the final segment, with forward momentum rotated consistently into the exit direction rather than preserved along the original approach.",
+      "No injury occurred and no personal Resonance was spent because the Keeper supplied training power.",
+      "Spatial Relations advanced 6 -> 8 from compressed practice plus the successful orientation-mapping breakthrough."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Traverse a curved eased spatial path",
-      "raw_roll": 7,
+      "action": "Traverse a curved eased path with explicit orientation and momentum mapping",
+      "raw_roll": 16,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 0,
-      "total": 10,
-      "outcome": "partial success; traversal worked but exit orientation and momentum alignment were poor"
+      "total": 19,
+      "outcome": "strong success; exit facing and momentum correctly transformed through the bend"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "reason": "Informative partial success revealed that curved paths require explicit orientation and momentum mapping; mastery unchanged."
+      "from": 6,
+      "to": 8,
+      "reason": "Compressed supervised practice plus successful explicit orientation and momentum mapping through a curved path."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
