@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Dunmarrow gatehouse",
+    "location": "old bell tower, Dunmarrow",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -86,7 +86,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 1, 18:29",
+    "time": "Day 1, 18:34",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -121,14 +121,13 @@
       "The player gave Reeve Maelin Voss a complete truthful account of the execution-ground incident, including speaking to the concealed entity, using Resonance Sense, the entity's demand to cut Edrin down, the transfer link, alerting the guards, severing the mark, seeing the fleeing figure, and Edrin's missing boot.",
       "The player reconstructed the execution-tree transfer mark from memory for Reeve Maelin Voss.",
       "The reconstruction preserved the two-receiver structure and the severed hooked diagonal closely enough to support further analysis.",
-      "After the dormant bell tower rang and Resonance Sense reacted, the player asked Reeve Maelin Voss whether she wanted to investigate it."
+      "After the dormant bell tower rang and Resonance Sense reacted, the player asked Reeve Maelin Voss whether she wanted to investigate it.",
+      "The player urged the group to hurry to the old bell tower.",
+      "The player, Reeve Maelin Voss, and two watchmen reached the tower without stopping to investigate anything else en route."
     ],
     "last_resolution": {
-      "action": "Reconstruct the transfer mark from memory",
-      "roll": 14,
-      "modifier": 3,
-      "total": 17,
-      "outcome": "clear success"
+      "action": "Hurry with the group to the bell tower",
+      "outcome": "automatic success; no detours"
     },
     "learning": {
       "skill": "Waymark Craft",
