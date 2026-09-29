@@ -18,7 +18,7 @@
     "alive": true,
     "level": 1,
     "location": "old bell tower lower stair",
-    "hp": 10,
+    "hp": 6,
     "max_hp": 10,
     "ac": 14,
     "speed_ft": 30,
@@ -125,17 +125,23 @@
       "The player urged the group to hurry to the old bell tower.",
       "The player, Reeve Maelin Voss, and two watchmen reached the tower without stopping to investigate anything else en route.",
       "The player ordered the group to stay together: investigate below the bell tower first, then go upstairs.",
-      "The player explicitly checked whether anyone in the group had a shield before committing."
+      "The player explicitly checked whether anyone in the group had a shield before committing.",
+      "The player attempted to sever the active transfer path beneath the bell tower using the same principle as at the execution tree.",
+      "The older network contained redundant/overflow routing. The cut did not stop the system; it caused a violent local discharge through the player's knife and arm.",
+      "The player took 4 damage, dropped the knife, and suffered temporary numbness/shock in the weapon hand.",
+      "The discharge fed additional motion into the bell above, causing it to ring again.",
+      "The failure revealed that this network reroutes interrupted transfer rather than simply collapsing when one path is cut."
     ],
     "last_resolution": {
-      "action": "Hurry with the group to the bell tower",
-      "outcome": "automatic success; no detours"
+      "action": "Sever the underground transfer path",
+      "roll": 1,
+      "modifier": 3,
+      "total": 4,
+      "outcome": "critical failure with informative consequence"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 12,
-      "to": 13,
-      "reason": "Successfully identified and disrupted an active hostile transfer geometry under time pressure."
+      "reason": "Informative failure: discovered redundant transfer routing and overflow behavior in old infrastructure."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
