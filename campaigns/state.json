@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 21
+      "Waymark Craft": 22
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 08:22",
+    "time": "Day 4, 08:29",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -521,23 +521,30 @@
       "SYSTEM provenance: raw d20 was 13; total keyed-anchor check was 17.",
       "The Keeper replaced the component piece by piece until none of the original iron remained. The key stayed with the continuously maintained component rather than following discarded original fragments.",
       "The exercise demonstrated that keyed identity can be defined by continuity of role/history when that criterion is explicit, but this is a different rule from material-lineage keying and the two should not be mixed accidentally.",
-      "No Resonance was spent because the Keeper supplied the training power."
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "The Keeper advanced Waymark training from receiver identity to conditional keying.",
+      "The exercise keyed one iron receiver but required the transfer relationship to open only while that receiver was physically touching a chalk-marked stone plate; otherwise the relationship had to remain closed without losing identity.",
+      "Waymark Craft 21 was Novice rank (+1 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 10; total conditional-keying check was 14.",
+      "The player successfully kept the receiver continuously identified while separating identity from activation: the relationship remained dormant off the plate, opened when contact with the marked plate was established, and closed again when contact ended.",
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "This established the distinction between 'what is keyed' and 'under what condition the keyed relationship may act.'"
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Define and maintain assembly-history identity through complete gradual replacement",
-      "raw_roll": 13,
+      "action": "Construct first conditional keyed relationship",
+      "raw_roll": 10,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 17,
-      "outcome": "strong success; key remained with continuously maintained component after total material replacement"
+      "total": 14,
+      "outcome": "success; identity persisted while activation correctly followed the physical condition"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 20,
-      "to": 21,
-      "reason": "Successfully defined and enforced assembly-history persistence as distinct from material-lineage persistence."
+      "from": 21,
+      "to": 22,
+      "reason": "Successfully separated persistent receiver identity from an explicit physical activation condition."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
