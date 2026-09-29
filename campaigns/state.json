@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 33
+      "Waymark Craft": 34
     },
     "wounds": [],
     "exhaustion": 0,
@@ -110,7 +110,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 12:07",
+    "time": "Day 4, 12:19",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -615,37 +615,30 @@
       "Transfer Control 25 was Practiced rank (+2); Wisdom 16 contributed +3. SYSTEM provenance: raw burst-shaping d20 was 19, total 24.",
       "The player successfully shaped a single local emitter into a short, bounded concussive pulse directed into a sandbag target zone with minimal lateral spill.",
       "No personal Resonance was spent because the Keeper supplied training power. No injury occurred.",
-      "The player has demonstrated the local burst component but has not yet unlocked or field-qualified the complete distributed defense network."
+      "The player has demonstrated the local burst component but has not yet unlocked or field-qualified the complete distributed defense network.",
+      "The Keeper isolated the distributed defense network's cross-talk fault rather than increasing emitter power.",
+      "The player rebuilt the shared junction with separately keyed return paths and fail-closed branch gates so a trigger or break on one branch would not propagate into neighboring emitters.",
+      "Waymark Craft 33 was Practiced rank (+2); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw branch-isolation d20 was 10; total was 15.",
+      "The revised junction passed single-branch firing, simultaneous trigger, and cut-link tests without false activation on adjacent branches.",
+      "The defense network now has functional branch isolation, but full field qualification still requires an integrated armed test of trigger, routing, local burst release, reset, and failure handling.",
+      "No personal Resonance was spent because the Keeper supplied training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First integrated distributed defense network with local concussive burst emitters",
-      "checks": {
-        "architecture": {
-          "raw_roll": 7,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 12,
-          "outcome": "partial success; cross-talk at one junction"
-        },
-        "burst_shaping": {
-          "raw_roll": 19,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 24,
-          "outcome": "exceptional success; bounded local concussive pulse"
-        }
-      },
-      "outcome": "local burst emitter works; distributed network not safe to arm until routing cross-talk is fixed"
+      "action": "Repair cross-talk in distributed defensive network",
+      "raw_roll": 10,
+      "ability": "Wisdom",
+      "ability_modifier": 3,
+      "training_bonus": 2,
+      "total": 15,
+      "outcome": "success; branch isolation and fail-closed routing validated"
     },
     "learning": {
-      "skills": [
-        "Waymark Craft",
-        "Transfer Control"
-      ],
-      "reason": "Integrated defense construction exposed branch-isolation cross-talk while demonstrating excellent bounded burst shaping; no mastery score increase yet."
+      "skill": "Waymark Craft",
+      "from": 33,
+      "to": 34,
+      "reason": "Successfully eliminated cross-talk by redesigning branch identity, return routing, and fail-closed isolation."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
