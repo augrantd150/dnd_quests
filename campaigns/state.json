@@ -182,11 +182,12 @@
       "Edrin Vale's carved name faded from active resonance and the chain below slackened significantly.",
       "The bell remained still.",
       "The boot lost its keyed resonance and became an ordinary damaged personal object after the claim released.",
-      "The result strongly supports the Keeper Below's claim that placing the keyed token releases the stored claim associated with that person."
+      "The result strongly supports the Keeper Below's claim that placing the keyed token releases the stored claim associated with that person.",
+      "After releasing Edrin Vale's claim, the player asked the Keeper Below for a physical item in exchange for continued help."
     ],
     "last_resolution": {
-      "action": "Insert Edrin Vale's keyed token into the claim socket",
-      "outcome": "successful claim release without hostile discharge"
+      "action": "Negotiate for an item from the Keeper Below",
+      "outcome": "bargain opened"
     },
     "learning": {
       "skill": "Transfer Control",
