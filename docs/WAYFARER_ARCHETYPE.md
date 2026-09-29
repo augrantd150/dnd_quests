@@ -253,3 +253,16 @@ A defensive branch must define:
 - what happens on overload, cut links, simultaneous triggers, and partial failure.
 
 A bounded concussive emitter is treated as a local release of prepared mechanical/magical energy, not free energy or chemical explosive material. Its effect must remain limited by stored energy, emitter construction, geometry, and losses.
+
+
+## Distributed Defense Network
+
+A prepared multi-node defensive architecture derived from Distributed Watch networks and bounded burst emitters.
+
+- **Structure:** Multiple independently keyed trigger branches each feed a local defensive emitter.
+- **Effect:** A triggered branch may release a bounded local concussive pulse from prepared stored energy.
+- **Isolation:** Branches must fail closed and must not cross-trigger neighboring emitters.
+- **State:** A fired branch locks until deliberately reset; unaffected branches may remain armed.
+- **Fault handling:** Severed or damaged branches should fail locally rather than dumping stored energy unpredictably.
+- **Limits:** This is a prepared infrastructure technique, not an instant spell. It requires physical anchors, prepared relay paths, local energy sources or stored charge, setup time, maintenance, and sufficient Resonance or another causal power source.
+- **Field status:** The player has demonstrated the full architecture under Keeper-supplied power. Independent field deployment at useful scale remains unproven.
