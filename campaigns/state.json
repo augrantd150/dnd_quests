@@ -117,11 +117,12 @@
       "The player left Edrin Vale and the execution-site evidence in the guards' custody.",
       "Dunmarrow closes its town gates at dusk, but there is no established general stay-indoors curfew.",
       "The player chose to meet Dunmarrow's reeve immediately after entering town.",
-      "The meeting takes place in the gatehouse while Edrin Vale is being treated nearby."
+      "The meeting takes place in the gatehouse while Edrin Vale is being treated nearby.",
+      "The player gave Reeve Maelin Voss a complete truthful account of the execution-ground incident, including speaking to the concealed entity, using Resonance Sense, the entity's demand to cut Edrin down, the transfer link, alerting the guards, severing the mark, seeing the fleeing figure, and Edrin's missing boot."
     ],
     "last_resolution": {
-      "action": "Leave the scene to the guards and enter Dunmarrow with them",
-      "outcome": "automatic success"
+      "action": "Give the reeve the full truth",
+      "outcome": "truthful testimony recorded; credibility judged against corroborating evidence rather than by deception"
     },
     "learning": {
       "skill": "Waymark Craft",
