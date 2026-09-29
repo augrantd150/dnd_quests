@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Dunmarrow, common room at travelers' inn",
+    "location": "Dunmarrow, lower well chamber beneath the old bell tower",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -100,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 2, 07:06",
+    "time": "Day 2, 07:28",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -210,11 +210,14 @@
       "A safe full night's rest restored 4 HP under the locked recovery formula: floor(25% of 10 max HP) + CON modifier 2.",
       "The player's temporary right-hand shock/numbness cleared because it had not been recorded as a true Wound.",
       "Resonance remained at 0/3 because sleep does not automatically restore Resonance.",
-      "No one came to fetch the player during the night."
+      "No one came to fetch the player during the night.",
+      "The player returned to the old bell tower the next morning specifically to visit the Keeper Below.",
+      "The player was allowed back into the secured tower because of their direct involvement in the previous night's investigation.",
+      "The player descended to the lower well chamber without restarting the broader investigation."
     ],
     "last_resolution": {
-      "action": "Complete safe full night's rest",
-      "outcome": "HP 6 -> 10; temporary right-hand impairment cleared; Resonance remains 0/3"
+      "action": "Return to the Keeper Below",
+      "outcome": "Reached the lower well chamber safely"
     },
     "learning": {
       "skill": "Transfer Control",
