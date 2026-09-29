@@ -17,8 +17,8 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Dunmarrow, lower well chamber beneath the old bell tower",
-    "hp": 7,
+    "location": "Dunmarrow, travelers' inn",
+    "hp": 10,
     "max_hp": 10,
     "ac": 14,
     "speed_ft": 30,
@@ -42,7 +42,7 @@
     },
     "wounds": [],
     "exhaustion": 0,
-    "silver": 12,
+    "silver": 10,
     "inventory": [
       "travel cloak",
       "patched gambeson",
@@ -69,9 +69,7 @@
         ]
       }
     },
-    "temporary_conditions": [
-      "aggravated right shoulder/wrist strain from failed reactive retention drill"
-    ]
+    "temporary_conditions": []
   },
   "magic": {
     "tradition": "Wayfarer transfer practice",
@@ -102,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 2, 08:47",
+    "time": "Day 3, 07:02",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -289,17 +287,19 @@
       "SYSTEM provenance: the disadvantage rolls were 12 and natural 1, so the natural 1 governed the result.",
       "The player misread the incoming line, coupled too late, and localized part of the retained load into the already strained right side.",
       "The Keeper terminated the supplied structure before a severe injury occurred, but the player took 2 HP of strain and the temporary shoulder/wrist condition worsened.",
-      "No Resonance was spent."
+      "No Resonance was spent.",
+      "The player stopped body-retention training after the aggravated shoulder/wrist strain rather than risking a persistent Wound.",
+      "The player returned to the travelers' inn and paid the previously established 2 silver for food and a safe bed.",
+      "The player spent the remainder of the day resting and completed a safe full night's rest.",
+      "Safe full rest restored 4 HP under the locked recovery formula, capped at maximum HP: 7/10 -> 10/10.",
+      "The aggravated shoulder/wrist strain cleared because it remained a temporary condition and had not become a persistent Wound.",
+      "Resonance remained at 0/3 because sleep does not automatically restore Resonance.",
+      "No new event was introduced solely to interrupt the player's rest."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Reactive body-retention drill against unpredictable incoming motion",
-      "rolls": [
-        12,
-        1
-      ],
-      "used_roll": 1,
-      "outcome": "critical failure; 2 HP strain; temporary injury aggravated"
+      "provenance": "PLAYER",
+      "action": "Stop training and take a full recovery rest",
+      "outcome": "HP 7 -> 10; temporary strain cleared; silver 12 -> 10; Resonance remains 0/3"
     },
     "learning": {
       "skill": "Transfer Control",
@@ -418,7 +418,7 @@
     "respect_scene_exit": true,
     "significance_not_assumed": true,
     "narrative_correction": "Future events must arise from world/NPC/clock/player/system/prep causes; do not invent twists merely to sustain drama.",
-    "last_player_boundary": "Done for the night unless actively needed.",
+    "last_player_boundary": "Rest and recover; no training continuation until after recovery.",
     "recovery_rule_locked": true
   }
 }
