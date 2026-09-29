@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 14
+      "Waymark Craft": 15
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 07:21",
+    "time": "Day 4, 07:29",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -440,19 +440,26 @@
       "This was the player's first clean successful completion of the full integrated hostile-timing retention counter.",
       "After demonstrating the full integrated sequence cleanly under unpredictable hostile timing, the player unlocked the combat technique Stored Reversal.",
       "Stored Reversal is a constrained momentum-transfer technique: spend 1 Resonance when a readable physical strike or shove is incoming; capture only a safe fraction, retain it through whole-body structure for an instant, then release it through immediate movement or a compatible held weapon.",
-      "Stored Reversal cannot erase an attack, cannot safely catch arbitrary mass or unstable vectors, still allows ordinary impact to occur, and can injure the player on bad geometry, overload, or failed routing."
+      "Stored Reversal cannot erase an attack, cannot safely catch arbitrary mass or unstable vectors, still allows ordinary impact to occur, and can injure the player on bad geometry, overload, or failed routing.",
+      "After unlocking Stored Reversal, the Keeper began a new lesson on keyed anchors rather than continuing momentum drills.",
+      "The lesson used three similar iron tokens and a small chalk mark. The player had to establish a relationship that identified one chosen token specifically, rather than routing to any merely compatible nearby object.",
+      "The Keeper supplied the training power and safety scaffold; the player defined the keying relationship.",
+      "SYSTEM provenance: the first keyed-anchor construction roll was 18.",
+      "The player successfully created a stable keyed relationship between the chalk mark and the chosen token, and the relationship continued to identify that token after the three tokens were rearranged.",
+      "No Resonance was spent because the Keeper supplied the active training structure.",
+      "The exercise established that keyed transfer depends on a persistent identifying relationship, not simple proximity or visual similarity."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Integrated hostile-timing retention counter after full recovery",
-      "roll": 16,
-      "outcome": "clean success; full sequence completed safely; Resonance spent; combat technique Stored Reversal unlocked"
+      "action": "First supervised keyed-anchor construction",
+      "roll": 18,
+      "outcome": "strong success; chosen token remained uniquely keyed after rearrangement"
     },
     "learning": {
-      "skill": "Transfer Control",
-      "from": 24,
-      "to": 25,
-      "reason": "Successfully recombined selective hostile-timing capture, whole-body retention, and immediate weapon release after recovery."
+      "skill": "Waymark Craft",
+      "from": 14,
+      "to": 15,
+      "reason": "Successfully constructed a persistent single-object key under supervision."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
