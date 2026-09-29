@@ -37,7 +37,7 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 17,
+      "Transfer Control": 18,
       "Waymark Craft": 14
     },
     "wounds": [],
@@ -102,7 +102,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 2, 08:26",
+    "time": "Day 2, 08:31",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -267,20 +267,27 @@
       "The player consciously distributed the captured load through feet, legs, hips, and torso rather than localizing it in the arm.",
       "The attempt partially succeeded: a very small amount of momentum was retained across the player's stance for less than a second and then released safely into the ground through a controlled step.",
       "The strain did not worsen and no additional HP was lost.",
-      "The player still cannot reliably retain momentum in the body under combat pressure."
+      "The player still cannot reliably retain momentum in the body under combat pressure.",
+      "The Keeper advanced body-retention training from simple safe release into the ground to deliberate release into controlled movement.",
+      "Because the player was still carrying a temporary right shoulder/wrist strain, the attempt was made under disadvantage.",
+      "The player captured a very small amount of momentum, distributed it successfully through feet, legs, hips, and torso, held it briefly, then released it into a forward step.",
+      "The movement was noticeably stronger than an ordinary step but remained controlled and did not aggravate the existing strain.",
+      "This was the player's first successful body-retention-to-movement sequence."
     ],
     "last_resolution": {
-      "action": "Second supervised body-retention attempt while strained",
+      "action": "Capture, retain through whole-body structure, and release into a controlled forward step",
       "rolls": [
-        9,
-        12
+        18,
+        17
       ],
-      "used_roll": 9,
-      "outcome": "partial success; brief whole-body retention; no additional injury"
+      "used_roll": 17,
+      "outcome": "strong success under disadvantage"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Partial success established the correct whole-body load path for living-medium retention; mastery score unchanged pending repeatable control."
+      "from": 17,
+      "to": 18,
+      "reason": "Successfully converted a supervised whole-body retention into deliberate movement while injured, demonstrating repeatable structural control."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
