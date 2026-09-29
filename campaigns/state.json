@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 36,
-      "Spatial Relations": 1
+      "Spatial Relations": 4
     },
     "wounds": [],
     "exhaustion": 0,
@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 13:24",
+    "time": "Day 4, 14:18",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -656,23 +656,31 @@
       "SYSTEM provenance: raw d20 was 14; total first spatial-relations check was 17.",
       "The player successfully established a weak prepared relationship that distinguished the two anchored endpoints as one connected path while preserving their ordinary physical distance.",
       "No Resonance was spent because the Keeper supplied the training power.",
-      "This did not shorten distance, move matter, or create a portal; it only established an explicit spatial relationship that later techniques may be able to act on."
+      "This did not shorten distance, move matter, or create a portal; it only established an explicit spatial relationship that later techniques may be able to act on.",
+      "Routine spatial drills were compressed per the player's pacing preference.",
+      "Under Keeper supervision, the player practiced anchored endpoint identity, path continuity, orientation preservation, and failure handling until these basics became stable enough to stop resolving individually.",
+      "The first meaningful breakthrough was learning to reduce traversal cost along a prepared anchored path without deleting physical distance.",
+      "SYSTEM provenance: breakthrough raw d20 was 16; Wisdom 16 contributed +3; Spatial Relations 1 was Untrained (+0), total 19.",
+      "A test object moved along the prepared path with noticeably less effort and time than ordinary motion over the same physical distance, while still entering and leaving through the defined endpoints.",
+      "The effect did not create free teleportation, did not ignore obstacles outside the prepared path, and preserved the object's orientation and momentum relationship on exit.",
+      "No personal Resonance was spent because the Keeper supplied training power.",
+      "Spatial Relations advanced 1 -> 4 from compressed supervised practice plus the successful traversal-cost breakthrough."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First supervised spatial relationship construction",
-      "raw_roll": 14,
+      "action": "First meaningful spatial breakthrough: reduce traversal cost on an anchored path",
+      "raw_roll": 16,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 0,
-      "total": 17,
-      "outcome": "success; prepared endpoint relationship established without altering physical distance"
+      "total": 19,
+      "outcome": "strong success; prepared path became easier/faster to traverse without deleting distance"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "from": 0,
-      "to": 1,
-      "reason": "Successfully constructed a stable anchored path relationship between two endpoints under supervision."
+      "from": 1,
+      "to": 4,
+      "reason": "Compressed routine practice plus successful controlled reduction of traversal cost along a prepared anchored path."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
