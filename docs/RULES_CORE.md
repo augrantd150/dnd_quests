@@ -140,3 +140,43 @@ If a tactic is physically valid, let it work.
 If repeated use would logically cause adaptation, let enemies learn.
 
 Do not invalidate clever play merely because it is strong.
+
+## Recovery rates
+
+To avoid ad hoc healing, use these default recovery rules unless a specific wound or magical effect overrides them.
+
+### Safe full rest
+
+Requires roughly a night's sleep with adequate shelter, water, food, and no major interruption.
+
+Restore:
+
+`floor(25% of maximum HP) + Constitution modifier`
+
+Minimum 1 HP.
+
+A safe full rest may clear **temporary shock-type impairments** that were not recorded as a true Wound.
+
+A full rest does **not** automatically:
+- remove Wounds;
+- cure infection;
+- repair fractures, tendon damage, organ injury, or other structural harm;
+- refill Resonance.
+
+### Poor rest
+
+If shelter, food, warmth, safety, or sleep quality is inadequate, reduce HP recovery or grant none depending on conditions.
+
+### Resonance recovery
+
+Resonance is not generic mana and does not refill automatically from sleeping.
+
+Recovery requires an appropriate causal source, such as:
+- a prepared Wayfarer practice;
+- attunement to a compatible site;
+- a completed traversal or ritual;
+- a charged object/material;
+- another explicitly established mechanism.
+
+The source and amount must be described in-world.
+
