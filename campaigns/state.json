@@ -317,6 +317,12 @@
     "plot_armor": false,
     "death_is_canonical": true,
     "persistent_consequences": true,
-    "visible_skill_progression": true
+    "visible_skill_progression": true,
+    "narrative_mode": "simulation-first",
+    "event_provenance_required": true,
+    "no_hook_stacking": true,
+    "respect_scene_exit": true,
+    "significance_not_assumed": true,
+    "narrative_correction": "Future events must arise from world/NPC/clock/player/system/prep causes; do not invent twists merely to sustain drama."
   }
 }
