@@ -152,3 +152,17 @@ It does not begin as free teleportation or arbitrary distance deletion. Early sp
 - accounting for what moves, what does not, and what happens to momentum and orientation.
 
 A spatial relationship may exist without moving matter. More advanced techniques may later alter traversal cost or effective adjacency only when the causal structure can support it.
+
+
+### Safety-prioritized composite networks
+
+When a magical network combines multiple hazardous subsystems, safety behavior is part of the causal design rather than an afterthought.
+
+A robust composite network may define:
+- authorized identities that bypass escalation;
+- ordered response layers (observe -> warn -> redirect -> defend);
+- confidence or validity checks before dangerous actions;
+- fail-closed behavior when routing, geometry, identity, or containment becomes uncertain;
+- local branch isolation so one fault does not cascade through the network.
+
+A dangerous subsystem must not activate merely because another subsystem requested it. Its own source, receiver, capacity, geometry, and safety conditions must still be valid.
