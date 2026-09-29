@@ -143,15 +143,13 @@
       "The attacker lost his footing, struck the stone steps/inner wall, and collapsed immediately in front of Harl's shield.",
       "The shield-and-spear formation prevented the falling attacker from crashing through into the player.",
       "The player attacked the prone robed man with the long knife using the left hand while the right remained impaired.",
-      "The attack landed cleanly and caused a serious but not immediately fatal wound."
+      "The attack landed cleanly and caused a serious but not immediately fatal wound.",
+      "The player ordered the group to hold formation and stop attacking the bell-linked man.",
+      "The player explicitly recognized two constraints: blindly damaging the underground network is dangerous, and injuring the linked man feeds the bell."
     ],
     "last_resolution": {
-      "action": "Knife attack against prone bell-linked attacker",
-      "roll": 17,
-      "modifier": 5,
-      "total": 22,
-      "damage": 7,
-      "outcome": "hit"
+      "action": "Hold formation and reassess",
+      "outcome": "automatic tactical pause"
     },
     "learning": {
       "skill": "Waymark Craft",
