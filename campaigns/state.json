@@ -217,10 +217,12 @@
       "The player told the Keeper Below: 'You are very powerful.'",
       "The Keeper Below described its power as narrow, old, and domain-bound rather than general omnipotence.",
       "The player asked the Keeper Below whether it had once been human.",
-      "The Keeper Below answered that it had once been human, but implied that the transformation into its present role was gradual and bound to the system it serves."
+      "The Keeper Below answered that it had once been human, but implied that the transformation into its present role was gradual and bound to the system it serves.",
+      "The player asked the Keeper Below whether it wanted freedom.",
+      "The Keeper Below did not give an immediate simple yes/no answer; it expressed uncertainty about what freedom would mean after so long bound to its role."
     ],
     "last_resolution": {
-      "action": "Ask the Keeper Below whether it was once human",
+      "action": "Ask the Keeper Below whether it wants freedom",
       "outcome": "conversation continues"
     },
     "learning": {
