@@ -129,3 +129,10 @@ A valid distributed network must still account for:
 - power source and maintenance.
 
 Distributed magic does not create free long-range information transfer. Greater reach or complexity requires a physically and magically supported path, and every added node creates additional failure modes.
+
+
+### Bounded burst release
+
+A prepared node may release stored mechanical or pressure-like energy as a brief local pulse if the source, storage, coupling, receiver space, direction, and losses are all accounted for.
+
+This is not an abstract explosion. The pulse has finite energy and geometry. It may shove, stagger, or damage within its designed envelope, but stronger effects require proportionally greater stored energy, stronger structures, and greater risk. Poor containment can redirect load into the emitter, nearby structure, or unintended receivers.
