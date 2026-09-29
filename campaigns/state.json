@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Dunmarrow, travelers' inn",
+    "location": "Dunmarrow, lower well chamber beneath the old bell tower",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -100,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 07:02",
+    "time": "Day 3, 07:24",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -294,12 +294,15 @@
       "Safe full rest restored 4 HP under the locked recovery formula, capped at maximum HP: 7/10 -> 10/10.",
       "The aggravated shoulder/wrist strain cleared because it remained a temporary condition and had not become a persistent Wound.",
       "Resonance remained at 0/3 because sleep does not automatically restore Resonance.",
-      "No new event was introduced solely to interrupt the player's rest."
+      "No new event was introduced solely to interrupt the player's rest.",
+      "The player returned to the Keeper Below after fully recovering from the previous training strain.",
+      "The Keeper resumed instruction with reactive retention drills, now without injury disadvantage.",
+      "The lesson goal remained decision quality as much as execution: identify which incoming motions are safe to capture and which should be allowed to pass."
     ],
     "last_resolution": {
       "provenance": "PLAYER",
-      "action": "Stop training and take a full recovery rest",
-      "outcome": "HP 7 -> 10; temporary strain cleared; silver 12 -> 10; Resonance remains 0/3"
+      "action": "Return to Keeper Below for continued training",
+      "outcome": "training resumed"
     },
     "learning": {
       "skill": "Transfer Control",
