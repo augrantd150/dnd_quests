@@ -59,7 +59,7 @@
   },
   "magic": {
     "tradition": "Wayfarer transfer practice",
-    "resonance": 2,
+    "resonance": 1,
     "resonance_max": 3,
     "known_techniques": [
       {
@@ -137,11 +137,23 @@
       "The bell above is acting as a major receiver/reservoir and is currently closer to another discharge than before.",
       "The player identified that blindly cutting more channels is likely to worsen the situation.",
       "The player ordered a shield-and-reach formation on the spiral stair.",
-      "Harl holds the choke point with shield raised while Joren uses the spear from behind him; the player remains behind them due to the impaired right hand."
+      "Harl holds the choke point with shield raised while Joren uses the spear from behind him; the player remains behind them due to the impaired right hand.",
+      "During the stairwell fight, the player used Vector Knot against the robed man's committed downhill lunge.",
+      "The player redirected a small portion of the attacker's existing momentum sideways and downward into the inner stair geometry rather than trying to stop him outright.",
+      "The attacker lost his footing, struck the stone steps/inner wall, and collapsed immediately in front of Harl's shield.",
+      "The shield-and-spear formation prevented the falling attacker from crashing through into the player."
     ],
     "last_resolution": {
-      "action": "Set shield-forward spear-reach formation",
-      "outcome": "automatic tactical setup before contact"
+      "action": "Use Vector Knot to spoil the attacker's committed downhill lunge",
+      "rolls": [
+        17,
+        2
+      ],
+      "advantage_reason": "Target was already committed downhill on a narrow spiral stair with limited recovery space.",
+      "modifier": 3,
+      "total": 20,
+      "resonance_spent": 1,
+      "outcome": "strong success"
     },
     "learning": {
       "skill": "Waymark Craft",
@@ -204,6 +216,16 @@
       ],
       "formation": "Harl front with shield raised; Joren second, thrusting spear past/around shield; player third with left-hand knife and magic ready; Maelin rear guard.",
       "split_party": false
+    },
+    "combat": {
+      "active": true,
+      "enemy": {
+        "description": "barefoot robed man linked to the bell",
+        "condition": "prone at the front of Harl's shield",
+        "visibly_armed": false,
+        "status": "alive, disoriented, still magically linked"
+      },
+      "party_formation": "Harl front with shield raised; Joren second, thrusting spear past/around shield; player third with left-hand knife and magic ready; Maelin rear guard."
     }
   },
   "meta": {
