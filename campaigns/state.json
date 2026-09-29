@@ -100,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 07:31",
+    "time": "Day 3, 07:36",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -305,16 +305,23 @@
       "The captured momentum was retained briefly and released safely into a controlled step rather than dumped through the arms.",
       "The Keeper judged the choice as valid rather than optimal by default: the player demonstrated that capacity and geometry must be weighed together.",
       "In the Keeper's reactive retention drill, the player refused the third slider because its rattling track and wobbling motion made the incoming vector unreliable.",
-      "The Keeper confirmed that refusing the third slider was sound judgment: uncertainty in direction can make a modest load more dangerous than a heavier but predictable one."
+      "The Keeper confirmed that refusing the third slider was sound judgment: uncertainty in direction can make a modest load more dangerous than a heavier but predictable one.",
+      "The Keeper removed the fixed tracks and advanced training to free-moving incoming motion.",
+      "A small weighted training mass was released on a loose suspension, allowing drift and rotation rather than guaranteeing a fixed vector.",
+      "SYSTEM provenance: the player's reactive retention roll was 15.",
+      "The player delayed commitment until the mass's actual line became readable, then captured only a small stable component of its motion.",
+      "The player retained that motion briefly through whole-body structure and released it into a controlled lateral step.",
+      "The attempt succeeded without injury and demonstrated that the player can read and selectively capture part of a free-moving vector rather than treating the entire object's motion as one indivisible quantity."
     ],
     "last_resolution": {
-      "provenance": "PLAYER",
-      "action": "Refuse the unstable third slider",
-      "outcome": "correct judgment; no roll required"
+      "provenance": "SYSTEM",
+      "action": "Reactive retention against free-moving training mass",
+      "roll": 15,
+      "outcome": "success"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Demonstrated that uncertainty in vector can outweigh manageable mass; no mastery score increase."
+      "reason": "Successfully isolated and retained only the readable component of an unconstrained moving object's momentum; mastery score unchanged."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
