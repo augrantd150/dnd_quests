@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 18
+      "Waymark Craft": 19
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 07:58",
+    "time": "Day 4, 08:04",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -492,23 +492,30 @@
       "SYSTEM provenance: raw d20 was 13; total keyed-anchor check was 17.",
       "The key remained stable through minor deformation, followed the correct fragment after division, and terminated cleanly when the Keeper destroyed the keyed region.",
       "No substitute fragment was selected after termination.",
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "The Keeper advanced keyed-anchor training from division to fusion by riveting a freshly keyed iron token into a larger iron plate.",
+      "The player had to preserve the original marked region as the receiver rather than allowing the key to expand and redefine the entire joined plate as the keyed object.",
+      "Waymark Craft 18 was Novice rank (+1 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 13; total keyed-anchor check was 17.",
+      "The player maintained the key on the original marked material after riveting. The surrounding plate became mechanically connected but did not inherit receiver identity.",
+      "The exercise established that physical attachment alone does not have to imply key inheritance; boundary conditions can distinguish a keyed component from its host structure.",
       "No Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Construct a robust keyed anchor with tolerant continuation and explicit termination",
+      "action": "Maintain keyed identity when the receiver is fused into a larger host object",
       "raw_roll": 13,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
       "total": 17,
-      "outcome": "strong success; key survived ordinary variation, inherited correctly on division, and terminated cleanly when the keyed region was destroyed"
+      "outcome": "strong success; keyed component remained distinct from host plate"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 17,
-      "to": 18,
-      "reason": "Successfully separated tolerant identity continuity from explicit termination and validated both under physical modification and division."
+      "from": 18,
+      "to": 19,
+      "reason": "Successfully preserved receiver identity across physical fusion with a larger compatible structure."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
