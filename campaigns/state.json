@@ -18,7 +18,7 @@
     "alive": true,
     "level": 1,
     "location": "Dunmarrow, lower well chamber beneath the old bell tower",
-    "hp": 10,
+    "hp": 9,
     "max_hp": 10,
     "ac": 14,
     "speed_ft": 30,
@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 36,
-      "Spatial Relations": 20
+      "Spatial Relations": 21
     },
     "wounds": [],
     "exhaustion": 0,
@@ -70,7 +70,9 @@
         ]
       }
     },
-    "temporary_conditions": [],
+    "temporary_conditions": [
+      "minor hip/knee bruising from rough moving-anchor fold exit"
+    ],
     "magic": {
       "resonance": {
         "current": 0,
@@ -115,7 +117,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 16:56",
+    "time": "Day 4, 17:04",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -766,23 +768,32 @@
       "The player maintained the fold through several irregular changes in speed and direction, delayed opening during one unsafe interval, then stabilized a valid exit window long enough for the weighted dummy to pass cleanly.",
       "The fold closed immediately after passage when the anchor motion became unsafe again.",
       "No injury occurred and no personal Resonance was spent because the Keeper supplied the power.",
-      "Spatial Relations advanced 18 -> 20 from successfully combining real-time remapping, safe-window recognition, and immediate abort behavior."
+      "Spatial Relations advanced 18 -> 20 from successfully combining real-time remapping, safe-window recognition, and immediate abort behavior.",
+      "The player attempted the first living-body traversal through a fold whose far anchor was moving unpredictably.",
+      "The Keeper supplied power and retained emergency collapse control, but the player had to choose the safe window and maintain live endpoint remapping.",
+      "Spatial Relations 20 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 8; total living unpredictable-anchor traversal check was 12.",
+      "The player entered during a valid window, but the far anchor changed speed during passage. The fold remained coherent enough to complete traversal, but exit momentum mapping was imperfect.",
+      "The player emerged off-line, struck the floor hard with one leg, and took 1 HP of minor impact strain with no persistent Wound.",
+      "The player completed the traversal and learned how quickly a safe window can collapse once committed.",
+      "No personal Resonance was spent because the Keeper supplied the power.",
+      "Spatial Relations advanced 20 -> 21 from the first completed living-body traversal under unpredictable moving-anchor conditions."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Stabilize an adjacency fold to an unpredictably moving anchor for a weighted dummy",
-      "raw_roll": 16,
+      "action": "First living-body traversal through an unpredictably moving spatial anchor",
+      "raw_roll": 8,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 20,
-      "outcome": "strong success; dynamic exit stabilized briefly and traversal completed safely"
+      "total": 12,
+      "outcome": "partial success; traversal completed with rough exit, 1 HP lost, no persistent Wound"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "from": 18,
-      "to": 20,
-      "reason": "Successfully combined live endpoint remapping with safe-window selection and immediate fold shutdown under unpredictable motion."
+      "from": 20,
+      "to": 21,
+      "reason": "Completed the first unpredictable moving-anchor traversal and experienced a live exit-velocity mismatch under pressure."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
