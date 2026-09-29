@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 16:03",
+    "time": "Day 4, 16:12",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -724,23 +724,29 @@
       "Orientation and momentum were preserved, and the fold collapsed cleanly after passage.",
       "The committed Resonance was spent: 2/3 -> 0/3.",
       "Spatial Relations advanced 13 -> 15 from successfully scaling a self-powered fold to a materially longer prepared route.",
-      "The exercise established that fold cost rises with range and relationship complexity rather than remaining flat."
+      "The exercise established that fold cost rises with range and relationship complexity rather than remaining flat.",
+      "Spatial training advanced directly to moving-anchor geometry.",
+      "The far spatial anchor was mounted on a slow sliding rail while the near anchor remained fixed.",
+      "The Keeper supplied power so the exercise isolated spatial tracking rather than Resonance availability.",
+      "Spatial Relations 15 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 9; total moving-anchor check was 13.",
+      "The player established the fold briefly, but the relationship lagged behind the moving endpoint and exit alignment began to drift.",
+      "The player recognized the instability before entering, and the fold was collapsed without injury.",
+      "The failure showed that a moving anchor requires continuous mapping of both position and relative velocity; updating location alone is insufficient."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Scale self-powered adjacency fold to roughly thirty paces",
-      "raw_roll": 12,
+      "action": "First moving-anchor adjacency-fold test",
+      "raw_roll": 9,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 16,
-      "outcome": "success; longer prepared fold traversed safely at 2 Resonance cost"
+      "total": 13,
+      "outcome": "partial success; fold formed but lagged behind moving endpoint, safely aborted before traversal"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "from": 13,
-      "to": 15,
-      "reason": "Successfully extended a self-powered adjacency fold to a substantially longer prepared route while preserving safe exit geometry."
+      "reason": "Learned that moving-anchor folds require continuous position and velocity mapping; mastery unchanged."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
