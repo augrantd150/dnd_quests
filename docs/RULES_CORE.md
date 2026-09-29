@@ -14,6 +14,27 @@ Default uncertain action:
 
 Use Advantage/Disadvantage when the fiction strongly supports it.
 
+### Mastery training bonus
+
+For skills tracked on the 0–100 mastery scale, add a bounded training bonus based on rank:
+
+| Mastery | Rank | Training bonus |
+|---:|---|---:|
+| 0–9 | Untrained | +0 |
+| 10–24 | Novice | +1 |
+| 25–39 | Practiced | +2 |
+| 40–54 | Adept | +3 |
+| 55–69 | Expert | +4 |
+| 70–84 | Master | +5 |
+| 85–94 | Grandmaster | +6 |
+| 95–100 | Exceptional | +7 |
+
+An uncertain skill check is therefore:
+
+`d20 + relevant ability modifier + mastery training bonus + other established situational modifiers`
+
+Mastery also improves information, efficiency, safe capacity, reaction windows, and what can become routine without a roll. It does not alter the random d20 itself.
+
 Do not roll when:
 - success is automatic;
 - failure is impossible;
