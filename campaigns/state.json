@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 08:04",
+    "time": "Day 4, 08:10",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -499,23 +499,29 @@
       "SYSTEM provenance: raw d20 was 13; total keyed-anchor check was 17.",
       "The player maintained the key on the original marked material after riveting. The surrounding plate became mechanically connected but did not inherit receiver identity.",
       "The exercise established that physical attachment alone does not have to imply key inheritance; boundary conditions can distinguish a keyed component from its host structure.",
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "The Keeper advanced keyed-anchor training to gradual replacement: portions of a keyed iron component were replaced piece by piece while the larger assembly remained continuously intact.",
+      "The exercise tested whether the player's identity rule had a coherent answer when there was no single moment of division or destruction.",
+      "Waymark Craft 19 remained Novice rank (+1 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 4; total keyed-anchor check was 8.",
+      "The key became ambiguous as more of the original material was replaced. It initially tracked the surviving marked material, but once replacement crossed the poorly defined identity boundary the relationship began drifting between material continuity and assembly continuity.",
+      "The Keeper stopped the exercise before the key could settle into an unintended receiver definition.",
+      "The player learned that gradual replacement requires an explicit persistence criterion; uninterrupted history alone and original material alone can produce different answers.",
       "No Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Maintain keyed identity when the receiver is fused into a larger host object",
-      "raw_roll": 13,
+      "action": "Maintain keyed identity through gradual piece-by-piece replacement",
+      "raw_roll": 4,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 17,
-      "outcome": "strong success; keyed component remained distinct from host plate"
+      "total": 8,
+      "outcome": "failure; identity rule became ambiguous between surviving material and continuous assembly"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 18,
-      "to": 19,
-      "reason": "Successfully preserved receiver identity across physical fusion with a larger compatible structure."
+      "reason": "Informative failure exposed the need to define whether identity follows material continuity, assembly continuity, or another explicit persistence criterion during gradual replacement; no mastery increase."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
