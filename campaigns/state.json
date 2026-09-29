@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 27
+      "Waymark Craft": 28
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 08:59",
+    "time": "Day 4, 09:05",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -564,23 +564,30 @@
       "SYSTEM provenance: raw d20 was 14; total authorization-key check was 19.",
       "The player successfully bound reset permission to the identity of the authorized token rather than to its appearance or to the reset motion alone.",
       "The decoy could not re-arm the structure. The authorized token could. Swapping their positions did not confuse the key.",
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "The Keeper advanced keyed authorization to mutable permissions: the structure had to remain intact while a second specific token was granted temporary reset authority and later revoked.",
+      "The original authorized token had to remain valid throughout; revoking the temporary token could not damage the base key or accidentally revoke both.",
+      "Waymark Craft 27 was Practiced rank (+2 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 19; total mutable-authorization check was 24.",
+      "The player successfully added the second token as an authorized reset key, demonstrated that both tokens could independently re-arm the structure, then revoked only the temporary token while preserving the original token's authority.",
+      "The decoy remained unauthorized throughout. No identity drift or accidental re-arming occurred during the permission changes.",
       "No Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Construct keyed authorization for a one-shot structure's reset condition",
-      "raw_roll": 14,
+      "action": "Grant and revoke keyed authorization without reconstructing the underlying structure",
+      "raw_roll": 19,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 2,
-      "total": 19,
-      "outcome": "strong success; only the specifically authorized token could re-arm the structure"
+      "total": 24,
+      "outcome": "exceptionally clean success; temporary authority added and selectively revoked without disturbing the original key"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 26,
-      "to": 27,
-      "reason": "Successfully combined persistent object identity with permission logic so only a specifically keyed object could reset the structure."
+      "from": 27,
+      "to": 28,
+      "reason": "Successfully modified authorization state in place, including selective revocation, without destabilizing the keyed structure."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
