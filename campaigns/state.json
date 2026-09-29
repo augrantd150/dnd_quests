@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 36,
-      "Spatial Relations": 15
+      "Spatial Relations": 17
     },
     "wounds": [],
     "exhaustion": 0,
@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 16:12",
+    "time": "Day 4, 16:26",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -732,21 +732,32 @@
       "SYSTEM provenance: raw d20 was 9; total moving-anchor check was 13.",
       "The player established the fold briefly, but the relationship lagged behind the moving endpoint and exit alignment began to drift.",
       "The player recognized the instability before entering, and the fold was collapsed without injury.",
-      "The failure showed that a moving anchor requires continuous mapping of both position and relative velocity; updating location alone is insufficient."
+      "The failure showed that a moving anchor requires continuous mapping of both position and relative velocity; updating location alone is insufficient.",
+      "Routine moving-anchor tracking drills were compressed.",
+      "The Keeper shifted the problem from reactive tracking to predictive mapping: the player had to estimate the far anchor's velocity, define where it would be during traversal, and align the exit to that future position.",
+      "The Keeper supplied power so the test isolated dynamic spatial control.",
+      "Spatial Relations 15 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 16; total predictive moving-anchor check was 20.",
+      "The player successfully opened a fold to the moving endpoint's predicted position and maintained exit alignment long enough for a small test object to cross cleanly.",
+      "The exit frame continued moving during the passage without tearing the relationship or leaving the object misaligned.",
+      "No injury occurred and no personal Resonance was spent.",
+      "Spatial Relations advanced 15 -> 17 from the successful predictive moving-anchor breakthrough."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First moving-anchor adjacency-fold test",
-      "raw_roll": 9,
+      "action": "Predictive mapping of a moving spatial anchor",
+      "raw_roll": 16,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 13,
-      "outcome": "partial success; fold formed but lagged behind moving endpoint, safely aborted before traversal"
+      "total": 20,
+      "outcome": "strong success; fold aligned to moving endpoint's predicted position and remained stable through test passage"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "reason": "Learned that moving-anchor folds require continuous position and velocity mapping; mastery unchanged."
+      "from": 15,
+      "to": 17,
+      "reason": "Successfully replaced reactive endpoint chasing with predictive position-and-velocity mapping for a moving anchor."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
