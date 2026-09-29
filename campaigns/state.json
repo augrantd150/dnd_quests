@@ -213,11 +213,13 @@
       "No one came to fetch the player during the night.",
       "The player returned to the old bell tower the next morning specifically to visit the Keeper Below.",
       "The player was allowed back into the secured tower because of their direct involvement in the previous night's investigation.",
-      "The player descended to the lower well chamber without restarting the broader investigation."
+      "The player descended to the lower well chamber without restarting the broader investigation.",
+      "The player told the Keeper Below: 'You are very powerful.'",
+      "The Keeper Below described its power as narrow, old, and domain-bound rather than general omnipotence."
     ],
     "last_resolution": {
-      "action": "Return to the Keeper Below",
-      "outcome": "Reached the lower well chamber safely"
+      "action": "Speak with the Keeper Below about its power",
+      "outcome": "conversation continues"
     },
     "learning": {
       "skill": "Transfer Control",
