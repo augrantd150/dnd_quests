@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 36,
-      "Spatial Relations": 8
+      "Spatial Relations": 10
     },
     "wounds": [],
     "exhaustion": 0,
@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 15:02",
+    "time": "Day 4, 15:24",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -686,23 +686,33 @@
       "SYSTEM provenance: raw d20 was 16; total orientation-mapping check was 19.",
       "The player successfully traversed the bent eased path and emerged aligned with the final segment, with forward momentum rotated consistently into the exit direction rather than preserved along the original approach.",
       "No injury occurred and no personal Resonance was spent because the Keeper supplied training power.",
-      "Spatial Relations advanced 6 -> 8 from compressed practice plus the successful orientation-mapping breakthrough."
+      "Spatial Relations advanced 6 -> 8 from compressed practice plus the successful orientation-mapping breakthrough.",
+      "Routine preparatory drills were compressed and the Keeper advanced spatial training to the first true adjacency-fold test.",
+      "Two anchored iron frames several paces apart were prepared as endpoints. For a brief interval, their inner faces were required to behave as adjacent surfaces for a small wooden test token.",
+      "The exercise was supervised and Keeper-powered; the player defined the spatial relationship and orientation mapping.",
+      "Spatial Relations 8 was Untrained (+0); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 17; total adjacency-fold check was 20.",
+      "The player successfully established a brief bounded adjacency between the two prepared frames. A wooden token pushed through the first frame emerged from the second without traversing the intervening floor.",
+      "The token preserved its orientation and approximate momentum through the fold. The relationship collapsed cleanly after the short window.",
+      "The fold depended on both prepared anchors and Keeper-supplied power; it was not free teleportation, did not remain open, and could not yet safely carry the player's body.",
+      "Spatial Relations advanced 8 -> 10, entering Novice rank; future Spatial Relations checks now receive a +1 mastery training bonus."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Traverse a curved eased path with explicit orientation and momentum mapping",
-      "raw_roll": 16,
+      "action": "First supervised brief adjacency fold between two prepared endpoints",
+      "raw_roll": 17,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 0,
-      "total": 19,
-      "outcome": "strong success; exit facing and momentum correctly transformed through the bend"
+      "total": 20,
+      "outcome": "strong success; small object crossed a brief prepared adjacency with orientation and momentum preserved"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "from": 6,
-      "to": 8,
-      "reason": "Compressed supervised practice plus successful explicit orientation and momentum mapping through a curved path."
+      "from": 8,
+      "to": 10,
+      "rank_change": "Untrained -> Novice",
+      "reason": "Successfully established the first bounded adjacency fold between two prepared anchored surfaces."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
