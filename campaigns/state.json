@@ -37,7 +37,7 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 14,
+      "Transfer Control": 15,
       "Waymark Craft": 14
     },
     "wounds": [],
@@ -230,15 +230,23 @@
       "During the first formal lesson, the player defined transfer as 'magic from one point to another.'",
       "The Keeper corrected the definition: transfer magic does not simply move 'magic'; it establishes a lawful relationship in which a specific quantity, state, or claim moves or is reassigned from a source to a receiver under defined constraints.",
       "The Keeper emphasized that source, transferable quantity, receiver, compatibility, capacity, and consequence must all be identified.",
-      "In the Keeper's first transfer lesson, the player correctly answered that transferring momentum out of the larger moving weight should reduce the larger weight's momentum."
+      "In the Keeper's first transfer lesson, the player correctly answered that transferring momentum out of the larger moving weight should reduce the larger weight's momentum.",
+      "During a supervised Keeper lesson, the player attempted to transfer a small portion of a swinging iron weight's sideways momentum into a smaller hanging weight.",
+      "The control attempt critically failed: the player coupled too early and at a poor angle, causing the smaller weight to twist rather than swing cleanly.",
+      "The Keeper terminated the supplied transfer structure before the chains or player were harmed.",
+      "No Resonance was spent because the Keeper supplied the active magical structure.",
+      "The failure was informative and directly demonstrated that timing and receiver alignment matter separately from choosing a small transfer amount."
     ],
     "last_resolution": {
-      "action": "Answer conservation question in Keeper lesson",
-      "outcome": "correct"
+      "action": "Supervised momentum-transfer exercise",
+      "roll": 1,
+      "outcome": "critical failure, safely contained by instructor"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Received direct instruction distinguishing generic magical movement from source-quantity-receiver transfer structure."
+      "from": 14,
+      "to": 15,
+      "reason": "Direct instruction plus an informative supervised failure revealed a concrete timing/alignment error."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
