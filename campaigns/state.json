@@ -100,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 07:36",
+    "time": "Day 3, 07:41",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -311,17 +311,23 @@
       "SYSTEM provenance: the player's reactive retention roll was 15.",
       "The player delayed commitment until the mass's actual line became readable, then captured only a small stable component of its motion.",
       "The player retained that motion briefly through whole-body structure and released it into a controlled lateral step.",
-      "The attempt succeeded without injury and demonstrated that the player can read and selectively capture part of a free-moving vector rather than treating the entire object's motion as one indivisible quantity."
+      "The attempt succeeded without injury and demonstrated that the player can read and selectively capture part of a free-moving vector rather than treating the entire object's motion as one indivisible quantity.",
+      "The Keeper advanced retention training to controlled physical impact using a leather-wrapped free-swinging training weight aimed at the player's torso.",
+      "The player was instructed not to stop the entire strike, but to capture only a readable portion at contact while allowing the remaining force to pass through ordinary body movement.",
+      "SYSTEM provenance: the reactive contact-retention roll was 13.",
+      "The player succeeded: they accepted the ordinary impact with a small backward give, captured a limited component of the incoming momentum through the torso and stance, held it briefly, and released it into the recovery step.",
+      "The attempt caused no HP loss and no Wound.",
+      "The Keeper's apparatus still supplied the active magical scaffold; the player spent no Resonance."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Reactive retention against free-moving training mass",
-      "roll": 15,
-      "outcome": "success"
+      "action": "First controlled body-retention attempt during an actual physical strike",
+      "roll": 13,
+      "outcome": "success; partial momentum captured at contact; no injury"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Successfully isolated and retained only the readable component of an unconstrained moving object's momentum; mastery score unchanged."
+      "reason": "Successfully integrated ordinary impact absorption with selective magical retention during contact; mastery score unchanged pending repetition."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
