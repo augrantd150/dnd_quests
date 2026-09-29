@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 36,
-      "Spatial Relations": 13
+      "Spatial Relations": 15
     },
     "wounds": [],
     "exhaustion": 0,
@@ -115,7 +115,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 15:42",
+    "time": "Day 4, 16:03",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -713,23 +713,34 @@
       "Orientation, balance, and momentum were preserved, and the fold collapsed cleanly after passage.",
       "The committed Resonance was spent: 1/3 -> 0/3.",
       "This was the player's first successful self-powered living-body adjacency fold between two prepared nearby anchors.",
-      "The technique remains limited to prepared endpoints and short-range controlled conditions; it is not free-form teleportation."
+      "The technique remains limited to prepared endpoints and short-range controlled conditions; it is not free-form teleportation.",
+      "Routine spatial repetition was skipped and training moved directly to range scaling.",
+      "The two prepared anchors were placed roughly thirty paces apart along a connected prepared route, far enough that the player could not comfortably hold both in direct visual attention at once.",
+      "At the familiar compatible site, the player rebuilt 2 personal Resonance before the attempt.",
+      "Spatial Relations 13 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 12; total long-range fold check was 16.",
+      "The player successfully established and traversed a longer adjacency fold between the two prepared anchors.",
+      "The fold was stable enough for one living-body traversal but noticeably harder to sustain than the nearby version, and it consumed 2 Resonance rather than 1.",
+      "Orientation and momentum were preserved, and the fold collapsed cleanly after passage.",
+      "The committed Resonance was spent: 2/3 -> 0/3.",
+      "Spatial Relations advanced 13 -> 15 from successfully scaling a self-powered fold to a materially longer prepared route.",
+      "The exercise established that fold cost rises with range and relationship complexity rather than remaining flat."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First self-powered living-body adjacency fold",
-      "raw_roll": 14,
+      "action": "Scale self-powered adjacency fold to roughly thirty paces",
+      "raw_roll": 12,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 18,
-      "outcome": "success; self-powered fold traversal completed safely; Resonance spent"
+      "total": 16,
+      "outcome": "success; longer prepared fold traversed safely at 2 Resonance cost"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "from": 12,
-      "to": 13,
-      "reason": "Successfully created and traversed a brief adjacency fold using personal Resonance rather than Keeper-supplied power."
+      "from": 13,
+      "to": 15,
+      "reason": "Successfully extended a self-powered adjacency fold to a substantially longer prepared route while preserving safe exit geometry."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
