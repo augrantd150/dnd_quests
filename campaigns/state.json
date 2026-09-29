@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 29
+      "Waymark Craft": 30
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 09:11",
+    "time": "Day 4, 09:52",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -577,23 +577,31 @@
       "Waymark Craft 28 was Practiced rank (+2 training bonus); Wisdom 16 contributed +3.",
       "SYSTEM provenance: raw d20 was 13; total one-use authorization check was 18.",
       "The player successfully constructed the temporary permission. The second token reset the structure once, immediately lost authorization, and failed on a second attempt. The original token remained authorized throughout.",
-      "No Resonance was spent because the Keeper supplied the training power."
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "The Keeper shifted from micro-lessons to integrated construction problems.",
+      "The player was tasked with building a practical one-shot keyed warning mark: ignore the player, ignore one specifically authorized token, remain dormant until an unauthorized object crossed a chalked threshold, trigger once, then lock until deliberate reset.",
+      "Waymark Craft 29 was Practiced rank (+2 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 10; total integrated Waymark check was 15.",
+      "The player successfully combined receiver identity, authorization, conditional activation, one-shot state, lockout, and explicit reset into one coherent structure.",
+      "The Keeper stress-tested the construction with reordered crossings, the authorized token, the player, and unauthorized iron objects; the mark behaved correctly.",
+      "The build took substantially longer than the earlier micro-drills and used Keeper-supplied training power, so it did not consume personal Resonance.",
+      "This demonstrated practical integration of known Waymark principles but did not yet establish an independently powered field technique."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Construct self-revoking one-use keyed authorization",
-      "raw_roll": 13,
+      "action": "Build integrated one-shot keyed warning mark",
+      "raw_roll": 10,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 2,
-      "total": 18,
-      "outcome": "strong success; temporary token self-revoked after one successful authorized use"
+      "total": 15,
+      "outcome": "success; integrated structure behaved correctly under stress testing"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 28,
-      "to": 29,
-      "reason": "Successfully combined keyed authorization, one-shot state, and selective automatic revocation in a single stable structure."
+      "from": 29,
+      "to": 30,
+      "reason": "Successfully combined multiple previously learned Waymark principles into a practical stable construction."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
