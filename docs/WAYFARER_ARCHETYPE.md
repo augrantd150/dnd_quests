@@ -265,4 +265,4 @@ A prepared multi-node defensive architecture derived from Distributed Watch netw
 - **State:** A fired branch locks until deliberately reset; unaffected branches may remain armed.
 - **Fault handling:** Severed or damaged branches should fail locally rather than dumping stored energy unpredictably.
 - **Limits:** This is a prepared infrastructure technique, not an instant spell. It requires physical anchors, prepared relay paths, local energy sources or stored charge, setup time, maintenance, and sufficient Resonance or another causal power source.
-- **Field status:** The player has demonstrated the full architecture under Keeper-supplied power. Independent field deployment at useful scale remains unproven.
+- **Field status:** The player has independently deployed and operated a portable two-branch version using 2 personal Resonance, two bronze Waymark nails, and local stored mechanical energy. Larger networks still require additional anchors, preparation, and power.
