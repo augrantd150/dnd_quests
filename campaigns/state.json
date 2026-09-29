@@ -788,6 +788,7 @@
     "significance_not_assumed": true,
     "narrative_correction": "Future events must arise from world/NPC/clock/player/system/prep causes; do not invent twists merely to sustain drama.",
     "last_player_boundary": "Rest and recover; no training continuation until after recovery.",
-    "recovery_rule_locked": true
+    "recovery_rule_locked": true,
+    "training_pacing": "Skip routine repetitions and minor setup; summarize unimportant training in larger blocks. Slow down for new mechanics, dangerous attempts, meaningful decisions, failures, breakthroughs, combat, and consequences."
   }
 }
