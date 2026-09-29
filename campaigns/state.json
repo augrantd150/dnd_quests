@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "old bell tower lower stair",
+    "location": "beneath old bell tower, newly opened lower passage",
     "hp": 6,
     "max_hp": 10,
     "ac": 14,
@@ -86,7 +86,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 1, 18:35",
+    "time": "Day 1, 18:39",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -163,16 +163,14 @@
       "The player attempted to recover Resonance by attuning a fresh Wayfarer working to the bell network rather than siphoning stored mechanical energy directly.",
       "The attunement failed: the ancient network did not accept the player's pattern as a stable participant.",
       "No Resonance was recovered and no additional damage was taken.",
-      "The failed attunement produced a return pulse that made it clear the newly opened structure below is now the strongest active node in the local transfer network."
+      "The failed attunement produced a return pulse that made it clear the newly opened structure below is now the strongest active node in the local transfer network.",
+      "The party returned downstairs without splitting.",
+      "The newly opened mechanism revealed a lower passage beneath the original basement chamber.",
+      "The player remained at 6/10 HP, 0/3 Resonance, with the right hand still impaired."
     ],
     "last_resolution": {
-      "action": "Attempt to recharge Resonance by attuning to the bell network",
-      "roll": 3,
-      "modifier": 3,
-      "total": 6,
-      "outcome": "failure without damage; informative feedback",
-      "resonance_before": 0,
-      "resonance_after": 0
+      "action": "Proceed to the newly opened lower passage",
+      "outcome": "automatic movement; formation maintained"
     },
     "learning": {
       "skills": [
