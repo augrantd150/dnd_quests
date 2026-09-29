@@ -235,12 +235,15 @@
       "The control attempt critically failed: the player coupled too early and at a poor angle, causing the smaller weight to twist rather than swing cleanly.",
       "The Keeper terminated the supplied transfer structure before the chains or player were harmed.",
       "No Resonance was spent because the Keeper supplied the active magical structure.",
-      "The failure was informative and directly demonstrated that timing and receiver alignment matter separately from choosing a small transfer amount."
+      "The failure was informative and directly demonstrated that timing and receiver alignment matter separately from choosing a small transfer amount.",
+      "On the second supervised momentum-transfer attempt, the player delayed the coupling until the smaller receiver aligned with its natural swing path and used a conservative transfer amount.",
+      "The player succeeded cleanly: the larger weight lost a small amount of sideways momentum and the smaller weight gained a controlled swing with minimal twist.",
+      "The Keeper's supplied structure remained stable and no Resonance was spent."
     ],
     "last_resolution": {
-      "action": "Supervised momentum-transfer exercise",
-      "roll": 1,
-      "outcome": "critical failure, safely contained by instructor"
+      "action": "Second supervised momentum-transfer exercise",
+      "roll": 18,
+      "outcome": "strong success"
     },
     "learning": {
       "skill": "Transfer Control",
