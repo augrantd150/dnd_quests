@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 07:44",
+    "time": "Day 4, 07:49",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -468,23 +468,28 @@
       "The original key did not duplicate itself across both fragments. It became unstable at the moment of division, then retained a weak but coherent relationship to the larger materially continuous fragment.",
       "The result was not treated as a universal law that the largest piece is always 'the original.' The Keeper explained that the player's earlier key had implicitly depended on continuity of the receiver as a single object, and division exposed an unspecified continuation rule.",
       "The player learned that robust keyed anchors must define what happens under division, fusion, replacement, or destruction rather than assuming identity will resolve itself.",
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "The Keeper gave the player a fresh iron token and required an explicit identity-continuation rule before division.",
+      "The player defined the key to follow the fragment containing a deliberately punched marked region; if that region were destroyed, the key should terminate rather than choose another fragment.",
+      "Waymark Craft 17 remained Novice rank (+1 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 6; total keyed-anchor check was 10.",
+      "The key partially worked: after division it followed the fragment containing the marked region, but the termination condition was poorly specified and the relationship frayed instead of ending cleanly when the Keeper damaged the marked area.",
+      "The player learned that continuation and termination are separate clauses and both must be defined precisely.",
       "No Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Test an existing keyed anchor through physical division of its receiver",
-      "raw_roll": 14,
+      "action": "Construct a keyed anchor with an explicit division-continuation and destruction-termination rule",
+      "raw_roll": 6,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 18,
-      "outcome": "strong learning success; key destabilized on division but cohered weakly to the larger continuous fragment"
+      "total": 10,
+      "outcome": "partial success; continuation worked, termination clause was unstable"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 16,
-      "to": 17,
-      "reason": "Learned that receiver identity needs explicit continuation rules when a keyed object is divided."
+      "reason": "Learned that inheritance and termination must be separately and precisely defined; mastery score unchanged."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
