@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "old bell tower, Dunmarrow",
+    "location": "old bell tower lower stair",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -86,7 +86,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 1, 18:34",
+    "time": "Day 1, 18:35",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -123,7 +123,9 @@
       "The reconstruction preserved the two-receiver structure and the severed hooked diagonal closely enough to support further analysis.",
       "After the dormant bell tower rang and Resonance Sense reacted, the player asked Reeve Maelin Voss whether she wanted to investigate it.",
       "The player urged the group to hurry to the old bell tower.",
-      "The player, Reeve Maelin Voss, and two watchmen reached the tower without stopping to investigate anything else en route."
+      "The player, Reeve Maelin Voss, and two watchmen reached the tower without stopping to investigate anything else en route.",
+      "The player ordered the group to stay together: investigate below the bell tower first, then go upstairs.",
+      "The player explicitly checked whether anyone in the group had a shield before committing."
     ],
     "last_resolution": {
       "action": "Hurry with the group to the bell tower",
@@ -135,7 +137,7 @@
       "to": 13,
       "reason": "Successfully identified and disrupted an active hostile transfer geometry under time pressure."
     },
-    "next_scene": "dunmarrow-gatehouse",
+    "next_scene": "bell-tower-substructure",
     "last_correction": {
       "issue": "The GM previously used the word 'curfew' too broadly.",
       "correction": "Only gate closure is canonical; ordinary movement inside town after gate closure is allowed unless a later event establishes otherwise."
@@ -149,6 +151,49 @@
         "Keeps written records close at hand.",
         "Has not yet accepted any explanation of the execution-ground incident."
       ]
+    },
+    "party": {
+      "members": [
+        {
+          "name": "Player",
+          "role": "Wayfarer",
+          "equipment": [
+            "long knife",
+            "walking staff",
+            "patched gambeson"
+          ],
+          "shield": false
+        },
+        {
+          "name": "Reeve Maelin Voss",
+          "role": "Reeve",
+          "equipment": [
+            "short sword",
+            "lantern"
+          ],
+          "shield": false
+        },
+        {
+          "name": "Watchman Harl",
+          "role": "Watch",
+          "equipment": [
+            "spear",
+            "round wooden shield"
+          ],
+          "shield": true
+        },
+        {
+          "name": "Watchman Joren",
+          "role": "Watch",
+          "equipment": [
+            "spear",
+            "lantern"
+          ],
+          "shield": false
+        }
+      ],
+      "formation": "Harl leads with shield; player directly behind to read magic; Maelin third; Joren rear guard with lantern.",
+      "split_party": false
     }
   },
   "meta": {
