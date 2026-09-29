@@ -102,7 +102,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 2, 08:23",
+    "time": "Day 2, 08:26",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -261,16 +261,26 @@
       "The attempt failed: the player coupled the stored momentum too locally into the right arm/shoulder instead of distributing it through a stable whole-body structure.",
       "The Keeper terminated the training structure before serious injury occurred.",
       "The player lost 1 HP from strain and gained a temporary right shoulder/wrist strain, but suffered no persistent Wound.",
-      "No Resonance was spent because the Keeper supplied the training apparatus."
+      "No Resonance was spent because the Keeper supplied the training apparatus.",
+      "The player immediately retried body-retention while still strained.",
+      "Because the right shoulder/wrist strain was active, the retry was resolved with disadvantage.",
+      "The player consciously distributed the captured load through feet, legs, hips, and torso rather than localizing it in the arm.",
+      "The attempt partially succeeded: a very small amount of momentum was retained across the player's stance for less than a second and then released safely into the ground through a controlled step.",
+      "The strain did not worsen and no additional HP was lost.",
+      "The player still cannot reliably retain momentum in the body under combat pressure."
     ],
     "last_resolution": {
-      "action": "First supervised attempt to use the body as a momentum retention medium",
-      "roll": 3,
-      "outcome": "failure; 1 HP strain; no persistent wound"
+      "action": "Second supervised body-retention attempt while strained",
+      "rolls": [
+        9,
+        12
+      ],
+      "used_roll": 9,
+      "outcome": "partial success; brief whole-body retention; no additional injury"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Informative failure showed that living-body retention must distribute load through body structure rather than localize it in a limb; no mastery score increase yet."
+      "reason": "Partial success established the correct whole-body load path for living-medium retention; mastery score unchanged pending repeatable control."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
