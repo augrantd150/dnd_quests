@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 27,
       "Waymark Craft": 36,
-      "Spatial Relations": 21
+      "Spatial Relations": 22
     },
     "wounds": [],
     "exhaustion": 0,
@@ -117,7 +117,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 17:04",
+    "time": "Day 4, 17:18",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -777,23 +777,32 @@
       "The player emerged off-line, struck the floor hard with one leg, and took 1 HP of minor impact strain with no persistent Wound.",
       "The player completed the traversal and learned how quickly a safe window can collapse once committed.",
       "No personal Resonance was spent because the Keeper supplied the power.",
-      "Spatial Relations advanced 20 -> 21 from the first completed living-body traversal under unpredictable moving-anchor conditions."
+      "Spatial Relations advanced 20 -> 21 from the first completed living-body traversal under unpredictable moving-anchor conditions.",
+      "Because the player had minor hip/knee bruising from the previous rough exit, the Keeper did not immediately repeat a living-body unpredictable-anchor traversal.",
+      "Routine corrective drills were compressed. Training focused on exit-velocity matching: measuring the far anchor's current motion and adjusting the final fold mapping so a traveler exits with compatible relative velocity.",
+      "A weighted dummy was used for the meaningful test to avoid compounding the player's temporary injury.",
+      "Spatial Relations 21 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 15; total exit-velocity mapping check was 19.",
+      "The player successfully compensated for a sudden change in far-anchor speed immediately before passage. The dummy emerged aligned with the moving frame and did not tumble or skid.",
+      "The fold closed cleanly when the safe window ended.",
+      "No personal Resonance was spent because the Keeper supplied the power.",
+      "Spatial Relations advanced 21 -> 22 from mastering the specific exit-velocity bottleneck under dynamic conditions."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First living-body traversal through an unpredictably moving spatial anchor",
-      "raw_roll": 8,
+      "action": "Dynamic exit-velocity mapping with unpredictable moving anchor",
+      "raw_roll": 15,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 12,
-      "outcome": "partial success; traversal completed with rough exit, 1 HP lost, no persistent Wound"
+      "total": 19,
+      "outcome": "strong success; exit relative velocity matched cleanly for weighted dummy"
     },
     "learning": {
       "skill": "Spatial Relations",
-      "from": 20,
-      "to": 21,
-      "reason": "Completed the first unpredictable moving-anchor traversal and experienced a live exit-velocity mismatch under pressure."
+      "from": 21,
+      "to": 22,
+      "reason": "Successfully corrected the exit-velocity mismatch that caused the previous rough living traversal."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
