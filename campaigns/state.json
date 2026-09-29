@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 23
+      "Waymark Craft": 24
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 08:35",
+    "time": "Day 4, 08:41",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -536,23 +536,30 @@
       "SYSTEM provenance: raw d20 was 17; total conditional-keying check was 21.",
       "The player successfully maintained the receiver's identity while enforcing both conditions independently and requiring their conjunction before activation.",
       "No Resonance was spent because the Keeper supplied the training power.",
-      "The exercise established that conditional keying can combine multiple explicit physical predicates rather than relying on one trigger."
+      "The exercise established that conditional keying can combine multiple explicit physical predicates rather than relying on one trigger.",
+      "The Keeper advanced conditional keying from simultaneous compound conditions to ordered sequential conditions.",
+      "The keyed receiver had to touch chalk mark A and then chalk mark B in that order before the relationship could activate.",
+      "Touching B first, repeating A, or breaking the sequence had to leave the relationship dormant or reset it rather than accidentally firing.",
+      "Waymark Craft 23 was Novice rank (+1 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 15; total sequential-keying check was 19.",
+      "The player successfully constructed a stateful keyed condition that remembered completion of the first step, rejected invalid orderings, and opened only after the correct A-then-B sequence.",
+      "No Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Construct a compound conditional key requiring contact and movement direction",
-      "raw_roll": 17,
+      "action": "Construct an ordered sequential keyed trigger",
+      "raw_roll": 15,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 21,
-      "outcome": "strong success; relationship opened only when both physical conditions were true"
+      "total": 19,
+      "outcome": "strong success; relationship activated only after the correct ordered sequence"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 22,
-      "to": 23,
-      "reason": "Successfully constructed a compound keyed condition with independent contact and directional requirements."
+      "from": 23,
+      "to": 24,
+      "reason": "Successfully built a keyed condition with memory of prior state and strict trigger ordering."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
