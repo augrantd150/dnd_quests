@@ -145,11 +145,21 @@
       "The player attacked the prone robed man with the long knife using the left hand while the right remained impaired.",
       "The attack landed cleanly and caused a serious but not immediately fatal wound.",
       "The player ordered the group to hold formation and stop attacking the bell-linked man.",
-      "The player explicitly recognized two constraints: blindly damaging the underground network is dangerous, and injuring the linked man feeds the bell."
+      "The player explicitly recognized two constraints: blindly damaging the underground network is dangerous, and injuring the linked man feeds the bell.",
+      "The player used Resonance Sense at point-blank range on the bell-linked man's throat markings while the party held formation and stopped attacking.",
+      "The throat markings are not themselves the full transfer circuit; they are a keyed coupling layer that ties the man's pulse and involuntary movement to the tower network.",
+      "The connection has a narrow synchronization point just below the left side of the jaw where three carved lines converge.",
+      "The bell is receiving the man's movement and physiological shock as transferable mechanical input.",
+      "The connection can likely be interrupted by breaking synchronization rather than by cutting flesh or destroying the main network.",
+      "A brief disruption of rhythm, pressure, or alignment at the convergence point may be enough to desynchronize the coupling.",
+      "Because the link is keyed to the man, a prepared Waymark could potentially be used as a temporary false receiver if the timing is precise."
     ],
     "last_resolution": {
-      "action": "Hold formation and reassess",
-      "outcome": "automatic tactical pause"
+      "action": "Use Resonance Sense on the bell-linked throat markings",
+      "roll": 18,
+      "modifier": 3,
+      "total": 21,
+      "outcome": "strong success"
     },
     "learning": {
       "skill": "Waymark Craft",
@@ -220,7 +230,18 @@
         "condition": "prone, seriously wounded, alive, still magically linked",
         "visibly_armed": false,
         "status": "alive, disoriented, still magically linked",
-        "damage_taken": 7
+        "damage_taken": 7,
+        "link_analysis": {
+          "type": "living keyed coupling",
+          "primary_signal": [
+            "pulse",
+            "involuntary movement",
+            "physiological shock"
+          ],
+          "convergence_point": "left jaw/upper neck where three lines meet",
+          "likely_solution": "desynchronize connection rather than injure conduit",
+          "alternate_solution": "prepare false receiver and redirect briefly"
+        }
       },
       "party_formation": "Harl front with shield raised; Joren second, thrusting spear past/around shield; player third with left-hand knife and magic ready; Maelin rear guard."
     }
