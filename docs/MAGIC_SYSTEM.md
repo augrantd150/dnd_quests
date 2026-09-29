@@ -197,3 +197,10 @@ A robust router must account for:
 - what happens when multiple requests are valid simultaneously.
 
 If concurrency is unresolved, the safe default is fail-closed behavior rather than ambiguous routing.
+
+
+### Causal Meshes
+
+A **Causal Mesh** is a prepared magical system that integrates multiple causal domains or control layers—such as identity, state, transfer, spatial routing, warnings, permissions, and bounded responses—into one network.
+
+Its complexity is limited by power, materials, maintenance, information, geometry, capacity, and the creator's ability to keep every relationship causally consistent.
