@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 26
+      "Waymark Craft": 27
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 08:53",
+    "time": "Day 4, 08:59",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -557,23 +557,30 @@
       "SYSTEM provenance: raw d20 was 13; total re-arm logic check was 18.",
       "The player successfully constructed a one-shot sequential trigger with a persistent locked state and a separate deliberate reset action.",
       "Repeated A-then-B sequences after activation did nothing until the reset was performed, after which the relationship could arm and activate again normally.",
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "The Keeper advanced conditional keying from explicit reset logic to keyed authorization.",
+      "Two visually identical reset tokens were presented. Only one specific keyed token was permitted to re-arm the one-shot A-then-B structure; performing the same reset action with the decoy had to do nothing.",
+      "Waymark Craft 26 was Practiced rank (+2 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 14; total authorization-key check was 19.",
+      "The player successfully bound reset permission to the identity of the authorized token rather than to its appearance or to the reset motion alone.",
+      "The decoy could not re-arm the structure. The authorized token could. Swapping their positions did not confuse the key.",
       "No Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Construct one-shot sequential trigger with explicit reset/re-arm behavior",
-      "raw_roll": 13,
+      "action": "Construct keyed authorization for a one-shot structure's reset condition",
+      "raw_roll": 14,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 2,
-      "total": 18,
-      "outcome": "strong success; one-shot activation, lockout, and deliberate reset all behaved correctly"
+      "total": 19,
+      "outcome": "strong success; only the specifically authorized token could re-arm the structure"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 25,
-      "to": 26,
-      "reason": "Successfully added persistent post-activation state and explicit re-arm logic to a timed sequential key."
+      "from": 26,
+      "to": 27,
+      "reason": "Successfully combined persistent object identity with permission logic so only a specifically keyed object could reset the structure."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
