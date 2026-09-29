@@ -37,7 +37,7 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 18,
+      "Transfer Control": 19,
       "Waymark Craft": 14
     },
     "wounds": [],
@@ -100,7 +100,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 07:24",
+    "time": "Day 3, 07:29",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -297,16 +297,25 @@
       "No new event was introduced solely to interrupt the player's rest.",
       "The player returned to the Keeper Below after fully recovering from the previous training strain.",
       "The Keeper resumed instruction with reactive retention drills, now without injury disadvantage.",
-      "The lesson goal remained decision quality as much as execution: identify which incoming motions are safe to capture and which should be allowed to pass."
+      "The lesson goal remained decision quality as much as execution: identify which incoming motions are safe to capture and which should be allowed to pass.",
+      "In the Keeper's reactive retention drill, the player chose the second incoming slider: lighter and faster, arriving diagonally downward from the left.",
+      "The choice traded easier total load for more difficult alignment and required body rotation during reception.",
+      "SYSTEM provenance: the reactive retention roll was 18.",
+      "The player succeeded strongly by rotating through the hips and stance, taking only a small portion of the slider's momentum and avoiding localization in the shoulder.",
+      "The captured momentum was retained briefly and released safely into a controlled step rather than dumped through the arms.",
+      "The Keeper judged the choice as valid rather than optimal by default: the player demonstrated that capacity and geometry must be weighed together."
     ],
     "last_resolution": {
-      "provenance": "PLAYER",
-      "action": "Return to Keeper Below for continued training",
-      "outcome": "training resumed"
+      "provenance": "SYSTEM",
+      "action": "Reactive body-retention drill: choose and capture second slider",
+      "roll": 18,
+      "outcome": "strong success"
     },
     "learning": {
       "skill": "Transfer Control",
-      "reason": "Failure exposed a new problem: deciding not to capture is part of mastery. No mastery score increase."
+      "from": 18,
+      "to": 19,
+      "reason": "Successfully evaluated a nontrivial incoming vector and executed whole-body retention under reactive conditions."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
