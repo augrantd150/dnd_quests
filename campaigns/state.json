@@ -159,18 +159,20 @@
       "The false receiver accepted the transfer long enough to desynchronize the man from the bell without further injuring him.",
       "The Waymark overloaded and fractured after the transfer, but the discharge went into the stone wall rather than into a person.",
       "The bell's motion dropped sharply once the living link was broken.",
-      "One bronze waymark nail was consumed/damaged in the overloaded false receiver."
+      "One bronze waymark nail was consumed/damaged in the overloaded false receiver.",
+      "The player attempted to recover Resonance by attuning a fresh Wayfarer working to the bell network rather than siphoning stored mechanical energy directly.",
+      "The attunement failed: the ancient network did not accept the player's pattern as a stable participant.",
+      "No Resonance was recovered and no additional damage was taken.",
+      "The failed attunement produced a return pulse that made it clear the newly opened structure below is now the strongest active node in the local transfer network."
     ],
     "last_resolution": {
-      "action": "Prepare a false receiver Waymark and redirect the living transfer into it",
-      "setup_roll": 16,
-      "setup_modifier": 3,
-      "setup_total": 19,
-      "execution_roll": 18,
-      "execution_modifier": 3,
-      "execution_total": 21,
-      "resonance_spent": 1,
-      "outcome": "strong success with controlled mark failure"
+      "action": "Attempt to recharge Resonance by attuning to the bell network",
+      "roll": 3,
+      "modifier": 3,
+      "total": 6,
+      "outcome": "failure without damage; informative feedback",
+      "resonance_before": 0,
+      "resonance_after": 0
     },
     "learning": {
       "skills": [
