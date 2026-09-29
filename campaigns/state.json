@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 15
+      "Waymark Craft": 16
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 07:29",
+    "time": "Day 4, 07:35",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -447,19 +447,29 @@
       "SYSTEM provenance: the first keyed-anchor construction roll was 18.",
       "The player successfully created a stable keyed relationship between the chalk mark and the chosen token, and the relationship continued to identify that token after the three tokens were rearranged.",
       "No Resonance was spent because the Keeper supplied the active training structure.",
-      "The exercise established that keyed transfer depends on a persistent identifying relationship, not simple proximity or visual similarity."
+      "The exercise established that keyed transfer depends on a persistent identifying relationship, not simple proximity or visual similarity.",
+      "The Keeper advanced keyed-anchor training by concealing the keyed token, moving it, and placing it beside an identical decoy.",
+      "The project now applies visible character bonuses to uncertain checks: d20 + relevant ability modifier + rank-based mastery training bonus.",
+      "Waymark Craft 15 was Novice rank (+1 training bonus); Wisdom 16 contributed +3, for a total +4 on this keyed-anchor check.",
+      "SYSTEM provenance: raw d20 was 15; total check was 19.",
+      "The keyed relationship remained attached to the chosen token through concealment, movement, and decoy substitution.",
+      "No Resonance was spent because the Keeper supplied the active training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First supervised keyed-anchor construction",
-      "roll": 18,
-      "outcome": "strong success; chosen token remained uniquely keyed after rearrangement"
+      "action": "Maintain a keyed anchor through concealment, relocation, and an identical decoy",
+      "raw_roll": 15,
+      "ability": "Wisdom",
+      "ability_modifier": 3,
+      "training_bonus": 1,
+      "total": 19,
+      "outcome": "strong success"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 14,
-      "to": 15,
-      "reason": "Successfully constructed a persistent single-object key under supervision."
+      "from": 15,
+      "to": 16,
+      "reason": "Maintained a persistent single-object key through concealment and decoy substitution."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
