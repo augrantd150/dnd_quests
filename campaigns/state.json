@@ -18,7 +18,7 @@
     "alive": true,
     "level": 1,
     "location": "Dunmarrow, lower well chamber beneath the old bell tower",
-    "hp": 9,
+    "hp": 8,
     "max_hp": 10,
     "ac": 14,
     "speed_ft": 30,
@@ -70,7 +70,7 @@
       }
     },
     "temporary_conditions": [
-      "mild forearm/wrist strain from failed retained-momentum counter drill"
+      "aggravated forearm/wrist strain from failed integrated retention counter"
     ],
     "magic": {
       "resonance": {
@@ -108,7 +108,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 3, 09:05",
+    "time": "Day 3, 09:12",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -412,23 +412,30 @@
       "The player aligned stance, hands, and staff correctly enough to send the retained momentum into the padded target with minimal grip loss.",
       "The target received a clean, noticeably stronger impulse; the existing strain did not worsen and no HP was lost.",
       "The committed Resonance was spent: 1/3 -> 0/3.",
-      "This demonstrated a clean retained-momentum weapon release under controlled conditions despite minor strain."
+      "This demonstrated a clean retained-momentum weapon release under controlled conditions despite minor strain.",
+      "The Keeper recombined the full hostile-timing sequence: unpredictable padded strike -> selective body retention -> immediate staff release into a separate target.",
+      "At the familiar apparatus, the player routinely rebuilt 1 Resonance and committed it to the drill.",
+      "Because the player's forearm/wrist strain was still active, the integrated attempt was made at disadvantage.",
+      "SYSTEM provenance: rolls were 6 and 7, so 6 governed the result.",
+      "The player recognized a viable capture window and began the transfer, but the transition from retention into weapon release broke down under pressure.",
+      "The stored load bled back into the already strained forearm/wrist before the Keeper terminated the exercise.",
+      "The player lost 1 HP, the temporary forearm/wrist strain was aggravated, and no persistent Wound occurred.",
+      "The committed Resonance was spent: 1/3 -> 0/3.",
+      "No combat-ready retention counter was unlocked."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Repeat isolated retained-momentum staff release while strained",
+      "action": "Recombined hostile-timing retention counter while strained",
       "rolls": [
-        18,
-        16
+        6,
+        7
       ],
-      "used_roll": 16,
-      "outcome": "clean success under disadvantage; no additional injury; Resonance spent"
+      "used_roll": 6,
+      "outcome": "failure under disadvantage; 1 HP strain; temporary injury aggravated; Resonance spent"
     },
     "learning": {
       "skill": "Transfer Control",
-      "from": 23,
-      "to": 24,
-      "reason": "Cleanly executed retained-momentum release through a held weapon under injury disadvantage with substantially reduced grip and alignment losses."
+      "reason": "The isolated release is understood, but recombining capture and release under hostile timing still breaks down under pressure. No mastery increase."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
