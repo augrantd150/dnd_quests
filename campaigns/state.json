@@ -37,9 +37,9 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 27,
+      "Transfer Control": 28,
       "Waymark Craft": 38,
-      "Spatial Relations": 25
+      "Spatial Relations": 26
     },
     "wounds": [],
     "exhaustion": 0,
@@ -117,7 +117,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 18:42",
+    "time": "Day 4, 19:02",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -807,24 +807,65 @@
       "The intermediate relationship at B existed only as a bounded routing state; it was not a free-standing pocket dimension and could not hold arbitrary matter indefinitely.",
       "Orientation and approximate momentum were preserved through both transitions, with small compounded losses in stability across the nested route.",
       "Spatial Relations advanced 23 -> 25 from the major nested-routing breakthrough, entering Practiced rank. Future Spatial Relations checks receive a +2 mastery training bonus.",
-      "No personal Resonance was spent because the Keeper supplied the training power."
+      "No personal Resonance was spent because the Keeper supplied the training power.",
+      "The player attempted an integrated spatial router combining nested routing, Waymark authorization, distributed warnings, and bounded local training-response nodes.",
+      "The Keeper supplied prototype power because the player's personal Resonance remained 0/3.",
+      "WAYMARK control check: raw d20 3 + Wisdom 3 + Practiced mastery 2 = 8. The shared authorization layer became ambiguous when two valid keyed inputs arrived nearly simultaneously.",
+      "Existing fail-safe behavior prevented misrouting: the affected junction locked instead of choosing an uncertain destination.",
+      "SPATIAL router check: raw d20 17 + Wisdom 3 + Practiced mastery 2 = 22. Nested routing and alternate prepared exits worked strongly, preserving orientation and momentum.",
+      "TRANSFER integration check: raw d20 12 + Wisdom 3 + Practiced mastery 2 = 17. Bounded local response energy remained isolated from the spatial junction and did not destabilize routing.",
+      "The prototype therefore proved the spatial and transfer integration but exposed a concurrency problem in Waymark authorization logic.",
+      "No personal Resonance was spent and no injury occurred.",
+      "Spatial Relations advanced 25 -> 26 and Transfer Control 27 -> 28. Waymark Craft remained 38 because shared-junction concurrency is the current bottleneck."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "First supervised nested spatial route using an intermediate routing relationship",
-      "raw_roll": 17,
-      "ability": "Wisdom",
-      "ability_modifier": 3,
-      "training_bonus": 1,
-      "total": 21,
-      "outcome": "strong success; two-stage A -> B -> C nested route completed for weighted object"
+      "action": "Prototype integrated spatial router with Waymark authorization and distributed response logic",
+      "checks": {
+        "waymark_control": {
+          "raw_roll": 3,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 8,
+          "outcome": "failure; ambiguous simultaneous valid inputs, safe junction lockout"
+        },
+        "spatial_router": {
+          "raw_roll": 17,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 22,
+          "outcome": "strong success"
+        },
+        "transfer_integration": {
+          "raw_roll": 12,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 17,
+          "outcome": "success"
+        }
+      },
+      "outcome": "partial integrated success; concurrency in shared Waymark authorization remains unresolved"
     },
     "learning": {
-      "skill": "Spatial Relations",
-      "from": 23,
-      "to": 25,
-      "rank_change": "Novice -> Practiced",
-      "reason": "Successfully created a bounded intermediate spatial routing stage inside a larger traversal relationship."
+      "skills": [
+        "Waymark Craft",
+        "Spatial Relations",
+        "Transfer Control"
+      ],
+      "changes": {
+        "Spatial Relations": [
+          25,
+          26
+        ],
+        "Transfer Control": [
+          27,
+          28
+        ]
+      },
+      "reason": "Nested routing and bounded response integration worked; simultaneous valid-user arbitration failed safely and revealed the next architectural problem."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
