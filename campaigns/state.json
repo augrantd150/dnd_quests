@@ -38,7 +38,7 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 25,
-      "Waymark Craft": 20
+      "Waymark Craft": 21
     },
     "wounds": [],
     "exhaustion": 0,
@@ -109,7 +109,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 08:16",
+    "time": "Day 4, 08:22",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -514,23 +514,30 @@
       "SYSTEM provenance: raw d20 was 16; total keyed-anchor check was 20.",
       "As the Keeper replaced the token piece by piece, the key remained on the surviving original marked material rather than migrating to replacement pieces or the host assembly.",
       "When the last keyed material was finally removed from the assembly, the key followed that material out instead of staying with the repaired component.",
+      "No Resonance was spent because the Keeper supplied the training power.",
+      "The Keeper taught the opposite gradual-replacement rule: identity by continuous role and assembly history rather than original material lineage.",
+      "The player defined the key so that gradual replacement would preserve receiver identity as long as the component remained continuously installed, continuously functioning, and was never fully removed or replaced all at once.",
+      "Waymark Craft 20 was Novice rank (+1 training bonus); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 13; total keyed-anchor check was 17.",
+      "The Keeper replaced the component piece by piece until none of the original iron remained. The key stayed with the continuously maintained component rather than following discarded original fragments.",
+      "The exercise demonstrated that keyed identity can be defined by continuity of role/history when that criterion is explicit, but this is a different rule from material-lineage keying and the two should not be mixed accidentally.",
       "No Resonance was spent because the Keeper supplied the training power."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Define and maintain material-lineage identity through gradual replacement",
-      "raw_roll": 16,
+      "action": "Define and maintain assembly-history identity through complete gradual replacement",
+      "raw_roll": 13,
       "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 20,
-      "outcome": "strong success; key followed original material lineage through complete replacement"
+      "total": 17,
+      "outcome": "strong success; key remained with continuously maintained component after total material replacement"
     },
     "learning": {
       "skill": "Waymark Craft",
-      "from": 19,
-      "to": 20,
-      "reason": "Successfully defined and enforced a material-lineage persistence rule through gradual replacement."
+      "from": 20,
+      "to": 21,
+      "reason": "Successfully defined and enforced assembly-history persistence as distinct from material-lineage persistence."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
