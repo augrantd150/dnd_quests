@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Greyspan bridgeworks, western approach",
+    "location": "Whitepost Fork, eastern quarry road",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -57,7 +57,7 @@
       "waterskin",
       "small field notebook",
       "Ledger Shard",
-      "5 days coarse road rations",
+      "4 days coarse road rations",
       "wool blanket",
       "small waxed groundsheet"
     ],
@@ -95,7 +95,8 @@
         "Distributed Defense Network: portable two-branch"
       ],
       "studied_concepts": [
-        "Load Lattice"
+        "Load Lattice",
+        "Staggered Handoff"
       ]
     }
   },
@@ -128,7 +129,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 217, 21:12",
+    "time": "Day 218, 17:03",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1033,54 +1034,66 @@
       "The repair solved the current hardest structural problem at Greyspan without injury.",
       "The works foreman paid 18 silver from the project specialist budget after the successful repair.",
       "Meaningful difficult field work advanced Observation 18 -> 19, Transfer Control 30 -> 32, and Waymark Craft 41 -> 42.",
-      "The player field-qualified the Load Lattice technique for small-to-medium prepared structural load redistribution. Larger structures still require sufficient anchors, shoring, receiver capacity, materials, crew coordination, and time."
+      "The player field-qualified the Load Lattice technique for small-to-medium prepared structural load redistribution. Larger structures still require sufficient anchors, shoring, receiver capacity, materials, crew coordination, and time.",
+      "After the central-pier repair, the player inspected more of Sereth Vale's surviving Greyspan work.",
+      "Study observation check: raw 9 + Wisdom 3 + Observation Novice 1 = 13. The player identified a further design feature: Vale's load paths use staggered engagement thresholds so adjacent branches overlap during handoff rather than switching load abruptly.",
+      "Transfer reconstruction check: raw 4 + Wisdom 3 + Transfer Control Practiced 2 = 9. The player could recognize the purpose of the staggered handoff but could not fully reconstruct Vale's threshold calculations from the surviving masonry alone.",
+      "This produced a useful studied refinement, 'Staggered Handoff', but not a field-qualified technique and no mastery increase.",
+      "When the player asked whether the Greyspan crew genuinely needed anything else, the foreman produced the next day's downstream shoring-release sequence for independent review rather than inventing a new crisis.",
+      "Review observation check: raw 14 + Wisdom 3 + Observation Novice 1 = 18.",
+      "Review transfer check: raw 15 + Wisdom 3 + Transfer Control Practiced 2 = 20.",
+      "The player found that two adjacent shores were scheduled to be released too close together, briefly concentrating more load into one repaired course than necessary.",
+      "The player revised the release order so load would hand off across three stages instead of two. This was a real useful correction, but routine enough relative to the player's current skill that it caused no mastery increase.",
+      "In thanks, the works foreman provided a hot meal and a dry workers' bunk for the night rather than additional silver.",
+      "The player slept safely in Greyspan's workers' quarters on the night of Day 217.",
+      "HP remained 10/10. Resonance remained 0/3 because ordinary sleep does not restore Resonance.",
+      "On the morning of Day 218, the player asked the works office for precise directions to Stonewake.",
+      "NPC provenance: Stonewake lies roughly a day and a half east on foot in current road conditions. The route follows the eastern works road through quarry country; at the split marked by a tall white limestone post, travelers bound for Stonewake take the northern branch.",
+      "The directions are current works-road information, but they do not confirm Sereth Vale is presently at Stonewake.",
+      "The player departed Greyspan at first light on Day 218.",
+      "Day 218 travel east from Greyspan was mostly uneventful walking through increasingly exposed limestone country.",
+      "The player consumed one day of coarse road rations. Four days remain.",
+      "By late afternoon the player reached the tall white limestone route marker described by the Greyspan works office: Whitepost Fork.",
+      "The northern branch continues toward Stonewake. The eastern branch serves smaller quarry tracks."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Solve Greyspan central-pier repair using a fail-soft Load Lattice",
+      "action": "Study more of Vale's work, review a real Greyspan shoring problem, sleep, obtain Stonewake directions, and depart",
       "checks": {
-        "survey": {
-          "raw_roll": 10,
+        "vale_study_observation": {
+          "raw_roll": 9,
           "ability": "Wisdom",
           "ability_modifier": 3,
           "training_bonus": 1,
-          "total": 14,
+          "total": 13,
           "outcome": "adequate"
         },
-        "transfer_design": {
-          "raw_roll": 14,
+        "vale_study_transfer": {
+          "raw_roll": 4,
           "ability": "Wisdom",
           "ability_modifier": 3,
           "training_bonus": 2,
-          "total": 19,
-          "outcome": "strong success"
+          "total": 9,
+          "outcome": "partial; principle recognized but calculations not reconstructed"
         },
-        "first_waymark_install": {
-          "raw_roll": 1,
-          "ability": "Intelligence",
-          "ability_modifier": 1,
-          "training_bonus": 3,
-          "total": 5,
-          "outcome": "failed closed; unsafe receiver branch rejected"
-        },
-        "diagnosis": {
-          "raw_roll": 16,
+        "shoring_review_observation": {
+          "raw_roll": 14,
           "ability": "Wisdom",
           "ability_modifier": 3,
           "training_bonus": 1,
-          "total": 20,
-          "outcome": "strong success"
-        },
-        "corrected_waymark_install": {
-          "raw_roll": 14,
-          "ability": "Intelligence",
-          "ability_modifier": 1,
-          "training_bonus": 3,
           "total": 18,
           "outcome": "success"
+        },
+        "shoring_review_transfer": {
+          "raw_roll": 15,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 20,
+          "outcome": "strong success"
         }
       },
-      "outcome": "central-pier stone replacement completed safely; 18 silver earned; Load Lattice field-qualified"
+      "outcome": "learned Staggered Handoff as an unqualified refinement; corrected a genuine shoring-release issue; slept safely; departed toward Stonewake and reached Whitepost Fork"
     },
     "learning": {
       "skills": [
