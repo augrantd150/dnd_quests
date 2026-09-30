@@ -222,3 +222,23 @@ Early claims-and-bindings work must account for:
 A binding does not automatically create mind control, ownership, obedience, or truth. It can recognize and enforce only the causal relationship and consequences that were validly established.
 
 A well-formed binding should fail closed when identity, consent, scope, or termination becomes ambiguous rather than inventing a stronger claim.
+
+
+#### Master-level claims and bindings
+
+At high mastery, claims-and-bindings work may coordinate many explicit relationships at once, including:
+- reciprocal obligations;
+- delegated custody and authority;
+- authorized transfer of claims;
+- succession and inheritance rules;
+- escrow and pledged collateral;
+- revocation and expiry;
+- conflicting-claim precedence;
+- distributed witness chains;
+- detection of substitution or broken provenance;
+- multi-party lattices with bounded consequences;
+- safe dissolution and fault isolation.
+
+These systems still do **not** determine moral truth, rightful ownership, consent, guilt, or legitimacy by magic alone. They operate on relationships that were actually established through defined acts, witnesses, institutions, transfers, inheritance rules, or other causal provenance.
+
+A binding must not silently strengthen itself when evidence becomes ambiguous. At Master level, safe dissolution, precedence, provenance, and refusal to invent missing authority are as important as construction.
