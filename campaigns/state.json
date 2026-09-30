@@ -132,7 +132,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 222, 11:42",
+    "time": "Day 222, 11:51",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1151,12 +1151,19 @@
       "A senior surveyor stated that Sereth stopped taking ordinary depot assignments years ago and began spending more time on isolated failure sites and difficult field inspections.",
       "The surveyor remembered one more recent destination associated with Sereth: an old upper-gorge maintenance station called High Warden, reachable by a steep service road above Red Hollow.",
       "This is the first comparatively recent lead, but still not direct confirmation of Sereth's current location.",
-      "The player learned that High Warden is used only intermittently by specialist crews and inspectors, making it plausible that Sereth could work there without being visible in the main camp."
+      "The player learned that High Warden is used only intermittently by specialist crews and inspectors, making it plausible that Sereth could work there without being visible in the main camp.",
+      "The player asked Red Hollow's senior works foreman for the most difficult unresolved engineering problem currently affecting the site.",
+      "NPC provenance: the hardest unresolved problem is the North Retaining Gallery, where a massive retaining wall supports the gorge road against fractured bedrock.",
+      "The wall is not failing outright, but it has been creeping outward by small measurable amounts after wet periods.",
+      "The difficulty is that the crew cannot tell how much of the movement comes from masonry load transfer, hidden water pressure behind the wall, or shifting fractured rock.",
+      "Closing and dismantling the whole road section would be extremely costly, so the works team needs a way to identify the dominant load paths and stabilize the structure without blindly over-bracing it.",
+      "This is a genuine difficult engineering problem already present at Red Hollow, not an emergency invented solely because the player asked.",
+      "The North Retaining Gallery is considered more technically difficult than the routine bridge repairs currently underway."
     ],
     "last_resolution": {
       "provenance": "NPC",
-      "action": "Search Red Hollow for Sereth Vale",
-      "outcome": "Sereth is not confirmed in the main camp; a comparatively recent lead points to High Warden, an upper-gorge maintenance station"
+      "action": "Ask Red Hollow for its most difficult unresolved problem",
+      "outcome": "identified the North Retaining Gallery creep problem as the site's hardest current engineering challenge"
     },
     "learning": {
       "skills": [
