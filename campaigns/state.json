@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Red Hollow works camp, western approach",
+    "location": "Upper gorge service road below High Warden",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -136,7 +136,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 222, 18:34",
+    "time": "Day 223, 10:16",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1178,46 +1178,18 @@
       "Meaningful difficult work advanced Observation 20 -> 21, Transfer Control 33 -> 34, and Waymark Craft 44 -> 45.",
       "The player developed the studied engineering/magic-adjacent concept 'Pressure Relief Sequencing': staged reduction of a pressure source while structurally redistributing changing loads. This is not yet mastery of fluid or pressure magic.",
       "Red Hollow paid 36 silver for solving the North Retaining Gallery problem.",
-      "The works crew provided an evening meal after the repair."
+      "The works crew provided an evening meal after the repair.",
+      "After solving the North Retaining Gallery, Red Hollow's works crew provided the player a safe bunk for the night in thanks.",
+      "The player slept safely. HP remained 10/10 and Resonance remained 0/3 because ordinary sleep does not restore Resonance.",
+      "At first light on Day 223, the player left Red Hollow on the steep upper-gorge service road toward High Warden.",
+      "WORLD provenance: by midmorning the player reached a cliffside switchback showing fresh survey chalk, recently reset iron stakes, and a newly worked transfer mark cut into the stone beside the path.",
+      "The fresh work indicates that a competent survey or transfer practitioner is currently using the High Warden route.",
+      "The mark is not automatically identified as Sereth Vale's work; its creator remains unknown until examined."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Solve the North Retaining Gallery creep problem",
-      "checks": {
-        "diagnosis": {
-          "raw_roll": 15,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 1,
-          "total": 19,
-          "outcome": "strong success"
-        },
-        "transfer_design": {
-          "raw_roll": 13,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 18,
-          "outcome": "success"
-        },
-        "waymark_control": {
-          "raw_roll": 12,
-          "ability": "Intelligence",
-          "ability_modifier": 1,
-          "training_bonus": 3,
-          "total": 16,
-          "outcome": "success"
-        },
-        "final_stabilization": {
-          "raw_roll": 16,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 21,
-          "outcome": "strong success"
-        }
-      },
-      "outcome": "trapped backwater identified as dominant cause; staged drainage plus temporary Load Lattice stabilized the wall; 36 silver earned"
+      "provenance": "WORLD",
+      "action": "Sleep at Red Hollow and ascend toward High Warden",
+      "outcome": "reached a fresh survey/transfer worksite below High Warden; creator of the mark unknown"
     },
     "learning": {
       "skills": [
