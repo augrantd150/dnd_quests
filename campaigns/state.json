@@ -44,7 +44,7 @@
     },
     "wounds": [],
     "exhaustion": 0,
-    "silver": 0,
+    "silver": 3,
     "inventory": [
       "travel cloak",
       "patched gambeson",
@@ -121,7 +121,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 214, 18:42",
+    "time": "Day 214, 21:06",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -904,17 +904,22 @@
       "The Keeper cannot provide Sereth's current exact location and does not claim Sereth has remained in one place.",
       "Finding Sereth will therefore require an overland journey and real investigation rather than a direct guaranteed destination.",
       "The player explicitly expects the journey itself to be a campaign. Travel will be played through meaningful legs, logistics, hazards, settlements, choices, and changing world state rather than skipped to arrival.",
-      "At departure, the player has 0 silver and no remaining travel rations, so provisioning is an immediate practical constraint before a long overland journey."
+      "At departure, the player has 0 silver and no remaining travel rations, so provisioning is an immediate practical constraint before a long overland journey.",
+      "The player looked for legitimate paid work in Dunmarrow rather than seeking a new plot hook.",
+      "Near the river gate, a grain merchant needed a late delivery moved into a dry warehouse before worsening weather and offered cash plus a meal.",
+      "SYSTEM provenance: raw d20 was 15; Strength modifier -1; total manual-labor check 14.",
+      "The player completed the unloading without injury. The work was tiring but straightforward.",
+      "Payment was 3 silver plus a hot meal. The player now has 3 silver.",
+      "This was ordinary wage work and did not create a new quest or hidden obligation."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Extreme nested spatial routing under simultaneous requests and mid-commit exit invalidation",
-      "raw_roll": 18,
-      "ability": "Wisdom",
-      "ability_modifier": 3,
-      "training_bonus": 2,
-      "total": 23,
-      "outcome": "strong success; both active traversals safely resolved through dynamic fallback routing"
+      "action": "Unload late grain delivery for wages",
+      "raw_roll": 15,
+      "ability": "Strength",
+      "ability_modifier": -1,
+      "total": 14,
+      "outcome": "success; earned 3 silver and a meal"
     },
     "learning": {
       "skill": "Spatial Relations",
