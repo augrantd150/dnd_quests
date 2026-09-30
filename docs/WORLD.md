@@ -152,3 +152,12 @@ Historical facts established in play:
 - A surviving retrofit known locally as **Vale's brace** uses distributed load paths, sacrificial relief points, and fail-soft transfer logic embedded into ordinary masonry and ironwork.
 - Sereth later departed east with a provincial works survey crew bound for **Stonewake**, a quarry and engineering depot farther along the eastern works road.
 - This is an old provenance trail, not confirmation of Sereth's present location.
+
+
+### Stonewake route
+
+Current Greyspan works-road information established in play:
+- Stonewake is a quarry and engineering depot roughly a day and a half east of Greyspan on foot in current road conditions.
+- The route follows the eastern works road through limestone quarry country.
+- At **Whitepost Fork**, marked by a tall white limestone post, the northern branch continues toward Stonewake.
+- Sereth Vale's historical trail points toward Stonewake, but his current presence there remains unconfirmed.
