@@ -141,3 +141,14 @@ The Keeper's knowledge is limited and historical:
 - Sereth's current location is not known with certainty.
 
 Finding Sereth is therefore a travel-and-investigation objective, not a fixed quest marker.
+
+
+### Greyspan
+
+A major multi-arch stone bridge and active regional bridgeworks east of Veyr.
+
+Historical facts established in play:
+- Greyspan is the bridge where Sereth Vale once stabilized a failing central span long enough for hundreds to clear it.
+- A surviving retrofit known locally as **Vale's brace** uses distributed load paths, sacrificial relief points, and fail-soft transfer logic embedded into ordinary masonry and ironwork.
+- Sereth later departed east with a provincial works survey crew bound for **Stonewake**, a quarry and engineering depot farther along the eastern works road.
+- This is an old provenance trail, not confirmation of Sereth's present location.
