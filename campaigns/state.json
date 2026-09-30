@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Dunmarrow, lower well chamber beneath the old bell tower",
+    "location": "Dunmarrow, old bell tower lower chamber",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -121,7 +121,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 214, 18:27",
+    "time": "Day 214, 18:42",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -896,7 +896,15 @@
       "Both surrogates emerged from different valid exits without duplication, collision, stall, or unsafe momentum discharge.",
       "The exercise established the player's first successful mid-commit spatial reroute after destination invalidation.",
       "No personal Resonance was spent because the Keeper supplied power for the stress test.",
-      "Spatial Relations advanced 26 -> 28 from the major dynamic rerouting breakthrough."
+      "Spatial Relations advanced 26 -> 28 from the major dynamic rerouting breakthrough.",
+      "The player thanked the Keeper Below for its instruction and ended the apprenticeship relationship on good terms.",
+      "The player chose a new long-term goal: find Sereth Vale, the exceptionally powerful human transfer-worker previously named by the Keeper.",
+      "The Keeper clarified that Sereth is the strongest living human it has personally known, not a proven global ranking of all living practitioners.",
+      "The Keeper's last reliable information is old: Sereth was associated with major bridgeworks east of the Barony of Veyr after demonstrating extraordinary transfer control while stabilizing a failing stone bridge.",
+      "The Keeper cannot provide Sereth's current exact location and does not claim Sereth has remained in one place.",
+      "Finding Sereth will therefore require an overland journey and real investigation rather than a direct guaranteed destination.",
+      "The player explicitly expects the journey itself to be a campaign. Travel will be played through meaningful legs, logistics, hazards, settlements, choices, and changing world state rather than skipped to arrival.",
+      "At departure, the player has 0 silver and no remaining travel rations, so provisioning is an immediate practical constraint before a long overland journey."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
@@ -1030,6 +1038,8 @@
     "last_player_boundary": "Remain with the Keeper until its direct teaching in Claims & Bindings is exhausted.",
     "recovery_rule_locked": true,
     "training_pacing": "Skip repetitive low-value moments within a session, but never compress weeks or months of progression into a single player command. Long-term mastery must unfold across played time, real costs, world-state changes, distinct meaningful experiences, and normal progression limits.",
-    "no_long_time_skips_for_training": true
+    "no_long_time_skips_for_training": true,
+    "current_long_term_goal": "Find Sereth Vale",
+    "travel_pacing": "The journey to Sereth Vale is campaign play. Do not fast-forward across meaningful travel legs, logistics, hazards, settlements, or consequences."
   }
 }
