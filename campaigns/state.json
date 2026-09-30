@@ -130,7 +130,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 221, 15:38",
+    "time": "Day 221, 15:44",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1103,12 +1103,24 @@
       "No artificial encounter or quest hook was introduced during the day's travel.",
       "By mid-afternoon the player reached the first major gorge section before Red Hollow.",
       "WORLD provenance: part of the old road has slumped toward the ravine where a retaining wall has failed. A narrow footpath remains passable, but wagon traffic is impossible and the footing is exposed.",
-      "A weathered works marker indicates Red Hollow lies farther east beyond the gorge road."
+      "A weathered works marker indicates Red Hollow lies farther east beyond the gorge road.",
+      "The player carefully observed the narrow surviving footpath across the failed gorge-road section before committing to it.",
+      "Observation check: raw 17 + Wisdom 3 + Observation Novice 1 = 21.",
+      "The player determined that most of the footpath is stable where it hugs the inner rock face.",
+      "One roughly eight-foot section near the middle is undercut beneath loose gravel and cannot safely take a hard lateral step or sudden load.",
+      "The outer edge of that section is visibly worse than it first appears; several stones are resting on fractured fill rather than intact roadbed.",
+      "A safer line exists along the inner side, using two exposed limestone ribs as deliberate footholds, but it requires controlled foot placement and balance.",
+      "No hidden supernatural cause was found; the hazard is ordinary road failure and erosion."
     ],
     "last_resolution": {
-      "provenance": "WORLD",
-      "action": "Continue along the old Crownroad toward Red Hollow",
-      "outcome": "safe camp; five days of rations remain; reached a damaged gorge-road section on Day 221"
+      "provenance": "SYSTEM",
+      "action": "Observe the damaged gorge footpath",
+      "raw_roll": 17,
+      "ability": "Wisdom",
+      "ability_modifier": 3,
+      "training_bonus": 1,
+      "total": 21,
+      "outcome": "strong success; identified a safe line and one dangerous undercut section"
     },
     "learning": {
       "skills": [
