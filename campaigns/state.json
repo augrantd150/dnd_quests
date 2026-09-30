@@ -38,8 +38,8 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 33,
-      "Waymark Craft": 43,
-      "Spatial Relations": 28,
+      "Waymark Craft": 44,
+      "Spatial Relations": 29,
       "Claims & Bindings": 74
     },
     "wounds": [],
@@ -97,7 +97,9 @@
       ],
       "studied_concepts": [
         "Load Lattice",
-        "Staggered Handoff"
+        "Staggered Handoff",
+        "Recursive Containment Mesh",
+        "Fastline Traversal Spine"
       ]
     }
   },
@@ -130,7 +132,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 221, 18:47",
+    "time": "Day 222, 06:37",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1124,37 +1126,73 @@
       "Survival check: raw 11 + Wisdom 3 + Survival Novice 1 = 15.",
       "The camp is adequate and out of obvious rockfall runoff.",
       "The player consumed one day of coarse road rations. Four days remain.",
-      "Resonance remains 0/3."
+      "Resonance remains 0/3.",
+      "Before sleeping near Red Hollow, the player spent the remaining evening on dry Causal Mesh design work using chalk, cord, notebook diagrams, and existing theory rather than live magic because Resonance was 0/3.",
+      "Containment architecture check: raw 13 + Intelligence 1 + Claims & Bindings Master 5 = 19. The player formalized a bounded authorization model for distinguishing permitted identities from contained identities without treating the binding as moral judgment.",
+      "Waymark routing check: raw 20 + Intelligence 1 + Waymark Craft Adept 3 = 24. The player designed a robust cyclic routing state machine with branch isolation, reset states, and trap-routing hooks.",
+      "Spatial topology check: raw 13 + Wisdom 3 + Spatial Relations Practiced 2 = 18. The player established how prepared thresholds could redirect unauthorized traversal into a finite closed loop rather than an impossible infinite space.",
+      "The design is called a Recursive Containment Mesh. It can maintain indefinite containment only while its anchors, power, geometry, and physical enclosure remain intact. It cannot literally trap someone forever without maintenance or energy.",
+      "The containment design can integrate alarms, bounded concussive emitters, route denial, and other prepared traps, but each trap still requires its own source, receiver, capacity, geometry, and safety conditions.",
+      "The player also designed a personal high-speed traversal architecture called a Fastline Traversal Spine.",
+      "Fastline efficiency check: raw 18 + Wisdom 3 + Spatial Relations Practiced 2 = 23. The design pre-validates a small number of personally authorized routes, fixes orientation and exit mapping in advance, and minimizes runtime arbitration so traversal can resolve faster and with lower control overhead.",
+      "A Fastline does not make teleportation free or arbitrarily fast; it trades flexibility for speed and efficiency by using fixed, prepared, low-ambiguity paths.",
+      "Both Recursive Containment Mesh and Fastline Traversal Spine are studied concepts only. Neither is field-qualified because the player had no Resonance available for live testing.",
+      "Meaningful architectural study advanced Spatial Relations 28 -> 29 and Waymark Craft 43 -> 44. Claims & Bindings remained 74 because the authorization work was within existing Master capability.",
+      "After the study session, the player slept safely at the established gorge camp.",
+      "HP remained 10/10. Resonance remained 0/3 because ordinary sleep does not restore it."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Continue toward Red Hollow and camp before dark",
-      "raw_roll": 11,
-      "ability": "Wisdom",
-      "ability_modifier": 3,
-      "training_bonus": 1,
-      "total": 15,
-      "outcome": "adequate camp established; signs of active traffic indicate Red Hollow is close"
+      "action": "Develop advanced Causal Mesh containment and high-speed traversal concepts, then sleep",
+      "checks": {
+        "containment_claims": {
+          "raw_roll": 13,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 5,
+          "total": 19,
+          "outcome": "strong success"
+        },
+        "containment_waymark": {
+          "raw_roll": 20,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 24,
+          "outcome": "exceptional success"
+        },
+        "containment_spatial": {
+          "raw_roll": 13,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 18,
+          "outcome": "success"
+        },
+        "fastline_spatial": {
+          "raw_roll": 18,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 23,
+          "outcome": "strong success"
+        }
+      },
+      "outcome": "Recursive Containment Mesh and Fastline Traversal Spine designed as studied concepts; Spatial Relations 28 -> 29; Waymark Craft 43 -> 44; safe sleep completed"
     },
     "learning": {
       "skills": [
         {
-          "skill": "Observation",
-          "from": 19,
-          "to": 20,
-          "reason": "Identified hidden structural coupling in a live quarry shoring system."
-        },
-        {
-          "skill": "Transfer Control",
-          "from": 32,
-          "to": 33,
-          "reason": "Executed a three-stage overlapping structural load handoff under real roof load."
+          "skill": "Spatial Relations",
+          "from": 28,
+          "to": 29,
+          "reason": "Designed finite cyclic containment routing and a low-ambiguity high-speed traversal spine."
         },
         {
           "skill": "Waymark Craft",
-          "from": 42,
-          "to": 43,
-          "reason": "Diagnosed and corrected premature receiver coupling in a live control lattice."
+          "from": 43,
+          "to": 44,
+          "reason": "Designed branch-isolated cyclic routing states and trap integration logic for a containment mesh."
         }
       ]
     },
