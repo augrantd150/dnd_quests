@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Ashbar Gate, eastern road",
+    "location": "Eastern road, beyond Ashbar Gate",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -76,7 +76,7 @@
     "temporary_conditions": [],
     "magic": {
       "resonance": {
-        "current": 1,
+        "current": 0,
         "max": 3
       },
       "techniques": [
@@ -124,7 +124,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 216, 13:18",
+    "time": "Day 216, 13:26",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -973,12 +973,36 @@
       "The morning's travel was uneventful.",
       "WORLD provenance: by early afternoon the eastern road reaches Ashbar Gate, a baronial tollhouse where the road narrows between steep banks.",
       "The tollhouse is collecting ordinary road tolls from travelers heading toward the bridge country and Greyspan.",
-      "The player's silver is now 12."
+      "The player's silver is now 12.",
+      "The player chose to bypass the Ashbar Gate tollhouse using spatial magic rather than pay the one-silver foot toll.",
+      "The player moved off the road and used the steep bank and wagon traffic to conceal the setup.",
+      "STEALTH provenance: raw d20 11 + Dexterity 3 + Novice training 1 = 15. The player set up the fold without drawing immediate attention from the tollhouse.",
+      "SPATIAL provenance: raw d20 12 + Wisdom 3 + Practiced training 2 = 17. The player established a short self-powered adjacency fold between stable points on opposite sides of the checkpoint and crossed safely.",
+      "The short fold cost 1 Resonance: 1/3 -> 0/3.",
+      "The player kept the one-silver toll and continued east. No immediate pursuit or confrontation occurred."
     ],
     "last_resolution": {
-      "provenance": "WORLD",
-      "action": "Continue east after a safe night in Rillcross",
-      "outcome": "safe rest; silver 14 -> 12; reached Ashbar Gate tollhouse on Day 216"
+      "provenance": "SYSTEM",
+      "action": "Bypass Ashbar Gate tollhouse with concealed short spatial fold",
+      "checks": {
+        "concealment": {
+          "raw_roll": 11,
+          "ability": "Dexterity",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 15,
+          "outcome": "success"
+        },
+        "spatial_fold": {
+          "raw_roll": 12,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 17,
+          "outcome": "success"
+        }
+      },
+      "outcome": "checkpoint bypassed; silver unchanged; Resonance 1/3 -> 0/3"
     },
     "learning": {
       "skill": "Claims & Bindings",
