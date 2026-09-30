@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Rillcross, roadside hamlet east of Dunmarrow",
+    "location": "Ashbar Gate, eastern road",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -44,7 +44,7 @@
     },
     "wounds": [],
     "exhaustion": 0,
-    "silver": 14,
+    "silver": 12,
     "inventory": [
       "travel cloak",
       "patched gambeson",
@@ -124,7 +124,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 215, 17:49",
+    "time": "Day 216, 13:18",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -966,12 +966,19 @@
       "NPC provenance: the coaching-house crowd knew of no public legendary-grade contract in Rillcross itself.",
       "The largest serious undertaking anyone could name with confidence was the Greyspan bridgeworks farther east, which is a major regional project rather than a posted heroic quest.",
       "Travelers also remarked that genuinely exceptional work is usually found through major guilds, noble households, monasteries, military commands, or large infrastructure sites rather than small roadside hamlets.",
-      "No artificial legendary quest hook was introduced solely because the player asked."
+      "No artificial legendary quest hook was introduced solely because the player asked.",
+      "The player continued the journey east rather than remaining in Rillcross.",
+      "The player paid 2 silver for a cheap coaching-house loft bed and supper, slept safely, and departed at first light on Day 216.",
+      "No interruption or new hook was introduced during the night.",
+      "The morning's travel was uneventful.",
+      "WORLD provenance: by early afternoon the eastern road reaches Ashbar Gate, a baronial tollhouse where the road narrows between steep banks.",
+      "The tollhouse is collecting ordinary road tolls from travelers heading toward the bridge country and Greyspan.",
+      "The player's silver is now 12."
     ],
     "last_resolution": {
-      "provenance": "NPC",
-      "action": "Ask about legendary-scale quests in Rillcross",
-      "outcome": "no public legendary quest in Rillcross; Greyspan remains the largest known regional undertaking"
+      "provenance": "WORLD",
+      "action": "Continue east after a safe night in Rillcross",
+      "outcome": "safe rest; silver 14 -> 12; reached Ashbar Gate tollhouse on Day 216"
     },
     "learning": {
       "skill": "Claims & Bindings",
