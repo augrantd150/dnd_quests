@@ -129,7 +129,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 219, 11:34",
+    "time": "Day 219, 12:22",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1067,12 +1067,20 @@
       "The morning journey was uneventful except for increasing quarry and works traffic.",
       "By late morning the player reached Stonewake, a large quarry and engineering depot built into pale limestone workings.",
       "Stonewake contains cranes, stone ramps, kilns, repair sheds, survey stores, workers' barracks, and a controlled western works gate.",
-      "Sereth Vale's current presence remains unconfirmed."
+      "Sereth Vale's current presence remains unconfirmed.",
+      "At Stonewake, the player asked the survey office, quarry foremen, and engineering clerk about Sereth Vale and about any legendary-scale work currently known.",
+      "NPC provenance: Stonewake has no public 'legendary quest' board and no extraordinary crisis currently posted for immediate hire.",
+      "The most difficult current local contracts are high-risk engineering jobs: deep quarry shoring, crane-load transfer, unstable cut-face surveys, and bridge-component transport. They are serious specialist work but not locally regarded as legendary-scale undertakings.",
+      "Stonewake's archived survey ledger confirms that Sereth Vale worked from the depot with a provincial survey crew after Greyspan.",
+      "The ledger records that the crew later moved farther east to inspect the Crownroad gorge crossings after repeated structural failures in that district.",
+      "The last legible entry naming Sereth associates him with a place called Red Hollow, a works camp serving a gorge bridge and retaining-wall system.",
+      "Red Hollow is a historical lead only; the ledger entry is old and does not confirm Sereth is still there.",
+      "The engineering clerk estimates Red Hollow at roughly two to three days east by the old Crownroad in good conditions, longer if the gorge road is damaged."
     ],
     "last_resolution": {
-      "provenance": "WORLD",
-      "action": "Continue from roadside camp to Stonewake",
-      "outcome": "arrived at Stonewake engineering depot on Day 219 at 11:34"
+      "provenance": "NPC",
+      "action": "Ask Stonewake for Sereth Vale's trail and legendary-scale work",
+      "outcome": "no current legendary contract; archived ledger points to Red Hollow and the Crownroad gorge crossings as Sereth's next historical trail"
     },
     "learning": {
       "skills": [
