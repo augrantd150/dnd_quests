@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Whitepost Fork, eastern quarry road",
+    "location": "North road to Stonewake, quarry country",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -57,7 +57,7 @@
       "waterskin",
       "small field notebook",
       "Ledger Shard",
-      "4 days coarse road rations",
+      "3 days coarse road rations",
       "wool blanket",
       "small waxed groundsheet"
     ],
@@ -129,7 +129,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 218, 17:03",
+    "time": "Day 218, 19:01",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1054,46 +1054,24 @@
       "Day 218 travel east from Greyspan was mostly uneventful walking through increasingly exposed limestone country.",
       "The player consumed one day of coarse road rations. Four days remain.",
       "By late afternoon the player reached the tall white limestone route marker described by the Greyspan works office: Whitepost Fork.",
-      "The northern branch continues toward Stonewake. The eastern branch serves smaller quarry tracks."
+      "The northern branch continues toward Stonewake. The eastern branch serves smaller quarry tracks.",
+      "The player took the northern branch at Whitepost Fork toward Stonewake.",
+      "The road climbed through exposed limestone quarry country with no significant encounter.",
+      "By dusk no settlement was close enough to justify marching in darkness, so the player made a roadside camp.",
+      "Survival check: raw 12 + Wisdom 3 + Survival Novice 1 = 16.",
+      "The player found a shallow limestone shelf with reasonable windbreak and drainage, adequate for a safe night's rest with existing gear.",
+      "The player consumed one day of coarse road rations. Three days remain.",
+      "Resonance remained 0/3."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Study more of Vale's work, review a real Greyspan shoring problem, sleep, obtain Stonewake directions, and depart",
-      "checks": {
-        "vale_study_observation": {
-          "raw_roll": 9,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 1,
-          "total": 13,
-          "outcome": "adequate"
-        },
-        "vale_study_transfer": {
-          "raw_roll": 4,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 9,
-          "outcome": "partial; principle recognized but calculations not reconstructed"
-        },
-        "shoring_review_observation": {
-          "raw_roll": 14,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 1,
-          "total": 18,
-          "outcome": "success"
-        },
-        "shoring_review_transfer": {
-          "raw_roll": 15,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 20,
-          "outcome": "strong success"
-        }
-      },
-      "outcome": "learned Staggered Handoff as an unqualified refinement; corrected a genuine shoring-release issue; slept safely; departed toward Stonewake and reached Whitepost Fork"
+      "action": "Continue toward Stonewake and make camp before dark",
+      "raw_roll": 12,
+      "ability": "Wisdom",
+      "ability_modifier": 3,
+      "training_bonus": 1,
+      "total": 16,
+      "outcome": "safe roadside camp; one day of rations consumed"
     },
     "learning": {
       "skills": [
