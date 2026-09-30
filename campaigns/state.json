@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Eastern road, beyond the washed-out culvert",
+    "location": "Rillcross, roadside hamlet east of Dunmarrow",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -124,7 +124,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 215, 13:42",
+    "time": "Day 215, 17:26",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -952,17 +952,15 @@
       "SYSTEM provenance: raw d20 was 13; total short-field-fold check was 18.",
       "The player established a brief adjacency fold across the gap and traversed it safely.",
       "The fold cost 1 Resonance: 2/3 -> 1/3.",
-      "No injury occurred and the road obstacle was bypassed without needing a detour."
+      "No injury occurred and the road obstacle was bypassed without needing a detour.",
+      "After bypassing the washed-out culvert, the player continued east for several uneventful hours.",
+      "WORLD provenance: the road leads to Rillcross, a small roadside hamlet built around an old stone bridge and a coaching house used by carters, travelers, and road workers.",
+      "Rillcross is a plausible place to seek current information about eastern bridgeworks and road conditions, but no new plot hook has been introduced automatically."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Short self-powered adjacency fold across washed-out culvert",
-      "raw_roll": 13,
-      "ability": "Wisdom",
-      "ability_modifier": 3,
-      "training_bonus": 2,
-      "total": 18,
-      "outcome": "success; culvert bypassed safely; Resonance spent"
+      "provenance": "WORLD",
+      "action": "Continue east to the next meaningful stop",
+      "outcome": "arrived at Rillcross near evening"
     },
     "learning": {
       "skill": "Claims & Bindings",
