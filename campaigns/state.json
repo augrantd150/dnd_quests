@@ -124,7 +124,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 215, 17:26",
+    "time": "Day 215, 17:41",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -955,12 +955,18 @@
       "No injury occurred and the road obstacle was bypassed without needing a detour.",
       "After bypassing the washed-out culvert, the player continued east for several uneventful hours.",
       "WORLD provenance: the road leads to Rillcross, a small roadside hamlet built around an old stone bridge and a coaching house used by carters, travelers, and road workers.",
-      "Rillcross is a plausible place to seek current information about eastern bridgeworks and road conditions, but no new plot hook has been introduced automatically."
+      "Rillcross is a plausible place to seek current information about eastern bridgeworks and road conditions, but no new plot hook has been introduced automatically.",
+      "The player asked carters and road workers at the Rillcross coaching house for current information about major bridgeworks farther east and whether anyone knew the name Sereth Vale.",
+      "No roll was required to obtain ordinary public road information from travelers willing to talk.",
+      "Several people independently mentioned a large ongoing repair project at Greyspan, an old multi-arch stone bridge roughly two days east by the main road.",
+      "A mason returning west had heard the name 'Vale' associated with an older structural specialist who had worked there previously, but could not confirm that Sereth Vale is currently present.",
+      "The strongest current lead is therefore Greyspan: a real bridgework site with a plausible but unconfirmed historical connection to Sereth.",
+      "No one at Rillcross provided Sereth's exact current location."
     ],
     "last_resolution": {
-      "provenance": "WORLD",
-      "action": "Continue east to the next meaningful stop",
-      "outcome": "arrived at Rillcross near evening"
+      "provenance": "NPC",
+      "action": "Ask travelers and road workers for bridgework and Sereth Vale information",
+      "outcome": "learned of Greyspan, a major bridge repair site about two days east; Sereth connection plausible but unconfirmed"
     },
     "learning": {
       "skill": "Claims & Bindings",
