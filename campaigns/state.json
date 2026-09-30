@@ -31,20 +31,20 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 18,
+      "Observation": 19,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 30,
-      "Waymark Craft": 41,
+      "Transfer Control": 32,
+      "Waymark Craft": 42,
       "Spatial Relations": 28,
       "Claims & Bindings": 74
     },
     "wounds": [],
     "exhaustion": 0,
-    "silver": 12,
+    "silver": 30,
     "inventory": [
       "travel cloak",
       "patched gambeson",
@@ -88,7 +88,8 @@
         "Claim Transfer",
         "Witness Chain",
         "Clean Dissolution",
-        "Claim Lattice"
+        "Claim Lattice",
+        "Load Lattice"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch"
@@ -127,7 +128,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 217, 18:29",
+    "time": "Day 217, 21:12",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1017,18 +1018,91 @@
       "The crew is replacing cracked load-bearing springer and bearing stones while the rest of the arch remains in service.",
       "The difficulty comes from needing to unload only a controlled fraction of the arch at a time, keep the remaining masonry stable, work from wet river staging, and prevent a local shift from cascading into a larger structural failure.",
       "This is specialized high-risk bridge work, not a newly invented supernatural crisis.",
-      "Workers familiar with Vale's brace consider this the part of Greyspan where advanced transfer control and fail-soft load management are most relevant."
+      "Workers familiar with Vale's brace consider this the part of Greyspan where advanced transfer control and fail-soft load management are most relevant.",
+      "The player volunteered to solve Greyspan's hardest active structural problem beneath the central arch at the upstream side of the main river pier.",
+      "Because the player had 0 Resonance, the solution did not rely on personal magical energy. It used the bridge's existing structural load as the transferred quantity, existing timber shoring and sound masonry as receivers, and Waymark relationships as control logic.",
+      "Initial survey check: raw 10 + Wisdom 3 + Observation Novice 1 = 14. The player mapped the main load paths adequately.",
+      "Transfer design check: raw 14 + Wisdom 3 + Transfer Control Practiced 2 = 19. The player designed a fail-soft load lattice that redistributed only bounded fractions of arch load into prepared shoring and receiver courses.",
+      "Initial Waymark implementation check: raw 1 + Intelligence 1 + Waymark Craft Adept 3 = 5. The network failed closed and refused to accept load because one intended receiver path was causally unsafe.",
+      "The failed implementation caused no collapse or injury because the design required branch validity before coupling.",
+      "Diagnosis check: raw 16 + Wisdom 3 + Observation Novice 1 = 20. The player identified a concealed hairline fracture behind the intended receiver stone that would have converted the branch into a dangerous shear wedge.",
+      "The player redesigned the lattice so the cracked branch became sacrificial rather than structural and moved the true receiver into an iron-cramped sound masonry course.",
+      "Rebuilt Waymark lattice check: raw 14 + Intelligence 1 + Waymark Craft Adept 3 = 18. The corrected network accepted load gradually and remained stable.",
+      "Under the load lattice, Greyspan's crew successfully unloaded the cracked springer and bearing stones in controlled stages, replaced them, and reintroduced load without a cascade.",
+      "The lattice did not create strength or energy; arch load was redistributed into prepared timber shores, sound masonry, ironwork, and controlled sacrificial deformation with explicit capacity limits.",
+      "The repair solved the current hardest structural problem at Greyspan without injury.",
+      "The works foreman paid 18 silver from the project specialist budget after the successful repair.",
+      "Meaningful difficult field work advanced Observation 18 -> 19, Transfer Control 30 -> 32, and Waymark Craft 41 -> 42.",
+      "The player field-qualified the Load Lattice technique for small-to-medium prepared structural load redistribution. Larger structures still require sufficient anchors, shoring, receiver capacity, materials, crew coordination, and time."
     ],
     "last_resolution": {
-      "provenance": "NPC",
-      "action": "Ask where Greyspan's most difficult active work is being done",
-      "outcome": "identified the upstream side of the central river pier beneath the main arch as the hardest current job"
+      "provenance": "SYSTEM",
+      "action": "Solve Greyspan central-pier repair using a fail-soft Load Lattice",
+      "checks": {
+        "survey": {
+          "raw_roll": 10,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 14,
+          "outcome": "adequate"
+        },
+        "transfer_design": {
+          "raw_roll": 14,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 19,
+          "outcome": "strong success"
+        },
+        "first_waymark_install": {
+          "raw_roll": 1,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 5,
+          "outcome": "failed closed; unsafe receiver branch rejected"
+        },
+        "diagnosis": {
+          "raw_roll": 16,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 20,
+          "outcome": "strong success"
+        },
+        "corrected_waymark_install": {
+          "raw_roll": 14,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 18,
+          "outcome": "success"
+        }
+      },
+      "outcome": "central-pier stone replacement completed safely; 18 silver earned; Load Lattice field-qualified"
     },
     "learning": {
-      "skill": "Transfer Control",
-      "from": 29,
-      "to": 30,
-      "reason": "Reverse-engineered the fail-soft load-sharing logic of Sereth Vale's surviving Greyspan structural brace."
+      "skills": [
+        {
+          "skill": "Observation",
+          "from": 18,
+          "to": 19,
+          "reason": "Found a concealed structural fracture after a fail-closed lattice rejection."
+        },
+        {
+          "skill": "Transfer Control",
+          "from": 30,
+          "to": 32,
+          "reason": "Designed and operated a real fail-soft structural load lattice under live bridge load."
+        },
+        {
+          "skill": "Waymark Craft",
+          "from": 41,
+          "to": 42,
+          "reason": "Corrected unsafe receiver logic and rebuilt a live structural control lattice."
+        }
+      ]
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
