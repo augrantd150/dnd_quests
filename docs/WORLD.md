@@ -128,3 +128,16 @@ The setting must contain things worth protecting:
 - odd local traditions.
 
 Without these, darkness becomes flat.
+
+
+## Sereth Vale lead
+
+Sereth Vale is an exceptionally skilled human transfer-worker known to the Keeper Below.
+
+The Keeper's knowledge is limited and historical:
+- Sereth is the strongest living human practitioner the Keeper personally remembers encountering; this is not a verified global ranking.
+- Sereth demonstrated extreme precision in structural-load and transfer work, including stabilizing a failing stone bridge long enough for hundreds to cross.
+- The Keeper's last reliable association places Sereth with major bridgeworks east of the Barony of Veyr.
+- Sereth's current location is not known with certainty.
+
+Finding Sereth is therefore a travel-and-investigation objective, not a fixed quest marker.
