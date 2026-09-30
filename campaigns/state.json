@@ -867,7 +867,9 @@
       "The player correctly preserved valid claims, rejected the forged substitution, resolved the authorized succession, prevented double transfer of collateral, isolated the broken witness branch, and dissolved the remaining obligations without inventing new rights.",
       "Claims & Bindings advanced 10 -> 74 over the full apprenticeship, reaching Master rank.",
       "Waymark Craft advanced 38 -> 40 from sustained use of keyed identity, authorization, state, and witness structures during the apprenticeship.",
-      "The Keeper stated that it had no further direct lessons capable of advancing the player reliably. Further Claims & Bindings growth toward Grandmaster requires independent field cases, novel constructions, contested real-world claims, and original discoveries rather than more supervised exercises."
+      "The Keeper stated that it had no further direct lessons capable of advancing the player reliably. Further Claims & Bindings growth toward Grandmaster requires independent field cases, novel constructions, contested real-world claims, and original discoveries rather than more supervised exercises.",
+      "The player explicitly prohibited future multi-week or multi-month training skips because they make advancement too easy.",
+      "Future training may summarize repetitive drills within reasonable played time, but long-term progression must be earned across actual campaign days, costs, risks, world changes, and distinct meaningful experiences."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
@@ -1005,6 +1007,7 @@
     "narrative_correction": "Future events must arise from world/NPC/clock/player/system/prep causes; do not invent twists merely to sustain drama.",
     "last_player_boundary": "Remain with the Keeper until its direct teaching in Claims & Bindings is exhausted.",
     "recovery_rule_locked": true,
-    "training_pacing": "Skip routine repetitions and minor setup; summarize unimportant training in larger blocks. Slow down for new mechanics, dangerous attempts, meaningful decisions, failures, breakthroughs, combat, and consequences."
+    "training_pacing": "Skip repetitive low-value moments within a session, but never compress weeks or months of progression into a single player command. Long-term mastery must unfold across played time, real costs, world-state changes, distinct meaningful experiences, and normal progression limits.",
+    "no_long_time_skips_for_training": true
   }
 }
