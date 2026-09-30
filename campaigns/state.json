@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Upper gorge service road below High Warden",
+    "location": "High Warden maintenance station, outer yard",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -136,7 +136,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 10:16",
+    "time": "Day 223, 11:07",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1184,12 +1184,43 @@
       "At first light on Day 223, the player left Red Hollow on the steep upper-gorge service road toward High Warden.",
       "WORLD provenance: by midmorning the player reached a cliffside switchback showing fresh survey chalk, recently reset iron stakes, and a newly worked transfer mark cut into the stone beside the path.",
       "The fresh work indicates that a competent survey or transfer practitioner is currently using the High Warden route.",
-      "The mark is not automatically identified as Sereth Vale's work; its creator remains unknown until examined."
+      "The mark is not automatically identified as Sereth Vale's work; its creator remains unknown until examined.",
+      "The player examined the fresh transfer mark below High Warden to judge the creator's competence before continuing.",
+      "Observation check: raw 16 + Wisdom 3 + Observation Novice 1 = 20.",
+      "Transfer analysis check: raw 15 + Wisdom 3 + Transfer Control Practiced 2 = 20.",
+      "The mark is highly competent work. It uses very little geometry, wastes almost no material, and encodes its safe failure state directly into the physical anchor rather than relying on a separate control layer.",
+      "The creator deliberately left the mark underpowered rather than maximizing capacity; its purpose appears to be precise measurement of load drift in the cliffside road, not structural control.",
+      "The work shows better economy and cleaner failure handling than the player's current normal field practice in transfer architecture.",
+      "The mark is not sufficient by itself to identify Sereth Vale. It could belong to another very skilled practitioner.",
+      "The player continued upward after the inspection.",
+      "The upper service road continued steeply for roughly forty minutes.",
+      "By late morning the player reached High Warden: a small stone maintenance station built into the gorge wall above Red Hollow.",
+      "High Warden is currently occupied. Smoke rises from one chimney, survey gear is laid out in the yard, and a recently used load frame stands beside the retaining edge.",
+      "At least one competent specialist is present inside or nearby.",
+      "Sereth Vale's presence remains unconfirmed."
     ],
     "last_resolution": {
-      "provenance": "WORLD",
-      "action": "Sleep at Red Hollow and ascend toward High Warden",
-      "outcome": "reached a fresh survey/transfer worksite below High Warden; creator of the mark unknown"
+      "provenance": "SYSTEM",
+      "action": "Assess the fresh transfer work and continue to High Warden",
+      "checks": {
+        "observation": {
+          "raw_roll": 16,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 20,
+          "outcome": "strong success"
+        },
+        "transfer_analysis": {
+          "raw_roll": 15,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 20,
+          "outcome": "strong success"
+        }
+      },
+      "outcome": "judged the unknown creator as highly competent and reached occupied High Warden"
     },
     "learning": {
       "skills": [
