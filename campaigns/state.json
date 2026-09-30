@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Dunmarrow, lower ward",
+    "location": "Dunmarrow, cloth merchants' hall",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -121,7 +121,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 215, 07:18",
+    "time": "Day 215, 08:02",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -917,12 +917,17 @@
       "The player then looked for another legitimate job in Dunmarrow.",
       "A mundane paid opportunity was found in the lower ward: a river warehouse needs a literate temporary tally hand for the morning to check incoming sacks and crates against a written manifest.",
       "The offered wage is 4 silver for the morning plus a simple midday meal if the work is completed accurately.",
-      "This is ordinary employment and carries no hidden quest, obligation, or supernatural complication."
+      "This is ordinary employment and carries no hidden quest, obligation, or supernatural complication.",
+      "The player declined the lower-paid warehouse tally work and sought specialist Claims & Bindings employment instead.",
+      "At Dunmarrow's cloth merchants' hall, the player found a same-day commercial dispute involving one pledged shipment claimed by two different lenders.",
+      "The guild offered 22 silver for an independent binding expert to determine which claim is valid and document the result before the goods are released.",
+      "The job is a bounded commercial case, not a hidden quest or supernatural plot hook.",
+      "Because Claims & Bindings 74 is Master rank, basic inspection of ordinary claim provenance is routine; the uncertain part will be resolving the conflicting chain if both claims contain apparently valid documentation."
     ],
     "last_resolution": {
       "provenance": "PLAYER",
-      "action": "Sleep safely, then look for another paid job",
-      "outcome": "safe rest completed; silver 3 -> 1; found morning warehouse tally job paying 4 silver plus meal"
+      "action": "Seek high-paying Claims & Bindings work",
+      "outcome": "found 22-silver commercial claim dispute at the cloth merchants' hall"
     },
     "learning": {
       "skill": "Spatial Relations",
