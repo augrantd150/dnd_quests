@@ -57,7 +57,7 @@
       "waterskin",
       "small field notebook",
       "Ledger Shard",
-      "6 days coarse road rations",
+      "4 days coarse road rations",
       "wool blanket",
       "small waxed groundsheet"
     ],
@@ -102,6 +102,9 @@
         "Fastline Traversal Spine",
         "Pressure Relief Sequencing"
       ]
+    },
+    "reputation": {
+      "engineering_magic": "Emerging regional specialist: successfully solved difficult structural-transfer problems at Greyspan, Stonewake, and Red Hollow. Known among some works crews and engineers, but not yet broadly famous or legendary."
     }
   },
   "magic": {
@@ -1356,6 +1359,7 @@
     "training_pacing": "Skip repetitive low-value moments within a session, but never compress weeks or months of progression into a single player command. Long-term mastery must unfold across played time, real costs, world-state changes, distinct meaningful experiences, and normal progression limits.",
     "no_long_time_skips_for_training": true,
     "current_long_term_goal": "Find Sereth Vale",
-    "travel_pacing": "The journey to Sereth Vale is campaign play. Do not fast-forward across meaningful travel legs, logistics, hazards, settlements, or consequences."
+    "travel_pacing": "The journey to Sereth Vale is campaign play. Do not fast-forward across meaningful travel legs, logistics, hazards, settlements, or consequences.",
+    "story_interest_preference": "Increase narrative intensity through causally earned complications: rival experts, dangerous field decisions, reputational consequences, competing interests, difficult magical problems, and meaningful interpersonal conflict. Do not manufacture random twists, hook-stack, or override simulation-first causality."
   }
 }
