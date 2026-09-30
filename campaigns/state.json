@@ -132,7 +132,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 222, 11:18",
+    "time": "Day 222, 11:42",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1144,12 +1144,19 @@
       "The morning travel was uneventful but slow through narrow gorge road and retaining works.",
       "By late morning the road opened into Red Hollow, an active works camp built around a gorge bridge, retaining-wall system, cranes, timber galleries, stone yards, and temporary barracks.",
       "Red Hollow matches the historical works district named in Stonewake's archive as the last place directly associated with Sereth Vale.",
-      "Sereth Vale's present location remains unconfirmed."
+      "Sereth Vale's present location remains unconfirmed.",
+      "At Red Hollow, the player asked the works clerk, senior surveyors, and older bridge crews whether Sereth Vale is currently present.",
+      "NPC provenance: multiple workers recognized Sereth Vale's name and confirmed that he did work at Red Hollow in the past.",
+      "No one could confirm that Sereth is currently in the main works camp.",
+      "A senior surveyor stated that Sereth stopped taking ordinary depot assignments years ago and began spending more time on isolated failure sites and difficult field inspections.",
+      "The surveyor remembered one more recent destination associated with Sereth: an old upper-gorge maintenance station called High Warden, reachable by a steep service road above Red Hollow.",
+      "This is the first comparatively recent lead, but still not direct confirmation of Sereth's current location.",
+      "The player learned that High Warden is used only intermittently by specialist crews and inspectors, making it plausible that Sereth could work there without being visible in the main camp."
     ],
     "last_resolution": {
-      "provenance": "WORLD",
-      "action": "Continue from gorge camp to Red Hollow",
-      "outcome": "arrived at Red Hollow works camp on Day 222 at 11:18"
+      "provenance": "NPC",
+      "action": "Search Red Hollow for Sereth Vale",
+      "outcome": "Sereth is not confirmed in the main camp; a comparatively recent lead points to High Warden, an upper-gorge maintenance station"
     },
     "learning": {
       "skills": [
