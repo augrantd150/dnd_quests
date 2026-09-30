@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Stonewake engineering depot, western works gate",
+    "location": "Old Crownroad east of Stonewake",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -31,20 +31,20 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 19,
+      "Observation": 20,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 32,
-      "Waymark Craft": 42,
+      "Transfer Control": 33,
+      "Waymark Craft": 43,
       "Spatial Relations": 28,
       "Claims & Bindings": 74
     },
     "wounds": [],
     "exhaustion": 0,
-    "silver": 30,
+    "silver": 49,
     "inventory": [
       "travel cloak",
       "patched gambeson",
@@ -57,7 +57,7 @@
       "waterskin",
       "small field notebook",
       "Ledger Shard",
-      "3 days coarse road rations",
+      "6 days coarse road rations",
       "wool blanket",
       "small waxed groundsheet"
     ],
@@ -89,7 +89,8 @@
         "Witness Chain",
         "Clean Dissolution",
         "Claim Lattice",
-        "Load Lattice"
+        "Load Lattice",
+        "Staggered Handoff"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch"
@@ -129,7 +130,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 219, 12:22",
+    "time": "Day 220, 17:46",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1075,32 +1076,99 @@
       "The ledger records that the crew later moved farther east to inspect the Crownroad gorge crossings after repeated structural failures in that district.",
       "The last legible entry naming Sereth associates him with a place called Red Hollow, a works camp serving a gorge bridge and retaining-wall system.",
       "Red Hollow is a historical lead only; the ledger entry is old and does not confirm Sereth is still there.",
-      "The engineering clerk estimates Red Hollow at roughly two to three days east by the old Crownroad in good conditions, longer if the gorge road is damaged."
+      "The engineering clerk estimates Red Hollow at roughly two to three days east by the old Crownroad in good conditions, longer if the gorge road is damaged.",
+      "Stonewake's hardest current engineering problem was identified as the South Cut shoring fault: three timber support frames were carrying a moving roof load unevenly in a deep quarry gallery.",
+      "The problem was real specialist work rather than a manufactured crisis. Replacing any one frame without controlled redistribution risked overloading the next.",
+      "The player solved the problem without Resonance by using the quarry roof's existing structural load as the transferred quantity and timber frames, wedges, sound stone, and prepared Waymark relationships as receivers and control logic.",
+      "South Cut survey check: raw 18 + Wisdom 3 + Observation Novice 1 = 22. The player identified that the three frames were mechanically coupled through the fractured roof.",
+      "Transfer design check: raw 16 + Wisdom 3 + Transfer Control Practiced 2 = 21. The player designed a three-stage overlapping handoff so each new support accepted load before the previous support was released.",
+      "Initial Waymark implementation check: raw 6 + Intelligence 1 + Waymark Craft Adept 3 = 10. One branch began accepting load too early; capacity limits prevented overload and the sequence was stopped safely.",
+      "Diagnosis check: raw 18 + Wisdom 3 + Observation Novice 1 = 22. The player found a hidden diagonal fracture that caused the second frame to behave as part of the first receiver.",
+      "Corrected Waymark implementation check: raw 14 + Intelligence 1 + Waymark Craft Adept 3 = 18. The player isolated the false branch and rebuilt the control geometry successfully.",
+      "Final staged transfer check: raw 14 + Wisdom 3 + Transfer Control Practiced 2 = 19. The three damaged frames were replaced in sequence without roof loss, overload, or injury.",
+      "The South Cut repair field-qualified the Staggered Handoff refinement for prepared multi-stage load transfer.",
+      "Meaningful field work advanced Observation 19 -> 20, Transfer Control 32 -> 33, and Waymark Craft 42 -> 43.",
+      "Stonewake paid 24 silver for the specialist repair.",
+      "Before leaving, the player spent 5 silver on a safe bunk, a hot meal, and four additional days of coarse road rations.",
+      "The player slept safely at Stonewake. HP remained 10/10 and Resonance remained 0/3.",
+      "At first light on Day 220 the player departed east on the old Crownroad toward Red Hollow.",
+      "The Day 220 road was mostly uneventful through limestone uplands. The player consumed one day of road rations and had six days remaining by evening.",
+      "By Day 220 at 17:46 the player was camp-ready on the old Crownroad east of Stonewake, still following the historical Red Hollow lead."
     ],
     "last_resolution": {
-      "provenance": "NPC",
-      "action": "Ask Stonewake for Sereth Vale's trail and legendary-scale work",
-      "outcome": "no current legendary contract; archived ledger points to Red Hollow and the Crownroad gorge crossings as Sereth's next historical trail"
+      "provenance": "SYSTEM",
+      "action": "Solve Stonewake's South Cut shoring fault, resupply, sleep, and depart toward Red Hollow",
+      "checks": {
+        "survey": {
+          "raw_roll": 18,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 22,
+          "outcome": "strong success"
+        },
+        "transfer_design": {
+          "raw_roll": 16,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 21,
+          "outcome": "strong success"
+        },
+        "first_waymark": {
+          "raw_roll": 6,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 10,
+          "outcome": "partial; unsafe early coupling caught by capacity limits"
+        },
+        "diagnosis": {
+          "raw_roll": 18,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 22,
+          "outcome": "strong success"
+        },
+        "corrected_waymark": {
+          "raw_roll": 14,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 18,
+          "outcome": "success"
+        },
+        "staged_transfer": {
+          "raw_roll": 14,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 19,
+          "outcome": "strong success"
+        }
+      },
+      "outcome": "South Cut stabilized and frames replaced; 24 silver earned; Staggered Handoff field-qualified; resupplied and departed toward Red Hollow"
     },
     "learning": {
       "skills": [
         {
           "skill": "Observation",
-          "from": 18,
-          "to": 19,
-          "reason": "Found a concealed structural fracture after a fail-closed lattice rejection."
+          "from": 19,
+          "to": 20,
+          "reason": "Identified hidden structural coupling in a live quarry shoring system."
         },
         {
           "skill": "Transfer Control",
-          "from": 30,
-          "to": 32,
-          "reason": "Designed and operated a real fail-soft structural load lattice under live bridge load."
+          "from": 32,
+          "to": 33,
+          "reason": "Executed a three-stage overlapping structural load handoff under real roof load."
         },
         {
           "skill": "Waymark Craft",
-          "from": 41,
-          "to": 42,
-          "reason": "Corrected unsafe receiver logic and rebuilt a live structural control lattice."
+          "from": 42,
+          "to": 43,
+          "reason": "Diagnosed and corrected premature receiver coupling in a live control lattice."
         }
       ]
     },
