@@ -279,3 +279,42 @@ A valid staggered handoff must define:
 The player first inferred this principle from Sereth Vale's surviving Greyspan work and later field-qualified it while replacing coupled quarry shoring at Stonewake.
 
 It is not free smoothing: both branches must be physically capable of carrying their share during the overlap interval.
+
+
+### Recursive Containment Mesh
+
+A **Recursive Containment Mesh** is a studied Causal Mesh architecture for keeping unauthorized entities inside a prepared physical area by controlling traversal through keyed thresholds.
+
+Core ideas:
+- finite cyclic routing rather than impossible infinite space;
+- explicit authorized and contained identities;
+- prepared threshold nodes and route relationships;
+- branch isolation and reset states;
+- alarms and bounded defensive/trap branches;
+- fail-closed behavior when identity or routing becomes ambiguous;
+- physical enclosure and anchor protection as part of the design.
+
+A containment mesh can maintain confinement only while its anchors, power, geometry, receiver capacities, and physical enclosure remain valid. It cannot guarantee literal eternal imprisonment. Damage, exhausted power, broken anchors, new routes, or physical escape outside the prepared thresholds can defeat it.
+
+Trap branches remain causal systems: each requires a real energy source, valid trigger, compatible receiver, bounded capacity, geometry, and failure behavior.
+
+The player has designed this architecture but has not yet field-qualified it.
+
+
+### Fastline Traversal Spine
+
+A **Fastline Traversal Spine** is a studied spatial-routing architecture that sacrifices flexibility for speed and control efficiency.
+
+It uses:
+- a small set of fixed prepared routes;
+- pre-validated personal authorization;
+- known orientation and exit mapping;
+- minimized routing ambiguity;
+- reduced runtime arbitration at junctions;
+- predictable momentum handling.
+
+The goal is faster, lower-overhead traversal through a prepared Causal Mesh, not free teleportation or unlimited speed.
+
+Efficiency still depends on distance, anchor stability, geometry, power source, traveler mass, route complexity, and losses.
+
+The player has designed this architecture but has not yet field-qualified it with live Resonance.
