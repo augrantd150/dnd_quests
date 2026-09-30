@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Crownroad gorge, near Red Hollow",
+    "location": "Red Hollow works camp, western approach",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -132,7 +132,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 222, 06:37",
+    "time": "Day 222, 11:18",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1139,46 +1139,17 @@
       "Both Recursive Containment Mesh and Fastline Traversal Spine are studied concepts only. Neither is field-qualified because the player had no Resonance available for live testing.",
       "Meaningful architectural study advanced Spatial Relations 28 -> 29 and Waymark Craft 43 -> 44. Claims & Bindings remained 74 because the authorization work was within existing Master capability.",
       "After the study session, the player slept safely at the established gorge camp.",
-      "HP remained 10/10. Resonance remained 0/3 because ordinary sleep does not restore it."
+      "HP remained 10/10. Resonance remained 0/3 because ordinary sleep does not restore it.",
+      "The player departed the gorge camp at first light on Day 222 and continued east along the old Crownroad.",
+      "The morning travel was uneventful but slow through narrow gorge road and retaining works.",
+      "By late morning the road opened into Red Hollow, an active works camp built around a gorge bridge, retaining-wall system, cranes, timber galleries, stone yards, and temporary barracks.",
+      "Red Hollow matches the historical works district named in Stonewake's archive as the last place directly associated with Sereth Vale.",
+      "Sereth Vale's present location remains unconfirmed."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Develop advanced Causal Mesh containment and high-speed traversal concepts, then sleep",
-      "checks": {
-        "containment_claims": {
-          "raw_roll": 13,
-          "ability": "Intelligence",
-          "ability_modifier": 1,
-          "training_bonus": 5,
-          "total": 19,
-          "outcome": "strong success"
-        },
-        "containment_waymark": {
-          "raw_roll": 20,
-          "ability": "Intelligence",
-          "ability_modifier": 1,
-          "training_bonus": 3,
-          "total": 24,
-          "outcome": "exceptional success"
-        },
-        "containment_spatial": {
-          "raw_roll": 13,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 18,
-          "outcome": "success"
-        },
-        "fastline_spatial": {
-          "raw_roll": 18,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 23,
-          "outcome": "strong success"
-        }
-      },
-      "outcome": "Recursive Containment Mesh and Fastline Traversal Spine designed as studied concepts; Spatial Relations 28 -> 29; Waymark Craft 43 -> 44; safe sleep completed"
+      "provenance": "WORLD",
+      "action": "Continue from gorge camp to Red Hollow",
+      "outcome": "arrived at Red Hollow works camp on Day 222 at 11:18"
     },
     "learning": {
       "skills": [
