@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Eastern road camp, east of Ashbar Gate",
+    "location": "Greyspan bridgeworks, western approach",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -57,7 +57,7 @@
       "waterskin",
       "small field notebook",
       "Ledger Shard",
-      "6 days coarse road rations",
+      "5 days coarse road rations",
       "wool blanket",
       "small waxed groundsheet"
     ],
@@ -124,7 +124,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 216, 19:12",
+    "time": "Day 217, 16:48",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -988,17 +988,20 @@
       "The player found a raised, well-drained patch behind a low stone boundary, out of direct wind and away from obvious runoff.",
       "The wool blanket and waxed groundsheet made the camp adequate for a normal night's rest.",
       "The player consumed one day of coarse road rations. Six days remain.",
-      "Resonance remained 0/3 because ordinary rest does not restore it."
+      "Resonance remained 0/3 because ordinary rest does not restore it.",
+      "The player slept safely at the roadside camp and departed at first light on Day 217.",
+      "The safe rest caused no change to HP because the player was already at maximum, and Resonance remained 0/3 because ordinary sleep does not restore it.",
+      "The player consumed one day of coarse road rations during the day's travel. Five days remain.",
+      "The Day 217 journey was mostly uneventful hard walking on wet road, with no artificial encounter inserted.",
+      "By late afternoon the player reached the western approach to Greyspan.",
+      "Greyspan is a major multi-arch stone bridge over a broad river, surrounded by scaffolding, cranes, temporary workshops, stone stockpiles, workers' shelters, carts, and active repair crews.",
+      "The bridgeworks are large enough to function like a temporary settlement.",
+      "Sereth Vale's current presence at Greyspan remains unconfirmed."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Make roadside camp east of Ashbar Gate",
-      "raw_roll": 14,
-      "ability": "Wisdom",
-      "ability_modifier": 3,
-      "training_bonus": 1,
-      "total": 18,
-      "outcome": "success; adequate roadside camp established; one day of rations consumed"
+      "provenance": "WORLD",
+      "action": "Continue east from roadside camp to Greyspan",
+      "outcome": "arrived at Greyspan bridgeworks on Day 217; five days of rations remain; Resonance remains 0/3"
     },
     "learning": {
       "skill": "Claims & Bindings",
