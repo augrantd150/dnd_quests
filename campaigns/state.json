@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "North road to Stonewake, quarry country",
+    "location": "Stonewake engineering depot, western works gate",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -129,7 +129,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 218, 19:01",
+    "time": "Day 219, 11:34",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1061,17 +1061,18 @@
       "Survival check: raw 12 + Wisdom 3 + Survival Novice 1 = 16.",
       "The player found a shallow limestone shelf with reasonable windbreak and drainage, adequate for a safe night's rest with existing gear.",
       "The player consumed one day of coarse road rations. Three days remain.",
-      "Resonance remained 0/3."
+      "Resonance remained 0/3.",
+      "The player slept safely on the northern road and continued toward Stonewake at first light on Day 219.",
+      "HP remained at maximum and Resonance remained 0/3 after the safe rest.",
+      "The morning journey was uneventful except for increasing quarry and works traffic.",
+      "By late morning the player reached Stonewake, a large quarry and engineering depot built into pale limestone workings.",
+      "Stonewake contains cranes, stone ramps, kilns, repair sheds, survey stores, workers' barracks, and a controlled western works gate.",
+      "Sereth Vale's current presence remains unconfirmed."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Continue toward Stonewake and make camp before dark",
-      "raw_roll": 12,
-      "ability": "Wisdom",
-      "ability_modifier": 3,
-      "training_bonus": 1,
-      "total": 16,
-      "outcome": "safe roadside camp; one day of rations consumed"
+      "provenance": "WORLD",
+      "action": "Continue from roadside camp to Stonewake",
+      "outcome": "arrived at Stonewake engineering depot on Day 219 at 11:34"
     },
     "learning": {
       "skills": [
