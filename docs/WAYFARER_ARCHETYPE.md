@@ -322,3 +322,28 @@ A Causal Mesh may combine:
 - bounded local response systems.
 
 **Junction Mesh** and **Sanctuary Mesh** are specialized Causal Mesh architectures.
+
+
+## Claims & Bindings Techniques
+
+The player's Keeper apprenticeship established a Master-level toolkit for explicit, causally grounded relationships.
+
+### Covenant Seal
+Formalizes a specific witnessed agreement with defined parties, scope, duration, fulfillment, breach, and termination. It records and governs the agreed relationship; it does not compel bodily obedience or manufacture consent.
+
+### Escrow Binding
+Places a specifically identified claim, permission, object-interest, or pledged collateral into a neutral conditional state until explicit release conditions are satisfied.
+
+### Claim Transfer
+Transfers an existing valid claim or permission through an authorized chain. It cannot create a stronger right than the source possessed.
+
+### Witness Chain
+Uses multiple keyed witnesses or records so tampering, substitution, broken provenance, or conflicting testimony can be detected and isolated. More witnesses improve robustness, not metaphysical truth.
+
+### Clean Dissolution
+Unwinds an existing binding while preserving already-settled consequences and preventing unrelated claims from being dragged into the collapse.
+
+### Claim Lattice
+A prepared multi-party relationship structure supporting reciprocal obligations, delegation, succession, revocation, collateral, witness state, precedence, and bounded consequences.
+
+**Current mastery:** Claims & Bindings 74 (Master). Direct Keeper instruction is exhausted; further advancement requires independent fieldwork and original solutions.
