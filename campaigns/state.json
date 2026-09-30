@@ -37,8 +37,8 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 28,
-      "Waymark Craft": 40,
+      "Transfer Control": 29,
+      "Waymark Craft": 41,
       "Spatial Relations": 26,
       "Claims & Bindings": 74
     },
@@ -121,7 +121,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 214, 17:30",
+    "time": "Day 214, 18:12",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -869,28 +869,80 @@
       "Waymark Craft advanced 38 -> 40 from sustained use of keyed identity, authorization, state, and witness structures during the apprenticeship.",
       "The Keeper stated that it had no further direct lessons capable of advancing the player reliably. Further Claims & Bindings growth toward Grandmaster requires independent field cases, novel constructions, contested real-world claims, and original discoveries rather than more supervised exercises.",
       "The player explicitly prohibited future multi-week or multi-month training skips because they make advancement too easy.",
-      "Future training may summarize repetitive drills within reasonable played time, but long-term progression must be earned across actual campaign days, costs, risks, world changes, and distinct meaningful experiences."
+      "Future training may summarize repetitive drills within reasonable played time, but long-term progression must be earned across actual campaign days, costs, risks, world changes, and distinct meaningful experiences.",
+      "The player asked to learn how to combine all known magic by jumping directly to the hardest available integrated problems, without long-term time skips.",
+      "The Keeper set an immediate high-complexity Causal Mesh trial using weighted surrogates rather than living subjects until the architecture proved safe.",
+      "The test combined Claims & Bindings, Waymark control, nested spatial routing, moving exits, concurrency, warning logic, branch isolation, stored momentum handling, revocation, and fail-safe behavior.",
+      "Three simultaneous valid traversal requests entered one shared junction. Each carried different claim permissions and destination rules.",
+      "During the test, one authorization was revoked after entry but before routing resolution, one spatial exit changed velocity unexpectedly, one relay branch was severed, and one stored-momentum source exceeded its preferred capacity.",
+      "CLAIMS check: raw d20 16 + Wisdom 3 + Master training 5 = 24. The player correctly preserved provenance, applied mid-process revocation without retroactively invalidating already-settled state, and prevented the revoked traveler from inheriting unrelated permissions.",
+      "WAYMARK control check: raw d20 13 + Wisdom 3 + Adept training 3 = 19. The player successfully arbitrated the three simultaneous requests with explicit queue/priority logic and isolated the severed branch without corrupting shared state.",
+      "SPATIAL routing check: raw d20 7 + Wisdom 3 + Practiced training 2 = 12. The player failed to maintain a safe moving-exit geometry for one request after the exit changed velocity. The mesh correctly refused traversal and routed that request to the mundane fallback instead of guessing.",
+      "TRANSFER control check: raw d20 14 + Wisdom 3 + Practiced training 2 = 19. The player bled excess stored momentum into a designated inertial sink and prevented overload from propagating into the spatial junction.",
+      "The full system completed the test without misrouting, false authorization, uncontrolled discharge, or collateral harm.",
+      "The most important success was systemic refusal: one spatial branch failed, but the mesh degraded safely rather than forcing completion.",
+      "Waymark Craft advanced 40 -> 41 from successful concurrency arbitration at integrated scale.",
+      "Transfer Control advanced 28 -> 29 from controlled overload shedding inside a live composite network.",
+      "Spatial Relations remained 26 because the moving-exit failure exposed an unresolved weakness.",
+      "Claims & Bindings remained 74 because the player performed at expected Master level rather than discovering a new claims principle."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Complete long Claims & Bindings apprenticeship under the Keeper Below",
-      "duration": "roughly seven months",
-      "final_mastery_test": {
-        "raw_roll": 10,
-        "ability": "Wisdom",
-        "ability_modifier": 3,
-        "training_bonus": 4,
-        "total": 17,
-        "outcome": "success; six-party claim lattice resolved without overreach or collateral spill"
+      "action": "Hardest available immediate integrated Causal Mesh trial",
+      "checks": {
+        "claims_bindings": {
+          "raw_roll": 16,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 5,
+          "total": 24,
+          "outcome": "exceptional success"
+        },
+        "waymark_control": {
+          "raw_roll": 13,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 3,
+          "total": 19,
+          "outcome": "strong success"
+        },
+        "spatial_routing": {
+          "raw_roll": 7,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 12,
+          "outcome": "partial failure; unsafe moving exit rejected and fallback used"
+        },
+        "transfer_control": {
+          "raw_roll": 14,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 19,
+          "outcome": "strong success"
+        }
       },
-      "outcome": "Claims & Bindings 10 -> 74 (Master); Keeper's direct teaching ceiling reached"
+      "outcome": "integrated mesh survived simultaneous requests, revocation, branch severance, moving-exit failure, and overload with safe degradation"
     },
     "learning": {
-      "skill": "Claims & Bindings",
-      "from": 10,
-      "to": 74,
-      "rank_change": "Novice -> Master",
-      "reason": "Seven months of direct apprenticeship, difficult multi-party casework, informative failures, supervised binding construction, and a successful master-level final lattice test."
+      "skills": [
+        "Claims & Bindings",
+        "Waymark Craft",
+        "Spatial Relations",
+        "Transfer Control"
+      ],
+      "changes": {
+        "Waymark Craft": [
+          40,
+          41
+        ],
+        "Transfer Control": [
+          28,
+          29
+        ]
+      },
+      "reason": "Extreme integrated problem proved concurrency, provenance, overload isolation, and safe degradation; moving-exit spatial routing remains the current bottleneck."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
