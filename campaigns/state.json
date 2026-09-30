@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Crownroad gorge, beyond failed retaining-wall section",
+    "location": "Crownroad gorge, near Red Hollow",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -130,7 +130,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 221, 15:51",
+    "time": "Day 221, 18:47",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1115,17 +1115,26 @@
       "Footwork check: raw 12 + Dexterity 3 + Footwork Novice 1 = 16.",
       "The player crossed by staying tight to the inner rock face and using the two exposed limestone ribs as deliberate footholds.",
       "The dangerous undercut outer edge was avoided completely.",
-      "The crossing succeeded without injury, equipment loss, or Resonance expenditure."
+      "The crossing succeeded without injury, equipment loss, or Resonance expenditure.",
+      "After safely crossing the failed retaining-wall section, the player continued east along the old Crownroad.",
+      "The road narrowed into a shelf cut through the gorge wall, slowing travel but presenting no new major hazard before dusk.",
+      "Near evening the player found abandoned survey stakes, older retaining works, and fresh wagon tracks all continuing east.",
+      "These signs confirm active human traffic toward the Red Hollow works district without confirming Sereth Vale's presence.",
+      "The player stopped before full darkness at a sheltered bend suitable for camp.",
+      "Survival check: raw 11 + Wisdom 3 + Survival Novice 1 = 15.",
+      "The camp is adequate and out of obvious rockfall runoff.",
+      "The player consumed one day of coarse road rations. Four days remain.",
+      "Resonance remains 0/3."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Cross the damaged gorge footpath on foot using the observed safe line",
-      "raw_roll": 12,
-      "ability": "Dexterity",
+      "action": "Continue toward Red Hollow and camp before dark",
+      "raw_roll": 11,
+      "ability": "Wisdom",
       "ability_modifier": 3,
       "training_bonus": 1,
-      "total": 16,
-      "outcome": "success; crossed safely without spending Resonance"
+      "total": 15,
+      "outcome": "adequate camp established; signs of active traffic indicate Red Hollow is close"
     },
     "learning": {
       "skills": [
