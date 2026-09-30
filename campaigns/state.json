@@ -44,7 +44,7 @@
     },
     "wounds": [],
     "exhaustion": 0,
-    "silver": 1,
+    "silver": 23,
     "inventory": [
       "travel cloak",
       "patched gambeson",
@@ -73,7 +73,7 @@
     "temporary_conditions": [],
     "magic": {
       "resonance": {
-        "current": 3,
+        "current": 2,
         "max": 3
       },
       "techniques": [
@@ -121,7 +121,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 215, 08:02",
+    "time": "Day 215, 09:11",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -922,18 +922,32 @@
       "At Dunmarrow's cloth merchants' hall, the player found a same-day commercial dispute involving one pledged shipment claimed by two different lenders.",
       "The guild offered 22 silver for an independent binding expert to determine which claim is valid and document the result before the goods are released.",
       "The job is a bounded commercial case, not a hidden quest or supernatural plot hook.",
-      "Because Claims & Bindings 74 is Master rank, basic inspection of ordinary claim provenance is routine; the uncertain part will be resolving the conflicting chain if both claims contain apparently valid documentation."
+      "Because Claims & Bindings 74 is Master rank, basic inspection of ordinary claim provenance is routine; the uncertain part will be resolving the conflicting chain if both claims contain apparently valid documentation.",
+      "The player used Master-level Claims & Bindings magic to audit the disputed wool shipment's claim provenance.",
+      "The working linked the specific shipment, both genuine contracts, the guild seal, and the recorded authority chain into a temporary claim lattice.",
+      "Claims & Bindings 74 is Master rank (+5); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 12; total magical provenance check was 20.",
+      "The magical audit showed that the older lender received a valid senior pledge over the full shipment.",
+      "The later contract was also genuinely signed, but its pledgor only retained custody and handling authority at that point; the earlier pledge had already removed the authority to encumber the same goods again.",
+      "Therefore the later document was authentic but did not carry a valid second pledge over the shipment itself.",
+      "The magic established authority provenance and scope; it did not pronounce moral guilt or legal doctrine beyond the actual relationships created.",
+      "The player documented the result clearly enough for the guild to release the goods under the senior claim.",
+      "The guild paid the agreed 22 silver fee.",
+      "The claim audit cost 1 Resonance: 3/3 -> 2/3."
     ],
     "last_resolution": {
-      "provenance": "PLAYER",
-      "action": "Seek high-paying Claims & Bindings work",
-      "outcome": "found 22-silver commercial claim dispute at the cloth merchants' hall"
+      "provenance": "SYSTEM",
+      "action": "Magically audit conflicting commercial claims",
+      "raw_roll": 12,
+      "ability": "Wisdom",
+      "ability_modifier": 3,
+      "training_bonus": 5,
+      "total": 20,
+      "outcome": "strong success; senior claim validated, later pledge shown to exceed remaining authority; earned 22 silver; spent 1 Resonance"
     },
     "learning": {
-      "skill": "Spatial Relations",
-      "from": 26,
-      "to": 28,
-      "reason": "Successfully handled nested concurrency, exit invalidation after commitment, collision avoidance, fallback routing, and dynamic momentum remapping in one live spatial network."
+      "skill": "Claims & Bindings",
+      "reason": "Applied Master-level provenance analysis to a real commercial dispute; performance was within existing mastery, so no score increase."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
