@@ -18,7 +18,7 @@
     "alive": true,
     "level": 1,
     "location": "Dunmarrow, lower well chamber beneath the old bell tower",
-    "hp": 9,
+    "hp": 10,
     "max_hp": 10,
     "ac": 14,
     "speed_ft": 30,
@@ -38,13 +38,13 @@
       "Survival": 15,
       "Field Medicine": 9,
       "Transfer Control": 28,
-      "Waymark Craft": 38,
+      "Waymark Craft": 40,
       "Spatial Relations": 26,
-      "Claims & Bindings": 10
+      "Claims & Bindings": 74
     },
     "wounds": [],
     "exhaustion": 0,
-    "silver": 8,
+    "silver": 0,
     "inventory": [
       "travel cloak",
       "patched gambeson",
@@ -55,7 +55,6 @@
       "2 bronze waymark nails",
       "flint and steel",
       "waterskin",
-      "2 days of coarse rations",
       "small field notebook",
       "Ledger Shard"
     ],
@@ -71,18 +70,22 @@
         ]
       }
     },
-    "temporary_conditions": [
-      "minor hip/knee bruising from rough moving-anchor fold exit"
-    ],
+    "temporary_conditions": [],
     "magic": {
       "resonance": {
-        "current": 0,
+        "current": 3,
         "max": 3
       },
       "techniques": [
         "Stored Reversal",
         "Watchmark",
-        "Distributed Defense Network"
+        "Distributed Defense Network",
+        "Covenant Seal",
+        "Escrow Binding",
+        "Claim Transfer",
+        "Witness Chain",
+        "Clean Dissolution",
+        "Claim Lattice"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch"
@@ -118,7 +121,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 4, 20:52",
+    "time": "Day 214, 17:30",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -850,24 +853,42 @@
       "The player successfully constructed the binding. On fulfillment, the collateral released cleanly. On a second controlled breach test, the pledged token's claim transferred to the named counterparty exactly as agreed.",
       "The consequence affected only the explicitly pledged object. It did not expand to unrelated property, bodily control, injury, or invented penalties.",
       "No personal Resonance was spent because the Keeper supplied training power.",
-      "Claims & Bindings advanced 8 -> 10, entering Novice rank. Future Claims & Bindings checks receive a +1 mastery training bonus."
+      "Claims & Bindings advanced 8 -> 10, entering Novice rank. Future Claims & Bindings checks receive a +1 mastery training bonus.",
+      "The player committed to a long apprenticeship in Claims & Bindings under the Keeper Below and remained until direct instruction stopped producing meaningful gains.",
+      "Routine drills and ordinary logistics were compressed per the player's pacing preference.",
+      "The apprenticeship lasted roughly seven months. The player's original 8 silver was spent on early food/lodging; thereafter the player alternated training with ordinary paid work sufficient to cover basic living costs without accumulating savings. The remaining coarse rations were consumed.",
+      "The earlier minor hip/knee bruising healed during the opening days of the apprenticeship.",
+      "Because the player repeatedly trained at the compatible Keeper site, deliberate attunement became routine enough to finish the apprenticeship at Resonance 3/3; ordinary sleep still does not restore Resonance.",
+      "Claims & Bindings advanced through major evidence rather than repetition: explicit person-bound agreements; reciprocal obligations; delegation and authorized transfer; succession and inheritance; escrow and collateral; revocation; conflicting-claim precedence; distributed witness chains; forged-claim rejection; multi-party claim lattices; and safe dissolution.",
+      "A central lesson was preserved throughout: bindings formalize validly established relationships and consequences but do not create moral truth, legitimate ownership, consent, or bodily obedience from nothing.",
+      "Several supervised failures occurred around circular obligations, ambiguous succession, and overbroad person-bound consequences. Each was resolved by narrowing scope, defining precedence, or dissolving the unsafe structure rather than forcing an answer.",
+      "Final mastery test: the Keeper presented a six-party claim lattice containing delegated custody, pledged collateral, two witnesses, a forged substitution, a succession clause, simultaneous fulfillment/revocation pressure, and one broken witness chain.",
+      "SYSTEM provenance: final mastery raw d20 was 10. At Claims & Bindings 69 (Expert, +4) with Wisdom 16 (+3), total was 17.",
+      "The player correctly preserved valid claims, rejected the forged substitution, resolved the authorized succession, prevented double transfer of collateral, isolated the broken witness branch, and dissolved the remaining obligations without inventing new rights.",
+      "Claims & Bindings advanced 10 -> 74 over the full apprenticeship, reaching Master rank.",
+      "Waymark Craft advanced 38 -> 40 from sustained use of keyed identity, authorization, state, and witness structures during the apprenticeship.",
+      "The Keeper stated that it had no further direct lessons capable of advancing the player reliably. Further Claims & Bindings growth toward Grandmaster requires independent field cases, novel constructions, contested real-world claims, and original discoveries rather than more supervised exercises."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Construct a collateralized obligation with automatic consequence on breach",
-      "raw_roll": 17,
-      "ability": "Wisdom",
-      "ability_modifier": 3,
-      "training_bonus": 0,
-      "total": 20,
-      "outcome": "strong success; collateral released on fulfillment and transferred exactly on breach"
+      "action": "Complete long Claims & Bindings apprenticeship under the Keeper Below",
+      "duration": "roughly seven months",
+      "final_mastery_test": {
+        "raw_roll": 10,
+        "ability": "Wisdom",
+        "ability_modifier": 3,
+        "training_bonus": 4,
+        "total": 17,
+        "outcome": "success; six-party claim lattice resolved without overreach or collateral spill"
+      },
+      "outcome": "Claims & Bindings 10 -> 74 (Master); Keeper's direct teaching ceiling reached"
     },
     "learning": {
       "skill": "Claims & Bindings",
-      "from": 8,
-      "to": 10,
-      "rank_change": "Untrained -> Novice",
-      "reason": "Successfully attached a bounded, explicitly consented property consequence to an obligation without expanding its scope."
+      "from": 10,
+      "to": 74,
+      "rank_change": "Novice -> Master",
+      "reason": "Seven months of direct apprenticeship, difficult multi-party casework, informative failures, supervised binding construction, and a successful master-level final lattice test."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
@@ -982,7 +1003,7 @@
     "respect_scene_exit": true,
     "significance_not_assumed": true,
     "narrative_correction": "Future events must arise from world/NPC/clock/player/system/prep causes; do not invent twists merely to sustain drama.",
-    "last_player_boundary": "Rest and recover; no training continuation until after recovery.",
+    "last_player_boundary": "Remain with the Keeper until its direct teaching in Claims & Bindings is exhausted.",
     "recovery_rule_locked": true,
     "training_pacing": "Skip routine repetitions and minor setup; summarize unimportant training in larger blocks. Slow down for new mechanics, dangerous attempts, meaningful decisions, failures, breakthroughs, combat, and consequences."
   }
