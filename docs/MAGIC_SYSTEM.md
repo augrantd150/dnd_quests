@@ -242,3 +242,23 @@ At high mastery, claims-and-bindings work may coordinate many explicit relations
 These systems still do **not** determine moral truth, rightful ownership, consent, guilt, or legitimacy by magic alone. They operate on relationships that were actually established through defined acts, witnesses, institutions, transfers, inheritance rules, or other causal provenance.
 
 A binding must not silently strengthen itself when evidence becomes ambiguous. At Master level, safe dissolution, precedence, provenance, and refusal to invent missing authority are as important as construction.
+
+
+### Load Lattice
+
+A **Load Lattice** is a prepared transfer-control structure for redistributing bounded mechanical or structural load across multiple valid receiver paths.
+
+It must identify:
+- the load being redistributed;
+- sound physical source and receiver structures;
+- capacity of each branch;
+- prepared shoring, masonry, ironwork, wedges, or other real load-bearing receivers;
+- branch validity and isolation;
+- controlled sacrificial deformation where appropriate;
+- failure behavior if a receiver cracks, shifts, overloads, or becomes ambiguous.
+
+A robust Load Lattice is **fail-soft**: local branches may isolate or deform without forcing the entire structure to remain coupled.
+
+It does not create strength, erase stress, or provide free energy. Load removed from one place must go somewhere physically compatible, and the receiving structures must actually survive it.
+
+The player has field-qualified this technique at Greyspan for small-to-medium prepared structural work. Larger structures require proportionally greater materials, anchors, receiver capacity, crew coordination, preparation time, and control.
