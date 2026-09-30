@@ -262,3 +262,20 @@ A robust Load Lattice is **fail-soft**: local branches may isolate or deform wit
 It does not create strength, erase stress, or provide free energy. Load removed from one place must go somewhere physically compatible, and the receiving structures must actually survive it.
 
 The player has field-qualified this technique at Greyspan for small-to-medium prepared structural work. Larger structures require proportionally greater materials, anchors, receiver capacity, crew coordination, preparation time, and control.
+
+
+#### Staggered Handoff
+
+A **Staggered Handoff** is a Load Lattice refinement in which adjacent receiver branches overlap during a controlled transfer instead of switching load abruptly from one branch to another.
+
+A valid staggered handoff must define:
+- when the incoming branch begins accepting load;
+- when the outgoing branch may safely release load;
+- the overlap interval;
+- combined receiver capacity during overlap;
+- isolation behavior if a branch accepts load too early or too late;
+- the physical deformation and timing limits of the supports involved.
+
+The player first inferred this principle from Sereth Vale's surviving Greyspan work and later field-qualified it while replacing coupled quarry shoring at Stonewake.
+
+It is not free smoothing: both branches must be physically capable of carrying their share during the overlap interval.
