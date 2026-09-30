@@ -124,7 +124,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 215, 10:02",
+    "time": "Day 215, 13:37",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -941,12 +941,16 @@
       "Before departure, the player spent 9 silver on practical road provisioning: seven days of coarse travel rations, a wool blanket, and a small waxed groundsheet.",
       "The player left Dunmarrow with 14 silver remaining.",
       "The journey to Sereth is being played as campaign content rather than skipped to the destination.",
-      "The first route follows the eastern road out of the Barony of Veyr toward the older bridgeworks associated with the Keeper's last reliable information about Sereth."
+      "The first route follows the eastern road out of the Barony of Veyr toward the older bridgeworks associated with the Keeper's last reliable information about Sereth.",
+      "The first hours east of Dunmarrow passed without incident.",
+      "WORLD provenance: recent sustained rain has partly washed out a small stone culvert on the eastern road.",
+      "One side of the road crossing has collapsed into the drainage stream; the remaining stone footing is narrow, wet, and potentially slippery.",
+      "The obstacle is a mundane travel hazard caused by weather and road condition, not a quest hook."
     ],
     "last_resolution": {
-      "provenance": "PLAYER",
-      "action": "Provision and depart Dunmarrow eastward",
-      "outcome": "journey begun; silver 23 -> 14; 7 days rations and basic sleeping gear acquired"
+      "provenance": "WORLD",
+      "action": "Reach first significant road obstacle",
+      "outcome": "partly washed-out culvert blocks easy passage; crossing, inspection, or detour remain possible"
     },
     "learning": {
       "skill": "Claims & Bindings",
