@@ -37,7 +37,7 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 29,
+      "Transfer Control": 30,
       "Waymark Craft": 41,
       "Spatial Relations": 28,
       "Claims & Bindings": 74
@@ -92,6 +92,9 @@
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch"
+      ],
+      "studied_concepts": [
+        "Load Lattice"
       ]
     }
   },
@@ -124,7 +127,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 217, 16:48",
+    "time": "Day 217, 18:21",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -996,16 +999,48 @@
       "By late afternoon the player reached the western approach to Greyspan.",
       "Greyspan is a major multi-arch stone bridge over a broad river, surrounded by scaffolding, cranes, temporary workshops, stone stockpiles, workers' shelters, carts, and active repair crews.",
       "The bridgeworks are large enough to function like a temporary settlement.",
-      "Sereth Vale's current presence at Greyspan remains unconfirmed."
+      "Sereth Vale's current presence at Greyspan remains unconfirmed.",
+      "At Greyspan, the player asked separately about legendary-scale work, Sereth Vale, and surviving examples of Sereth's engineering.",
+      "NPC provenance: there is no current public legendary-grade quest or heroic contract at Greyspan. The major bridge restoration is dangerous and prestigious infrastructure work, but no extraordinary crisis is presently being advertised.",
+      "Several older masons recognized Sereth Vale's name. Greyspan is the bridge from the old emergency story: years earlier, Sereth stabilized a failing central span long enough for hundreds of people and workers to clear it.",
+      "Sereth did not remain at Greyspan. Old works records list him as an itinerant transfer engineer and show that after the emergency repairs he departed east with a provincial survey crew bound for Stonewake, a quarry and engineering depot farther along the eastern works road.",
+      "Stonewake is an old lead, not proof of Sereth's current location.",
+      "Workers still refer to a surviving central-arch retrofit as 'Vale's brace' and allowed the player to inspect it from the maintenance galleries.",
+      "OBSERVATION provenance: raw d20 16 + Wisdom 3 + Novice training 1 = 20. The player identified that the brace is not simply reinforcement; it is a distributed load-management structure embedded into existing masonry.",
+      "TRANSFER provenance: raw d20 17 + Wisdom 3 + Practiced training 2 = 22. The player reconstructed the core principle: multiple prepared load paths share incremental stress, overloaded branches drop out before cascading, and sacrificial relief points accept controlled deformation so the main arch avoids catastrophic shear.",
+      "The most advanced feature is fail-soft behavior: the structure degrades locally instead of demanding that every node remain perfect.",
+      "The work uses ordinary masonry, iron cramps, wedges, and keyed transfer relationships together; it does not create structural strength from nothing.",
+      "Studying Sereth's masterwork produced meaningful independent learning. Transfer Control advanced 29 -> 30.",
+      "The player has learned the design concept 'Load Lattice' from inspection, but has not yet built or field-qualified one personally."
     ],
     "last_resolution": {
-      "provenance": "WORLD",
-      "action": "Continue east from roadside camp to Greyspan",
-      "outcome": "arrived at Greyspan bridgeworks on Day 217; five days of rations remain; Resonance remains 0/3"
+      "provenance": "SYSTEM",
+      "action": "Ask about legendary work and Sereth Vale, then inspect Vale's surviving Greyspan brace",
+      "checks": {
+        "observation": {
+          "raw_roll": 16,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 20,
+          "outcome": "strong success"
+        },
+        "transfer_analysis": {
+          "raw_roll": 17,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 22,
+          "outcome": "strong success"
+        }
+      },
+      "outcome": "no current legendary quest; Greyspan confirmed as Sereth's historic bridge; Stonewake identified as next old lead; Load Lattice principle learned"
     },
     "learning": {
-      "skill": "Claims & Bindings",
-      "reason": "Applied Master-level provenance analysis to a real commercial dispute; performance was within existing mastery, so no score increase."
+      "skill": "Transfer Control",
+      "from": 29,
+      "to": 30,
+      "reason": "Reverse-engineered the fail-soft load-sharing logic of Sereth Vale's surviving Greyspan structural brace."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
