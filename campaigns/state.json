@@ -124,7 +124,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 215, 17:41",
+    "time": "Day 215, 17:49",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -961,12 +961,17 @@
       "Several people independently mentioned a large ongoing repair project at Greyspan, an old multi-arch stone bridge roughly two days east by the main road.",
       "A mason returning west had heard the name 'Vale' associated with an older structural specialist who had worked there previously, but could not confirm that Sereth Vale is currently present.",
       "The strongest current lead is therefore Greyspan: a real bridgework site with a plausible but unconfirmed historical connection to Sereth.",
-      "No one at Rillcross provided Sereth's exact current location."
+      "No one at Rillcross provided Sereth's exact current location.",
+      "The player asked at Rillcross whether any legendary-scale quests or extraordinary undertakings were known locally.",
+      "NPC provenance: the coaching-house crowd knew of no public legendary-grade contract in Rillcross itself.",
+      "The largest serious undertaking anyone could name with confidence was the Greyspan bridgeworks farther east, which is a major regional project rather than a posted heroic quest.",
+      "Travelers also remarked that genuinely exceptional work is usually found through major guilds, noble households, monasteries, military commands, or large infrastructure sites rather than small roadside hamlets.",
+      "No artificial legendary quest hook was introduced solely because the player asked."
     ],
     "last_resolution": {
       "provenance": "NPC",
-      "action": "Ask travelers and road workers for bridgework and Sereth Vale information",
-      "outcome": "learned of Greyspan, a major bridge repair site about two days east; Sereth connection plausible but unconfirmed"
+      "action": "Ask about legendary-scale quests in Rillcross",
+      "outcome": "no public legendary quest in Rillcross; Greyspan remains the largest known regional undertaking"
     },
     "learning": {
       "skill": "Claims & Bindings",
