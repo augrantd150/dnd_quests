@@ -31,20 +31,20 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 20,
+      "Observation": 21,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 33,
-      "Waymark Craft": 44,
+      "Transfer Control": 34,
+      "Waymark Craft": 45,
       "Spatial Relations": 29,
       "Claims & Bindings": 74
     },
     "wounds": [],
     "exhaustion": 0,
-    "silver": 49,
+    "silver": 85,
     "inventory": [
       "travel cloak",
       "patched gambeson",
@@ -99,7 +99,8 @@
         "Load Lattice",
         "Staggered Handoff",
         "Recursive Containment Mesh",
-        "Fastline Traversal Spine"
+        "Fastline Traversal Spine",
+        "Pressure Relief Sequencing"
       ]
     }
   },
@@ -132,7 +133,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 222, 11:51",
+    "time": "Day 222, 18:34",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1158,26 +1159,82 @@
       "The difficulty is that the crew cannot tell how much of the movement comes from masonry load transfer, hidden water pressure behind the wall, or shifting fractured rock.",
       "Closing and dismantling the whole road section would be extremely costly, so the works team needs a way to identify the dominant load paths and stabilize the structure without blindly over-bracing it.",
       "This is a genuine difficult engineering problem already present at Red Hollow, not an emergency invented solely because the player asked.",
-      "The North Retaining Gallery is considered more technically difficult than the routine bridge repairs currently underway."
+      "The North Retaining Gallery is considered more technically difficult than the routine bridge repairs currently underway.",
+      "The player undertook Red Hollow's hardest unresolved engineering problem at the North Retaining Gallery.",
+      "Observation check: raw 15 + Wisdom 3 + Observation Novice 1 = 19. The player found that the wall's outward creep correlated strongly with trapped water behind the masonry rather than ordinary road load alone.",
+      "The player identified clogged relief channels, damp seams, and crack behavior consistent with pressure buildup after wet periods.",
+      "A crew-drilled test bore through a sacrificial joint released pressurized water, directly confirming trapped backwater behind the retaining wall.",
+      "The fractured rock behind the wall was acting as a reservoir and secondary load path rather than the primary moving mass.",
+      "Transfer design check: raw 13 + Wisdom 3 + Transfer Control Practiced 2 = 18. The player designed a temporary Load Lattice to support the most stressed masonry courses while drainage was altered.",
+      "Waymark control check: raw 12 + Intelligence 1 + Waymark Craft Adept 3 = 16. The temporary control lattice successfully isolated and monitored the active receiver branches.",
+      "The player had the crew reopen and add drainage relief paths one at a time instead of releasing all trapped water at once.",
+      "Final stabilization check: raw 16 + Wisdom 3 + Transfer Control Practiced 2 = 21. The wall load transitioned cleanly as backpressure dropped in stages, preventing a sudden shift into adjacent fractured rock.",
+      "The crew reset displaced stones, rebuilt the relief channels, and installed visible monitoring marks for future creep checks.",
+      "The North Retaining Gallery was stabilized without requiring massive blind over-bracing or dismantling the road.",
+      "The solution used ordinary drainage, masonry, crew labor, and prepared transfer control. No Resonance was spent.",
+      "Meaningful difficult work advanced Observation 20 -> 21, Transfer Control 33 -> 34, and Waymark Craft 44 -> 45.",
+      "The player developed the studied engineering/magic-adjacent concept 'Pressure Relief Sequencing': staged reduction of a pressure source while structurally redistributing changing loads. This is not yet mastery of fluid or pressure magic.",
+      "Red Hollow paid 36 silver for solving the North Retaining Gallery problem.",
+      "The works crew provided an evening meal after the repair."
     ],
     "last_resolution": {
-      "provenance": "NPC",
-      "action": "Ask Red Hollow for its most difficult unresolved problem",
-      "outcome": "identified the North Retaining Gallery creep problem as the site's hardest current engineering challenge"
+      "provenance": "SYSTEM",
+      "action": "Solve the North Retaining Gallery creep problem",
+      "checks": {
+        "diagnosis": {
+          "raw_roll": 15,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 19,
+          "outcome": "strong success"
+        },
+        "transfer_design": {
+          "raw_roll": 13,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 18,
+          "outcome": "success"
+        },
+        "waymark_control": {
+          "raw_roll": 12,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 16,
+          "outcome": "success"
+        },
+        "final_stabilization": {
+          "raw_roll": 16,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 21,
+          "outcome": "strong success"
+        }
+      },
+      "outcome": "trapped backwater identified as dominant cause; staged drainage plus temporary Load Lattice stabilized the wall; 36 silver earned"
     },
     "learning": {
       "skills": [
         {
-          "skill": "Spatial Relations",
-          "from": 28,
-          "to": 29,
-          "reason": "Designed finite cyclic containment routing and a low-ambiguity high-speed traversal spine."
+          "skill": "Observation",
+          "from": 20,
+          "to": 21,
+          "reason": "Diagnosed hydrostatic backpressure from physical evidence and live testing."
+        },
+        {
+          "skill": "Transfer Control",
+          "from": 33,
+          "to": 34,
+          "reason": "Managed structural load while the wall's pressure environment changed in stages."
         },
         {
           "skill": "Waymark Craft",
-          "from": 43,
-          "to": 44,
-          "reason": "Designed branch-isolated cyclic routing states and trap integration logic for a containment mesh."
+          "from": 44,
+          "to": 45,
+          "reason": "Used a live monitoring/isolation lattice during staged pressure relief."
         }
       ]
     },
