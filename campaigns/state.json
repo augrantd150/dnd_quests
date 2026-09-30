@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Dunmarrow, old bell tower lower chamber",
+    "location": "Dunmarrow, lower ward",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -44,7 +44,7 @@
     },
     "wounds": [],
     "exhaustion": 0,
-    "silver": 3,
+    "silver": 1,
     "inventory": [
       "travel cloak",
       "patched gambeson",
@@ -121,7 +121,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 214, 21:06",
+    "time": "Day 215, 07:18",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -910,16 +910,19 @@
       "SYSTEM provenance: raw d20 was 15; Strength modifier -1; total manual-labor check 14.",
       "The player completed the unloading without injury. The work was tiring but straightforward.",
       "Payment was 3 silver plus a hot meal. The player now has 3 silver.",
-      "This was ordinary wage work and did not create a new quest or hidden obligation."
+      "This was ordinary wage work and did not create a new quest or hidden obligation.",
+      "The player spent 2 silver on a safe bed at the travelers' inn and slept through the night without interruption.",
+      "The previous evening's meal had already been provided by the grain-unloading job; the established inn price was still paid for the safe lodging arrangement.",
+      "The player woke fully rested on Day 215 with 1 silver remaining. HP stayed at maximum and Resonance remained 3/3.",
+      "The player then looked for another legitimate job in Dunmarrow.",
+      "A mundane paid opportunity was found in the lower ward: a river warehouse needs a literate temporary tally hand for the morning to check incoming sacks and crates against a written manifest.",
+      "The offered wage is 4 silver for the morning plus a simple midday meal if the work is completed accurately.",
+      "This is ordinary employment and carries no hidden quest, obligation, or supernatural complication."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Unload late grain delivery for wages",
-      "raw_roll": 15,
-      "ability": "Strength",
-      "ability_modifier": -1,
-      "total": 14,
-      "outcome": "success; earned 3 silver and a meal"
+      "provenance": "PLAYER",
+      "action": "Sleep safely, then look for another paid job",
+      "outcome": "safe rest completed; silver 3 -> 1; found morning warehouse tally job paying 4 silver plus meal"
     },
     "learning": {
       "skill": "Spatial Relations",
