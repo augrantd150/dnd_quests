@@ -127,7 +127,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 217, 18:21",
+    "time": "Day 217, 18:29",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1011,30 +1011,18 @@
       "The most advanced feature is fail-soft behavior: the structure degrades locally instead of demanding that every node remain perfect.",
       "The work uses ordinary masonry, iron cramps, wedges, and keyed transfer relationships together; it does not create structural strength from nothing.",
       "Studying Sereth's masterwork produced meaningful independent learning. Transfer Control advanced 29 -> 30.",
-      "The player has learned the design concept 'Load Lattice' from inspection, but has not yet built or field-qualified one personally."
+      "The player has learned the design concept 'Load Lattice' from inspection, but has not yet built or field-qualified one personally.",
+      "The player asked Greyspan's senior works foreman where the bridge's most difficult current job was being performed.",
+      "NPC provenance: the hardest active work is beneath the central arch at the upstream side of the main river pier.",
+      "The crew is replacing cracked load-bearing springer and bearing stones while the rest of the arch remains in service.",
+      "The difficulty comes from needing to unload only a controlled fraction of the arch at a time, keep the remaining masonry stable, work from wet river staging, and prevent a local shift from cascading into a larger structural failure.",
+      "This is specialized high-risk bridge work, not a newly invented supernatural crisis.",
+      "Workers familiar with Vale's brace consider this the part of Greyspan where advanced transfer control and fail-soft load management are most relevant."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Ask about legendary work and Sereth Vale, then inspect Vale's surviving Greyspan brace",
-      "checks": {
-        "observation": {
-          "raw_roll": 16,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 1,
-          "total": 20,
-          "outcome": "strong success"
-        },
-        "transfer_analysis": {
-          "raw_roll": 17,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 22,
-          "outcome": "strong success"
-        }
-      },
-      "outcome": "no current legendary quest; Greyspan confirmed as Sereth's historic bridge; Stonewake identified as next old lead; Load Lattice principle learned"
+      "provenance": "NPC",
+      "action": "Ask where Greyspan's most difficult active work is being done",
+      "outcome": "identified the upstream side of the central river pier beneath the main arch as the hardest current job"
     },
     "learning": {
       "skill": "Transfer Control",
