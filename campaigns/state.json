@@ -39,7 +39,7 @@
       "Field Medicine": 9,
       "Transfer Control": 29,
       "Waymark Craft": 41,
-      "Spatial Relations": 26,
+      "Spatial Relations": 28,
       "Claims & Bindings": 74
     },
     "wounds": [],
@@ -121,7 +121,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 214, 18:12",
+    "time": "Day 214, 18:27",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -884,65 +884,35 @@
       "Waymark Craft advanced 40 -> 41 from successful concurrency arbitration at integrated scale.",
       "Transfer Control advanced 28 -> 29 from controlled overload shedding inside a live composite network.",
       "Spatial Relations remained 26 because the moving-exit failure exposed an unresolved weakness.",
-      "Claims & Bindings remained 74 because the player performed at expected Master level rather than discovering a new claims principle."
+      "Claims & Bindings remained 74 because the player performed at expected Master level rather than discovering a new claims principle.",
+      "The player requested the hardest immediately available spatial-magic exercise, with no long-term time skip.",
+      "The Keeper constructed an extreme dynamic-routing test using two weighted traversal surrogates, a nested shared junction, and three independently moving prepared exits.",
+      "The exercise required live position/velocity mapping, nested routing, concurrency arbitration, collision prevention, momentum/orientation mapping, and mid-commit fallback behavior.",
+      "During the test, one exit was invalidated after the first surrogate had already entered the nested route, a second exit reversed direction, and both traversal requests remained active nearly simultaneously.",
+      "Spatial Relations 26 was Practiced rank (+2); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 18; total extreme spatial exercise check was 23.",
+      "The player successfully held both traversal identities separately, refused the invalidated exit, transferred the first surrogate's unresolved route state into a valid fallback branch, and delayed the second surrogate until collision clearance was restored.",
+      "The player also remapped exit-relative momentum after the second destination reversed direction, preventing a violent mismatch on emergence.",
+      "Both surrogates emerged from different valid exits without duplication, collision, stall, or unsafe momentum discharge.",
+      "The exercise established the player's first successful mid-commit spatial reroute after destination invalidation.",
+      "No personal Resonance was spent because the Keeper supplied power for the stress test.",
+      "Spatial Relations advanced 26 -> 28 from the major dynamic rerouting breakthrough."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Hardest available immediate integrated Causal Mesh trial",
-      "checks": {
-        "claims_bindings": {
-          "raw_roll": 16,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 5,
-          "total": 24,
-          "outcome": "exceptional success"
-        },
-        "waymark_control": {
-          "raw_roll": 13,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 3,
-          "total": 19,
-          "outcome": "strong success"
-        },
-        "spatial_routing": {
-          "raw_roll": 7,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 12,
-          "outcome": "partial failure; unsafe moving exit rejected and fallback used"
-        },
-        "transfer_control": {
-          "raw_roll": 14,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 19,
-          "outcome": "strong success"
-        }
-      },
-      "outcome": "integrated mesh survived simultaneous requests, revocation, branch severance, moving-exit failure, and overload with safe degradation"
+      "action": "Extreme nested spatial routing under simultaneous requests and mid-commit exit invalidation",
+      "raw_roll": 18,
+      "ability": "Wisdom",
+      "ability_modifier": 3,
+      "training_bonus": 2,
+      "total": 23,
+      "outcome": "strong success; both active traversals safely resolved through dynamic fallback routing"
     },
     "learning": {
-      "skills": [
-        "Claims & Bindings",
-        "Waymark Craft",
-        "Spatial Relations",
-        "Transfer Control"
-      ],
-      "changes": {
-        "Waymark Craft": [
-          40,
-          41
-        ],
-        "Transfer Control": [
-          28,
-          29
-        ]
-      },
-      "reason": "Extreme integrated problem proved concurrency, provenance, overload isolation, and safe degradation; moving-exit spatial routing remains the current bottleneck."
+      "skill": "Spatial Relations",
+      "from": 26,
+      "to": 28,
+      "reason": "Successfully handled nested concurrency, exit invalidation after commitment, collision avoidance, fallback routing, and dynamic momentum remapping in one live spatial network."
     },
     "next_scene": "bell-tower-substructure",
     "last_correction": {
