@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Dunmarrow, cloth merchants' hall",
+    "location": "Eastern road beyond Dunmarrow",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -44,7 +44,7 @@
     },
     "wounds": [],
     "exhaustion": 0,
-    "silver": 23,
+    "silver": 14,
     "inventory": [
       "travel cloak",
       "patched gambeson",
@@ -56,7 +56,10 @@
       "flint and steel",
       "waterskin",
       "small field notebook",
-      "Ledger Shard"
+      "Ledger Shard",
+      "7 days coarse road rations",
+      "wool blanket",
+      "small waxed groundsheet"
     ],
     "items_detail": {
       "Ledger Shard": {
@@ -121,7 +124,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 215, 09:11",
+    "time": "Day 215, 10:02",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -933,17 +936,17 @@
       "The magic established authority provenance and scope; it did not pronounce moral guilt or legal doctrine beyond the actual relationships created.",
       "The player documented the result clearly enough for the guild to release the goods under the senior claim.",
       "The guild paid the agreed 22 silver fee.",
-      "The claim audit cost 1 Resonance: 3/3 -> 2/3."
+      "The claim audit cost 1 Resonance: 3/3 -> 2/3.",
+      "The player began the overland journey east to find Sereth Vale.",
+      "Before departure, the player spent 9 silver on practical road provisioning: seven days of coarse travel rations, a wool blanket, and a small waxed groundsheet.",
+      "The player left Dunmarrow with 14 silver remaining.",
+      "The journey to Sereth is being played as campaign content rather than skipped to the destination.",
+      "The first route follows the eastern road out of the Barony of Veyr toward the older bridgeworks associated with the Keeper's last reliable information about Sereth."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Magically audit conflicting commercial claims",
-      "raw_roll": 12,
-      "ability": "Wisdom",
-      "ability_modifier": 3,
-      "training_bonus": 5,
-      "total": 20,
-      "outcome": "strong success; senior claim validated, later pledge shown to exceed remaining authority; earned 22 silver; spent 1 Resonance"
+      "provenance": "PLAYER",
+      "action": "Provision and depart Dunmarrow eastward",
+      "outcome": "journey begun; silver 23 -> 14; 7 days rations and basic sleeping gear acquired"
     },
     "learning": {
       "skill": "Claims & Bindings",
