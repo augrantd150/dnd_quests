@@ -136,7 +136,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 11:07",
+    "time": "Day 223, 11:19",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1197,30 +1197,57 @@
       "By late morning the player reached High Warden: a small stone maintenance station built into the gorge wall above Red Hollow.",
       "High Warden is currently occupied. Smoke rises from one chimney, survey gear is laid out in the yard, and a recently used load frame stands beside the retaining edge.",
       "At least one competent specialist is present inside or nearby.",
-      "Sereth Vale's presence remains unconfirmed."
+      "Sereth Vale's presence remains unconfirmed.",
+      "The player paused outside High Warden to observe the occupied maintenance station and prepare a Labyrinth Mesh contingency before approaching.",
+      "Observation check: raw 17 + Wisdom 3 + Observation Novice 1 = 21.",
+      "The player found one dominant fresh boot pattern moving between the main door, survey gear, and cliffside load frame; no evidence of a guard detail or maintained ambush position was visible.",
+      "The station has a main entrance, a side maintenance door, and a narrow stone throat between the outer yard and the service road.",
+      "The narrow stone throat is the strongest available containment geometry because movement through it is naturally constrained.",
+      "Stealth preparation check: raw 14 + Dexterity 3 + Stealth Novice 1 = 18. The player quietly placed two bronze waymark nails as provisional anchors without drawing obvious attention from inside.",
+      "Waymark preparation check: raw 12 + Intelligence 1 + Waymark Craft Adept 3 = 16. The player established branch identity, personal authorization, fail-closed states, and an inert containment-routing skeleton.",
+      "Spatial preparation check: raw 14 + Wisdom 3 + Spatial Relations Practiced 2 = 19. The player mapped a two-threshold emergency loop using the yard throat and maintenance-door geometry.",
+      "Because Resonance is 0/3 and no external power source has been coupled, the Labyrinth Mesh remains inactive. The setup is a prepared skeleton, not a functioning prison.",
+      "Because Recursive Containment Mesh and Fastline Traversal Spine are not yet field-qualified, any live activation would still be an uncertain first field test.",
+      "The prepared skeleton is designed to fail closed rather than misroute if activation conditions are invalid."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Assess the fresh transfer work and continue to High Warden",
+      "action": "Observe High Warden and prepare an emergency Labyrinth Mesh skeleton",
       "checks": {
         "observation": {
-          "raw_roll": 16,
+          "raw_roll": 17,
           "ability": "Wisdom",
           "ability_modifier": 3,
           "training_bonus": 1,
-          "total": 20,
+          "total": 21,
           "outcome": "strong success"
         },
-        "transfer_analysis": {
-          "raw_roll": 15,
+        "stealth_prep": {
+          "raw_roll": 14,
+          "ability": "Dexterity",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 18,
+          "outcome": "success"
+        },
+        "waymark_prep": {
+          "raw_roll": 12,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 16,
+          "outcome": "success"
+        },
+        "spatial_prep": {
+          "raw_roll": 14,
           "ability": "Wisdom",
           "ability_modifier": 3,
           "training_bonus": 2,
-          "total": 20,
+          "total": 19,
           "outcome": "strong success"
         }
       },
-      "outcome": "judged the unknown creator as highly competent and reached occupied High Warden"
+      "outcome": "High Warden observed; two-anchor Labyrinth Mesh skeleton prepared but inactive due to 0 Resonance"
     },
     "learning": {
       "skills": [
@@ -1344,7 +1371,24 @@
           "confidence": "high that the token/socket mechanism releases a stored claim"
         }
       }
-    }
+    },
+    "prepared_effects": [
+      {
+        "name": "High Warden Labyrinth Mesh skeleton",
+        "status": "inactive",
+        "anchors": "2 bronze waymark nails",
+        "geometry": "outer-yard throat <-> side maintenance-door threshold",
+        "authorization": [
+          "player"
+        ],
+        "limitations": [
+          "0 Resonance; no active spatial routing",
+          "first live field test would be uncertain",
+          "two-node skeleton only, not a full maze",
+          "requires valid power source to activate"
+        ]
+      }
+    ]
   },
   "meta": {
     "plot_armor": false,
