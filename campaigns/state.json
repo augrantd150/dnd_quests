@@ -17,7 +17,7 @@
     "archetype": "Wayfarer",
     "alive": true,
     "level": 1,
-    "location": "Eastern road, beyond Ashbar Gate",
+    "location": "Eastern road camp, east of Ashbar Gate",
     "hp": 10,
     "max_hp": 10,
     "ac": 14,
@@ -57,7 +57,7 @@
       "waterskin",
       "small field notebook",
       "Ledger Shard",
-      "7 days coarse road rations",
+      "6 days coarse road rations",
       "wool blanket",
       "small waxed groundsheet"
     ],
@@ -124,7 +124,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 216, 13:26",
+    "time": "Day 216, 19:12",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -979,30 +979,26 @@
       "STEALTH provenance: raw d20 11 + Dexterity 3 + Novice training 1 = 15. The player set up the fold without drawing immediate attention from the tollhouse.",
       "SPATIAL provenance: raw d20 12 + Wisdom 3 + Practiced training 2 = 17. The player established a short self-powered adjacency fold between stable points on opposite sides of the checkpoint and crossed safely.",
       "The short fold cost 1 Resonance: 1/3 -> 0/3.",
-      "The player kept the one-silver toll and continued east. No immediate pursuit or confrontation occurred."
+      "The player kept the one-silver toll and continued east. No immediate pursuit or confrontation occurred.",
+      "The player continued east for the remainder of Day 216 after bypassing Ashbar Gate.",
+      "No major encounter occurred during the afternoon; the road grew quieter and more wooded.",
+      "Near dusk, with no settlement immediately ahead, the player chose a roadside camp rather than march in darkness.",
+      "Survival 15 was Novice rank (+1); Wisdom 16 contributed +3.",
+      "SYSTEM provenance: raw d20 was 14; total campsite check was 18.",
+      "The player found a raised, well-drained patch behind a low stone boundary, out of direct wind and away from obvious runoff.",
+      "The wool blanket and waxed groundsheet made the camp adequate for a normal night's rest.",
+      "The player consumed one day of coarse road rations. Six days remain.",
+      "Resonance remained 0/3 because ordinary rest does not restore it."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Bypass Ashbar Gate tollhouse with concealed short spatial fold",
-      "checks": {
-        "concealment": {
-          "raw_roll": 11,
-          "ability": "Dexterity",
-          "ability_modifier": 3,
-          "training_bonus": 1,
-          "total": 15,
-          "outcome": "success"
-        },
-        "spatial_fold": {
-          "raw_roll": 12,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 17,
-          "outcome": "success"
-        }
-      },
-      "outcome": "checkpoint bypassed; silver unchanged; Resonance 1/3 -> 0/3"
+      "action": "Make roadside camp east of Ashbar Gate",
+      "raw_roll": 14,
+      "ability": "Wisdom",
+      "ability_modifier": 3,
+      "training_bonus": 1,
+      "total": 18,
+      "outcome": "success; adequate roadside camp established; one day of rations consumed"
     },
     "learning": {
       "skill": "Claims & Bindings",
