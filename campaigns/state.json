@@ -129,7 +129,8 @@
         "Adaptive Causal Mesh",
         "Adaptive Resonant Labyrinth Mesh",
         "Resonance Feed Spine",
-        "Decoupled Feed Architecture"
+        "Decoupled Feed Architecture",
+        "Sovereign Adaptive Resonant Labyrinth Mesh"
       ]
     },
     "reputation": {
@@ -1465,74 +1466,16 @@
       "The player learned to control thermal transfer rate through the coupling boundary rather than only total heat quantity.",
       "Thermal Rate Control was field-qualified under prepared source/receiver conditions.",
       "Meaningful training advanced Transfer Control 44 -> 46, Pressure Transfer 9 -> 12, and Heat Transfer 10 -> 14.",
-      "Personal Resonance remained 3/3 and the portable Resonance core remained 3/3 because Sereth's powered training apparatus supplied the exercise energy."
+      "Personal Resonance remained 3/3 and the portable Resonance core remained 3/3 because Sereth's powered training apparatus supplied the exercise energy.",
+      "The player combined Sereth Vale's remaining advanced teaching frontiers into a single proposed end-state architecture called the Sovereign Adaptive Resonant Labyrinth Mesh.",
+      "The proposed architecture extends the Field Adaptive Resonant Labyrinth Mesh with predictive failure modeling, adversarial transfer resistance, improvised-anchor/material adaptation, scalable distributed topology, and validated cross-domain conversion when such conversion has actually been proven possible.",
+      "The Sovereign architecture is conceptual only and is not field-qualified.",
+      "It does not create free energy, automatic omniscience, or arbitrary conversion. Every conversion must be separately discovered and causally validated."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Focused Sereth training in capacity-edge, pressure, and heat control",
-      "checks": {
-        "capacity_1": {
-          "raw_roll": 17,
-          "total": 23,
-          "outcome": "strong success"
-        },
-        "capacity_2": {
-          "raw_roll": 18,
-          "total": 24,
-          "outcome": "exceptional success"
-        },
-        "capacity_3": {
-          "raw_roll": 9,
-          "total": 15,
-          "outcome": "success"
-        },
-        "pressure_1": {
-          "raw_roll": 2,
-          "total": 5,
-          "outcome": "failure"
-        },
-        "pressure_2": {
-          "raw_roll": 4,
-          "total": 7,
-          "outcome": "failure"
-        },
-        "pressure_3": {
-          "raw_roll": 13,
-          "total": 16,
-          "outcome": "success"
-        },
-        "pressure_4": {
-          "raw_roll": 8,
-          "total": 12,
-          "outcome": "partial success"
-        },
-        "heat_1": {
-          "raw_roll": 19,
-          "total": 23,
-          "outcome": "strong success"
-        },
-        "heat_2": {
-          "raw_roll": 14,
-          "total": 18,
-          "outcome": "success"
-        },
-        "heat_3": {
-          "raw_roll": 1,
-          "total": 5,
-          "outcome": "critical failure; safely aborted"
-        },
-        "heat_4": {
-          "raw_roll": 13,
-          "total": 17,
-          "outcome": "success"
-        },
-        "heat_5": {
-          "raw_roll": 18,
-          "total": 22,
-          "outcome": "strong success"
-        }
-      },
-      "outcome": "capacity-edge, controlled pressure transfer, and thermal rate control field-qualified under prepared conditions"
+      "provenance": "PLAYER",
+      "action": "Combine remaining advanced Sereth frontiers into one architecture",
+      "outcome": "Sovereign Adaptive Resonant Labyrinth Mesh conceived as an end-state research architecture"
     },
     "learning": {
       "skills": [
