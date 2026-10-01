@@ -435,3 +435,31 @@ The feed subsystem is independent of maze topology. It tracks only source validi
 At High Warden, the corrected design restored the player from 1/3 to 3/3 Resonance while containment routing and Fastline state changed independently.
 
 Current limits: it requires a compatible external magical source, prepared anchors and geometry, valid receivers, safe overflow handling, and setup time. It does not create power from nothing, and portable self-powered battlefield deployment is not yet qualified.
+
+
+### Field Adaptive Resonant Labyrinth Mesh
+
+A portable version of the Adaptive Resonant Labyrinth Mesh using a finite precharged Resonance core rather than fixed external infrastructure.
+
+The field form is intentionally reduced:
+- fixed creator Fastlines;
+- bounded recursive containment loops;
+- a small number of adaptive branches;
+- branch isolation;
+- a decoupled one-way Resonance Feed Spine;
+- finite portable stored charge.
+
+It is not a miniature copy of the full station-scale mesh. Portability is achieved by sacrificing branch count, range, flexibility, and total capacity.
+
+#### Portable Resonance Core
+
+The player's first core holds **3 compatible charge units** when fully charged from a valid source.
+
+Those units may be used to:
+- sustain the field mesh;
+- feed the player's personal Resonance reservoir through the decoupled feed spine;
+- power prepared spatial or containment operations supported by the mesh.
+
+The core does not recharge itself and cannot draw arbitrary heat, pressure, momentum, injury, or environmental energy without a separately learned compatible conversion mechanism.
+
+The player has field-qualified one portable precharged-core configuration. Rapid combat deployment is possible only with deliberate setup; instant deployment remains unqualified.
