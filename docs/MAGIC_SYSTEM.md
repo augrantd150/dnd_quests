@@ -318,3 +318,55 @@ The goal is faster, lower-overhead traversal through a prepared Causal Mesh, not
 Efficiency still depends on distance, anchor stability, geometry, power source, traveler mass, route complexity, and losses.
 
 The player has designed this architecture but has not yet field-qualified it with live Resonance.
+
+
+### Adaptive Causal Mesh
+
+An **Adaptive Causal Mesh** is a prepared multi-domain Causal Mesh capable of changing its active routing and transfer relationships while remaining live.
+
+A valid Adaptive Causal Mesh may combine:
+- live branch-state sensing;
+- reserve capacity;
+- branch isolation;
+- staggered handoff;
+- dynamic rerouting;
+- structural-load transfer;
+- pressure transfer;
+- heat transfer;
+- prepared spatial routing or Fastlines;
+- fail-closed behavior when a route, receiver, or identity becomes invalid.
+
+It is not autonomous omniscience. Adaptation only works on information the mesh can actually obtain through prepared signals, marks, measurements, or causal relationships.
+
+It does not create energy, capacity, or valid destinations. Every domain still requires a source, coupling, compatible receiver, losses, capacity, and physical consequence.
+
+The player has field-qualified the architecture under Sereth Vale's supervised, externally powered High Warden test system.
+
+Current limitation: portable or self-powered full Adaptive Causal Mesh use is not yet qualified. The player remains weak at early failure prediction, pressure transfer, heat transfer, and operating very near capacity.
+
+
+### Basic Pressure Transfer
+
+The player can perform bounded pressure transfer between prepared compatible source and receiver systems under controlled conditions.
+
+This requires:
+- a real pressure differential;
+- valid containment;
+- compatible source and receiver volumes;
+- explicit capacity limits;
+- safe expansion or release behavior.
+
+The player is still untrained in this domain and requires conservative conditions.
+
+
+### Basic Heat Transfer
+
+The player can perform bounded heat transfer between prepared thermal source and receiver systems under controlled conditions.
+
+This requires:
+- a real thermal source;
+- a compatible receiver with sufficient heat capacity;
+- accounting for conduction, radiation, losses, and resulting temperature change;
+- safe material limits.
+
+The player is still untrained in this domain and requires conservative conditions.
