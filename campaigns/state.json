@@ -177,7 +177,9 @@
         "Predictive Confidence Bands",
         "Predatory Resonance Intercept",
         "Sovereign Predatory Resonant Labyrinth Mesh",
-        "Sovereign Predatory Resonant Labyrinth Mesh: Lethal Resolution Mode"
+        "Sovereign Predatory Resonant Labyrinth Mesh: Lethal Resolution Mode",
+        "Creator Aegis Layer",
+        "Sovereign Predatory Resonant Labyrinth Mesh — Creator Aegis"
       ]
     },
     "reputation": {
@@ -1713,79 +1715,18 @@
       "This is not literal metaphysical invincibility. A prepared finite mesh can still be defeated by sufficient external power, total anchor destruction from outside its engagement envelope, complete resource exhaustion by a superior resource base, pre-deployment surprise, unknown magical domains, or capabilities Sereth does not possess.",
       "The meaningful closure is narrower: Sereth Vale himself can no longer produce a valid clean breach by skill, counter-design, spoofing, timing, topology attack, or resource manipulation within his actual capability envelope.",
       "Meaningful training advanced Observation 33 -> 35, Transfer Control 58 -> 60, Waymark Craft 63 -> 65, Spatial Relations 44 -> 45, and Claims & Bindings 76 -> 78.",
-      "One day of coarse road rations was consumed: 3 days -> 2 days. High Warden's compatible fixed source supplied the test rig and restored the portable Resonance core to 3/3 between disconnected trials. Personal Resonance remained 3/3."
+      "One day of coarse road rations was consumed: 3 days -> 2 days. High Warden's compatible fixed source supplied the test rig and restored the portable Resonance core to 3/3 between disconnected trials. Personal Resonance remained 3/3.",
+      "The player proposed adding a Creator Aegis layer to the Sovereign Predatory Resonant Labyrinth Mesh.",
+      "The Creator Aegis treats the player's survival as an explicit protected objective and reserves defensive capacity for the creator even when that reduces offensive output.",
+      "Proposed defensive functions include emergency Fastline extraction, impact shunting, bounded heat and pressure diversion, hostile-power interception near the creator, anti-capture route denial, personal quarantine if surrounding cells are compromised, and reserved core charge for emergency defense.",
+      "The Aegis may sacrifice offensive branches, territory, or nonessential cells to preserve the creator when necessary.",
+      "The Creator Aegis does not provide invulnerability. It remains limited by available anchors, reaction time, reserve capacity, core charge, valid receivers, unknown attack domains, and whether a safe escape or diversion path exists.",
+      "Creator Aegis Layer is conceptual and not yet field-qualified."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Exhaust Sereth Vale's remaining red-team countermeasures against the hardened Sovereign Predatory Resonant Labyrinth Mesh",
-      "key_checks": {
-        "power_starvation": {
-          "raw_roll": 14,
-          "total": 21,
-          "outcome": "strong success"
-        },
-        "anchor_loss": {
-          "raw_roll": 8,
-          "total": 14,
-          "outcome": "Sereth clean breach"
-        },
-        "topology_shedding_validation": {
-          "raw_roll": 15,
-          "total": 21,
-          "outcome": "strong success"
-        },
-        "delayed_permission": {
-          "raw_roll": 7,
-          "total": 13,
-          "outcome": "Sereth clean breach"
-        },
-        "lease_breakthrough": {
-          "raw_roll": 20,
-          "total": 26,
-          "outcome": "exceptional success"
-        },
-        "lease_validation_final": {
-          "raw_roll": 9,
-          "total": 15,
-          "outcome": "success"
-        },
-        "common_source_corruption": {
-          "raw_roll": 5,
-          "total": 10,
-          "outcome": "Sereth clean breach"
-        },
-        "heterogeneous_sensor_final": {
-          "raw_roll": 13,
-          "total": 18,
-          "outcome": "strong success"
-        },
-        "supply_attrition": {
-          "raw_roll": 18,
-          "total": 25,
-          "outcome": "strong success"
-        },
-        "final_mixed_1": {
-          "raw_roll": 19,
-          "total": 26,
-          "outcome": "no breach"
-        },
-        "final_mixed_2": {
-          "raw_roll": 6,
-          "total": 13,
-          "outcome": "degraded fail-closed; no breach"
-        },
-        "final_mixed_3": {
-          "raw_roll": 19,
-          "total": 26,
-          "outcome": "no breach"
-        },
-        "final_mixed_4": {
-          "raw_roll": 18,
-          "total": 25,
-          "outcome": "no breach"
-        }
-      },
-      "outcome": "Sereth has no feasible clean breach using his present capabilities against a valid prepared mesh; absolute invincibility remains impossible for a finite causal system"
+      "provenance": "PLAYER",
+      "action": "Add creator-priority personal defense to the Sovereign Predatory Resonant Labyrinth Mesh",
+      "outcome": "Creator Aegis Layer conceived; not yet field-qualified"
     },
     "learning": {
       "skills": [
