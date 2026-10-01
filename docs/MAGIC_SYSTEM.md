@@ -579,3 +579,39 @@ The Sovereign architecture must therefore continue to use compatible magical sou
 The full Sovereign Adaptive Resonant Labyrinth Mesh remains a **research prototype**.
 
 The final self-contained field trial stayed safe and functional but required too much direct manual stabilization to qualify as genuinely Sovereign.
+
+
+### Bounded Cell Autonomy
+
+A prepared local mesh cell may make limited decisions without direct player intervention when those decisions are constrained by explicit policy and signals the cell can actually obtain.
+
+Permitted local signals may include:
+- branch capacity;
+- trend measurements;
+- authorization state;
+- route validity;
+- reserve capacity;
+- local trigger state.
+
+Permitted local actions may include:
+- begin a staggered handoff;
+- isolate a failing branch;
+- reject unauthorized route or receiver changes;
+- select a prepared fallback;
+- escalate ambiguity to the creator.
+
+A cell must not invent hidden information, infer intent, or improvise unprepared destinations.
+
+Ambiguous states fail closed or escalate.
+
+
+### Predictive Confidence Bands
+
+A studied control concept for reducing false-positive adaptive responses.
+
+Instead of a single binary failure threshold, a cell distinguishes:
+- **normal variation**;
+- **watch band**;
+- **commit-to-handoff band**.
+
+The concept is not yet field-qualified. The player's current weakness is tuning the bands well enough to distinguish meaningful trends from noise.
