@@ -915,3 +915,28 @@ The hardened mesh survived:
 Sereth no longer has a feasible demonstrated clean breach against a valid prepared mesh using his current capability set.
 
 This is not absolute invincibility. A finite causal mesh can still be defeated by sufficient external power, total anchor destruction outside its engagement envelope, superior resource exhaustion, pre-deployment surprise, unknown magical domains, or capabilities not represented in the current test set.
+
+
+### Creator Aegis Layer
+
+The **Creator Aegis Layer** is a proposed personal-defense extension to the Sovereign Predatory Resonant Labyrinth Mesh.
+
+It treats the creator's survival as an explicit protected objective.
+
+Possible functions include:
+- **Emergency Fastline Extraction** — route the creator to a prepared safe anchor when a local kill zone becomes untenable.
+- **Impact Shunting** — redirect a bounded fraction of incoming mechanical force into valid receivers or sacrificial structures.
+- **Thermal Diversion** — route bounded incoming heat away from the creator when safe receiver capacity exists.
+- **Pressure Diversion** — bleed or redirect bounded pressure impulses away from the creator through prepared branches.
+- **Close Predatory Intercept** — prioritize hostile-power interception for effects crossing the creator's immediate defended envelope.
+- **Anti-Capture Routing** — deny hostile routes that would isolate, surround, or pin the creator inside a compromised cell.
+- **Personal Quarantine** — if nearby cells become compromised, sever them from the creator's control envelope and rebuild around surviving safe cells.
+- **Reserved Defensive Charge** — hold a bounded portion of portable core capacity in reserve for emergency defense rather than spending all power offensively.
+
+The Aegis may deliberately sacrifice offensive branches, territory, or nonessential cells to preserve the creator.
+
+It does not grant invulnerability. It requires valid anchors, sufficient reaction time, real receivers, reserve capacity, finite power, and a causally valid escape or diversion path.
+
+Unknown attack domains may still bypass or overwhelm it.
+
+The Creator Aegis Layer is currently conceptual and unfield-qualified.
