@@ -137,7 +137,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 11:49",
+    "time": "Day 223, 11:52",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1251,17 +1251,19 @@
       "The real danger is the cleaner-looking right timber receiver, which is carrying increasing eccentric load and beginning to crush internally where the iron shoe contacts it.",
       "The player also recognized that reinforcing or unloading the cracked lintel first would redirect more force into the failing timber receiver and could cause a sudden collapse.",
       "The current safest immediate action is not to 'repair' the obvious crack. The system should be allowed to continue shedding a bounded amount of load through the sacrificial stone while the actual receiver problem is addressed.",
-      "Sereth has not yet told the player whether this diagnosis is correct."
+      "Sereth has not yet told the player whether this diagnosis is correct.",
+      "During Sereth Vale's live structural evaluation, the player deliberately chose not to reinforce or unload the visibly cracked lintel.",
+      "The player allowed the cracked stone to continue acting as a bounded sacrificial relief point rather than treating visible damage as the problem to be erased.",
+      "SYSTEM/NPC provenance: as load increased, the cracked stone shed a small additional amount of force while remaining within the controlled failure envelope.",
+      "The right timber receiver continued to show internal crushing beneath the iron shoe, confirming the player's earlier diagnosis that it was the true dangerous element.",
+      "Sereth halted the test before the timber receiver crossed into catastrophic failure.",
+      "Sereth judged the player's non-intervention as correct and specifically noted that an unnecessary 'repair' to the stone would have made the system less safe.",
+      "The player passed the first part of Sereth's evaluation: recognizing a valid sacrificial failure and refusing to interfere with it."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Observe Sereth's live structural evaluation before acting",
-      "raw_roll": 19,
-      "ability": "Wisdom",
-      "ability_modifier": 3,
-      "training_bonus": 1,
-      "total": 23,
-      "outcome": "strong success; identified the obvious cracked stone as sacrificial and the hidden failing timber receiver as the true danger"
+      "provenance": "NPC",
+      "action": "Refuse to fix the sacrificial cracked lintel during Sereth's evaluation",
+      "outcome": "correct non-intervention; Sereth confirms the visible crack was serving a safe relief function and the player passes the first evaluation threshold"
     },
     "learning": {
       "skills": [
@@ -1293,12 +1295,13 @@
     "current_npc": {
       "name": "Sereth Vale",
       "role": "itinerant transfer engineer and structural specialist",
-      "disposition": "interested, testing, professionally respectful",
+      "disposition": "more interested, testing, professionally respectful",
       "notes": [
         "Directly confirmed identity at High Warden.",
         "Recognized the player's correction to the failure-envelope test as technically valid.",
         "Has offered a practical evaluation before agreeing to teach.",
-        "Values restraint and correct non-intervention as much as technical power."
+        "Values restraint and correct non-intervention as much as technical power.",
+        "Player passed the first evaluation threshold by correctly refusing to interfere with a sacrificial failure."
       ]
     },
     "party": {
