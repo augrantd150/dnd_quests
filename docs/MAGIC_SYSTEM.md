@@ -819,3 +819,54 @@ High Warden also tested the mesh against a controlled surrogate combining unfami
 The final surrogate run succeeded after multiple failures and redesigns.
 
 This does not prove the player can defeat an actual legendary wizard. A real practitioner may possess unknown techniques, greater output, unique domains, superior preparation, or capabilities outside the tested envelope.
+
+
+### Adversarial Sensor Quorum
+
+Prepared cells may require independent corroborating local signals before committing to expensive defensive escalation.
+
+This reduces vulnerability to synchronized spoofing or deliberately noisy measurements.
+
+A quorum does not create information. If all available sensors share the same corrupted source, the mesh may still be deceived.
+
+### Response Budgeting
+
+The mesh tracks not only whether a response is safe, but how much reserve that response consumes.
+
+When several valid responses exist, local policy may prefer the cheapest safe response that preserves future reserve.
+
+This protects against adversaries who generate many low-cost threats in order to force disproportionately expensive defensive reactions.
+
+### Atomic Authorization Commit
+
+Changes to authorization and power-routing state are committed together or not at all.
+
+A cell must not expose a transitional state in which new permissions exist with old routing, or new routing exists with old permissions.
+
+Ambiguous commits fail closed.
+
+### Operator Attention Isolation
+
+Routine local defensive actions continue under bounded policy even when the creator is distracted, overloaded with false emergencies, or unable to arbitrate every cell.
+
+The creator remains necessary for genuinely ambiguous or out-of-policy decisions.
+
+### Epochal Rekey
+
+After quarantine, topology change, or permission rotation, local authorization moves between explicitly numbered epochs.
+
+Old and new epochs overlap only through a bounded handoff relationship.
+
+No half-valid state is exposed between them.
+
+### Sereth Red-Team Closure
+
+After repeated informed red-team failures and redesigns, Sereth Vale was allowed to change tactics adaptively between full-spectrum trials.
+
+Three consecutive final runs produced no clean breach.
+
+Within the current High Warden test envelope, Sereth no longer has a demonstrated way to defeat the hardened Sovereign Predatory Resonant Labyrinth Mesh.
+
+This qualification is deliberately narrow. It does not mean the mesh is unbeatable.
+
+A new magical domain, different terrain, greater available power, previously unknown information, novel hostile techniques, damaged preparation, depleted reserves, or a more capable adversary may still create a valid defeat condition.
