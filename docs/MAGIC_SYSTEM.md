@@ -484,3 +484,32 @@ A valid moving-anchor Fastline requires:
 - fail-closed behavior if the anchor leaves the permitted envelope.
 
 Unpredictable or adversarial anchor motion remains harder than controlled moving-anchor traversal.
+
+
+### Capacity-Edge Control
+
+Capacity-Edge Control is the practiced ability to operate a live multi-branch system close to its actual safe limits without unnecessary overcorrection.
+
+It requires continuous awareness of reserve capacity, branch interaction, receiver limits, and the consequences of moving load away from one branch into another.
+
+It does not increase physical capacity. It improves how precisely existing capacity is used.
+
+
+### Controlled Pressure Transfer
+
+The player can now perform prepared pressure transfer with a compatible source and compliant receiver under controlled conditions.
+
+The player understands pressure as a relationship among confinement, volume, receiver compliance, and flow timing rather than as generic stored force.
+
+The domain remains relatively weak and inefficient compared with structural transfer.
+
+
+### Thermal Rate Control
+
+The player can now regulate the rate of heat crossing a prepared coupling interface rather than controlling only total heat quantity.
+
+A valid thermal transfer must respect both:
+- the total heat capacity of the receiver; and
+- the local rate limit of the coupling material/interface.
+
+Exceeding the interface rate may damage the coupling even when the bulk receiver has unused capacity.
