@@ -137,7 +137,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 12:18",
+    "time": "Day 223, 12:22",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1282,30 +1282,19 @@
       "The shoe remained within valid travel, the third path handed load across cleanly, and the left timber receiver stayed inside its safe eccentric-load envelope.",
       "The fix addressed the root cause rather than strengthening the consequence.",
       "Sereth judged the solution correct and noted that the player repaired the geometry of the system rather than the material that would have broken afterward.",
-      "The player passed Sereth's second evaluation threshold."
+      "The player passed Sereth's second evaluation threshold.",
+      "After passing Sereth Vale's first two evaluation thresholds, the player asked whether Sereth actually had anything to teach them.",
+      "Sereth answered yes and distinguished the player's current strengths from the gaps he believes remain.",
+      "Sereth judged the player already competent in prepared structural transfer, Waymark control, and claims architecture, but still too dependent on preparation, visible geometry, and low-speed decision windows.",
+      "Sereth identified four areas he could teach: live transfer under changing conditions, multi-domain transfer involving heat and pressure, fast reconfiguration of transfer paths under failure, and working closer to safe capacity without crossing it.",
+      "Sereth also stated that the player's Spatial Relations work is promising but not yet efficient enough for high-speed field traversal under pressure.",
+      "Sereth agreed to teach the player, beginning with controlled live-load transfer where source, receiver, and geometry change while the transfer is already in progress.",
+      "No long time skip or apprenticeship compression has begun; instruction will proceed through played exercises and field work."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Fix Sereth's second evaluation rig by correcting sliding-shoe receiver geometry",
-      "checks": {
-        "transfer_redesign": {
-          "raw_roll": 16,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 21,
-          "outcome": "strong success"
-        },
-        "waymark_geometry": {
-          "raw_roll": 14,
-          "ability": "Intelligence",
-          "ability_modifier": 1,
-          "training_bonus": 3,
-          "total": 18,
-          "outcome": "success"
-        }
-      },
-      "outcome": "root geometry failure corrected; doubled-load test remains stable; second Sereth evaluation passed"
+      "provenance": "NPC",
+      "action": "Ask Sereth Vale what he can teach",
+      "outcome": "Sereth agrees to teach and identifies advanced live-transfer, multi-domain, dynamic rerouting, capacity-edge, and spatial-efficiency training as the player's next frontier"
     },
     "learning": {
       "skills": [
@@ -1337,14 +1326,17 @@
     "current_npc": {
       "name": "Sereth Vale",
       "role": "itinerant transfer engineer and structural specialist",
-      "disposition": "more interested, testing, professionally respectful",
+      "disposition": "accepting, demanding, professionally respectful",
       "notes": [
         "Directly confirmed identity at High Warden.",
         "Recognized the player's correction to the failure-envelope test as technically valid.",
         "Has offered a practical evaluation before agreeing to teach.",
         "Values restraint and correct non-intervention as much as technical power.",
         "Player passed the first evaluation threshold by correctly refusing to interfere with a sacrificial failure.",
-        "Player passed the second evaluation by fixing the failing receiver geometry instead of reinforcing the downstream consequence."
+        "Player passed the second evaluation by fixing the failing receiver geometry instead of reinforcing the downstream consequence.",
+        "Sereth has agreed to teach the player.",
+        "Sereth's first planned lesson is live transfer under changing source, receiver, and geometry conditions.",
+        "Sereth believes the player's biggest gap is dynamic adaptation under pressure rather than static prepared design."
       ]
     },
     "party": {
