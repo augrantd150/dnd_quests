@@ -796,3 +796,26 @@ A critical friendly-route classification failure demonstrated that lethal execut
 The final portable validation destroyed a hardened sacrificial target rig using a chain of containment, predictive escape denial, hostile-power interception, and structural destructive transfer.
 
 This qualification does not guarantee automatic destruction of real enemies. Real targets retain durability, resistance, mobility, counter-magic, anchor disruption, and the possibility of exceeding the mesh's available destructive capacity.
+
+
+### Apex Adversary Protocol
+
+The Apex Adversary Protocol is a hardened Sovereign-mesh operating mode for opponents who already understand the system.
+
+It adds:
+- State-Secret Fallback Routing: prepared cells choose among multiple currently valid fallback routes using one-use local state instead of a single predictable default.
+- Current-State Authorization: knowing the architecture does not grant control; live provenance and local permissions still matter.
+- Compromised Cell Quarantine: a captured or ambiguous cell is disconnected from neighboring cells and treated as hostile terrain.
+- Identity-Uncertainty Lockout: contradictory identity evidence prevents destructive authorization.
+- Conservative Unknown-Magic Handling: unfamiliar magical effects are rejected or routed around unless safe compatibility is established.
+- Rebuildable Resolution Paths: surviving independent cells can construct a new valid response path after interference.
+
+This protocol is field-qualified against an informed counter-practitioner in controlled red-team conditions.
+
+### Apex Magical Threat Surrogate
+
+High Warden also tested the mesh against a controlled surrogate combining unfamiliar magical domains, forged signatures, sudden spatial entry, high-output overload, anchor attack, topology compromise, hostile policy manipulation, and counter-magic pressure.
+
+The final surrogate run succeeded after multiple failures and redesigns.
+
+This does not prove the player can defeat an actual legendary wizard. A real practitioner may possess unknown techniques, greater output, unique domains, superior preparation, or capabilities outside the tested envelope.
