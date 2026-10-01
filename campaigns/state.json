@@ -31,16 +31,18 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 21,
+      "Observation": 22,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 35,
-      "Waymark Craft": 46,
-      "Spatial Relations": 29,
-      "Claims & Bindings": 74
+      "Transfer Control": 38,
+      "Waymark Craft": 48,
+      "Spatial Relations": 31,
+      "Claims & Bindings": 74,
+      "Pressure Transfer": 8,
+      "Heat Transfer": 9
     },
     "wounds": [],
     "exhaustion": 0,
@@ -90,11 +92,15 @@
         "Clean Dissolution",
         "Claim Lattice",
         "Load Lattice",
-        "Staggered Handoff"
+        "Staggered Handoff",
+        "Adaptive Causal Mesh",
+        "Basic Pressure Transfer",
+        "Basic Heat Transfer"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
-        "Reactive Adaptive Load Mesh: three-branch structural prototype"
+        "Reactive Adaptive Load Mesh: three-branch structural prototype",
+        "Adaptive Causal Mesh: prepared powered multi-domain test system"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -139,7 +145,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 12:55",
+    "time": "Day 223, 16:27",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1306,11 +1312,29 @@
       "The test therefore succeeded as a limited reactive adaptive mesh rather than a mature predictive Adaptive Causal Mesh.",
       "The player field-qualified a three-branch Reactive Adaptive Load Mesh for structural transfer using existing powered infrastructure.",
       "The attempt did not qualify heat, pressure, spatial Fastline integration, autonomous predictive adaptation, or a full multi-domain Adaptive Causal Mesh.",
-      "Meaningful independent experimentation advanced Transfer Control 34 -> 35 and Waymark Craft 45 -> 46."
+      "Meaningful independent experimentation advanced Transfer Control 34 -> 35 and Waymark Craft 45 -> 46.",
+      "At the player's insistence, Sereth Vale skipped the staged curriculum and moved directly to a full integrated Adaptive Causal Mesh training trial in a single played afternoon session.",
+      "Sereth supplied the powered apparatus, prepared heat and pressure sources, emergency cutoffs, and supervision. The player supplied all active control decisions.",
+      "The integrated rig combined a moving structural load frame, heated iron, a pressure vessel, three receiver branches, changing branch capacities, and two shifting spatial anchors.",
+      "Adaptive architecture check: raw 20 + Intelligence 1 + Waymark Craft Adept 3 = 24. The player built exceptionally clean state logic, branch identity, isolation rules, and cross-domain permissions.",
+      "Failure prediction check: raw 8 + Wisdom 3 + Observation Novice 1 = 12. The player noticed an approaching branch failure late and had to operate reactively rather than predictively.",
+      "Initial pressure-transfer check: raw 4 + Wisdom 3 + Transfer Control Practiced 2 = 9. The player misjudged receiver compatibility and Sereth cut the pressure branch before damage.",
+      "Pressure-transfer retry after Sereth's correction: raw 11 + Wisdom 3 + Transfer Control Practiced 2 = 16. The player successfully moved a bounded pressure pulse into the prepared expansion receiver.",
+      "Heat-transfer check: raw 16 + Wisdom 3 + Transfer Control Practiced 2 = 21. The player moved a controlled amount of heat from the iron source into a prepared thermal receiver with acceptable losses.",
+      "Dynamic reroute check: raw 17 + Wisdom 3 + Transfer Control Practiced 2 = 22. The player isolated a failing structural branch and rerouted live load without collapsing the other domains.",
+      "Initial Fastline traversal check: raw 6 + Wisdom 3 + Spatial Relations Practiced 2 = 11. The first high-speed traversal exited with poor orientation and Sereth aborted the next traversal before compounding the error.",
+      "Fastline retry after Sereth's correction: raw 16 + Wisdom 3 + Spatial Relations Practiced 2 = 21. The player completed a high-speed prepared traversal with clean orientation and momentum mapping.",
+      "Capacity-edge control check: raw 9 + Wisdom 3 + Transfer Control Practiced 2 = 14. The player operated too conservatively at first and left usable reserve capacity untapped, but remained safe.",
+      "Final integrated Adaptive Causal Mesh check: raw 16 + Wisdom 3 + Transfer Control Practiced 2 = 21. The player maintained structural load, pressure, heat, branch state, and prepared spatial traversal simultaneously while Sereth changed one receiver capacity and invalidated another route.",
+      "The final system remained stable because failed branches isolated, reserve capacity absorbed transients, staggered handoffs prevented spikes, and spatial routing failed closed when invalid.",
+      "The player field-qualified the Adaptive Causal Mesh under prepared powered conditions. This does not mean arbitrary portable self-powered use; large or multi-domain meshes still require real sources, anchors, receiver capacity, preparation, and sufficient Resonance or external power.",
+      "The player learned basic pressure transfer and basic heat transfer, but both remain novice/untrained domains compared with structural transfer.",
+      "Meaningful extreme instruction advanced Observation 21 -> 22, Transfer Control 35 -> 38, Waymark Craft 46 -> 48, and Spatial Relations 29 -> 31. New domain scores: Pressure Transfer 8, Heat Transfer 9.",
+      "Sereth judged the player capable of understanding the full architecture, while noting that prediction, capacity-edge judgment, and unsupported self-powered use remain major weaknesses."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Independent Adaptive Causal Mesh structural prototype — corrected real rolls",
+      "action": "Jump directly into Sereth Vale's full integrated Adaptive Causal Mesh trial",
       "checks": {
         "architecture": {
           "raw_roll": 20,
@@ -1320,46 +1344,118 @@
           "total": 24,
           "outcome": "exceptional success"
         },
-        "initial_transfer": {
-          "raw_roll": 12,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 17,
-          "outcome": "success"
-        },
-        "failure_detection": {
+        "failure_prediction": {
           "raw_roll": 8,
           "ability": "Wisdom",
           "ability_modifier": 3,
           "training_bonus": 1,
           "total": 12,
-          "outcome": "partial; detected branch failure late"
+          "outcome": "partial; late detection"
         },
-        "dynamic_reroute": {
-          "raw_roll": 20,
+        "pressure_first": {
+          "raw_roll": 4,
           "ability": "Wisdom",
           "ability_modifier": 3,
           "training_bonus": 2,
-          "total": 25,
-          "outcome": "exceptional success"
+          "total": 9,
+          "outcome": "failure; Sereth safely cut branch"
+        },
+        "pressure_retry": {
+          "raw_roll": 11,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 16,
+          "outcome": "success"
+        },
+        "heat_transfer": {
+          "raw_roll": 16,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 21,
+          "outcome": "strong success"
+        },
+        "dynamic_reroute": {
+          "raw_roll": 17,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 22,
+          "outcome": "strong success"
+        },
+        "fastline_first": {
+          "raw_roll": 6,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 11,
+          "outcome": "partial; poor exit orientation"
+        },
+        "fastline_retry": {
+          "raw_roll": 16,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 21,
+          "outcome": "strong success"
+        },
+        "capacity_edge": {
+          "raw_roll": 9,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 14,
+          "outcome": "safe but conservative"
+        },
+        "final_integrated": {
+          "raw_roll": 16,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 21,
+          "outcome": "strong success"
         }
       },
-      "outcome": "limited reactive three-branch Adaptive Load Mesh succeeds; late detection causes a near-capacity transient but exceptional rerouting prevents collapse"
+      "outcome": "full Adaptive Causal Mesh architecture field-qualified under prepared powered conditions; basic heat and pressure transfer learned; major weaknesses remain prediction and self-powered portability"
     },
     "learning": {
       "skills": [
         {
+          "skill": "Observation",
+          "from": 21,
+          "to": 22,
+          "reason": "Tracked changing failure signals across a live multi-domain system."
+        },
+        {
           "skill": "Transfer Control",
-          "from": 34,
-          "to": 35,
-          "reason": "Recovered a live three-branch structural mesh after late failure detection and maintained continuous support."
+          "from": 35,
+          "to": 38,
+          "reason": "Controlled structural load, pressure, heat, and live rerouting in one integrated system."
         },
         {
           "skill": "Waymark Craft",
-          "from": 45,
-          "to": 46,
-          "reason": "Built exceptionally clean branch-state and isolation logic for a reactive adaptive mesh."
+          "from": 46,
+          "to": 48,
+          "reason": "Built and maintained cross-domain adaptive state and isolation logic."
+        },
+        {
+          "skill": "Spatial Relations",
+          "from": 29,
+          "to": 31,
+          "reason": "Completed corrected high-speed Fastline traversal inside an active adaptive mesh."
+        },
+        {
+          "skill": "Pressure Transfer",
+          "from": 0,
+          "to": 8,
+          "reason": "First supervised bounded pressure-transfer work under Sereth Vale."
+        },
+        {
+          "skill": "Heat Transfer",
+          "from": 0,
+          "to": 9,
+          "reason": "First supervised bounded thermal-transfer work under Sereth Vale."
         }
       ]
     },
