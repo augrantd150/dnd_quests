@@ -31,18 +31,18 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 22,
+      "Observation": 23,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 43,
-      "Waymark Craft": 53,
-      "Spatial Relations": 36,
+      "Transfer Control": 44,
+      "Waymark Craft": 54,
+      "Spatial Relations": 38,
       "Claims & Bindings": 74,
-      "Pressure Transfer": 8,
-      "Heat Transfer": 9
+      "Pressure Transfer": 9,
+      "Heat Transfer": 10
     },
     "wounds": [],
     "exhaustion": 0,
@@ -100,7 +100,9 @@
         "Adaptive Resonant Labyrinth Mesh",
         "Decoupled Resonance Feed Spine",
         "Portable Resonance Core",
-        "Field Adaptive Resonant Labyrinth Mesh"
+        "Field Adaptive Resonant Labyrinth Mesh",
+        "Rapid Field Mesh Deployment",
+        "Moving-Anchor Fastline"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
@@ -108,7 +110,9 @@
         "Adaptive Causal Mesh: prepared powered multi-domain test system",
         "Prepared Resonance Feed: external compatible source -> self, 1 Resonance",
         "Adaptive Resonant Labyrinth Mesh: prepared externally powered supervised configuration",
-        "Field Adaptive Resonant Labyrinth Mesh: portable precharged-core configuration"
+        "Field Adaptive Resonant Labyrinth Mesh: portable precharged-core configuration",
+        "Rapid Field Mesh Deployment: reduced portable configuration under controlled pressure",
+        "Moving-Anchor Fastline: controlled predictive traversal"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -156,7 +160,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 20:11",
+    "time": "Day 224, 11:36",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1413,32 +1417,130 @@
       "Sereth Vale assessed that the player has learned the core Adaptive Resonant Labyrinth Mesh architecture but has not exhausted Sereth's instruction.",
       "Remaining high-value areas Sereth can teach include: rapid pressured deployment of the field mesh; earlier failure prediction rather than reactive recovery; operating closer to true capacity limits; advanced pressure transfer; advanced heat transfer; more efficient high-speed spatial traversal; moving-anchor Fastlines; and live field use where multiple branches fail or change simultaneously.",
       "Sereth does not treat Claims & Bindings as his primary teaching domain; the player's Claims & Bindings mastery is already higher than the areas Sereth has been focusing on.",
-      "Portable core recharging still requires a compatible source; arbitrary environmental energy conversion remains unlearned and is not assumed to be something Sereth can grant automatically."
+      "Portable core recharging still requires a compatible source; arbitrary environmental energy conversion remains unlearned and is not assumed to be something Sereth can grant automatically.",
+      "The player slept safely at High Warden and began an advanced Sereth Vale training session on Day 224.",
+      "Failure prediction check: raw 19 + Wisdom 3 + Observation Novice 1 = 23. The player identified an approaching branch failure before it crossed its safe envelope.",
+      "Capacity-edge control check: raw 2 + Wisdom 3 + Transfer Control Adept 3 = 8. The player overcorrected and destabilized secondary branches; Sereth's protected rig prevented damage.",
+      "Pressure-transfer check: raw 5 + Wisdom 3 + Pressure Transfer Untrained 0 = 8. The player opened the receiver too early and wasted the pressure differential.",
+      "Pressure retry: raw 11 + Wisdom 3 + Pressure Transfer Untrained 0 = 14. The transfer was safe but inefficient.",
+      "Heat-transfer check: raw 5 + Wisdom 3 + Heat Transfer Untrained 0 = 8. The player mishandled timing at the coupling interface.",
+      "Heat retry: natural 1 + Wisdom 3 + Heat Transfer Untrained 0 = 4. Sereth cut the branch before the coupling material overheated.",
+      "The heat failure taught that thermal transfer can be limited by interface rate and coupling material before total receiver capacity is reached.",
+      "Rapid-deployment check: raw 2 + Dexterity 3 + Waymark Craft Adept 3 = 8. The first deployment sequence tangled and had to be reset.",
+      "Rapid-deployment retry: natural 20 + Dexterity 3 + Waymark Craft Adept 3 = 26. The player deployed the reduced field mesh at combat-relevant speed under controlled pressure.",
+      "Moving-anchor Fastline check: raw 18 + Wisdom 3 + Spatial Relations Practiced 2 = 23. The player predicted a moving endpoint and completed traversal with clean orientation and momentum mapping.",
+      "Simultaneous-failure control check: raw 14 + Wisdom 3 + Transfer Control Adept 3 = 20. The player managed multiple changing branches without cascade.",
+      "Failure-prediction-under-cascade check: raw 15 + Wisdom 3 + Observation Novice 1 = 19. The player identified the next likely branch failure early enough to isolate it.",
+      "Final integrated run: raw 10 + Wisdom 3 + Transfer Control Adept 3 = 16. The player kept the portable mesh stable through branch isolation, sacrificial failure, moving-anchor fallback, and reserve-capacity management.",
+      "The session field-qualified Rapid Field Mesh Deployment for the reduced portable mesh and Moving-Anchor Fastline under controlled conditions.",
+      "Capacity-edge control, pressure transfer, and heat transfer remain incomplete training areas.",
+      "Meaningful training advanced Observation 22 -> 23, Transfer Control 43 -> 44, Waymark Craft 53 -> 54, Spatial Relations 36 -> 38, Pressure Transfer 8 -> 9, and Heat Transfer 9 -> 10.",
+      "Personal Resonance remained 3/3 and the portable Resonance core remained 3/3 because Sereth's powered training rig supplied the exercise energy."
     ],
     "last_resolution": {
-      "provenance": "NPC",
-      "action": "Assess what remains to learn from Sereth Vale",
-      "outcome": "core mesh architecture learned; advanced speed, prediction, capacity-edge, heat, pressure, spatial efficiency, moving-anchor work, and live failure handling remain"
+      "provenance": "SYSTEM",
+      "action": "Advanced Sereth Vale training: prediction, capacity edge, heat, pressure, rapid deployment, moving-anchor Fastline, and cascade control",
+      "checks": {
+        "failure_prediction": {
+          "raw_roll": 19,
+          "total": 23,
+          "outcome": "strong success"
+        },
+        "capacity_edge": {
+          "raw_roll": 2,
+          "total": 8,
+          "outcome": "failure"
+        },
+        "pressure_first": {
+          "raw_roll": 5,
+          "total": 8,
+          "outcome": "failure"
+        },
+        "pressure_retry": {
+          "raw_roll": 11,
+          "total": 14,
+          "outcome": "partial success"
+        },
+        "heat_first": {
+          "raw_roll": 5,
+          "total": 8,
+          "outcome": "failure"
+        },
+        "heat_retry": {
+          "raw_roll": 1,
+          "total": 4,
+          "outcome": "critical failure; safely aborted"
+        },
+        "rapid_deploy_first": {
+          "raw_roll": 2,
+          "total": 8,
+          "outcome": "failure"
+        },
+        "rapid_deploy_retry": {
+          "raw_roll": 20,
+          "total": 26,
+          "outcome": "exceptional success"
+        },
+        "moving_anchor_fastline": {
+          "raw_roll": 18,
+          "total": 23,
+          "outcome": "strong success"
+        },
+        "simultaneous_failure_control": {
+          "raw_roll": 14,
+          "total": 20,
+          "outcome": "strong success"
+        },
+        "cascade_prediction": {
+          "raw_roll": 15,
+          "total": 19,
+          "outcome": "strong success"
+        },
+        "final_integrated": {
+          "raw_roll": 10,
+          "total": 16,
+          "outcome": "success"
+        }
+      },
+      "outcome": "rapid portable deployment and moving-anchor Fastline qualified; predictive failure handling improved; heat, pressure, and capacity-edge work remain unfinished"
     },
     "learning": {
       "skills": [
         {
+          "skill": "Observation",
+          "from": 22,
+          "to": 23,
+          "reason": "Detected developing branch failures before and during a live cascade."
+        },
+        {
           "skill": "Transfer Control",
-          "from": 41,
-          "to": 43,
-          "reason": "Stabilized a portable one-way Resonance feed while adaptive routing changed under load."
+          "from": 43,
+          "to": 44,
+          "reason": "Maintained control through simultaneous branch changes and sacrificial failure."
         },
         {
           "skill": "Waymark Craft",
-          "from": 51,
-          "to": 53,
-          "reason": "Compressed adaptive isolation and authorization logic into a field-deployable two-layer mesh."
+          "from": 53,
+          "to": 54,
+          "reason": "Achieved combat-relevant reduced-mesh deployment after correcting setup sequence."
         },
         {
           "skill": "Spatial Relations",
-          "from": 34,
-          "to": 36,
-          "reason": "Redesigned the portable mesh around fixed personal Fastlines and bounded containment loops."
+          "from": 36,
+          "to": 38,
+          "reason": "Completed predictive traversal to a moving prepared anchor."
+        },
+        {
+          "skill": "Pressure Transfer",
+          "from": 8,
+          "to": 9,
+          "reason": "Learned safe receiver timing from a failed and then partially successful pressure transfer."
+        },
+        {
+          "skill": "Heat Transfer",
+          "from": 9,
+          "to": 10,
+          "reason": "Learned the limiting role of coupling-interface heat rate from supervised failure."
         }
       ]
     },
