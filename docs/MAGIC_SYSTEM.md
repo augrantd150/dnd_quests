@@ -737,3 +737,34 @@ In controlled adversarial testing it successfully:
 - stored compatible intercepted power in the portable Resonance core.
 
 Current qualification is controlled and prepared. Real hostile practitioners may use unfamiliar domains, deceptive sources, mobile anchors, deliberate overloads, or techniques outside the tested compatibility envelope.
+
+
+### Lethal Resolution Mode
+
+A proposed lethal configuration of the **Sovereign Predatory Resonant Labyrinth Mesh**.
+
+Once an enemy is validly identified and contained, the mesh may route them toward destructive prepared branches instead of restraint-only branches.
+
+Possible lethal branches include:
+- crushing or structural-collapse paths;
+- bounded concussive release;
+- thermal overload against a valid target surface;
+- pressure-release or pressure-impulse hazards;
+- redirected hostile magical power;
+- momentum redirection into prepared impact geometry;
+- chained multi-domain attacks when every intermediate transfer remains valid.
+
+The mesh may also return a bounded portion of intercepted compatible hostile magic toward its source if a valid causal route exists.
+
+This mode does **not** automatically destroy an enemy. Lethality depends on:
+- available power;
+- target durability and defenses;
+- branch capacity;
+- geometry;
+- resistance or counter-magic;
+- whether the enemy can escape, sever anchors, or disrupt the mesh;
+- whether the destructive transfer remains causally valid.
+
+Unknown or invalid destructive routes fail closed rather than inventing damage.
+
+The lethal mode is currently conceptual and unfield-qualified.
