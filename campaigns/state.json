@@ -108,7 +108,8 @@
         "Recursive Containment Mesh",
         "Fastline Traversal Spine",
         "Pressure Relief Sequencing",
-        "Adaptive Causal Mesh"
+        "Adaptive Causal Mesh",
+        "Adaptive Resonant Labyrinth Mesh"
       ]
     },
     "reputation": {
@@ -1330,94 +1331,18 @@
       "The player field-qualified the Adaptive Causal Mesh under prepared powered conditions. This does not mean arbitrary portable self-powered use; large or multi-domain meshes still require real sources, anchors, receiver capacity, preparation, and sufficient Resonance or external power.",
       "The player learned basic pressure transfer and basic heat transfer, but both remain novice/untrained domains compared with structural transfer.",
       "Meaningful extreme instruction advanced Observation 21 -> 22, Transfer Control 35 -> 38, Waymark Craft 46 -> 48, and Spatial Relations 29 -> 31. New domain scores: Pressure Transfer 8, Heat Transfer 9.",
-      "Sereth judged the player capable of understanding the full architecture, while noting that prediction, capacity-edge judgment, and unsupported self-powered use remain major weaknesses."
+      "Sereth judged the player capable of understanding the full architecture, while noting that prediction, capacity-edge judgment, and unsupported self-powered use remain major weaknesses.",
+      "The player conceived a composite architecture combining the Adaptive Causal Mesh and Labyrinth Mesh with a Resonance-feed layer.",
+      "The concept is called the Adaptive Resonant Labyrinth Mesh.",
+      "The architecture would combine recursive containment, keyed Fastline traversal, adaptive branch rerouting, trap integration, and a Resonance Feed Spine that routes compatible magical power toward the player.",
+      "The Resonance Feed Spine cannot create Resonance from nothing and cannot automatically convert arbitrary momentum, heat, pressure, or injury into personal Resonance.",
+      "A valid implementation requires a compatible magical source or an explicitly learned conversion/attunement mechanism, a bounded storage/transfer path, receiver compatibility with the player's Resonance capacity, loss accounting, and overload protection.",
+      "The concept is not field-qualified and cannot currently restore Resonance because the player has not yet established a compatible Resonance source/conversion method for it."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Jump directly into Sereth Vale's full integrated Adaptive Causal Mesh trial",
-      "checks": {
-        "architecture": {
-          "raw_roll": 20,
-          "ability": "Intelligence",
-          "ability_modifier": 1,
-          "training_bonus": 3,
-          "total": 24,
-          "outcome": "exceptional success"
-        },
-        "failure_prediction": {
-          "raw_roll": 8,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 1,
-          "total": 12,
-          "outcome": "partial; late detection"
-        },
-        "pressure_first": {
-          "raw_roll": 4,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 9,
-          "outcome": "failure; Sereth safely cut branch"
-        },
-        "pressure_retry": {
-          "raw_roll": 11,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 16,
-          "outcome": "success"
-        },
-        "heat_transfer": {
-          "raw_roll": 16,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 21,
-          "outcome": "strong success"
-        },
-        "dynamic_reroute": {
-          "raw_roll": 17,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 22,
-          "outcome": "strong success"
-        },
-        "fastline_first": {
-          "raw_roll": 6,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 11,
-          "outcome": "partial; poor exit orientation"
-        },
-        "fastline_retry": {
-          "raw_roll": 16,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 21,
-          "outcome": "strong success"
-        },
-        "capacity_edge": {
-          "raw_roll": 9,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 14,
-          "outcome": "safe but conservative"
-        },
-        "final_integrated": {
-          "raw_roll": 16,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 21,
-          "outcome": "strong success"
-        }
-      },
-      "outcome": "full Adaptive Causal Mesh architecture field-qualified under prepared powered conditions; basic heat and pressure transfer learned; major weaknesses remain prediction and self-powered portability"
+      "provenance": "PLAYER",
+      "action": "Design concept combining Adaptive Causal Mesh, Labyrinth Mesh, and Resonance feeding",
+      "outcome": "Adaptive Resonant Labyrinth Mesh conceived as a studied concept; Resonance-feed layer remains unqualified and source-dependent"
     },
     "learning": {
       "skills": [
