@@ -31,15 +31,15 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 24,
+      "Observation": 25,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 48,
-      "Waymark Craft": 55,
-      "Spatial Relations": 39,
+      "Transfer Control": 49,
+      "Waymark Craft": 56,
+      "Spatial Relations": 40,
       "Claims & Bindings": 74,
       "Pressure Transfer": 13,
       "Heat Transfer": 15
@@ -108,7 +108,8 @@
         "Thermal Rate Control",
         "Improvised Mesh Topology",
         "Adversarial Transfer Firewall",
-        "Distributed Cell Topology"
+        "Distributed Cell Topology",
+        "Bounded Cell Autonomy"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
@@ -124,7 +125,8 @@
         "Thermal Rate Control: prepared thermal source and receiver",
         "Improvised Mesh Topology: imperfect field anchors/materials",
         "Adversarial Transfer Firewall: prepared hostile reroute/source-hijack defense",
-        "Distributed Cell Topology: multi-cell prepared mesh with local isolation"
+        "Distributed Cell Topology: multi-cell prepared mesh with local isolation",
+        "Bounded Cell Autonomy: local prepared cells with fail-closed escalation"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -136,7 +138,8 @@
         "Adaptive Resonant Labyrinth Mesh",
         "Resonance Feed Spine",
         "Decoupled Feed Architecture",
-        "Sovereign Adaptive Resonant Labyrinth Mesh"
+        "Sovereign Adaptive Resonant Labyrinth Mesh",
+        "Predictive Confidence Bands"
       ]
     },
     "reputation": {
@@ -173,7 +176,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 224, 20:03",
+    "time": "Day 224, 21:07",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1497,122 +1500,96 @@
       "The final trial consumed 1 portable-core charge: 3 -> 2.",
       "The Sovereign Adaptive Resonant Labyrinth Mesh remains a research prototype, not field-qualified.",
       "However, Improvised Mesh Topology, Adversarial Transfer Firewall, and Distributed Cell Topology were individually field-qualified.",
-      "Meaningful research advanced Observation 23 -> 24, Transfer Control 46 -> 48, Waymark Craft 54 -> 55 (Expert), Spatial Relations 38 -> 39, Pressure Transfer 12 -> 13, and Heat Transfer 14 -> 15."
+      "Meaningful research advanced Observation 23 -> 24, Transfer Control 46 -> 48, Waymark Craft 54 -> 55 (Expert), Spatial Relations 38 -> 39, Pressure Transfer 12 -> 13, and Heat Transfer 14 -> 15.",
+      "The player attempted to solve the remaining Sovereign-mesh bottleneck: too much direct manual branch management.",
+      "Sereth constrained the design so local cells may only act on signals they actually possess: capacity, trend, authorization, route validity, reserve, and explicit local policy.",
+      "Local decision-policy check: raw 13 + Intelligence 1 + Waymark Craft Expert 4 = 18. Success.",
+      "Trend-prediction check: raw 2 + Wisdom 3 + Observation Novice 1 = 6. Failure; noisy trends were classified too aggressively.",
+      "Autonomous-handoff check: raw 18 + Wisdom 3 + Transfer Control Adept 3 = 24. Exceptional success; a local cell shifted load without waiting for direct player input once its valid trigger fired.",
+      "Hostile-spoof rejection check: raw 9 + Intelligence 1 + Claims & Bindings Master 5 = 15. Success; unauthorized false receiver and route-priority changes were rejected.",
+      "Cell-loss recovery check: raw 14 + Wisdom 3 + Spatial Relations Practiced 2 = 19. Strong success; neighboring cells isolated the lost cell and preserved valid routes.",
+      "First full Sovereign autonomy run: raw 4 + Wisdom 3 + Transfer Control Adept 3 = 10. The mesh remained safe but required too much player intervention because prediction was unreliable.",
+      "Sereth introduced Predictive Confidence Bands: local state is divided into normal variation, watch, and commit-to-handoff bands rather than a single binary threshold.",
+      "Prediction retry: raw 2 + Wisdom 3 + Observation Novice 1 = 6. Failure; the player still tuned the watch band poorly and overreacted to noise.",
+      "Final Sovereign retry: raw 6 + Wisdom 3 + Transfer Control Adept 3 = 12. Partial; local cells handled many routine decisions independently, but the player still had to manually arbitrate too many uncertain transitions.",
+      "The full Sovereign Adaptive Resonant Labyrinth Mesh remains unfield-qualified.",
+      "Bounded Cell Autonomy was field-qualified: prepared local cells can make limited authorized decisions and handoffs from local signals, while ambiguous states fail closed or escalate to the player.",
+      "Predictive Confidence Bands were learned as a studied concept but are not yet field-qualified.",
+      "Meaningful training advanced Observation 24 -> 25, Transfer Control 48 -> 49, Waymark Craft 55 -> 56, and Spatial Relations 39 -> 40.",
+      "Personal Resonance remained 3/3. The portable Resonance core remained at 2/3 because Sereth's powered apparatus supplied this training."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Attempt full Sovereign Adaptive Resonant Labyrinth Mesh research trial",
+      "action": "Attempt to automate Sovereign mesh branch decisions with bounded local autonomy",
       "checks": {
-        "prediction_model": {
-          "raw_roll": 4,
-          "total": 8,
-          "outcome": "failure"
-        },
-        "adversarial_defense_first": {
-          "raw_roll": 6,
-          "total": 12,
-          "outcome": "partial"
-        },
-        "improvised_topology": {
-          "raw_roll": 18,
-          "total": 22,
-          "outcome": "strong success"
-        },
-        "scalable_topology_first": {
-          "raw_roll": 1,
-          "total": 6,
-          "outcome": "critical fail-closed shutdown"
-        },
-        "multi_source_control": {
-          "raw_roll": 12,
+        "local_policy_design": {
+          "raw_roll": 13,
           "total": 18,
           "outcome": "success"
         },
-        "labyrinth_trap_routing": {
-          "raw_roll": 16,
-          "total": 21,
-          "outcome": "strong success"
+        "trend_prediction": {
+          "raw_roll": 2,
+          "total": 6,
+          "outcome": "failure"
         },
-        "moving_anchor_fastline": {
-          "raw_roll": 6,
-          "total": 11,
-          "outcome": "partial"
-        },
-        "integrated_limited": {
-          "raw_roll": 14,
-          "total": 20,
-          "outcome": "strong success"
-        },
-        "prediction_retry": {
-          "raw_roll": 12,
-          "total": 16,
-          "outcome": "success"
-        },
-        "adversarial_defense_retry": {
-          "raw_roll": 19,
-          "total": 25,
+        "autonomous_handoff": {
+          "raw_roll": 18,
+          "total": 24,
           "outcome": "exceptional success"
         },
-        "scalable_cells_retry": {
-          "raw_roll": 15,
-          "total": 20,
+        "hostile_spoof_test": {
+          "raw_roll": 9,
+          "total": 15,
+          "outcome": "success"
+        },
+        "cell_loss_recovery": {
+          "raw_roll": 14,
+          "total": 19,
           "outcome": "strong success"
         },
-        "heat_to_resonance": {
-          "raw_roll": 1,
-          "total": 5,
-          "outcome": "critical failure; safely aborted; no conversion established"
+        "first_sovereign_run": {
+          "raw_roll": 4,
+          "total": 10,
+          "outcome": "partial; too much manual intervention"
         },
-        "pressure_to_resonance": {
-          "raw_roll": 7,
-          "total": 11,
-          "outcome": "unsuccessful/inconclusive; no conversion established"
+        "prediction_retry": {
+          "raw_roll": 2,
+          "total": 6,
+          "outcome": "failure"
         },
-        "final_self_contained": {
+        "final_sovereign_retry": {
           "raw_roll": 6,
           "total": 12,
-          "outcome": "partial; stable but too manually dependent for full Sovereign qualification"
+          "outcome": "partial; bounded autonomy works, prediction remains insufficient"
         }
       },
-      "outcome": "Sovereign prototype remains unqualified; three major sub-systems field-qualified; conversion layer remains unproven; portable core 3 -> 2"
+      "outcome": "Bounded Cell Autonomy field-qualified; predictive confidence control remains weak; full Sovereign architecture still unqualified"
     },
     "learning": {
       "skills": [
         {
           "skill": "Observation",
-          "from": 23,
-          "to": 24,
-          "reason": "Built trend-based prediction from developing branch signals after an initial failure."
+          "from": 24,
+          "to": 25,
+          "reason": "Repeated predictive-state work exposed how to separate noise from meaningful trends, though reliable tuning remains incomplete."
         },
         {
           "skill": "Transfer Control",
-          "from": 46,
-          "to": 48,
-          "reason": "Coordinated multiple changing sources/receivers and a self-contained distributed field trial."
+          "from": 48,
+          "to": 49,
+          "reason": "Local cells executed autonomous handoffs and preserved multi-branch stability."
         },
         {
           "skill": "Waymark Craft",
-          "from": 54,
-          "to": 55,
-          "reason": "Built improvised local cells and robust hostile-routing authorization, crossing into Expert rank."
+          "from": 55,
+          "to": 56,
+          "reason": "Defined bounded local decision policies and fail-closed escalation rules."
         },
         {
           "skill": "Spatial Relations",
-          "from": 38,
-          "to": 39,
-          "reason": "Recovered from a distributed-topology critical failure and built stable isolated spatial cells."
-        },
-        {
-          "skill": "Pressure Transfer",
-          "from": 12,
-          "to": 13,
-          "reason": "Tested and rejected an attempted direct pressure-to-Resonance coupling."
-        },
-        {
-          "skill": "Heat Transfer",
-          "from": 14,
-          "to": 15,
-          "reason": "Learned from a safely aborted attempted heat-to-Resonance conversion."
+          "from": 39,
+          "to": 40,
+          "reason": "Maintained valid inter-cell routes through cell loss and isolation."
         }
       ]
     },
