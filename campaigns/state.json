@@ -1293,12 +1293,52 @@
       "The player chose to attempt an Adaptive Causal Mesh prototype independently before Sereth's formal instruction.",
       "Because the player had 0/3 Resonance and had not yet learned heat or pressure transfer, the prototype was limited to domains already supported: structural load transfer, Waymark state/control, branch isolation, and dynamic rerouting.",
       "Sereth allowed the player to use the existing powered High Warden test frame but provided no coaching during the attempt.",
-      "The prototype used three receiver branches, one deliberately weak branch, independent Waymark state, and a requirement to keep load moving while isolating a branch after failure."
+      "The prototype used three receiver branches, one deliberately weak branch, independent Waymark state, and a requirement to keep load moving while isolating a branch after failure.",
+      "Adaptive prototype architecture check: raw 16 + Intelligence 1 + Waymark Craft Adept 3 = 20. The player successfully defined branch identity, valid/invalid states, isolation rules, and a live failure trigger.",
+      "Initial live transfer check: raw 14 + Wisdom 3 + Transfer Control Practiced 2 = 19. The three-branch load distribution entered a stable operating state.",
+      "Failure detection check: raw 13 + Wisdom 3 + Observation Novice 1 = 17. The player detected the deliberately weakened branch crossing out of its safe envelope in time for the mesh to isolate it.",
+      "First dynamic reroute check: raw 9 + Wisdom 3 + Transfer Control Practiced 2 = 14. The failed branch isolated correctly, but the reroute happened too abruptly and caused a transient load spike in both surviving receivers.",
+      "The test frame's existing safety limits aborted the transfer before physical damage occurred.",
+      "The first attempt demonstrated that branch isolation alone is not sufficient adaptation; a live adaptive mesh needs reserve capacity and staggered handoff already available before failure."
     ],
     "last_resolution": {
-      "provenance": "PLAYER",
-      "action": "Begin independent Adaptive Causal Mesh prototype",
-      "outcome": "self-directed live structural prototype started using Sereth's powered test frame; no coaching"
+      "provenance": "SYSTEM",
+      "action": "First independent Adaptive Causal Mesh live test",
+      "checks": {
+        "architecture": {
+          "raw_roll": 16,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 20,
+          "outcome": "strong success"
+        },
+        "initial_transfer": {
+          "raw_roll": 14,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 19,
+          "outcome": "strong success"
+        },
+        "failure_detection": {
+          "raw_roll": 13,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 17,
+          "outcome": "success"
+        },
+        "dynamic_reroute": {
+          "raw_roll": 9,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 14,
+          "outcome": "partial; isolated failure but produced receiver spikes"
+        }
+      },
+      "outcome": "prototype survived the branch failure but did not adapt cleanly; safety system aborted before damage"
     },
     "learning": {
       "skills": [
