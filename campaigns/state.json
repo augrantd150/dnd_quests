@@ -37,9 +37,9 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 39,
-      "Waymark Craft": 49,
-      "Spatial Relations": 32,
+      "Transfer Control": 41,
+      "Waymark Craft": 51,
+      "Spatial Relations": 34,
       "Claims & Bindings": 74,
       "Pressure Transfer": 8,
       "Heat Transfer": 9
@@ -78,7 +78,7 @@
     "temporary_conditions": [],
     "magic": {
       "resonance": {
-        "current": 1,
+        "current": 3,
         "max": 3
       },
       "techniques": [
@@ -95,13 +95,16 @@
         "Staggered Handoff",
         "Adaptive Causal Mesh",
         "Basic Pressure Transfer",
-        "Basic Heat Transfer"
+        "Basic Heat Transfer",
+        "Adaptive Resonant Labyrinth Mesh",
+        "Decoupled Resonance Feed Spine"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
         "Reactive Adaptive Load Mesh: three-branch structural prototype",
         "Adaptive Causal Mesh: prepared powered multi-domain test system",
-        "Prepared Resonance Feed: external compatible source -> self, 1 Resonance"
+        "Prepared Resonance Feed: external compatible source -> self, 1 Resonance",
+        "Adaptive Resonant Labyrinth Mesh: prepared externally powered supervised configuration"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -149,7 +152,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 16:51",
+    "time": "Day 223, 18:03",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1354,21 +1357,59 @@
       "The failure revealed a major architectural rule: personal Resonance intake must be decoupled from the mutable maze-routing state. The feed spine needs its own one-way authorization and isolation layer so changes in containment topology cannot alter the player's receiver relationship.",
       "The full Adaptive Resonant Labyrinth Mesh is NOT yet field-qualified.",
       "The Resonance Feed Spine IS now field-qualified in a narrow prepared form: compatible external powered source to the player, bounded to 1 Resonance in this test.",
-      "Meaningful breakthrough and informative critical failure advanced Transfer Control 38 -> 39, Waymark Craft 48 -> 49, and Spatial Relations 31 -> 32."
+      "Meaningful breakthrough and informative critical failure advanced Transfer Control 38 -> 39, Waymark Craft 48 -> 49, and Spatial Relations 31 -> 32.",
+      "Sereth Vale taught the player to correct the failed Adaptive Resonant Labyrinth Mesh by fully decoupling the personal Resonance Feed Spine from mutable maze topology.",
+      "First decoupling-layout check: raw 7 + Intelligence 1 + Waymark Craft Adept 3 = 11. The player separated the feed path but still allowed topology-state changes to propagate into cutoff logic.",
+      "Sereth's correction was that the feed controller must not depend on maze state at all; it tracks only source validity, receiver validity, capacity, one-way authorization, and overflow-to-sink behavior.",
+      "Decoupling retry: raw 13 + Intelligence 1 + Waymark Craft Adept 3 = 17. The player successfully rebuilt the feed as an independent one-way subsystem.",
+      "Resonance source attunement check: raw 19 + Wisdom 3 + Transfer Control Practiced 2 = 24. The player coupled Sereth's powered apparatus cleanly into the decoupled feed spine.",
+      "The controlled feed restored 2 Resonance without exceeding capacity: 1/3 -> 3/3.",
+      "Labyrinth routing check: raw 17 + Wisdom 3 + Spatial Relations Practiced 2 = 22. Recursive containment and keyed Fastline routes remained stable while the feed operated independently.",
+      "Adaptive multi-domain control check: raw 13 + Wisdom 3 + Transfer Control Practiced 2 = 18. Structural, heat, pressure, and route-state branches remained within safe capacity while Sereth changed one branch load.",
+      "Feed-under-reroute check: raw 11 + Intelligence 1 + Waymark Craft Adept 3 = 15. The maze rerouted and isolated a branch without altering the player's feed authorization or receiver identity.",
+      "Fastline-under-feed check: raw 18 + Wisdom 3 + Spatial Relations Practiced 2 = 23. The player traversed a prepared Fastline while the Resonance Feed Spine remained active, with clean orientation and momentum mapping.",
+      "Final integrated check: raw 10 + Wisdom 3 + Transfer Control Practiced 2 = 15. The full Adaptive Resonant Labyrinth Mesh remained stable through simultaneous containment rerouting, one branch isolation, active Resonance feed, and a prepared Fastline traversal.",
+      "The full architecture is now field-qualified under prepared, externally powered, supervised conditions.",
+      "The system still does not create power, cannot feed from arbitrary physical energy without a learned conversion, and is not yet qualified as a portable self-powered battlefield deployment.",
+      "Meaningful instruction and live integration advanced Transfer Control 39 -> 41, Waymark Craft 49 -> 51, and Spatial Relations 32 -> 34."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Attempt full Adaptive Resonant Labyrinth Mesh",
+      "action": "Learn and field-qualify the corrected Adaptive Resonant Labyrinth Mesh under Sereth Vale",
       "checks": {
-        "adaptive_architecture": {
-          "raw_roll": 16,
+        "first_decoupling": {
+          "raw_roll": 7,
           "ability": "Intelligence",
           "ability_modifier": 1,
           "training_bonus": 3,
-          "total": 20,
-          "outcome": "strong success"
+          "total": 11,
+          "outcome": "partial; topology state still leaked into feed cutoff logic"
+        },
+        "decoupling_retry": {
+          "raw_roll": 13,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 17,
+          "outcome": "success"
+        },
+        "resonance_attunement": {
+          "raw_roll": 19,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 24,
+          "outcome": "exceptional success"
         },
         "labyrinth_routing": {
+          "raw_roll": 17,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 22,
+          "outcome": "strong success"
+        },
+        "adaptive_control": {
           "raw_roll": 13,
           "ability": "Wisdom",
           "ability_modifier": 3,
@@ -1376,52 +1417,52 @@
           "total": 18,
           "outcome": "success"
         },
-        "resonance_attunement": {
-          "raw_roll": 20,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 0,
-          "total": 23,
-          "outcome": "exceptional success"
+        "feed_under_reroute": {
+          "raw_roll": 11,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 15,
+          "outcome": "success"
         },
-        "feed_stabilization": {
-          "raw_roll": 9,
+        "fastline_under_feed": {
+          "raw_roll": 18,
           "ability": "Wisdom",
           "ability_modifier": 3,
           "training_bonus": 2,
-          "total": 14,
-          "outcome": "partial; bounded but unstable shared-state interaction"
+          "total": 23,
+          "outcome": "strong success"
         },
-        "full_integration": {
-          "raw_roll": 1,
+        "final_integrated": {
+          "raw_roll": 10,
           "ability": "Wisdom",
           "ability_modifier": 3,
-          "training_bonus": 3,
-          "total": 7,
-          "outcome": "critical failure; fail-closed shutdown"
+          "training_bonus": 2,
+          "total": 15,
+          "outcome": "success"
         }
       },
-      "outcome": "Resonance Feed Spine breakthrough succeeds and restores 1 Resonance, but full Adaptive Resonant Labyrinth Mesh fails closed due to shared-state ambiguity"
+      "outcome": "full Adaptive Resonant Labyrinth Mesh field-qualified in prepared externally powered supervised conditions; Resonance restored to 3/3"
     },
     "learning": {
       "skills": [
         {
           "skill": "Transfer Control",
-          "from": 38,
-          "to": 39,
-          "reason": "Established first successful bounded external-source transfer into personal Resonance."
+          "from": 39,
+          "to": 41,
+          "reason": "Maintained multi-domain adaptive control while an independent Resonance feed remained active."
         },
         {
           "skill": "Waymark Craft",
-          "from": 48,
-          "to": 49,
-          "reason": "Built the adaptive/feed authorization logic and learned from a critical shared-state failure."
+          "from": 49,
+          "to": 51,
+          "reason": "Built a fully decoupled one-way Resonance feed authorization and isolation layer."
         },
         {
           "skill": "Spatial Relations",
-          "from": 31,
-          "to": 32,
-          "reason": "Integrated recursive containment and Fastline routing into the failed composite test."
+          "from": 32,
+          "to": 34,
+          "reason": "Maintained recursive containment and clean Fastline traversal during active feed and rerouting."
         }
       ]
     },
