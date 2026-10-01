@@ -615,3 +615,44 @@ Instead of a single binary failure threshold, a cell distinguishes:
 - **commit-to-handoff band**.
 
 The concept is not yet field-qualified. The player's current weakness is tuning the bands well enough to distinguish meaningful trends from noise.
+
+
+### Predictive Confidence Bands — field-qualified
+
+Predictive Confidence Bands are now field-qualified for prepared mesh cells.
+
+A cell evaluates:
+- trend rate;
+- remaining reserve capacity;
+- whether the system is recovering or deteriorating;
+- signal provenance and authorization.
+
+The control states are:
+- **normal variation** — no action;
+- **watch** — gather more local evidence and prepare fallback;
+- **commit to handoff** — begin a prepared staggered transition before the unsafe threshold is crossed.
+
+Prediction is not omniscience. Noisy or forged signals can still be misread, so the predictor is layered behind provenance checks, bounded local policy, and fail-closed behavior.
+
+
+### Sovereign Adaptive Resonant Labyrinth Mesh — field-qualified
+
+The Sovereign Adaptive Resonant Labyrinth Mesh is field-qualified in a prepared portable-core multi-cell configuration.
+
+It combines:
+- Distributed Cell Topology;
+- Bounded Cell Autonomy;
+- Predictive Confidence Bands;
+- Adversarial Transfer Firewall;
+- Improvised Mesh Topology;
+- adaptive containment and trap routing;
+- fixed and moving-anchor Fastlines;
+- decoupled Resonance Feed Spine;
+- multi-source and multi-receiver control;
+- local branch isolation and fail-soft behavior.
+
+A Sovereign mesh can make bounded local decisions without direct intervention, but only from signals it actually possesses. Ambiguous conditions still fail closed or escalate.
+
+It does not create power, infer hidden intent, provide arbitrary energy conversion, or scale without additional anchors, capacity, power, and coordination.
+
+The currently qualified field form uses finite portable Resonance storage or another compatible magical source.
