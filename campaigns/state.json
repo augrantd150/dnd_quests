@@ -104,7 +104,8 @@
       ]
     },
     "reputation": {
-      "engineering_magic": "Emerging regional specialist: successfully solved difficult structural-transfer problems at Greyspan, Stonewake, and Red Hollow. Known among some works crews and engineers, but not yet broadly famous or legendary."
+      "engineering_magic": "Emerging regional specialist: successfully solved difficult structural-transfer problems at Greyspan, Stonewake, and Red Hollow. Known among some works crews and engineers, but not yet broadly famous or legendary.",
+      "sereth_first_impression": "Solved a real flaw in Sereth Vale's active failure-envelope test on first contact."
     }
   },
   "magic": {
@@ -136,7 +137,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 11:27",
+    "time": "Day 223, 11:39",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1218,38 +1219,53 @@
       "The player recognizes the method as deliberate failure-envelope mapping: the practitioner is measuring how close the material can be taken to failure, how the crack direction changes under different receiver geometry, and how quickly load must be withdrawn to avoid irreversible collapse.",
       "The practitioner uses very small, economical transfer relationships and repeatedly works close to the safe limit without crossing it.",
       "A weathered provincial survey case beside the workbench bears the same institutional style described in Stonewake's old records, strengthening but not proving the connection to Sereth Vale.",
-      "The occupant has not yet been identified by name and has not shown hostile behavior."
+      "The occupant has not yet been identified by name and has not shown hostile behavior.",
+      "The player chose to stop covert observation and directly solve the technical problem in the High Warden failure-envelope test.",
+      "Observation/diagnosis check: raw 18 + Wisdom 3 + Observation Novice 1 = 22.",
+      "The player identified that the test rig's iron saddle was introducing a small rotational bias into what was supposed to be a mostly compressive load path.",
+      "That torsional contamination explained why crack direction was drifting between otherwise similar trials.",
+      "The player called out the diagnosis from the doorway rather than touching the apparatus without permission.",
+      "The older practitioner did not react with hostility; after a brief pause, they invited the player to demonstrate the correction.",
+      "Transfer redesign check: raw 17 + Wisdom 3 + Transfer Control Practiced 2 = 22.",
+      "The player proposed a three-point receiver arrangement with staggered handoff: two outer supports take the initial load, then the central receiver comes in gradually after torsion is neutralized.",
+      "Waymark geometry check: raw 15 + Intelligence 1 + Waymark Craft Adept 3 = 19.",
+      "Using the practitioner's existing powered test frame as the energy source, the player rebuilt the control relationship without spending personal Resonance.",
+      "The corrected test produced a clean, repeatable compressive fracture pattern instead of the previous diagonal drift.",
+      "The practitioner immediately recognized that the player had solved a real flaw in the experiment rather than merely guessing from one trial.",
+      "The practitioner then identified themself as Sereth Vale.",
+      "Sereth stated that the contaminated saddle had been bothering them for two days and that the player found the cause faster than expected.",
+      "Sereth's identification is now directly confirmed by self-identification plus the accumulated Greyspan, Stonewake, Red Hollow, and High Warden provenance trail."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Covertly observe the High Warden occupant",
+      "action": "Solve the High Warden failure-envelope test flaw",
       "checks": {
-        "observation": {
+        "diagnosis": {
+          "raw_roll": 18,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 22,
+          "outcome": "strong success"
+        },
+        "transfer_redesign": {
           "raw_roll": 17,
           "ability": "Wisdom",
           "ability_modifier": 3,
-          "training_bonus": 1,
-          "total": 21,
+          "training_bonus": 2,
+          "total": 22,
           "outcome": "strong success"
         },
-        "stealth": {
-          "raw_roll": 14,
-          "ability": "Dexterity",
-          "ability_modifier": 3,
-          "training_bonus": 1,
-          "total": 18,
-          "outcome": "success"
-        },
-        "transfer_analysis": {
-          "raw_roll": 16,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 21,
+        "waymark_geometry": {
+          "raw_roll": 15,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 19,
           "outcome": "strong success"
         }
       },
-      "outcome": "remained unnoticed; observed an expert conducting controlled failure-envelope tests; Sereth connection strengthened but not confirmed"
+      "outcome": "identified torsional contamination in the rig, corrected it, produced repeatable fracture behavior, and directly confirmed the occupant as Sereth Vale"
     },
     "learning": {
       "skills": [
@@ -1279,13 +1295,13 @@
       "correction": "Only gate closure is canonical; ordinary movement inside town after gate closure is allowed unless a later event establishes otherwise."
     },
     "current_npc": {
-      "name": "Reeve Maelin Voss",
-      "role": "civil administrator of Dunmarrow",
-      "disposition": "controlled, suspicious, attentive",
+      "name": "Sereth Vale",
+      "role": "itinerant transfer engineer and structural specialist",
+      "disposition": "alert, interested, professionally respectful",
       "notes": [
-        "Middle-aged.",
-        "Keeps written records close at hand.",
-        "Has not yet accepted any explanation of the execution-ground incident."
+        "Directly confirmed identity at High Warden.",
+        "Recognized the player's correction to the failure-envelope test as technically valid.",
+        "Has not yet agreed to teach the player."
       ]
     },
     "party": {
