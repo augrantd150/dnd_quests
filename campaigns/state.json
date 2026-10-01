@@ -137,7 +137,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 12:03",
+    "time": "Day 223, 12:09",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1263,12 +1263,38 @@
       "The second test removes the obvious visual clue: the components appear intact and the player must predict the first failure mode if the applied load is doubled.",
       "The apparatus now uses a stone beam, two timber receivers, an iron tie, a sliding shoe, and three keyed transfer paths with different capacities.",
       "Sereth explicitly instructed the player to diagnose the weakest causal relationship, not merely the weakest-looking material.",
-      "No action has yet been taken on the second evaluation."
+      "No action has yet been taken on the second evaluation.",
+      "The player observed Sereth Vale's second evaluation rig before committing to an answer.",
+      "Observation check: raw 18 + Wisdom 3 + Observation Novice 1 = 22.",
+      "Transfer analysis check: raw 15 + Wisdom 3 + Transfer Control Practiced 2 = 20.",
+      "The player determined that no single material is initially the limiting component.",
+      "Under doubled load, the sliding shoe reaches the end of its permitted travel before the stone beam, timber receivers, or iron tie reach their nominal material limits.",
+      "Once the shoe bottoms out, the third keyed transfer path loses its intended geometry and begins forcing load into the left timber receiver at a bad angle.",
+      "Therefore the first true failure is a relationship failure: loss of valid receiver geometry at the sliding shoe, followed immediately by eccentric overload of the left timber support.",
+      "The player also recognizes that simply strengthening the left timber would not solve the root problem because the geometry failure would remain."
     ],
     "last_resolution": {
-      "provenance": "NPC",
-      "action": "Advance to Sereth's second evaluation",
-      "outcome": "second live test prepared; player must predict the first failure mode under doubled load"
+      "provenance": "SYSTEM",
+      "action": "Observe and analyze Sereth's second evaluation rig",
+      "checks": {
+        "observation": {
+          "raw_roll": 18,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 1,
+          "total": 22,
+          "outcome": "strong success"
+        },
+        "transfer_analysis": {
+          "raw_roll": 15,
+          "ability": "Wisdom",
+          "ability_modifier": 3,
+          "training_bonus": 2,
+          "total": 20,
+          "outcome": "strong success"
+        }
+      },
+      "outcome": "identified sliding-shoe geometry loss as the first failure, which then causes eccentric overload of the left timber receiver"
     },
     "learning": {
       "skills": [
