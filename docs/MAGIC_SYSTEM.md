@@ -699,3 +699,41 @@ Captured power can be:
 - fed to the player only through the decoupled Resonance Feed Spine when compatibility is established.
 
 This architecture is not yet field-qualified.
+
+
+### Predatory Resonance Intercept — field-qualified
+
+Predatory Resonance Intercept is field-qualified for prepared compatible hostile-power flows under controlled adversarial conditions.
+
+A valid intercept may:
+- detect a hostile magical power flow crossing a prepared node;
+- verify source and receiver relationships;
+- isolate the capture branch from the player's personal feed;
+- redirect compatible power into a prepared receiver;
+- dump excess into a safe sink;
+- store a bounded compatible portion in the portable Resonance core;
+- reject unknown or incompatible effects.
+
+The interception layer is layered behind independent receiver validation. A spoofed or misclassified source does not automatically gain access to the player's Resonance Feed Spine.
+
+It cannot:
+- remotely drain arbitrary innate magical capacity;
+- steal life force as generic Resonance;
+- absorb unknown magic blindly;
+- exceed storage or receiver capacity;
+- create power through interception.
+
+### Sovereign Predatory Resonant Labyrinth Mesh — controlled qualification
+
+The Sovereign Predatory Resonant Labyrinth Mesh combines the field-qualified Sovereign architecture with Predatory Resonance Intercept.
+
+In controlled adversarial testing it successfully:
+- preserved recursive containment and trap routing;
+- maintained creator Fastlines;
+- rejected an unknown hostile effect;
+- survived a spoofed source signature without feeding it into the player;
+- isolated an overloaded capture branch;
+- dumped excess power safely;
+- stored compatible intercepted power in the portable Resonance core.
+
+Current qualification is controlled and prepared. Real hostile practitioners may use unfamiliar domains, deceptive sources, mobile anchors, deliberate overloads, or techniques outside the tested compatibility envelope.
