@@ -37,12 +37,12 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 52,
-      "Waymark Craft": 58,
-      "Spatial Relations": 40,
+      "Transfer Control": 54,
+      "Waymark Craft": 59,
+      "Spatial Relations": 41,
       "Claims & Bindings": 74,
-      "Pressure Transfer": 13,
-      "Heat Transfer": 15
+      "Pressure Transfer": 14,
+      "Heat Transfer": 16
     },
     "wounds": [],
     "exhaustion": 0,
@@ -62,7 +62,7 @@
       "wool blanket",
       "small waxed groundsheet",
       "2 bronze waymark nails",
-      "portable resonant core (3 charge units)"
+      "portable resonant core (2 charge units)"
     ],
     "items_detail": {
       "Ledger Shard": {
@@ -113,7 +113,9 @@
         "Predictive Confidence Bands",
         "Sovereign Adaptive Resonant Labyrinth Mesh",
         "Predatory Resonance Intercept",
-        "Sovereign Predatory Resonant Labyrinth Mesh"
+        "Sovereign Predatory Resonant Labyrinth Mesh",
+        "Lethal Resolution Mode",
+        "Sovereign Predatory Resonant Labyrinth Mesh — Lethal Resolution"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
@@ -134,7 +136,9 @@
         "Predictive Confidence Bands: trend-rate, reserve, and provenance based control",
         "Sovereign Adaptive Resonant Labyrinth Mesh: prepared portable-core multi-cell configuration",
         "Predatory Resonance Intercept: prepared compatible hostile-power capture with fail-closed rejection",
-        "Sovereign Predatory Resonant Labyrinth Mesh: controlled adversarial test configuration"
+        "Sovereign Predatory Resonant Labyrinth Mesh: controlled adversarial test configuration",
+        "Lethal Resolution Mode: prepared destructive branches with independent safety separation",
+        "Sovereign Predatory Resonant Labyrinth Mesh — Lethal Resolution: portable-core controlled validation"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -187,7 +191,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 224, 23:49",
+    "time": "Day 225, 00:34",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1579,32 +1583,114 @@
       "Lethal branches may include redirecting a contained enemy into prepared crushing, concussive, thermal, pressure, structural, or hostile-power return paths.",
       "The mesh may use intercepted compatible hostile magic against the source only when a valid capture and reroute relationship exists.",
       "The lethal mode remains subject to target durability, resistance, armor, counter-magic, escape, anchor destruction, overload limits, and finite power.",
-      "Lethal Resolution Mode is conceptual and unfield-qualified."
+      "Lethal Resolution Mode is conceptual and unfield-qualified.",
+      "Sereth Vale supervised field qualification of Lethal Resolution Mode against sacrificial constructs and hardened target rigs rather than a live person.",
+      "Lethal authorization check: raw 16 + Intelligence 1 + Claims & Bindings Master 5 = 22. Strong success; the mesh distinguished containment from authorized destructive resolution.",
+      "Containment-to-lethal routing check: raw 12 + Wisdom 3 + Spatial Relations Adept 3 = 18. Strong success.",
+      "Structural destructive-branch check: raw 15 + Wisdom 3 + Transfer Control Adept 3 = 21. Strong success; the target rig was routed into a prepared collapsing load path.",
+      "Pressure destructive-branch check: raw 8 + Wisdom 3 + Pressure Transfer Novice 1 = 12. Partial success; safe but inefficient.",
+      "Thermal destructive-branch check: raw 10 + Wisdom 3 + Heat Transfer Novice 1 = 14. Partial success; valid but inefficient.",
+      "Captured hostile-power return check: raw 9 + Wisdom 3 + Transfer Control Adept 3 = 15. Success; compatible intercepted power was routed through a prepared destructive branch rather than the player's feed spine.",
+      "Counter-disruption resistance check: raw 12 + Intelligence 1 + Waymark Craft Expert 4 = 17. Success; target escape and hostile route-disruption routines did not break the containment topology.",
+      "Friendly-fire separation check: natural 1 + Intelligence 1 + Waymark Craft Expert 4 = 6. Critical failure in classification confidence; the lethal layer failed closed and no destructive branch fired.",
+      "Sereth required independent destructive-envelope separation so uncertainty about keyed friendly routes disables lethal execution rather than sharing the normal containment decision path.",
+      "Friendly-fire separation retry: raw 13 + Intelligence 1 + Waymark Craft Expert 4 = 18. Strong success; destructive branches remained isolated from keyed Fastlines and protected routes.",
+      "Final portable lethal-resolution validation: natural 20 + Wisdom 3 + Transfer Control Adept 3 = 26. Exceptional success.",
+      "During the final trial the mesh contained the hardened target, predicted an escape route, isolated the corresponding cell, intercepted a compatible hostile pulse, redirected the captured power into a prepared destructive branch, chained it with structural transfer, and destroyed the sacrificial target rig while preserving keyed routes and neighboring cells.",
+      "Lethal Resolution Mode is field-qualified for prepared destructive branches.",
+      "The Sovereign Predatory Resonant Labyrinth Mesh with Lethal Resolution is field-qualified in a prepared portable-core controlled validation.",
+      "This does not guarantee an automatic kill. Real targets may survive, resist, escape, destroy anchors, exceed available destructive capacity, or use unfamiliar counter-magic.",
+      "The portable Resonance core supplied the final portable validation and decreased from 3/3 to 2/3. Personal Resonance remained 3/3.",
+      "Meaningful training advanced Transfer Control 52 -> 54, Waymark Craft 58 -> 59, Spatial Relations 40 -> 41, Pressure Transfer 13 -> 14, and Heat Transfer 15 -> 16."
     ],
     "last_resolution": {
-      "provenance": "PLAYER",
-      "action": "Add lethal enemy-destruction capability to Sovereign Predatory Resonant Labyrinth Mesh",
-      "outcome": "Lethal Resolution Mode conceived; not yet field-qualified"
+      "provenance": "SYSTEM",
+      "action": "Field-qualify lethal resolution for the Sovereign Predatory Resonant Labyrinth Mesh",
+      "checks": {
+        "lethal_authorization": {
+          "raw_roll": 16,
+          "total": 22,
+          "outcome": "strong success"
+        },
+        "containment_to_lethal": {
+          "raw_roll": 12,
+          "total": 18,
+          "outcome": "strong success"
+        },
+        "structural_branch": {
+          "raw_roll": 15,
+          "total": 21,
+          "outcome": "strong success"
+        },
+        "pressure_branch": {
+          "raw_roll": 8,
+          "total": 12,
+          "outcome": "partial"
+        },
+        "thermal_branch": {
+          "raw_roll": 10,
+          "total": 14,
+          "outcome": "partial"
+        },
+        "hostile_power_return": {
+          "raw_roll": 9,
+          "total": 15,
+          "outcome": "success"
+        },
+        "counter_disruption": {
+          "raw_roll": 12,
+          "total": 17,
+          "outcome": "success"
+        },
+        "friendly_fire_first": {
+          "raw_roll": 1,
+          "total": 6,
+          "outcome": "critical failure; lethal layer failed closed"
+        },
+        "friendly_fire_retry": {
+          "raw_roll": 13,
+          "total": 18,
+          "outcome": "strong success"
+        },
+        "final_portable_validation": {
+          "raw_roll": 20,
+          "total": 26,
+          "outcome": "exceptional success"
+        }
+      },
+      "outcome": "Lethal Resolution Mode and the portable Sovereign Predatory lethal configuration field-qualified; portable core 3 -> 2"
     },
     "learning": {
       "skills": [
         {
-          "skill": "Observation",
-          "from": 28,
-          "to": 29,
-          "reason": "Learned to classify hostile and unknown magical flows conservatively during interception."
-        },
-        {
           "skill": "Transfer Control",
-          "from": 50,
-          "to": 52,
-          "reason": "Captured, diverted, dumped, and safely stored bounded hostile magical power."
+          "from": 52,
+          "to": 54,
+          "reason": "Chained intercepted hostile power and structural transfer through destructive branches."
         },
         {
           "skill": "Waymark Craft",
-          "from": 57,
-          "to": 58,
-          "reason": "Integrated interception branches, sink logic, and storage permissions into the Sovereign mesh."
+          "from": 58,
+          "to": 59,
+          "reason": "Built independent lethal authorization and friendly-route separation logic."
+        },
+        {
+          "skill": "Spatial Relations",
+          "from": 40,
+          "to": 41,
+          "reason": "Maintained containment, escape denial, and destructive routing simultaneously."
+        },
+        {
+          "skill": "Pressure Transfer",
+          "from": 13,
+          "to": 14,
+          "reason": "Practiced bounded pressure-based destructive transfer."
+        },
+        {
+          "skill": "Heat Transfer",
+          "from": 15,
+          "to": 16,
+          "reason": "Practiced bounded thermal destructive transfer."
         }
       ]
     },
