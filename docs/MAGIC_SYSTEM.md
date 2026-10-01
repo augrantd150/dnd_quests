@@ -422,3 +422,16 @@ New design requirement:
 - source excess must divert to a safe sink rather than the player.
 
 The full Adaptive Resonant Labyrinth Mesh remains unqualified.
+
+
+### Adaptive Resonant Labyrinth Mesh — field-qualified form
+
+The player's Adaptive Resonant Labyrinth Mesh is field-qualified in a prepared, externally powered, supervised configuration.
+
+It combines adaptive branch sensing and isolation, dynamic rerouting, recursive containment, keyed Fastline traversal, bounded trap branches, and a decoupled Resonance Feed Spine.
+
+The feed subsystem is independent of maze topology. It tracks only source validity, receiver validity, Resonance capacity, one-way authorization, transfer losses, cutoff state, and overflow diversion to a safe sink.
+
+At High Warden, the corrected design restored the player from 1/3 to 3/3 Resonance while containment routing and Fastline state changed independently.
+
+Current limits: it requires a compatible external magical source, prepared anchors and geometry, valid receivers, safe overflow handling, and setup time. It does not create power from nothing, and portable self-powered battlefield deployment is not yet qualified.
