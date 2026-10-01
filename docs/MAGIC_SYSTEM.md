@@ -656,3 +656,46 @@ A Sovereign mesh can make bounded local decisions without direct intervention, b
 It does not create power, infer hidden intent, provide arbitrary energy conversion, or scale without additional anchors, capacity, power, and coordination.
 
 The currently qualified field form uses finite portable Resonance storage or another compatible magical source.
+
+
+### Predatory Resonance Intercept
+
+A **Predatory Resonance Intercept** is a proposed counter-magic layer for the Sovereign Adaptive Resonant Labyrinth Mesh.
+
+It does not drain generic mana from enemies.
+
+A valid capture requires:
+- a hostile magical effect or power flow that actually crosses a prepared node or coupling path;
+- a detectable source relationship;
+- known or bounded quantity;
+- a compatible receiver, sink, trap branch, or storage path;
+- capacity and overload limits;
+- provenance checks so forged or unknown power is not accepted blindly.
+
+Possible valid uses include:
+- redirecting part of an incoming hostile magical transfer into a prepared sink;
+- stealing power from a compatible enemy magical construct if its supply path is physically/magically exposed;
+- capturing charge from a compatible hostile focus after a valid coupling is established;
+- feeding captured power into the player's Resonance core only if conversion/compatibility is proven.
+
+Invalid uses include:
+- arbitrary remote draining of a person's innate magical capacity;
+- treating life force as free Resonance;
+- absorbing unknown magic without a safe receiver model;
+- creating energy through interception.
+
+Unknown or incompatible hostile magic fails closed.
+
+### Sovereign Predatory Resonant Labyrinth Mesh
+
+A proposed extension of the Sovereign Adaptive Resonant Labyrinth Mesh that adds Predatory Resonance Intercept.
+
+The mesh may redirect enemies through trap branches while also attempting to intercept compatible hostile magical power passing through prepared nodes.
+
+Captured power can be:
+- redirected into another prepared branch;
+- dumped into a safe sink;
+- stored if a compatible storage path exists;
+- fed to the player only through the decoupled Resonance Feed Spine when compatibility is established.
+
+This architecture is not yet field-qualified.
