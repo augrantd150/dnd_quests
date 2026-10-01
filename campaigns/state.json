@@ -37,12 +37,12 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 60,
-      "Waymark Craft": 65,
-      "Spatial Relations": 45,
+      "Transfer Control": 62,
+      "Waymark Craft": 66,
+      "Spatial Relations": 46,
       "Claims & Bindings": 78,
-      "Pressure Transfer": 14,
-      "Heat Transfer": 16
+      "Pressure Transfer": 15,
+      "Heat Transfer": 17
     },
     "wounds": [],
     "exhaustion": 0,
@@ -62,7 +62,7 @@
       "wool blanket",
       "small waxed groundsheet",
       "2 bronze waymark nails",
-      "portable resonant core (3 charge units)"
+      "portable resonant core (2 charge units)"
     ],
     "items_detail": {
       "Ledger Shard": {
@@ -126,7 +126,11 @@
         "Epochal Rekey",
         "Topology Shedding",
         "Temporal Authority Leases",
-        "Heterogeneous Sensor Provenance"
+        "Heterogeneous Sensor Provenance",
+        "Creator Aegis Layer",
+        "Emergency Fastline Extraction",
+        "Personal Quarantine",
+        "Reserved Defensive Charge"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
@@ -161,7 +165,10 @@
         "Topology Shedding: rebuild reduced valid mesh after physical anchor loss",
         "Temporal Authority Leases: topology-epoch-bound permissions with expiry",
         "Heterogeneous Sensor Provenance: causally independent corroboration",
-        "Sereth Capability Closure: no feasible clean breach using Sereth Vale's current capabilities against a valid prepared mesh"
+        "Sereth Capability Closure: no feasible clean breach using Sereth Vale's current capabilities against a valid prepared mesh",
+        "Creator Aegis Layer: portable-core personal-priority defense",
+        "Emergency Fastline Extraction: prepared survival-priority escape",
+        "Personal Quarantine: creator envelope isolation from compromised cells"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -216,7 +223,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 226, 19:07",
+    "time": "Day 226, 22:02",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1721,44 +1728,136 @@
       "Proposed defensive functions include emergency Fastline extraction, impact shunting, bounded heat and pressure diversion, hostile-power interception near the creator, anti-capture route denial, personal quarantine if surrounding cells are compromised, and reserved core charge for emergency defense.",
       "The Aegis may sacrifice offensive branches, territory, or nonessential cells to preserve the creator when necessary.",
       "The Creator Aegis does not provide invulnerability. It remains limited by available anchors, reaction time, reserve capacity, core charge, valid receivers, unknown attack domains, and whether a safe escape or diversion path exists.",
-      "Creator Aegis Layer is conceptual and not yet field-qualified."
+      "Creator Aegis Layer is conceptual and not yet field-qualified.",
+      "Sereth Vale supervised creation and field qualification of the Creator Aegis Layer for the Sovereign Predatory Resonant Labyrinth Mesh.",
+      "Aegis policy architecture: raw 16 + Intelligence 1 + Waymark Craft Expert 4 = 21. Strong success. Offensive branches were prevented from consuming the creator's reserved emergency capacity.",
+      "Impact-shunting check: raw 9 + Wisdom 3 + Transfer Control Expert 4 = 16. Success; a bounded mechanical strike was redirected into a sacrificial receiver.",
+      "Thermal-diversion check: raw 3 + Wisdom 3 + Heat Transfer Novice 1 = 7. Failure; the coupling rate was unsafe and the branch cut itself.",
+      "Thermal-diversion retry: raw 16 + Wisdom 3 + Heat Transfer Novice 1 = 20. Strong success.",
+      "Pressure-diversion check: raw 5 + Wisdom 3 + Pressure Transfer Novice 1 = 9. Failure; the first bleed path was too slow.",
+      "Pressure-diversion retry: raw 16 + Wisdom 3 + Pressure Transfer Novice 1 = 20. Strong success.",
+      "Close Predatory Intercept: raw 5 + Wisdom 3 + Transfer Control Expert 4 = 12. Partial; hostile power was safely dumped rather than stored or returned.",
+      "Anti-capture routing: raw 6 + Wisdom 3 + Spatial Relations Adept 3 = 12. Partial; extraction succeeded at the cost of offensive position.",
+      "Personal Quarantine: raw 8 + Wisdom 3 + Waymark Craft Expert 4 = 15. Success; compromised nearby cells were severed and a smaller creator-safe envelope rebuilt.",
+      "Emergency Fastline Extraction: raw 5 + Dexterity 3 + Spatial Relations Adept 3 = 11. Partial; the player escaped but arrived off-balance.",
+      "Reserved Defensive Charge policy: raw 9 + Intelligence 1 + Waymark Craft Expert 4 = 14. Workable; emergency reserve remained unavailable to ordinary offensive branches.",
+      "First full Creator Aegis run: raw 15 + Wisdom 3 + Transfer Control Expert 4 = 22. Strong success.",
+      "Survival-versus-offense conflict check: raw 6 + Wisdom 3 + Transfer Control Expert 4 = 13. Partial; the mesh hesitated when a lethal offensive action would consume the last safe defensive receiver.",
+      "The priority rule was rewritten: when creator survival and offensive resolution conflict, creator survival takes precedence immediately unless the player explicitly overrides the Aegis.",
+      "Final Creator Aegis validation: raw 13 + Wisdom 3 + Transfer Control Expert 4 = 20. Strong success.",
+      "During final validation the Aegis sacrificed offensive pressure, severed unsafe cells, reserved emergency capacity, shunted a bounded impact, rejected unsafe thermal/pressure routes, and extracted the creator through a prepared Fastline.",
+      "Creator Aegis Layer is field-qualified in a prepared portable-core configuration.",
+      "The final portable validation consumed 1 core charge: 3/3 -> 2/3. Personal Resonance remained 3/3.",
+      "Meaningful training advanced Transfer Control 60 -> 62, Waymark Craft 65 -> 66, Spatial Relations 45 -> 46, Pressure Transfer 14 -> 15, and Heat Transfer 16 -> 17."
     ],
     "last_resolution": {
-      "provenance": "PLAYER",
-      "action": "Add creator-priority personal defense to the Sovereign Predatory Resonant Labyrinth Mesh",
-      "outcome": "Creator Aegis Layer conceived; not yet field-qualified"
+      "provenance": "SYSTEM",
+      "action": "Create and field-qualify the Creator Aegis Layer",
+      "checks": {
+        "architecture": {
+          "raw_roll": 16,
+          "total": 21,
+          "outcome": "strong success"
+        },
+        "impact_shunt": {
+          "raw_roll": 9,
+          "total": 16,
+          "outcome": "success"
+        },
+        "thermal_first": {
+          "raw_roll": 3,
+          "total": 7,
+          "outcome": "failure; branch cut safely"
+        },
+        "thermal_retry": {
+          "raw_roll": 16,
+          "total": 20,
+          "outcome": "strong success"
+        },
+        "pressure_first": {
+          "raw_roll": 5,
+          "total": 9,
+          "outcome": "failure"
+        },
+        "pressure_retry": {
+          "raw_roll": 16,
+          "total": 20,
+          "outcome": "strong success"
+        },
+        "close_intercept": {
+          "raw_roll": 5,
+          "total": 12,
+          "outcome": "partial; safe dump"
+        },
+        "anti_capture": {
+          "raw_roll": 6,
+          "total": 12,
+          "outcome": "partial; escaped with positional loss"
+        },
+        "personal_quarantine": {
+          "raw_roll": 8,
+          "total": 15,
+          "outcome": "success"
+        },
+        "emergency_fastline": {
+          "raw_roll": 5,
+          "total": 11,
+          "outcome": "partial"
+        },
+        "reserve_policy": {
+          "raw_roll": 9,
+          "total": 14,
+          "outcome": "workable"
+        },
+        "integrated_first": {
+          "raw_roll": 15,
+          "total": 22,
+          "outcome": "strong success"
+        },
+        "survival_conflict": {
+          "raw_roll": 6,
+          "total": 13,
+          "outcome": "partial; priority ambiguity exposed"
+        },
+        "final_validation": {
+          "raw_roll": 13,
+          "total": 20,
+          "outcome": "strong success"
+        }
+      },
+      "outcome": "Creator Aegis Layer field-qualified; creator survival now has explicit priority over offensive resolution unless manually overridden"
     },
     "learning": {
       "skills": [
         {
-          "skill": "Observation",
-          "from": 33,
-          "to": 35,
-          "reason": "Learned to distinguish causally independent corroboration from multiple readings of one corrupted source."
-        },
-        {
           "skill": "Transfer Control",
-          "from": 58,
-          "to": 60,
-          "reason": "Maintained reserve under supply attrition and mixed adaptive attack sequences."
+          "from": 60,
+          "to": 62,
+          "reason": "Practiced impact shunting, close intercept, reserve management, and survival-priority integrated control."
         },
         {
           "skill": "Waymark Craft",
-          "from": 63,
-          "to": 65,
-          "reason": "Integrated topology shedding and causally diverse sensor policies into hardened cells."
+          "from": 65,
+          "to": 66,
+          "reason": "Built protected reserve policy and personal quarantine logic into the Sovereign mesh."
         },
         {
           "skill": "Spatial Relations",
-          "from": 44,
-          "to": 45,
-          "reason": "Rebuilt reduced valid topology after strategic anchor loss."
+          "from": 45,
+          "to": 46,
+          "reason": "Practiced anti-capture routing and emergency extraction under pressure."
         },
         {
-          "skill": "Claims & Bindings",
-          "from": 76,
-          "to": 78,
-          "reason": "Bound permissions to explicit topology epochs and expiry, eliminating stale-authority transitions."
+          "skill": "Pressure Transfer",
+          "from": 14,
+          "to": 15,
+          "reason": "Learned from failed and successful personal-envelope pressure diversion."
+        },
+        {
+          "skill": "Heat Transfer",
+          "from": 16,
+          "to": 17,
+          "reason": "Learned safe coupling-rate control for personal thermal diversion."
         }
       ]
     },
