@@ -1762,12 +1762,51 @@
       "Creator Aegis training advanced Transfer Control 60 -> 62, Waymark Craft 65 -> 66, Spatial Relations 45 -> 46, Pressure Transfer 14 -> 15, and Heat Transfer 16 -> 17.",
       "A subsequent live test with Sereth Vale ended his active role in the campaign.",
       "The player remained unharmed and the portable Resonance core ended at 1/3.",
-      "The High Warden test site retains physical and magical evidence of the event."
+      "The High Warden test site retains physical and magical evidence of the event.",
+      "The player invited Sereth Vale into what Sereth believed was a genuine live test of the Sovereign Predatory Resonant Labyrinth Mesh — Creator Aegis.",
+      "The player's actual intent was to kill Sereth because he knew too much.",
+      "Conceal-lethal-intent check: raw 8 + Charisma 0 = 8. Poor result; Sereth noticed that something about the player's timing or intent was wrong, though he did not identify the exact lethal authorization change before it committed.",
+      "Lethal authorization switch: raw 10 + Intelligence 1 + Claims & Bindings Master 5 = 16. Success.",
+      "Lethal path formation: raw 19 + Wisdom 3 + Transfer Control Expert 4 = 26. Exceptional success.",
+      "Sereth recognized the betrayal after the lethal path was already committed and said, 'That isn't the test.'",
+      "Escape denial: raw 9 + Wisdom 3 + Spatial Relations Adept 3 = 15. Success; the local cell changed epoch, shed the expected fallback, and closed the route Sereth attempted to use.",
+      "Sereth emergency counter: raw 4. Failure.",
+      "The hardened Sovereign Predatory Resonant Labyrinth Mesh used the same quarantine, state-secret fallback, epochal re-key, and lethal-resolution architecture developed specifically against Sereth's known counterplay.",
+      "Sereth Vale was killed during the live High Warden test. The player remained unharmed.",
+      "The portable Resonance core ended at 1/3 after the lethal live test.",
+      "No direct third-party witness to the betrayal is currently established in the scene.",
+      "High Warden still retains physical and magical traces of the event. The player wants the event to be undiscoverable even to a later visitor, but no concealment or evidence-removal action has yet been resolved."
     ],
     "last_resolution": {
       "provenance": "PLAYER",
-      "action": "Conclude live Sovereign Creator Aegis test with Sereth Vale",
-      "outcome": "Sereth Vale removed from play; player unharmed; portable core 1/3"
+      "action": "Betray and kill Sereth Vale during the agreed live Sovereign Creator Aegis test",
+      "checks": {
+        "conceal_intent": {
+          "raw_roll": 8,
+          "total": 8,
+          "outcome": "poor; Sereth sensed something was wrong"
+        },
+        "lethal_authorization": {
+          "raw_roll": 10,
+          "total": 16,
+          "outcome": "success"
+        },
+        "lethal_path": {
+          "raw_roll": 19,
+          "total": 26,
+          "outcome": "exceptional success"
+        },
+        "escape_denial": {
+          "raw_roll": 9,
+          "total": 15,
+          "outcome": "success"
+        },
+        "sereth_emergency_counter": {
+          "raw_roll": 4,
+          "outcome": "failure"
+        }
+      },
+      "outcome": "Sereth Vale killed; player unharmed; portable core 1/3; no direct witness established; physical/magical evidence remains"
     },
     "learning": {
       "skills": [
@@ -1811,7 +1850,7 @@
     "current_npc": {
       "name": "Sereth Vale",
       "role": "itinerant transfer engineer and structural specialist",
-      "disposition": "removed from play",
+      "disposition": "dead",
       "active": false
     },
     "party": {
@@ -1929,11 +1968,11 @@
     "respect_scene_exit": true,
     "significance_not_assumed": true,
     "narrative_correction": "Future events must arise from world/NPC/clock/player/system/prep causes; do not invent twists merely to sustain drama.",
-    "last_player_boundary": "Remain with the Keeper until its direct teaching in Claims & Bindings is exhausted.",
+    "last_player_boundary": "Preserve simulation-first causality; the player wants Sereth's death concealed, but concealment must be earned through play rather than assumed.",
     "recovery_rule_locked": true,
     "training_pacing": "Skip repetitive low-value moments within a session, but never compress weeks or months of progression into a single player command. Long-term mastery must unfold across played time, real costs, world-state changes, distinct meaningful experiences, and normal progression limits.",
     "no_long_time_skips_for_training": true,
-    "current_long_term_goal": "Continue independent mastery and deal with the consequences of the High Warden test",
+    "current_long_term_goal": "Continue independent mastery and decide how to handle the consequences and evidence at High Warden",
     "travel_pacing": "The journey to Sereth Vale is campaign play. Do not fast-forward across meaningful travel legs, logistics, hazards, settlements, or consequences.",
     "story_interest_preference": "Increase narrative intensity through causally earned complications: rival experts, dangerous field decisions, reputational consequences, competing interests, difficult magical problems, and meaningful interpersonal conflict. Do not manufacture random twists, hook-stack, or override simulation-first causality."
   }
