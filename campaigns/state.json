@@ -31,16 +31,16 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 33,
+      "Observation": 35,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 58,
-      "Waymark Craft": 63,
-      "Spatial Relations": 44,
-      "Claims & Bindings": 76,
+      "Transfer Control": 60,
+      "Waymark Craft": 65,
+      "Spatial Relations": 45,
+      "Claims & Bindings": 78,
       "Pressure Transfer": 14,
       "Heat Transfer": 16
     },
@@ -58,7 +58,7 @@
       "waterskin",
       "small field notebook",
       "Ledger Shard",
-      "3 days coarse road rations",
+      "2 days coarse road rations",
       "wool blanket",
       "small waxed groundsheet",
       "2 bronze waymark nails",
@@ -123,7 +123,10 @@
         "Response Budgeting",
         "Atomic Authorization Commit",
         "Operator Attention Isolation",
-        "Epochal Rekey"
+        "Epochal Rekey",
+        "Topology Shedding",
+        "Temporal Authority Leases",
+        "Heterogeneous Sensor Provenance"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
@@ -154,7 +157,11 @@
         "Atomic Authorization Commit: fail-closed permission/power state changes",
         "Operator Attention Isolation: local continuity under creator attention saturation",
         "Epochal Rekey: closed transition between local authorization states",
-        "Sereth Red-Team Closure: three consecutive adaptive full-spectrum runs without a clean breach in the High Warden test envelope"
+        "Sereth Red-Team Closure: three consecutive adaptive full-spectrum runs without a clean breach in the High Warden test envelope",
+        "Topology Shedding: rebuild reduced valid mesh after physical anchor loss",
+        "Temporal Authority Leases: topology-epoch-bound permissions with expiry",
+        "Heterogeneous Sensor Provenance: causally independent corroboration",
+        "Sereth Capability Closure: no feasible clean breach using Sereth Vale's current capabilities against a valid prepared mesh"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -207,7 +214,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 225, 19:31",
+    "time": "Day 226, 19:07",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1678,111 +1685,139 @@
       "Adversarial Sensor Quorum, Response Budgeting, Atomic Authorization Commit, Operator Attention Isolation, and Epochal Rekey are now field-qualified.",
       "Meaningful red-team training advanced Observation 31 -> 33, Transfer Control 56 -> 58, Waymark Craft 61 -> 63, Spatial Relations 43 -> 44, and Claims & Bindings 75 -> 76.",
       "High Warden's compatible fixed source powered the training and recharged the portable Resonance core between disconnected portable trials. The core ended fully charged at 3/3; this does not grant self-recharging capability.",
-      "Personal Resonance remained 3/3 and HP remained 10/10."
+      "Personal Resonance remained 3/3 and HP remained 10/10.",
+      "On Day 226, after safe rest, Sereth Vale restarted red-team work from scratch with the explicit goal of exhausting every countermeasure available through his current knowledge, tools, preparation, and capabilities.",
+      "Power-starvation defense: raw 14 + Wisdom 3 + Transfer Control Expert 4 = 21. Strong success.",
+      "Physical anchor-loss defense: raw 8 + Wisdom 3 + Spatial Relations Adept 3 = 14. Sereth achieved a clean local breach by removing two strategically important anchors.",
+      "Topology Shedding design: raw 12 + Intelligence 1 + Waymark Craft Expert 4 = 17. Success.",
+      "Topology Shedding validation: raw 15 + Wisdom 3 + Spatial Relations Adept 3 = 21. Strong success. Surviving cells deliberately abandoned invalid territory and rebuilt a smaller valid mesh rather than preserving broken geometry.",
+      "Delayed-permission attack: raw 7 + Intelligence 1 + Claims & Bindings Master 5 = 13. Sereth achieved a clean authorization breach using a permission that was legitimate before a topology change.",
+      "Temporal Authority Lease design: raw 8 + Intelligence 1 + Claims & Bindings Master 5 = 14. Partial.",
+      "Temporal Authority Lease breakthrough: natural 20 + Intelligence 1 + Claims & Bindings Master 5 = 26. Exceptional success.",
+      "First lease validation: raw 5 + Intelligence 1 + Claims & Bindings Master 5 = 11. Failure; a stale permission survived one edge case.",
+      "Final lease validation: raw 9 + Intelligence 1 + Claims & Bindings Master 5 = 15. Success. Permissions became bound to a topology epoch and explicit expiry.",
+      "Common-source sensor corruption: raw 5 + Wisdom 3 + Observation Practiced 2 = 10. Sereth achieved a clean breach by corrupting the shared physical source behind several nominally independent measurements.",
+      "Heterogeneous Sensor Provenance design: raw 10 + Intelligence 1 + Waymark Craft Expert 4 = 15. Success.",
+      "First heterogeneous-sensor validation: raw 8 + Wisdom 3 + Observation Practiced 2 = 13. Partial.",
+      "Heterogeneous-sensor retry: raw 13 + Wisdom 3 + Observation Practiced 2 = 18. Strong success. Sensor quorum now requires causal independence, not merely multiple readings.",
+      "Sustained supply-side attrition test: raw 18 + Wisdom 3 + Transfer Control Expert 4 = 25. Strong success. Response Budgeting and passive fail-closed refusal prevented cheap threats from forcing disproportionate power expenditure.",
+      "Stolen-credential test: raw 9 + Intelligence 1 + Claims & Bindings Master 5 = 15. Success; current-state and epoch-bound permissions prevented a copied old credential from controlling the mesh.",
+      "Compromised-cell coordination test: raw 12 + Wisdom 3 + Transfer Control Expert 4 = 19. Success; quarantine and independent cells preserved the network.",
+      "Physical support attack on the active topology: raw 14 + Wisdom 3 + Spatial Relations Adept 3 = 20. Strong success; the mesh shed damaged territory and retained a valid reduced defensive envelope.",
+      "Sereth then performed a final adaptive series using every previously successful attack family in mixed order. No stale authorization, spoofed identity, common-source sensor claim, cheap attrition threat, compromised cell, predictable fallback, or transition-race attack produced a valid control path.",
+      "Final mixed run 1: raw 19 + Wisdom 3 + Transfer Control Expert 4 = 26. Exceptional success; no clean breach.",
+      "Final mixed run 2: raw 6 + Wisdom 3 + Transfer Control Expert 4 = 13. The mesh degraded and abandoned offensive branches, but failed closed and Sereth still obtained no clean breach.",
+      "Final mixed run 3: raw 19 + Wisdom 3 + Transfer Control Expert 4 = 26. Exceptional success; no clean breach.",
+      "Final mixed run 4: raw 18 + Wisdom 3 + Transfer Control Expert 4 = 25. Strong success; no clean breach.",
+      "Sereth concluded that he has no feasible winning line against a valid prepared mesh using his present capabilities, knowledge, tools, and resource envelope.",
+      "This is not literal metaphysical invincibility. A prepared finite mesh can still be defeated by sufficient external power, total anchor destruction from outside its engagement envelope, complete resource exhaustion by a superior resource base, pre-deployment surprise, unknown magical domains, or capabilities Sereth does not possess.",
+      "The meaningful closure is narrower: Sereth Vale himself can no longer produce a valid clean breach by skill, counter-design, spoofing, timing, topology attack, or resource manipulation within his actual capability envelope.",
+      "Meaningful training advanced Observation 33 -> 35, Transfer Control 58 -> 60, Waymark Craft 63 -> 65, Spatial Relations 44 -> 45, and Claims & Bindings 76 -> 78.",
+      "One day of coarse road rations was consumed: 3 days -> 2 days. High Warden's compatible fixed source supplied the test rig and restored the portable Resonance core to 3/3 between disconnected trials. Personal Resonance remained 3/3."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Continue Sereth red-team training until he has no demonstrated clean breach within the High Warden test envelope",
+      "action": "Exhaust Sereth Vale's remaining red-team countermeasures against the hardened Sovereign Predatory Resonant Labyrinth Mesh",
       "key_checks": {
-        "sensor_saturation": {
-          "raw_roll": 9,
-          "total": 14,
-          "outcome": "Sereth clean breach"
-        },
-        "sensor_quorum_retry": {
-          "raw_roll": 17,
-          "total": 22,
+        "power_starvation": {
+          "raw_roll": 14,
+          "total": 21,
           "outcome": "strong success"
         },
-        "response_exhaustion": {
-          "raw_roll": 7,
+        "anchor_loss": {
+          "raw_roll": 8,
           "total": 14,
           "outcome": "Sereth clean breach"
         },
-        "response_budget_validation": {
-          "raw_roll": 20,
-          "total": 27,
-          "outcome": "exceptional success"
+        "topology_shedding_validation": {
+          "raw_roll": 15,
+          "total": 21,
+          "outcome": "strong success"
         },
-        "permission_race": {
-          "raw_roll": 3,
-          "total": 9,
+        "delayed_permission": {
+          "raw_roll": 7,
+          "total": 13,
           "outcome": "Sereth clean breach"
         },
-        "atomic_authorization_validation": {
-          "raw_roll": 10,
-          "total": 16,
+        "lease_breakthrough": {
+          "raw_roll": 20,
+          "total": 26,
+          "outcome": "exceptional success"
+        },
+        "lease_validation_final": {
+          "raw_roll": 9,
+          "total": 15,
           "outcome": "success"
         },
-        "operator_attention_attack": {
-          "raw_roll": 3,
-          "total": 8,
+        "common_source_corruption": {
+          "raw_roll": 5,
+          "total": 10,
           "outcome": "Sereth clean breach"
         },
-        "attention_isolation_validation": {
-          "raw_roll": 20,
-          "total": 27,
-          "outcome": "exceptional success"
+        "heterogeneous_sensor_final": {
+          "raw_roll": 13,
+          "total": 18,
+          "outcome": "strong success"
         },
-        "rekey_window": {
-          "raw_roll": 1,
-          "total": 8,
-          "outcome": "Sereth clean breach"
-        },
-        "epochal_rekey_validation": {
+        "supply_attrition": {
           "raw_roll": 18,
           "total": 25,
           "outcome": "strong success"
         },
-        "final_run_1": {
-          "raw_roll": 13,
-          "total": 20,
-          "outcome": "success; no breach"
+        "final_mixed_1": {
+          "raw_roll": 19,
+          "total": 26,
+          "outcome": "no breach"
         },
-        "final_run_2": {
-          "raw_roll": 12,
-          "total": 19,
-          "outcome": "success; no breach"
+        "final_mixed_2": {
+          "raw_roll": 6,
+          "total": 13,
+          "outcome": "degraded fail-closed; no breach"
         },
-        "final_run_3": {
-          "raw_roll": 11,
-          "total": 18,
-          "outcome": "success; no breach"
+        "final_mixed_3": {
+          "raw_roll": 19,
+          "total": 26,
+          "outcome": "no breach"
+        },
+        "final_mixed_4": {
+          "raw_roll": 18,
+          "total": 25,
+          "outcome": "no breach"
         }
       },
-      "outcome": "Sereth no longer has a demonstrated clean breach within the current High Warden test envelope after three consecutive adaptive full-spectrum failures"
+      "outcome": "Sereth has no feasible clean breach using his present capabilities against a valid prepared mesh; absolute invincibility remains impossible for a finite causal system"
     },
     "learning": {
       "skills": [
         {
           "skill": "Observation",
-          "from": 31,
-          "to": 33,
-          "reason": "Learned independent sensor corroboration and attention-resistant threat discrimination."
+          "from": 33,
+          "to": 35,
+          "reason": "Learned to distinguish causally independent corroboration from multiple readings of one corrupted source."
         },
         {
           "skill": "Transfer Control",
-          "from": 56,
-          "to": 58,
-          "reason": "Learned cost-aware defensive escalation, attention-independent continuity, and epoch-safe rerouting."
+          "from": 58,
+          "to": 60,
+          "reason": "Maintained reserve under supply attrition and mixed adaptive attack sequences."
         },
         {
           "skill": "Waymark Craft",
-          "from": 61,
-          "to": 63,
-          "reason": "Hardened sensor quorum, response budgets, and state transitions against informed attacks."
+          "from": 63,
+          "to": 65,
+          "reason": "Integrated topology shedding and causally diverse sensor policies into hardened cells."
         },
         {
           "skill": "Spatial Relations",
-          "from": 43,
-          "to": 44,
-          "reason": "Maintained topology during repeated quarantine and adversarial rerouting."
+          "from": 44,
+          "to": 45,
+          "reason": "Rebuilt reduced valid topology after strategic anchor loss."
         },
         {
           "skill": "Claims & Bindings",
-          "from": 75,
-          "to": 76,
-          "reason": "Developed atomic authorization and safe re-key handoffs under adversarial timing attacks."
+          "from": 76,
+          "to": 78,
+          "reason": "Bound permissions to explicit topology epochs and expiry, eliminating stale-authority transitions."
         }
       ]
     },
