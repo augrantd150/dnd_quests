@@ -130,7 +130,8 @@
         "Creator Aegis Layer",
         "Emergency Fastline Extraction",
         "Personal Quarantine",
-        "Reserved Defensive Charge"
+        "Reserved Defensive Charge",
+        "Sovereign Predatory Resonant Labyrinth Mesh — Creator Aegis"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
@@ -168,7 +169,9 @@
         "Sereth Capability Closure: no feasible clean breach using Sereth Vale's current capabilities against a valid prepared mesh",
         "Creator Aegis Layer: portable-core personal-priority defense",
         "Emergency Fastline Extraction: prepared survival-priority escape",
-        "Personal Quarantine: creator envelope isolation from compromised cells"
+        "Personal Quarantine: creator envelope isolation from compromised cells",
+        "Creator Aegis Layer: creator-priority defensive reserve and emergency extraction",
+        "Sovereign Predatory Resonant Labyrinth Mesh — Creator Aegis: integrated personal-defense validation"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -223,7 +226,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 226, 22:02",
+    "time": "Day 226, 22:03",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1748,84 +1751,13 @@
       "During final validation the Aegis sacrificed offensive pressure, severed unsafe cells, reserved emergency capacity, shunted a bounded impact, rejected unsafe thermal/pressure routes, and extracted the creator through a prepared Fastline.",
       "Creator Aegis Layer is field-qualified in a prepared portable-core configuration.",
       "The final portable validation consumed 1 core charge: 3/3 -> 2/3. Personal Resonance remained 3/3.",
-      "Meaningful training advanced Transfer Control 60 -> 62, Waymark Craft 65 -> 66, Spatial Relations 45 -> 46, Pressure Transfer 14 -> 15, and Heat Transfer 16 -> 17."
+      "Meaningful training advanced Transfer Control 60 -> 62, Waymark Craft 65 -> 66, Spatial Relations 45 -> 46, Pressure Transfer 14 -> 15, and Heat Transfer 16 -> 17.",
+      "The player told Sereth Vale they want to test the field-qualified Sovereign Predatory Resonant Labyrinth Mesh — Creator Aegis against Sereth personally rather than against another sacrificial rig."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Create and field-qualify the Creator Aegis Layer",
-      "checks": {
-        "architecture": {
-          "raw_roll": 16,
-          "total": 21,
-          "outcome": "strong success"
-        },
-        "impact_shunt": {
-          "raw_roll": 9,
-          "total": 16,
-          "outcome": "success"
-        },
-        "thermal_first": {
-          "raw_roll": 3,
-          "total": 7,
-          "outcome": "failure; branch cut safely"
-        },
-        "thermal_retry": {
-          "raw_roll": 16,
-          "total": 20,
-          "outcome": "strong success"
-        },
-        "pressure_first": {
-          "raw_roll": 5,
-          "total": 9,
-          "outcome": "failure"
-        },
-        "pressure_retry": {
-          "raw_roll": 16,
-          "total": 20,
-          "outcome": "strong success"
-        },
-        "close_intercept": {
-          "raw_roll": 5,
-          "total": 12,
-          "outcome": "partial; safe dump"
-        },
-        "anti_capture": {
-          "raw_roll": 6,
-          "total": 12,
-          "outcome": "partial; escaped with positional loss"
-        },
-        "personal_quarantine": {
-          "raw_roll": 8,
-          "total": 15,
-          "outcome": "success"
-        },
-        "emergency_fastline": {
-          "raw_roll": 5,
-          "total": 11,
-          "outcome": "partial"
-        },
-        "reserve_policy": {
-          "raw_roll": 9,
-          "total": 14,
-          "outcome": "workable"
-        },
-        "integrated_first": {
-          "raw_roll": 15,
-          "total": 22,
-          "outcome": "strong success"
-        },
-        "survival_conflict": {
-          "raw_roll": 6,
-          "total": 13,
-          "outcome": "partial; priority ambiguity exposed"
-        },
-        "final_validation": {
-          "raw_roll": 13,
-          "total": 20,
-          "outcome": "strong success"
-        }
-      },
-      "outcome": "Creator Aegis Layer field-qualified; creator survival now has explicit priority over offensive resolution unless manually overridden"
+      "provenance": "PLAYER",
+      "action": "Ask Sereth Vale to personally test the Sovereign Predatory Resonant Labyrinth Mesh — Creator Aegis",
+      "outcome": "Sereth is considering a live red-team test with strict safety and authorization conditions"
     },
     "learning": {
       "skills": [
