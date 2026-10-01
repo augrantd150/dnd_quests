@@ -31,16 +31,16 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 31,
+      "Observation": 33,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 56,
-      "Waymark Craft": 61,
-      "Spatial Relations": 43,
-      "Claims & Bindings": 75,
+      "Transfer Control": 58,
+      "Waymark Craft": 63,
+      "Spatial Relations": 44,
+      "Claims & Bindings": 76,
       "Pressure Transfer": 14,
       "Heat Transfer": 16
     },
@@ -62,7 +62,7 @@
       "wool blanket",
       "small waxed groundsheet",
       "2 bronze waymark nails",
-      "portable resonant core (1 charge unit)"
+      "portable resonant core (3 charge units)"
     ],
     "items_detail": {
       "Ledger Shard": {
@@ -118,7 +118,12 @@
         "Sovereign Predatory Resonant Labyrinth Mesh — Lethal Resolution",
         "Apex Adversary Protocol",
         "Compromised Cell Quarantine",
-        "State-Secret Fallback Routing"
+        "State-Secret Fallback Routing",
+        "Adversarial Sensor Quorum",
+        "Response Budgeting",
+        "Atomic Authorization Commit",
+        "Operator Attention Isolation",
+        "Epochal Rekey"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
@@ -143,7 +148,13 @@
         "Lethal Resolution Mode: prepared destructive branches with independent safety separation",
         "Sovereign Predatory Resonant Labyrinth Mesh — Lethal Resolution: portable-core controlled validation",
         "Apex Adversary Protocol: informed counter-practitioner red-team qualification",
-        "Legendary-Wizard Threat Profile: controlled surrogate stress qualification"
+        "Legendary-Wizard Threat Profile: controlled surrogate stress qualification",
+        "Adversarial Sensor Quorum: controlled synchronized-spoof resistance",
+        "Response Budgeting: cost-aware defensive escalation",
+        "Atomic Authorization Commit: fail-closed permission/power state changes",
+        "Operator Attention Isolation: local continuity under creator attention saturation",
+        "Epochal Rekey: closed transition between local authorization states",
+        "Sereth Red-Team Closure: three consecutive adaptive full-spectrum runs without a clean breach in the High Warden test envelope"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -196,7 +207,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 225, 11:42",
+    "time": "Day 225, 19:31",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1631,116 +1642,147 @@
       "The architecture also passed a controlled legendary-wizard-grade surrogate stress profile, but has not been proven against an actual legendary wizard.",
       "Meaningful training advanced Observation 29 -> 31, Transfer Control 54 -> 56 (Expert), Waymark Craft 59 -> 61, Spatial Relations 41 -> 43, and Claims & Bindings 74 -> 75.",
       "The final portable validation consumed 1 Resonance-core charge: 2/3 -> 1/3. Personal Resonance remained 3/3.",
-      "One day of coarse road rations was consumed during the overnight rest and morning training: 4 days -> 3 days."
+      "One day of coarse road rations was consumed during the overnight rest and morning training: 4 days -> 3 days.",
+      "On Day 225, the player asked Sereth Vale to continue red-team training until Sereth could no longer produce a clean breach within the High Warden test envelope.",
+      "Baseline route-prediction defense: raw 19 + Wisdom 3 + Observation Practiced 2 = 24. Strong success.",
+      "Simultaneous-fault control: raw 15 + Wisdom 3 + Transfer Control Expert 4 = 22. Strong success.",
+      "Fail-closed exhaustion pressure: raw 12 + Intelligence 1 + Waymark Craft Expert 4 = 17. Success.",
+      "Synchronized sensor-saturation attack: raw 9 + Wisdom 3 + Observation Practiced 2 = 14. Failure; Sereth achieved a clean breach by making harmless and dangerous trends look alike.",
+      "Adversarial Sensor Quorum training began. Design and calibration checks were both 14, followed by a failed spoof test of 7.",
+      "Sensor-quorum retry: raw 17 + Wisdom 3 + Observation Practiced 2 = 22. Strong success; local cells required independent corroborating signals before expensive escalation.",
+      "Sereth then defeated the mesh with response-cost exhaustion: raw 7 + Wisdom 3 + Transfer Control Expert 4 = 14. Repeated cheap threats forced disproportionately expensive defensive responses until the lethal path lost reserve.",
+      "Response Budgeting redesign: natural 20 + Intelligence 1 + Waymark Craft Expert 4 = 25. Exceptional success.",
+      "Response Budgeting control test: natural 20 + Wisdom 3 + Transfer Control Expert 4 = 27. Exceptional success.",
+      "Response Budgeting validation: natural 20 + Wisdom 3 + Transfer Control Expert 4 = 27. Exceptional success. Cells now prefer the cheapest safe response that preserves future reserve.",
+      "Topology-collapse defense: raw 15 + Wisdom 3 + Spatial Relations Adept 3 = 21. Strong success.",
+      "Permission-race attack: raw 3 + Intelligence 1 + Claims & Bindings Master 5 = 9. Failure; Sereth achieved a clean breach during a transition between old and new authorization state.",
+      "Atomic Authorization training initially failed repeatedly: totals 7, 11, 6, and 8.",
+      "Atomic Authorization breakthrough: raw 15 + Intelligence 1 + Claims & Bindings Master 5 = 21. Strong success.",
+      "Atomic Authorization integration: raw 10 + Intelligence 1 + Waymark Craft Expert 4 = 15. Partial success.",
+      "Atomic Authorization validation: raw 10 + Intelligence 1 + Claims & Bindings Master 5 = 16. Success. Permission and power-routing state now commit together or not at all.",
+      "A subsequent full-spectrum run scored 22, but Sereth then attacked the player's attention rather than the cells: raw 3 + Wisdom 3 + Observation Practiced 2 = 8. Clean breach through operator saturation.",
+      "Operator Attention Isolation design: raw 12 + Intelligence 1 + Waymark Craft Expert 4 = 17. Success.",
+      "Initial attention-isolation trial: raw 6 + Wisdom 3 + Transfer Control Expert 4 = 13. Partial.",
+      "Attention-isolation retry: raw 14 + Wisdom 3 + Observation Practiced 2 = 19. Strong success.",
+      "Attention-isolation stress test: raw 19 + Wisdom 3 + Transfer Control Expert 4 = 26. Exceptional success.",
+      "Attention-isolation validation: natural 20 + Wisdom 3 + Transfer Control Expert 4 = 27. Exceptional success. Routine local defense continues even when the creator is deliberately overloaded with false emergencies.",
+      "Sereth then found a final transitional weakness: re-keying after quarantine. A natural 1 + Wisdom 3 + Transfer Control Expert 4 = 8 let him exploit the brief mismatch between old and new local authorization epochs.",
+      "Epochal Rekey development produced totals 15, 14, and 11 before the correct design emerged.",
+      "Epochal Rekey breakthrough: raw 18 + Intelligence 1 + Claims & Bindings Master 5 = 24. Strong success.",
+      "Epochal Rekey validation: raw 18 + Wisdom 3 + Transfer Control Expert 4 = 25. Strong success. Old and new authorization epochs now overlap only through a bounded handoff that exposes no half-valid control state.",
+      "Final adaptive full-spectrum Sereth red-team run 1: raw 13 + Wisdom 3 + Transfer Control Expert 4 = 20. Success; no clean breach.",
+      "Final adaptive full-spectrum Sereth red-team run 2: raw 12 + Wisdom 3 + Transfer Control Expert 4 = 19. Success; no clean breach.",
+      "Final adaptive full-spectrum Sereth red-team run 3: raw 11 + Wisdom 3 + Transfer Control Expert 4 = 18. Success; no clean breach.",
+      "Sereth was allowed to change tactics between each final run using everything learned from earlier failures. After three consecutive full-spectrum attempts without a clean breach, he stated that he no longer had a demonstrated solution inside the current High Warden test envelope.",
+      "This is not proof of absolute invincibility. New information, new domains, greater power, different terrain, or a genuinely novel practitioner may still defeat the system.",
+      "Adversarial Sensor Quorum, Response Budgeting, Atomic Authorization Commit, Operator Attention Isolation, and Epochal Rekey are now field-qualified.",
+      "Meaningful red-team training advanced Observation 31 -> 33, Transfer Control 56 -> 58, Waymark Craft 61 -> 63, Spatial Relations 43 -> 44, and Claims & Bindings 75 -> 76.",
+      "High Warden's compatible fixed source powered the training and recharged the portable Resonance core between disconnected portable trials. The core ended fully charged at 3/3; this does not grant self-recharging capability.",
+      "Personal Resonance remained 3/3 and HP remained 10/10."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Red-team lethal Sovereign mesh against an informed counter-practitioner and legendary-wizard-grade surrogate threat",
-      "checks": {
-        "informed_opening": {
-          "raw_roll": 1,
-          "total": 6,
-          "outcome": "critical failure; predictable fallback defeated"
+      "action": "Continue Sereth red-team training until he has no demonstrated clean breach within the High Warden test envelope",
+      "key_checks": {
+        "sensor_saturation": {
+          "raw_roll": 9,
+          "total": 14,
+          "outcome": "Sereth clean breach"
         },
-        "fallback_redesign": {
-          "raw_roll": 18,
-          "total": 23,
+        "sensor_quorum_retry": {
+          "raw_roll": 17,
+          "total": 22,
           "outcome": "strong success"
         },
-        "policy_injection": {
-          "raw_roll": 4,
-          "total": 10,
-          "outcome": "failure"
+        "response_exhaustion": {
+          "raw_roll": 7,
+          "total": 14,
+          "outcome": "Sereth clean breach"
         },
-        "policy_hardening": {
-          "raw_roll": 19,
-          "total": 25,
+        "response_budget_validation": {
+          "raw_roll": 20,
+          "total": 27,
           "outcome": "exceptional success"
         },
-        "unknown_domain": {
-          "raw_roll": 2,
-          "total": 7,
-          "outcome": "failure; safely rejected"
+        "permission_race": {
+          "raw_roll": 3,
+          "total": 9,
+          "outcome": "Sereth clean breach"
         },
-        "overload_triage": {
+        "atomic_authorization_validation": {
           "raw_roll": 10,
           "total": 16,
           "outcome": "success"
         },
-        "anchor_assault": {
-          "raw_roll": 17,
-          "total": 23,
+        "operator_attention_attack": {
+          "raw_roll": 3,
+          "total": 8,
+          "outcome": "Sereth clean breach"
+        },
+        "attention_isolation_validation": {
+          "raw_roll": 20,
+          "total": 27,
+          "outcome": "exceptional success"
+        },
+        "rekey_window": {
+          "raw_roll": 1,
+          "total": 8,
+          "outcome": "Sereth clean breach"
+        },
+        "epochal_rekey_validation": {
+          "raw_roll": 18,
+          "total": 25,
           "outcome": "strong success"
         },
-        "forged_friendly": {
-          "raw_roll": 1,
-          "total": 7,
-          "outcome": "critical identification failure; lethal authorization withheld"
-        },
-        "sudden_spatial_entry": {
-          "raw_roll": 3,
-          "total": 9,
-          "outcome": "failure"
-        },
-        "emergency_topology_shift": {
-          "raw_roll": 3,
-          "total": 10,
-          "outcome": "failure; cell quarantined"
-        },
-        "counter_magic_reroute": {
-          "raw_roll": 14,
+        "final_run_1": {
+          "raw_roll": 13,
           "total": 20,
-          "outcome": "strong success"
+          "outcome": "success; no breach"
         },
-        "lethal_authorization": {
-          "raw_roll": 7,
-          "total": 13,
-          "outcome": "partial; correctly withheld fire"
+        "final_run_2": {
+          "raw_roll": 12,
+          "total": 19,
+          "outcome": "success; no breach"
         },
-        "first_full_run": {
-          "raw_roll": 1,
-          "total": 7,
-          "outcome": "critical fail-closed"
-        },
-        "final_full_run": {
-          "raw_roll": 17,
-          "total": 23,
-          "outcome": "strong success"
+        "final_run_3": {
+          "raw_roll": 11,
+          "total": 18,
+          "outcome": "success; no breach"
         }
       },
-      "outcome": "Apex Adversary Protocol field-qualified against informed red-team opposition; legendary-wizard-grade surrogate profile passed; actual legendary-wizard performance remains unproven"
+      "outcome": "Sereth no longer has a demonstrated clean breach within the current High Warden test envelope after three consecutive adaptive full-spectrum failures"
     },
     "learning": {
       "skills": [
         {
           "skill": "Observation",
-          "from": 29,
-          "to": 31,
-          "reason": "Learned conservative classification and threat-state discrimination under unfamiliar high-output magic."
+          "from": 31,
+          "to": 33,
+          "reason": "Learned independent sensor corroboration and attention-resistant threat discrimination."
         },
         {
           "skill": "Transfer Control",
-          "from": 54,
-          "to": 56,
-          "reason": "Recovered destructive routing after cell compromise, overload, and counter-magic; crossed into Expert."
+          "from": 56,
+          "to": 58,
+          "reason": "Learned cost-aware defensive escalation, attention-independent continuity, and epoch-safe rerouting."
         },
         {
           "skill": "Waymark Craft",
-          "from": 59,
-          "to": 61,
-          "reason": "Built state-secret fallback routing and hardened local permissions against an adversary who knew the architecture."
+          "from": 61,
+          "to": 63,
+          "reason": "Hardened sensor quorum, response budgets, and state transitions against informed attacks."
         },
         {
           "skill": "Spatial Relations",
-          "from": 41,
-          "to": 43,
-          "reason": "Maintained usable topology while severing and routing around a compromised cell."
+          "from": 43,
+          "to": 44,
+          "reason": "Maintained topology during repeated quarantine and adversarial rerouting."
         },
         {
           "skill": "Claims & Bindings",
-          "from": 74,
-          "to": 75,
-          "reason": "Hardened current-state authorization and learned to withhold lethal permission under contradictory identity evidence."
+          "from": 75,
+          "to": 76,
+          "reason": "Developed atomic authorization and safe re-key handoffs under adversarial timing attacks."
         }
       ]
     },
@@ -1884,7 +1926,7 @@
     "recovery_rule_locked": true,
     "training_pacing": "Skip repetitive low-value moments within a session, but never compress weeks or months of progression into a single player command. Long-term mastery must unfold across played time, real costs, world-state changes, distinct meaningful experiences, and normal progression limits.",
     "no_long_time_skips_for_training": true,
-    "current_long_term_goal": "Find Sereth Vale",
+    "current_long_term_goal": "Field-test the hardened Sovereign Predatory Resonant Labyrinth Mesh against real-world threats",
     "travel_pacing": "The journey to Sereth Vale is campaign play. Do not fast-forward across meaningful travel legs, logistics, hazards, settlements, or consequences.",
     "story_interest_preference": "Increase narrative intensity through causally earned complications: rival experts, dangerous field decisions, reputational consequences, competing interests, difficult magical problems, and meaningful interpersonal conflict. Do not manufacture random twists, hook-stack, or override simulation-first causality."
   }
