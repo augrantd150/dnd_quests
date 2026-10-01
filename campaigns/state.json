@@ -31,18 +31,18 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 23,
+      "Observation": 24,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 46,
-      "Waymark Craft": 54,
-      "Spatial Relations": 38,
+      "Transfer Control": 48,
+      "Waymark Craft": 55,
+      "Spatial Relations": 39,
       "Claims & Bindings": 74,
-      "Pressure Transfer": 12,
-      "Heat Transfer": 14
+      "Pressure Transfer": 13,
+      "Heat Transfer": 15
     },
     "wounds": [],
     "exhaustion": 0,
@@ -62,7 +62,7 @@
       "wool blanket",
       "small waxed groundsheet",
       "2 bronze waymark nails",
-      "portable resonant core (3 charge units)"
+      "portable resonant core (2 charge units)"
     ],
     "items_detail": {
       "Ledger Shard": {
@@ -105,7 +105,10 @@
         "Moving-Anchor Fastline",
         "Capacity-Edge Control",
         "Controlled Pressure Transfer",
-        "Thermal Rate Control"
+        "Thermal Rate Control",
+        "Improvised Mesh Topology",
+        "Adversarial Transfer Firewall",
+        "Distributed Cell Topology"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
@@ -118,7 +121,10 @@
         "Moving-Anchor Fastline: controlled predictive traversal",
         "Capacity-Edge Control: controlled multi-branch systems",
         "Controlled Pressure Transfer: prepared source and compliant receiver",
-        "Thermal Rate Control: prepared thermal source and receiver"
+        "Thermal Rate Control: prepared thermal source and receiver",
+        "Improvised Mesh Topology: imperfect field anchors/materials",
+        "Adversarial Transfer Firewall: prepared hostile reroute/source-hijack defense",
+        "Distributed Cell Topology: multi-cell prepared mesh with local isolation"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -167,7 +173,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 224, 16:08",
+    "time": "Day 224, 20:03",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1470,32 +1476,143 @@
       "The player combined Sereth Vale's remaining advanced teaching frontiers into a single proposed end-state architecture called the Sovereign Adaptive Resonant Labyrinth Mesh.",
       "The proposed architecture extends the Field Adaptive Resonant Labyrinth Mesh with predictive failure modeling, adversarial transfer resistance, improvised-anchor/material adaptation, scalable distributed topology, and validated cross-domain conversion when such conversion has actually been proven possible.",
       "The Sovereign architecture is conceptual only and is not field-qualified.",
-      "It does not create free energy, automatic omniscience, or arbitrary conversion. Every conversion must be separately discovered and causally validated."
+      "It does not create free energy, automatic omniscience, or arbitrary conversion. Every conversion must be separately discovered and causally validated.",
+      "The player attempted to turn the conceptual Sovereign Adaptive Resonant Labyrinth Mesh into a field-qualified architecture under Sereth Vale's supervision on Day 224.",
+      "Prediction-model check: raw 4 + Wisdom 3 + Observation Novice 1 = 8. Failure; the first model reacted to current state but did not reliably anticipate the next failure.",
+      "Initial adversarial-defense check: raw 6 + Intelligence 1 + Claims & Bindings Master 5 = 12. Partial; the player detected a false receiver late, after it had already influenced routing priority.",
+      "Improvised-topology check: raw 18 + Intelligence 1 + Waymark Craft Adept 3 = 22. Strong success; the player built a functioning reduced mesh from mismatched field anchors and imperfect material.",
+      "First scalable-topology check: natural 1 + Wisdom 3 + Spatial Relations Practiced 2 = 6. Critical failure; long-range routing state became ambiguous and the distributed mesh failed closed before damage.",
+      "Multi-source/multi-receiver control check: raw 12 + Wisdom 3 + Transfer Control Adept 3 = 18. Success.",
+      "Adaptive Labyrinth trap-routing check: raw 16 + Wisdom 3 + Spatial Relations Practiced 2 = 21. Strong success; unauthorized routes were reassigned into valid prepared containment/trap branches.",
+      "Moving-anchor Fastline under distributed load check: raw 6 + Wisdom 3 + Spatial Relations Practiced 2 = 11. Partial; traversal remained safe but exit balance was poor.",
+      "First integrated sovereign-architecture check: raw 14 + Wisdom 3 + Transfer Control Adept 3 = 20. Strong success once Sereth manually limited the scale and isolated the unstable distributed section.",
+      "Sereth's key correction was to stop treating Sovereign control as one monolithic network. He required independent local cells with signed boundaries, local capacity, local fail-soft behavior, and higher-level coordination.",
+      "Predictive-model retry: raw 12 + Wisdom 3 + Observation Novice 1 = 16. Success; trend-based monitoring began handoff before a branch crossed its unsafe threshold.",
+      "Adversarial-defense retry: raw 19 + Intelligence 1 + Claims & Bindings Master 5 = 25. Exceptional success; the player rejected false receivers, unauthorized source substitution, and hostile branch-priority changes by provenance and authorization rather than appearance alone.",
+      "Scalable distributed-cell retry: raw 15 + Wisdom 3 + Spatial Relations Practiced 2 = 20. Strong success; multiple local cells remained independently valid while the higher mesh coordinated routes between them.",
+      "Heat-to-Resonance conversion test: natural 1 + Wisdom 3 + Heat Transfer Novice 1 = 5. Critical failure safely aborted by Sereth before interface damage. No heat-to-Resonance conversion was established.",
+      "Pressure-to-Resonance conversion test: raw 7 + Wisdom 3 + Pressure Transfer Novice 1 = 11. Inconclusive/unsuccessful; no clean direct coupling into personal Resonance was found.",
+      "The conversion layer therefore remains unqualified. The Sovereign architecture may only use already compatible magical sources or precharged Resonance storage.",
+      "Final self-contained Sovereign field trial: raw 6 + Wisdom 3 + Transfer Control Adept 3 = 12. Partial success. The portable core powered improvised cells, adversarial filtering, containment/trap routing, and adaptive branch isolation, but the player had to manually stabilize too many concurrent decisions for the architecture to count as fully Sovereign.",
+      "The final trial consumed 1 portable-core charge: 3 -> 2.",
+      "The Sovereign Adaptive Resonant Labyrinth Mesh remains a research prototype, not field-qualified.",
+      "However, Improvised Mesh Topology, Adversarial Transfer Firewall, and Distributed Cell Topology were individually field-qualified.",
+      "Meaningful research advanced Observation 23 -> 24, Transfer Control 46 -> 48, Waymark Craft 54 -> 55 (Expert), Spatial Relations 38 -> 39, Pressure Transfer 12 -> 13, and Heat Transfer 14 -> 15."
     ],
     "last_resolution": {
-      "provenance": "PLAYER",
-      "action": "Combine remaining advanced Sereth frontiers into one architecture",
-      "outcome": "Sovereign Adaptive Resonant Labyrinth Mesh conceived as an end-state research architecture"
+      "provenance": "SYSTEM",
+      "action": "Attempt full Sovereign Adaptive Resonant Labyrinth Mesh research trial",
+      "checks": {
+        "prediction_model": {
+          "raw_roll": 4,
+          "total": 8,
+          "outcome": "failure"
+        },
+        "adversarial_defense_first": {
+          "raw_roll": 6,
+          "total": 12,
+          "outcome": "partial"
+        },
+        "improvised_topology": {
+          "raw_roll": 18,
+          "total": 22,
+          "outcome": "strong success"
+        },
+        "scalable_topology_first": {
+          "raw_roll": 1,
+          "total": 6,
+          "outcome": "critical fail-closed shutdown"
+        },
+        "multi_source_control": {
+          "raw_roll": 12,
+          "total": 18,
+          "outcome": "success"
+        },
+        "labyrinth_trap_routing": {
+          "raw_roll": 16,
+          "total": 21,
+          "outcome": "strong success"
+        },
+        "moving_anchor_fastline": {
+          "raw_roll": 6,
+          "total": 11,
+          "outcome": "partial"
+        },
+        "integrated_limited": {
+          "raw_roll": 14,
+          "total": 20,
+          "outcome": "strong success"
+        },
+        "prediction_retry": {
+          "raw_roll": 12,
+          "total": 16,
+          "outcome": "success"
+        },
+        "adversarial_defense_retry": {
+          "raw_roll": 19,
+          "total": 25,
+          "outcome": "exceptional success"
+        },
+        "scalable_cells_retry": {
+          "raw_roll": 15,
+          "total": 20,
+          "outcome": "strong success"
+        },
+        "heat_to_resonance": {
+          "raw_roll": 1,
+          "total": 5,
+          "outcome": "critical failure; safely aborted; no conversion established"
+        },
+        "pressure_to_resonance": {
+          "raw_roll": 7,
+          "total": 11,
+          "outcome": "unsuccessful/inconclusive; no conversion established"
+        },
+        "final_self_contained": {
+          "raw_roll": 6,
+          "total": 12,
+          "outcome": "partial; stable but too manually dependent for full Sovereign qualification"
+        }
+      },
+      "outcome": "Sovereign prototype remains unqualified; three major sub-systems field-qualified; conversion layer remains unproven; portable core 3 -> 2"
     },
     "learning": {
       "skills": [
         {
+          "skill": "Observation",
+          "from": 23,
+          "to": 24,
+          "reason": "Built trend-based prediction from developing branch signals after an initial failure."
+        },
+        {
           "skill": "Transfer Control",
-          "from": 44,
-          "to": 46,
-          "reason": "Learned near-limit multi-branch control without destabilizing reserve capacity."
+          "from": 46,
+          "to": 48,
+          "reason": "Coordinated multiple changing sources/receivers and a self-contained distributed field trial."
+        },
+        {
+          "skill": "Waymark Craft",
+          "from": 54,
+          "to": 55,
+          "reason": "Built improvised local cells and robust hostile-routing authorization, crossing into Expert rank."
+        },
+        {
+          "skill": "Spatial Relations",
+          "from": 38,
+          "to": 39,
+          "reason": "Recovered from a distributed-topology critical failure and built stable isolated spatial cells."
         },
         {
           "skill": "Pressure Transfer",
-          "from": 9,
-          "to": 12,
-          "reason": "Learned receiver timing based on confinement, volume, and compliance after repeated failure."
+          "from": 12,
+          "to": 13,
+          "reason": "Tested and rejected an attempted direct pressure-to-Resonance coupling."
         },
         {
           "skill": "Heat Transfer",
-          "from": 10,
-          "to": 14,
-          "reason": "Learned to control thermal transfer rate through the coupling interface, including recovery from a critical failure."
+          "from": 14,
+          "to": 15,
+          "reason": "Learned from a safely aborted attempted heat-to-Resonance conversion."
         }
       ]
     },
