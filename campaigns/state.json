@@ -137,7 +137,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 11:52",
+    "time": "Day 223, 12:03",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1258,12 +1258,17 @@
       "The right timber receiver continued to show internal crushing beneath the iron shoe, confirming the player's earlier diagnosis that it was the true dangerous element.",
       "Sereth halted the test before the timber receiver crossed into catastrophic failure.",
       "Sereth judged the player's non-intervention as correct and specifically noted that an unnecessary 'repair' to the stone would have made the system less safe.",
-      "The player passed the first part of Sereth's evaluation: recognizing a valid sacrificial failure and refusing to interfere with it."
+      "The player passed the first part of Sereth's evaluation: recognizing a valid sacrificial failure and refusing to interfere with it.",
+      "After the player passed Sereth Vale's first evaluation threshold by correctly refusing to interfere with a sacrificial failure, Sereth reset the High Warden test rig for a second evaluation.",
+      "The second test removes the obvious visual clue: the components appear intact and the player must predict the first failure mode if the applied load is doubled.",
+      "The apparatus now uses a stone beam, two timber receivers, an iron tie, a sliding shoe, and three keyed transfer paths with different capacities.",
+      "Sereth explicitly instructed the player to diagnose the weakest causal relationship, not merely the weakest-looking material.",
+      "No action has yet been taken on the second evaluation."
     ],
     "last_resolution": {
       "provenance": "NPC",
-      "action": "Refuse to fix the sacrificial cracked lintel during Sereth's evaluation",
-      "outcome": "correct non-intervention; Sereth confirms the visible crack was serving a safe relief function and the player passes the first evaluation threshold"
+      "action": "Advance to Sereth's second evaluation",
+      "outcome": "second live test prepared; player must predict the first failure mode under doubled load"
     },
     "learning": {
       "skills": [
