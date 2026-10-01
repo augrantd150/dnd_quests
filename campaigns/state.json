@@ -137,7 +137,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 11:43",
+    "time": "Day 223, 11:49",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1242,12 +1242,26 @@
       "Sereth offered the player a practical evaluation rather than a formal promise of training.",
       "The evaluation will use a live but controlled structural problem at High Warden. Sereth will provide the apparatus and observe; the player will be expected to diagnose the system and choose whether to intervene at all.",
       "Sereth made clear that a correct refusal to use magic can count as success.",
-      "No long-term apprenticeship or time skip has begun."
+      "No long-term apprenticeship or time skip has begun.",
+      "Sereth began the player's practical evaluation at High Warden using a controlled live structural test rather than an abstract lesson.",
+      "The apparatus consists of a cracked stone lintel, two timber receivers, an iron hanging load, and a deliberately asymmetric support arrangement.",
+      "The player chose to observe before intervening.",
+      "Observation check: raw 19 + Wisdom 3 + Observation Novice 1 = 23.",
+      "The player identified that the visibly cracked lintel is not the primary danger. Its fracture is stable under the present compressive path and is acting as a sacrificial relief point.",
+      "The real danger is the cleaner-looking right timber receiver, which is carrying increasing eccentric load and beginning to crush internally where the iron shoe contacts it.",
+      "The player also recognized that reinforcing or unloading the cracked lintel first would redirect more force into the failing timber receiver and could cause a sudden collapse.",
+      "The current safest immediate action is not to 'repair' the obvious crack. The system should be allowed to continue shedding a bounded amount of load through the sacrificial stone while the actual receiver problem is addressed.",
+      "Sereth has not yet told the player whether this diagnosis is correct."
     ],
     "last_resolution": {
-      "provenance": "NPC",
-      "action": "Ask Sereth Vale to teach the player",
-      "outcome": "Sereth conditionally agrees to evaluate the player through a live structural judgment test before deciding whether to teach"
+      "provenance": "SYSTEM",
+      "action": "Observe Sereth's live structural evaluation before acting",
+      "raw_roll": 19,
+      "ability": "Wisdom",
+      "ability_modifier": 3,
+      "training_bonus": 1,
+      "total": 23,
+      "outcome": "strong success; identified the obvious cracked stone as sacrificial and the hidden failing timber receiver as the true danger"
     },
     "learning": {
       "skills": [
