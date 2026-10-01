@@ -31,14 +31,14 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 28,
+      "Observation": 29,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 50,
-      "Waymark Craft": 57,
+      "Transfer Control": 52,
+      "Waymark Craft": 58,
       "Spatial Relations": 40,
       "Claims & Bindings": 74,
       "Pressure Transfer": 13,
@@ -62,7 +62,7 @@
       "wool blanket",
       "small waxed groundsheet",
       "2 bronze waymark nails",
-      "portable resonant core (2 charge units)"
+      "portable resonant core (3 charge units)"
     ],
     "items_detail": {
       "Ledger Shard": {
@@ -111,7 +111,9 @@
         "Distributed Cell Topology",
         "Bounded Cell Autonomy",
         "Predictive Confidence Bands",
-        "Sovereign Adaptive Resonant Labyrinth Mesh"
+        "Sovereign Adaptive Resonant Labyrinth Mesh",
+        "Predatory Resonance Intercept",
+        "Sovereign Predatory Resonant Labyrinth Mesh"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
@@ -130,7 +132,9 @@
         "Distributed Cell Topology: multi-cell prepared mesh with local isolation",
         "Bounded Cell Autonomy: local prepared cells with fail-closed escalation",
         "Predictive Confidence Bands: trend-rate, reserve, and provenance based control",
-        "Sovereign Adaptive Resonant Labyrinth Mesh: prepared portable-core multi-cell configuration"
+        "Sovereign Adaptive Resonant Labyrinth Mesh: prepared portable-core multi-cell configuration",
+        "Predatory Resonance Intercept: prepared compatible hostile-power capture with fail-closed rejection",
+        "Sovereign Predatory Resonant Labyrinth Mesh: controlled adversarial test configuration"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -182,7 +186,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 224, 23:14",
+    "time": "Day 224, 23:49",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1552,32 +1556,90 @@
       "The intercept layer cannot arbitrarily drain a person's innate magical capacity, life force, or unknown magical reserve at range.",
       "Captured hostile power must either be redirected into a compatible trap/receiver, dumped into a safe sink, or—only if compatibility is proven—stored in the portable Resonance core or fed to the player.",
       "Unknown or incompatible hostile magic fails closed rather than being absorbed blindly.",
-      "The hostile-power interception layer is a studied concept only and is not yet field-qualified."
+      "The hostile-power interception layer is a studied concept only and is not yet field-qualified.",
+      "The player attempted to field-qualify Predatory Resonance Intercept as an extension of the Sovereign Adaptive Resonant Labyrinth Mesh under Sereth Vale's controlled adversarial test rig.",
+      "Interception architecture check: raw 17 + Intelligence 1 + Waymark Craft Expert 4 = 22. Strong success.",
+      "Compatible hostile-pulse capture check: raw 11 + Wisdom 3 + Transfer Control Adept 3 = 17. Success; the incoming transfer was intercepted and routed into a prepared receiver.",
+      "Spoofed-provenance check: natural 1 + Intelligence 1 + Claims & Bindings Master 5 = 7. Critical misread; the mesh initially accepted the false signature.",
+      "The spoof did not reach the player because the decoupled Resonance Feed Spine requires independent receiver validity before opening. The unverified capture was diverted into a sacrificial sink.",
+      "Unknown-effect classification check: raw 7 + Wisdom 3 + Observation Practiced 2 = 12. Partial; the player could not safely classify the effect, so the mesh rejected it rather than absorbing it.",
+      "Overload interception check: raw 3 + Wisdom 3 + Transfer Control Adept 3 = 9. Failure; too much compatible power entered the capture branch.",
+      "Emergency sink-diversion check: raw 19 + Wisdom 3 + Transfer Control Adept 3 = 25. Exceptional success; excess power was dumped before it could overload the core, the player, or neighboring branches.",
+      "Compatible storage-coupling check: raw 15 + Wisdom 3 + Transfer Control Adept 3 = 21. Strong success; a bounded portion of captured compatible power was stored in the portable Resonance core.",
+      "Portable Resonance core recharged from 2/3 -> 3/3 using Sereth's controlled hostile-power surrogate. Personal Resonance remained 3/3.",
+      "Final integrated adversarial-mesh check: raw 14 + Wisdom 3 + Transfer Control Adept 3 = 20. Strong success.",
+      "During the final test, the Sovereign Predatory Resonant Labyrinth Mesh intercepted compatible hostile power, rejected an unknown effect, preserved containment and Fastlines, isolated an overloaded capture branch, and routed safe captured power into storage.",
+      "Predatory Resonance Intercept is field-qualified for prepared compatible hostile-power flows under controlled conditions.",
+      "The Sovereign Predatory Resonant Labyrinth Mesh is field-qualified in a controlled adversarial test configuration.",
+      "This does not permit arbitrary remote draining of enemies, life-force theft, absorption of unknown magic, or bypassing source/receiver compatibility.",
+      "Meaningful counter-transfer training advanced Observation 28 -> 29, Transfer Control 50 -> 52, and Waymark Craft 57 -> 58."
     ],
     "last_resolution": {
-      "provenance": "PLAYER",
-      "action": "Extend Sovereign mesh with hostile magical-power interception",
-      "outcome": "Predatory Resonance Intercept conceived; combined Sovereign Predatory Resonant Labyrinth Mesh remains unfield-qualified"
+      "provenance": "SYSTEM",
+      "action": "Field-qualify Predatory Resonance Intercept and Sovereign Predatory Resonant Labyrinth Mesh",
+      "checks": {
+        "architecture": {
+          "raw_roll": 17,
+          "total": 22,
+          "outcome": "strong success"
+        },
+        "compatible_capture": {
+          "raw_roll": 11,
+          "total": 17,
+          "outcome": "success"
+        },
+        "spoofed_provenance": {
+          "raw_roll": 1,
+          "total": 7,
+          "outcome": "critical misread; contained by independent receiver validation"
+        },
+        "unknown_effect": {
+          "raw_roll": 7,
+          "total": 12,
+          "outcome": "partial; rejected safely"
+        },
+        "overload_capture": {
+          "raw_roll": 3,
+          "total": 9,
+          "outcome": "failure"
+        },
+        "emergency_sink": {
+          "raw_roll": 19,
+          "total": 25,
+          "outcome": "exceptional success"
+        },
+        "storage_coupling": {
+          "raw_roll": 15,
+          "total": 21,
+          "outcome": "strong success"
+        },
+        "final_integrated": {
+          "raw_roll": 14,
+          "total": 20,
+          "outcome": "strong success"
+        }
+      },
+      "outcome": "hostile-power interception field-qualified under controlled conditions; compatible captured power recharged portable core to 3/3"
     },
     "learning": {
       "skills": [
         {
           "skill": "Observation",
-          "from": 25,
-          "to": 28,
-          "reason": "Learned to distinguish noise, recovery, and dangerous trends using rate, reserve, and provenance across repeated live prediction trials."
+          "from": 28,
+          "to": 29,
+          "reason": "Learned to classify hostile and unknown magical flows conservatively during interception."
         },
         {
           "skill": "Transfer Control",
-          "from": 49,
-          "to": 50,
-          "reason": "Maintained autonomous multi-branch handoffs and recovery during the final Sovereign validation."
+          "from": 50,
+          "to": 52,
+          "reason": "Captured, diverted, dumped, and safely stored bounded hostile magical power."
         },
         {
           "skill": "Waymark Craft",
-          "from": 56,
-          "to": 57,
-          "reason": "Integrated predictive confidence states with bounded local autonomy and fail-closed escalation."
+          "from": 57,
+          "to": 58,
+          "reason": "Integrated interception branches, sink logic, and storage permissions into the Sovereign mesh."
         }
       ]
     },
