@@ -463,3 +463,24 @@ Those units may be used to:
 The core does not recharge itself and cannot draw arbitrary heat, pressure, momentum, injury, or environmental energy without a separately learned compatible conversion mechanism.
 
 The player has field-qualified one portable precharged-core configuration. Rapid combat deployment is possible only with deliberate setup; instant deployment remains unqualified.
+
+
+### Rapid Field Mesh Deployment
+
+The player has field-qualified rapid deployment of the reduced portable Adaptive Resonant Labyrinth Mesh under controlled pressure.
+
+This applies only to the reduced field configuration and does not make a full station-scale mesh instantaneous. Deployment still depends on accessible anchors, valid geometry, available materials, and enough physical time to place or activate the required nodes.
+
+
+### Moving-Anchor Fastline
+
+The player has field-qualified controlled Fastline traversal to a prepared anchor whose position changes during the traversal window.
+
+A valid moving-anchor Fastline requires:
+- a known or measurable anchor trajectory;
+- predictive endpoint mapping;
+- valid orientation and momentum transformation;
+- bounded uncertainty;
+- fail-closed behavior if the anchor leaves the permitted envelope.
+
+Unpredictable or adversarial anchor motion remains harder than controlled moving-anchor traversal.
