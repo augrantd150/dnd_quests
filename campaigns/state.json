@@ -1409,84 +1409,16 @@
       "The portable system is field-qualified only while the carried Resonance core retains compatible charge. It is not perpetual and cannot recharge itself from arbitrary environmental energy.",
       "Sereth helped the player prepare one portable resonant core holding 3 charge units from High Warden's compatible power source.",
       "The player recovered the two bronze Waymark nails previously used as High Warden contingency anchors.",
-      "Meaningful instruction advanced Transfer Control 41 -> 43, Waymark Craft 51 -> 53, and Spatial Relations 34 -> 36."
+      "Meaningful instruction advanced Transfer Control 41 -> 43, Waymark Craft 51 -> 53, and Spatial Relations 34 -> 36.",
+      "Sereth Vale assessed that the player has learned the core Adaptive Resonant Labyrinth Mesh architecture but has not exhausted Sereth's instruction.",
+      "Remaining high-value areas Sereth can teach include: rapid pressured deployment of the field mesh; earlier failure prediction rather than reactive recovery; operating closer to true capacity limits; advanced pressure transfer; advanced heat transfer; more efficient high-speed spatial traversal; moving-anchor Fastlines; and live field use where multiple branches fail or change simultaneously.",
+      "Sereth does not treat Claims & Bindings as his primary teaching domain; the player's Claims & Bindings mastery is already higher than the areas Sereth has been focusing on.",
+      "Portable core recharging still requires a compatible source; arbitrary environmental energy conversion remains unlearned and is not assumed to be something Sereth can grant automatically."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Learn portable self-contained Adaptive Resonant Labyrinth Mesh from Sereth",
-      "checks": {
-        "portable_architecture": {
-          "raw_roll": 13,
-          "total": 17,
-          "outcome": "success"
-        },
-        "first_core_coupling": {
-          "raw_roll": 4,
-          "total": 10,
-          "outcome": "failure"
-        },
-        "core_coupling_retry": {
-          "raw_roll": 15,
-          "total": 21,
-          "outcome": "strong success"
-        },
-        "compact_geometry_1": {
-          "raw_roll": 2,
-          "total": 7,
-          "outcome": "failure"
-        },
-        "compact_geometry_2": {
-          "raw_roll": 5,
-          "total": 10,
-          "outcome": "partial"
-        },
-        "deployment_speed_1": {
-          "raw_roll": 9,
-          "total": 15,
-          "outcome": "success"
-        },
-        "feed_stability_1": {
-          "raw_roll": 5,
-          "total": 11,
-          "outcome": "partial"
-        },
-        "portable_trial_1": {
-          "raw_roll": 5,
-          "total": 11,
-          "outcome": "partial"
-        },
-        "compact_redesign": {
-          "raw_roll": 20,
-          "total": 25,
-          "outcome": "exceptional success"
-        },
-        "rapid_deploy_1": {
-          "raw_roll": 3,
-          "total": 9,
-          "outcome": "failure"
-        },
-        "rapid_deploy_retry": {
-          "raw_roll": 7,
-          "total": 13,
-          "outcome": "partial"
-        },
-        "feed_under_reroute": {
-          "raw_roll": 16,
-          "total": 22,
-          "outcome": "strong success"
-        },
-        "emergency_isolation": {
-          "raw_roll": 9,
-          "total": 13,
-          "outcome": "partial"
-        },
-        "final_portable_trial": {
-          "raw_roll": 11,
-          "total": 17,
-          "outcome": "success"
-        }
-      },
-      "outcome": "portable precharged-core Adaptive Resonant Labyrinth Mesh field-qualified; finite 3-unit Resonance core prepared"
+      "provenance": "NPC",
+      "action": "Assess what remains to learn from Sereth Vale",
+      "outcome": "core mesh architecture learned; advanced speed, prediction, capacity-edge, heat, pressure, spatial efficiency, moving-anchor work, and live failure handling remain"
     },
     "learning": {
       "skills": [
