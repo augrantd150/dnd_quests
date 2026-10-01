@@ -37,9 +37,9 @@
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 41,
-      "Waymark Craft": 51,
-      "Spatial Relations": 34,
+      "Transfer Control": 43,
+      "Waymark Craft": 53,
+      "Spatial Relations": 36,
       "Claims & Bindings": 74,
       "Pressure Transfer": 8,
       "Heat Transfer": 9
@@ -61,7 +61,8 @@
       "4 days coarse road rations",
       "wool blanket",
       "small waxed groundsheet",
-      "2 bronze waymark nails deployed as recoverable High Warden Labyrinth anchors"
+      "2 bronze waymark nails",
+      "portable resonant core (3 charge units)"
     ],
     "items_detail": {
       "Ledger Shard": {
@@ -97,14 +98,17 @@
         "Basic Pressure Transfer",
         "Basic Heat Transfer",
         "Adaptive Resonant Labyrinth Mesh",
-        "Decoupled Resonance Feed Spine"
+        "Decoupled Resonance Feed Spine",
+        "Portable Resonance Core",
+        "Field Adaptive Resonant Labyrinth Mesh"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
         "Reactive Adaptive Load Mesh: three-branch structural prototype",
         "Adaptive Causal Mesh: prepared powered multi-domain test system",
         "Prepared Resonance Feed: external compatible source -> self, 1 Resonance",
-        "Adaptive Resonant Labyrinth Mesh: prepared externally powered supervised configuration"
+        "Adaptive Resonant Labyrinth Mesh: prepared externally powered supervised configuration",
+        "Field Adaptive Resonant Labyrinth Mesh: portable precharged-core configuration"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -152,7 +156,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 18:03",
+    "time": "Day 223, 20:11",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1385,74 +1389,124 @@
       "Final integrated check: raw 10 + WIS 3 + Transfer 2 = 15. Success.",
       "The full Adaptive Resonant Labyrinth Mesh is now field-qualified under prepared externally powered supervised conditions.",
       "It still does not create power and is not yet qualified as a portable self-powered battlefield system.",
-      "Progress: Transfer Control 39 -> 41, Waymark Craft 49 -> 51, Spatial Relations 32 -> 34."
+      "Progress: Transfer Control 39 -> 41, Waymark Craft 49 -> 51, Spatial Relations 32 -> 34.",
+      "Sereth Vale taught the player to make the Adaptive Resonant Labyrinth Mesh portable using a finite precharged Resonance core rather than attempting perpetual self-power.",
+      "Portable architecture check: raw 13 + INT 1 + Waymark 3 = 17. The basic compact control architecture was workable.",
+      "Initial core-coupling check: raw 4 + WIS 3 + Transfer 3 = 10. The first coupling was too lossy and Sereth stopped it before the core dumped charge inefficiently.",
+      "Core-coupling retry: raw 15 + WIS 3 + Transfer 3 = 21. The player established a stable one-way link from the portable core into the mesh/feed spine.",
+      "Initial compact spatial geometry check: raw 2 + WIS 3 + Spatial 2 = 7. The compressed Fastline/containment geometry became ambiguous and failed closed.",
+      "Second compact geometry check: raw 5 + WIS 3 + Spatial 2 = 10. Partial; the mesh could route safely but only with poor efficiency and too much setup.",
+      "Deployment-speed check: raw 9 + DEX 3 + Waymark 3 = 15. The player could establish the reduced mesh in the field, but not yet quickly enough for pressured combat deployment.",
+      "Feed-stability check: raw 5 + WIS 3 + Transfer 3 = 11. The portable feed remained bounded but fluctuated under simultaneous route changes.",
+      "First full portable field trial: raw 5 + WIS 3 + Transfer 3 = 11. The mesh stayed safe but was too slow and conservative to count as field-qualified.",
+      "Sereth then changed the design goal: instead of shrinking the full station architecture, the portable version would use a finite charged core, a reduced two-layer routing plan, fixed creator Fastlines, and only a small number of adaptive branches.",
+      "Compact redesign check: natural 20 + WIS 3 + Spatial 2 = 25. The player produced an exceptionally clean reduced geometry with fixed personal Fastlines and bounded containment loops.",
+      "First rapid-deployment check: raw 3 + DEX 3 + Waymark 3 = 9. The player tangled the setup sequence and had to reset.",
+      "Rapid-deployment retry: raw 7 + DEX 3 + Waymark 3 = 13. Partial; deployment became viable but still required deliberate setup rather than instant combat casting.",
+      "Live feed-under-reroute check: raw 16 + WIS 3 + Transfer 3 = 22. The portable core continued feeding the player/mesh while containment branches rerouted.",
+      "Emergency isolation check: raw 9 + INT 1 + Waymark 3 = 13. The player isolated a damaged branch safely, though with some lost efficiency.",
+      "Final portable integrated field trial: raw 11 + WIS 3 + Transfer 3 = 17. Success. The reduced portable mesh maintained containment routing, fixed Fastlines, branch isolation, and core-fed operation without external infrastructure.",
+      "The portable system is field-qualified only while the carried Resonance core retains compatible charge. It is not perpetual and cannot recharge itself from arbitrary environmental energy.",
+      "Sereth helped the player prepare one portable resonant core holding 3 charge units from High Warden's compatible power source.",
+      "The player recovered the two bronze Waymark nails previously used as High Warden contingency anchors.",
+      "Meaningful instruction advanced Transfer Control 41 -> 43, Waymark Craft 51 -> 53, and Spatial Relations 34 -> 36."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Learn and field-qualify corrected Adaptive Resonant Labyrinth Mesh",
+      "action": "Learn portable self-contained Adaptive Resonant Labyrinth Mesh from Sereth",
       "checks": {
-        "first_decoupling": {
-          "raw_roll": 7,
-          "total": 11,
-          "outcome": "partial"
-        },
-        "decoupling_retry": {
+        "portable_architecture": {
           "raw_roll": 13,
           "total": 17,
           "outcome": "success"
         },
-        "resonance_attunement": {
-          "raw_roll": 19,
-          "total": 24,
+        "first_core_coupling": {
+          "raw_roll": 4,
+          "total": 10,
+          "outcome": "failure"
+        },
+        "core_coupling_retry": {
+          "raw_roll": 15,
+          "total": 21,
+          "outcome": "strong success"
+        },
+        "compact_geometry_1": {
+          "raw_roll": 2,
+          "total": 7,
+          "outcome": "failure"
+        },
+        "compact_geometry_2": {
+          "raw_roll": 5,
+          "total": 10,
+          "outcome": "partial"
+        },
+        "deployment_speed_1": {
+          "raw_roll": 9,
+          "total": 15,
+          "outcome": "success"
+        },
+        "feed_stability_1": {
+          "raw_roll": 5,
+          "total": 11,
+          "outcome": "partial"
+        },
+        "portable_trial_1": {
+          "raw_roll": 5,
+          "total": 11,
+          "outcome": "partial"
+        },
+        "compact_redesign": {
+          "raw_roll": 20,
+          "total": 25,
           "outcome": "exceptional success"
         },
-        "labyrinth_routing": {
-          "raw_roll": 17,
+        "rapid_deploy_1": {
+          "raw_roll": 3,
+          "total": 9,
+          "outcome": "failure"
+        },
+        "rapid_deploy_retry": {
+          "raw_roll": 7,
+          "total": 13,
+          "outcome": "partial"
+        },
+        "feed_under_reroute": {
+          "raw_roll": 16,
           "total": 22,
           "outcome": "strong success"
         },
-        "adaptive_control": {
-          "raw_roll": 13,
-          "total": 18,
-          "outcome": "success"
+        "emergency_isolation": {
+          "raw_roll": 9,
+          "total": 13,
+          "outcome": "partial"
         },
-        "feed_under_reroute": {
+        "final_portable_trial": {
           "raw_roll": 11,
-          "total": 15,
-          "outcome": "success"
-        },
-        "fastline_under_feed": {
-          "raw_roll": 18,
-          "total": 23,
-          "outcome": "strong success"
-        },
-        "final_integrated": {
-          "raw_roll": 10,
-          "total": 15,
+          "total": 17,
           "outcome": "success"
         }
       },
-      "outcome": "field-qualified in prepared externally powered supervised conditions; Resonance restored to 3/3"
+      "outcome": "portable precharged-core Adaptive Resonant Labyrinth Mesh field-qualified; finite 3-unit Resonance core prepared"
     },
     "learning": {
       "skills": [
         {
           "skill": "Transfer Control",
-          "from": 39,
-          "to": 41,
-          "reason": "Maintained multi-domain adaptive control while an independent Resonance feed remained active."
+          "from": 41,
+          "to": 43,
+          "reason": "Stabilized a portable one-way Resonance feed while adaptive routing changed under load."
         },
         {
           "skill": "Waymark Craft",
-          "from": 49,
-          "to": 51,
-          "reason": "Built a fully decoupled one-way Resonance feed authorization and isolation layer."
+          "from": 51,
+          "to": 53,
+          "reason": "Compressed adaptive isolation and authorization logic into a field-deployable two-layer mesh."
         },
         {
           "skill": "Spatial Relations",
-          "from": 32,
-          "to": 34,
-          "reason": "Maintained recursive containment and clean Fastline traversal during active feed and rerouting."
+          "from": 34,
+          "to": 36,
+          "reason": "Redesigned the portable mesh around fixed personal Fastlines and bounded containment loops."
         }
       ]
     },
