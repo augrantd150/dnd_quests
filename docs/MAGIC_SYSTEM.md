@@ -768,3 +768,31 @@ This mode does **not** automatically destroy an enemy. Lethality depends on:
 Unknown or invalid destructive routes fail closed rather than inventing damage.
 
 The lethal mode is currently conceptual and unfield-qualified.
+
+
+### Lethal Resolution Mode — field-qualified
+
+Lethal Resolution Mode is field-qualified for prepared destructive branches in the Sovereign Predatory Resonant Labyrinth Mesh.
+
+The lethal layer is distinct from ordinary containment authorization.
+
+A destructive action requires:
+- a valid target classification;
+- explicit lethal authorization;
+- a causally valid destructive branch;
+- sufficient source power and receiver/path capacity;
+- independent separation from keyed allies, protected routes, and creator Fastlines;
+- fail-closed behavior when classification or geometry is ambiguous.
+
+Field-tested destructive branches include:
+- structural collapse / crushing transfer;
+- bounded pressure impulse;
+- bounded thermal transfer;
+- compatible intercepted hostile-power return;
+- chained hostile-power plus structural transfer.
+
+A critical friendly-route classification failure demonstrated that lethal execution must fail closed independently of normal containment. The corrected architecture keeps protected routes outside the destructive envelope even when the broader mesh remains active.
+
+The final portable validation destroyed a hardened sacrificial target rig using a chain of containment, predictive escape denial, hostile-power interception, and structural destructive transfer.
+
+This qualification does not guarantee automatic destruction of real enemies. Real targets retain durability, resistance, mobility, counter-magic, anchor disruption, and the possibility of exceeding the mesh's available destructive capacity.
