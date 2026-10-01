@@ -137,7 +137,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 12:22",
+    "time": "Day 223, 12:41",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1289,12 +1289,16 @@
       "Sereth identified four areas he could teach: live transfer under changing conditions, multi-domain transfer involving heat and pressure, fast reconfiguration of transfer paths under failure, and working closer to safe capacity without crossing it.",
       "Sereth also stated that the player's Spatial Relations work is promising but not yet efficient enough for high-speed field traversal under pressure.",
       "Sereth agreed to teach the player, beginning with controlled live-load transfer where source, receiver, and geometry change while the transfer is already in progress.",
-      "No long time skip or apprenticeship compression has begun; instruction will proceed through played exercises and field work."
+      "No long time skip or apprenticeship compression has begun; instruction will proceed through played exercises and field work.",
+      "The player chose to attempt an Adaptive Causal Mesh prototype independently before Sereth's formal instruction.",
+      "Because the player had 0/3 Resonance and had not yet learned heat or pressure transfer, the prototype was limited to domains already supported: structural load transfer, Waymark state/control, branch isolation, and dynamic rerouting.",
+      "Sereth allowed the player to use the existing powered High Warden test frame but provided no coaching during the attempt.",
+      "The prototype used three receiver branches, one deliberately weak branch, independent Waymark state, and a requirement to keep load moving while isolating a branch after failure."
     ],
     "last_resolution": {
-      "provenance": "NPC",
-      "action": "Ask Sereth Vale what he can teach",
-      "outcome": "Sereth agrees to teach and identifies advanced live-transfer, multi-domain, dynamic rerouting, capacity-edge, and spatial-efficiency training as the player's next frontier"
+      "provenance": "PLAYER",
+      "action": "Begin independent Adaptive Causal Mesh prototype",
+      "outcome": "self-directed live structural prototype started using Sereth's powered test frame; no coaching"
     },
     "learning": {
       "skills": [
