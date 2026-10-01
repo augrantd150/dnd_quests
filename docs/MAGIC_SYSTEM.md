@@ -870,3 +870,48 @@ Within the current High Warden test envelope, Sereth no longer has a demonstrate
 This qualification is deliberately narrow. It does not mean the mesh is unbeatable.
 
 A new magical domain, different terrain, greater available power, previously unknown information, novel hostile techniques, damaged preparation, depleted reserves, or a more capable adversary may still create a valid defeat condition.
+
+
+### Topology Shedding
+
+When physical anchors or supporting geometry are lost, surviving cells may deliberately abandon invalid territory and rebuild a smaller valid mesh.
+
+The system does not pretend destroyed anchors still exist. Reduced coverage is preferable to preserving a broken topology.
+
+### Temporal Authority Leases
+
+Permissions may be bound to:
+- an explicit topology epoch;
+- an expiry condition or duration;
+- the local state in which they were issued.
+
+A permission valid in one topology does not silently remain valid after reconfiguration unless an explicit handoff relationship exists.
+
+### Heterogeneous Sensor Provenance
+
+A sensor quorum only counts as independent when the underlying measurements are causally independent.
+
+Several readings derived from the same corrupted physical source do not constitute corroboration.
+
+This hardens Predictive Confidence Bands against common-mode deception.
+
+### Sereth Capability Closure
+
+After repeated adaptive red-team sessions, Sereth Vale exhausted every demonstrated attack family available through his present knowledge, tools, preparation, and resource envelope.
+
+The hardened mesh survived:
+- route prediction;
+- synchronized sensor deception;
+- common-source sensor corruption;
+- cheap-threat resource exhaustion;
+- authorization races;
+- stale permissions;
+- operator attention saturation;
+- re-key timing attacks;
+- cell compromise;
+- strategic anchor loss;
+- mixed adaptive attack sequences.
+
+Sereth no longer has a feasible demonstrated clean breach against a valid prepared mesh using his current capability set.
+
+This is not absolute invincibility. A finite causal mesh can still be defeated by sufficient external power, total anchor destruction outside its engagement envelope, superior resource exhaustion, pre-deployment surprise, unknown magical domains, or capabilities not represented in the current test set.
