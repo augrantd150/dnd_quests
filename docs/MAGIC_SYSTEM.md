@@ -398,3 +398,27 @@ A valid implementation must identify:
 Until the player learns or discovers a valid Resonance source/conversion method, the feed layer remains conceptual and cannot restore personal Resonance.
 
 The broader architecture remains unfield-qualified.
+
+
+### Resonance Feed Spine — field result
+
+At High Warden, the player achieved the first successful prepared external-source coupling into their personal Resonance reservoir.
+
+Established facts:
+- the source was Sereth Vale's powered test apparatus;
+- the receiver pattern was keyed to the player's own Waymark/Resonance signature;
+- 1 Resonance was transferred successfully;
+- the transfer required a compatible prepared source and active control;
+- it was not spontaneous regeneration or conversion from arbitrary heat, pressure, or momentum.
+
+The narrow prepared feed is field-qualified.
+
+The first attempt to integrate the feed directly into a mutable Adaptive Resonant Labyrinth Mesh critically failed because containment routing, Fastline state, and personal feed authorization shared too much control state.
+
+New design requirement:
+- personal Resonance intake must use a **decoupled one-way feed layer**;
+- maze topology changes must not alter the player's receiver identity;
+- feed failure must isolate without disabling unrelated containment or traversal branches;
+- source excess must divert to a safe sink rather than the player.
+
+The full Adaptive Resonant Labyrinth Mesh remains unqualified.
