@@ -940,3 +940,40 @@ It does not grant invulnerability. It requires valid anchors, sufficient reactio
 Unknown attack domains may still bypass or overwhelm it.
 
 The Creator Aegis Layer is currently conceptual and unfield-qualified.
+
+
+### Creator Aegis Layer — field-qualified
+
+The Creator Aegis Layer is field-qualified in a prepared portable-core configuration.
+
+Its highest-level rule is:
+
+**When creator survival and offensive resolution conflict, creator survival takes priority unless the creator explicitly overrides the Aegis.**
+
+The Aegis may:
+- reserve a bounded portion of available power and receiver capacity for personal defense;
+- shunt bounded mechanical impact into valid sacrificial receivers;
+- divert bounded heat or pressure when safe coupling paths exist;
+- prioritize close-range hostile-power interception;
+- sever compromised cells from the creator's defended envelope;
+- rebuild a smaller personal safe topology;
+- trigger prepared Emergency Fastline Extraction;
+- sacrifice offensive branches, trap pressure, territory, or nonessential cells to preserve the creator.
+
+#### Reserved Defensive Charge
+
+Ordinary offensive branches cannot consume capacity assigned to the Aegis reserve.
+
+The reserve remains finite and does not create power.
+
+#### Personal Quarantine
+
+If surrounding cells become compromised or ambiguous, the Aegis may sever them from the creator's control envelope and rebuild around surviving safe cells.
+
+#### Emergency Fastline Extraction
+
+A prepared safe anchor may be prioritized as an emergency creator route.
+
+Extraction is not guaranteed if no valid anchor exists, geometry is invalid, the route is disrupted, or the creator cannot be moved safely.
+
+The Aegis does not grant invulnerability. It remains limited by finite power, available receivers, reaction time, prepared geometry, unknown magical domains, and attacks exceeding the capacity of every valid defensive path.
