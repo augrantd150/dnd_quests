@@ -62,7 +62,7 @@
       "wool blanket",
       "small waxed groundsheet",
       "2 bronze waymark nails",
-      "portable resonant core (2 charge units)"
+      "portable resonant core (1 charge unit)"
     ],
     "items_detail": {
       "Ledger Shard": {
@@ -171,7 +171,9 @@
         "Emergency Fastline Extraction: prepared survival-priority escape",
         "Personal Quarantine: creator envelope isolation from compromised cells",
         "Creator Aegis Layer: creator-priority defensive reserve and emergency extraction",
-        "Sovereign Predatory Resonant Labyrinth Mesh — Creator Aegis: integrated personal-defense validation"
+        "Sovereign Predatory Resonant Labyrinth Mesh — Creator Aegis: integrated personal-defense validation",
+        "Creator Aegis Layer: creator-priority emergency defense",
+        "Sovereign Predatory Resonant Labyrinth Mesh — Creator Aegis: integrated personal-defense configuration"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -226,7 +228,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 226, 22:03",
+    "time": "Day 226, 22:11",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1755,12 +1757,17 @@
       "The player told Sereth Vale they want to test the field-qualified Sovereign Predatory Resonant Labyrinth Mesh — Creator Aegis against Sereth personally rather than against another sacrificial rig.",
       "The player told Sereth Vale they want to test the Sovereign Predatory Resonant Labyrinth Mesh — Creator Aegis against Sereth personally rather than another target rig.",
       "Sereth accepted in principle and stated that he will not cooperate as a target: he intends to attack the mesh, its assumptions, the player's escape routes, and the player, stopping only at the agreed safety boundary.",
-      "Sereth's response was: 'If you want a real test, arm it.'"
+      "Sereth's response was: 'If you want a real test, arm it.'",
+      "Creator Aegis is field-qualified as an integrated personal-defense layer.",
+      "Creator Aegis training advanced Transfer Control 60 -> 62, Waymark Craft 65 -> 66, Spatial Relations 45 -> 46, Pressure Transfer 14 -> 15, and Heat Transfer 16 -> 17.",
+      "A subsequent live test with Sereth Vale ended his active role in the campaign.",
+      "The player remained unharmed and the portable Resonance core ended at 1/3.",
+      "The High Warden test site retains physical and magical evidence of the event."
     ],
     "last_resolution": {
-      "provenance": "NPC",
-      "action": "Ask Sereth Vale to personally oppose the Creator Aegis mesh in a live test",
-      "outcome": "Sereth accepts a real adversarial test within a safety boundary and challenges the player to arm the system"
+      "provenance": "PLAYER",
+      "action": "Conclude live Sovereign Creator Aegis test with Sereth Vale",
+      "outcome": "Sereth Vale removed from play; player unharmed; portable core 1/3"
     },
     "learning": {
       "skills": [
@@ -1804,18 +1811,8 @@
     "current_npc": {
       "name": "Sereth Vale",
       "role": "itinerant transfer engineer and structural specialist",
-      "disposition": "accepting, demanding, professionally respectful",
-      "notes": [
-        "Directly confirmed identity at High Warden.",
-        "Recognized the player's correction to the failure-envelope test as technically valid.",
-        "Has offered a practical evaluation before agreeing to teach.",
-        "Values restraint and correct non-intervention as much as technical power.",
-        "Player passed the first evaluation threshold by correctly refusing to interfere with a sacrificial failure.",
-        "Player passed the second evaluation by fixing the failing receiver geometry instead of reinforcing the downstream consequence.",
-        "Sereth has agreed to teach the player.",
-        "Sereth's first planned lesson is live transfer under changing source, receiver, and geometry conditions.",
-        "Sereth believes the player's biggest gap is dynamic adaptation under pressure rather than static prepared design."
-      ]
+      "disposition": "removed from play",
+      "active": false
     },
     "party": {
       "members": [
@@ -1936,7 +1933,7 @@
     "recovery_rule_locked": true,
     "training_pacing": "Skip repetitive low-value moments within a session, but never compress weeks or months of progression into a single player command. Long-term mastery must unfold across played time, real costs, world-state changes, distinct meaningful experiences, and normal progression limits.",
     "no_long_time_skips_for_training": true,
-    "current_long_term_goal": "Field-test the hardened Sovereign Predatory Resonant Labyrinth Mesh against real-world threats",
+    "current_long_term_goal": "Continue independent mastery and deal with the consequences of the High Warden test",
     "travel_pacing": "The journey to Sereth Vale is campaign play. Do not fast-forward across meaningful travel legs, logistics, hazards, settlements, or consequences.",
     "story_interest_preference": "Increase narrative intensity through causally earned complications: rival experts, dangerous field decisions, reputational consequences, competing interests, difficult magical problems, and meaningful interpersonal conflict. Do not manufacture random twists, hook-stack, or override simulation-first causality."
   }
