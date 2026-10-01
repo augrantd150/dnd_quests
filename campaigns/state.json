@@ -137,7 +137,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 12:09",
+    "time": "Day 223, 12:18",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1271,30 +1271,41 @@
       "Under doubled load, the sliding shoe reaches the end of its permitted travel before the stone beam, timber receivers, or iron tie reach their nominal material limits.",
       "Once the shoe bottoms out, the third keyed transfer path loses its intended geometry and begins forcing load into the left timber receiver at a bad angle.",
       "Therefore the first true failure is a relationship failure: loss of valid receiver geometry at the sliding shoe, followed immediately by eccentric overload of the left timber support.",
-      "The player also recognizes that simply strengthening the left timber would not solve the root problem because the geometry failure would remain."
+      "The player also recognizes that simply strengthening the left timber would not solve the root problem because the geometry failure would remain.",
+      "The player chose to fix Sereth Vale's second evaluation by correcting the failing relationship rather than reinforcing the downstream timber consequence.",
+      "Transfer redesign check: raw 16 + Wisdom 3 + Transfer Control Practiced 2 = 21.",
+      "The player redesigned the third transfer path so load begins handing off before the sliding shoe reaches the end of its permitted travel.",
+      "Waymark geometry check: raw 14 + Intelligence 1 + Waymark Craft Adept 3 = 18.",
+      "The player extended the valid receiver geometry and added a staggered handoff threshold so the shoe never becomes a dead-end under doubled load.",
+      "The test rig's existing powered structure supplied the energy; the player spent no personal Resonance.",
+      "Sereth doubled the load after the correction.",
+      "The shoe remained within valid travel, the third path handed load across cleanly, and the left timber receiver stayed inside its safe eccentric-load envelope.",
+      "The fix addressed the root cause rather than strengthening the consequence.",
+      "Sereth judged the solution correct and noted that the player repaired the geometry of the system rather than the material that would have broken afterward.",
+      "The player passed Sereth's second evaluation threshold."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Observe and analyze Sereth's second evaluation rig",
+      "action": "Fix Sereth's second evaluation rig by correcting sliding-shoe receiver geometry",
       "checks": {
-        "observation": {
-          "raw_roll": 18,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 1,
-          "total": 22,
-          "outcome": "strong success"
-        },
-        "transfer_analysis": {
-          "raw_roll": 15,
+        "transfer_redesign": {
+          "raw_roll": 16,
           "ability": "Wisdom",
           "ability_modifier": 3,
           "training_bonus": 2,
-          "total": 20,
+          "total": 21,
           "outcome": "strong success"
+        },
+        "waymark_geometry": {
+          "raw_roll": 14,
+          "ability": "Intelligence",
+          "ability_modifier": 1,
+          "training_bonus": 3,
+          "total": 18,
+          "outcome": "success"
         }
       },
-      "outcome": "identified sliding-shoe geometry loss as the first failure, which then causes eccentric overload of the left timber receiver"
+      "outcome": "root geometry failure corrected; doubled-load test remains stable; second Sereth evaluation passed"
     },
     "learning": {
       "skills": [
@@ -1332,7 +1343,8 @@
         "Recognized the player's correction to the failure-envelope test as technically valid.",
         "Has offered a practical evaluation before agreeing to teach.",
         "Values restraint and correct non-intervention as much as technical power.",
-        "Player passed the first evaluation threshold by correctly refusing to interfere with a sacrificial failure."
+        "Player passed the first evaluation threshold by correctly refusing to interfere with a sacrificial failure.",
+        "Player passed the second evaluation by fixing the failing receiver geometry instead of reinforcing the downstream consequence."
       ]
     },
     "party": {
