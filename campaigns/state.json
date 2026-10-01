@@ -31,14 +31,14 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 25,
+      "Observation": 28,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 49,
-      "Waymark Craft": 56,
+      "Transfer Control": 50,
+      "Waymark Craft": 57,
       "Spatial Relations": 40,
       "Claims & Bindings": 74,
       "Pressure Transfer": 13,
@@ -109,7 +109,9 @@
         "Improvised Mesh Topology",
         "Adversarial Transfer Firewall",
         "Distributed Cell Topology",
-        "Bounded Cell Autonomy"
+        "Bounded Cell Autonomy",
+        "Predictive Confidence Bands",
+        "Sovereign Adaptive Resonant Labyrinth Mesh"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
@@ -126,7 +128,9 @@
         "Improvised Mesh Topology: imperfect field anchors/materials",
         "Adversarial Transfer Firewall: prepared hostile reroute/source-hijack defense",
         "Distributed Cell Topology: multi-cell prepared mesh with local isolation",
-        "Bounded Cell Autonomy: local prepared cells with fail-closed escalation"
+        "Bounded Cell Autonomy: local prepared cells with fail-closed escalation",
+        "Predictive Confidence Bands: trend-rate, reserve, and provenance based control",
+        "Sovereign Adaptive Resonant Labyrinth Mesh: prepared portable-core multi-cell configuration"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -176,7 +180,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 224, 21:07",
+    "time": "Day 224, 23:14",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1516,80 +1520,126 @@
       "Bounded Cell Autonomy was field-qualified: prepared local cells can make limited authorized decisions and handoffs from local signals, while ambiguous states fail closed or escalate to the player.",
       "Predictive Confidence Bands were learned as a studied concept but are not yet field-qualified.",
       "Meaningful training advanced Observation 24 -> 25, Transfer Control 48 -> 49, Waymark Craft 55 -> 56, and Spatial Relations 39 -> 40.",
-      "Personal Resonance remained 3/3. The portable Resonance core remained at 2/3 because Sereth's powered apparatus supplied this training."
+      "Personal Resonance remained 3/3. The portable Resonance core remained at 2/3 because Sereth's powered apparatus supplied this training.",
+      "Sereth Vale conducted focused predictive-control training to solve the final major bottleneck in the Sovereign Adaptive Resonant Labyrinth Mesh.",
+      "Baseline prediction trial: raw 12 + Wisdom 3 + Observation Practiced 2 = 17. Success.",
+      "Noise-discrimination trial: raw 3 + Wisdom 3 + Observation Practiced 2 = 8. Failure; harmless oscillation triggered a false warning.",
+      "Recovery-trend trial: natural 1 + Wisdom 3 + Observation Practiced 2 = 6. Critical failure; the player committed to a handoff on a branch that was actually recovering.",
+      "Sereth corrected the prediction model: evaluate trend rate relative to remaining reserve and require trustworthy signal provenance rather than relying on absolute thresholds.",
+      "Signal-provenance filter: raw 12 + Intelligence 1 + Claims & Bindings Master 5 = 18. Strong success.",
+      "Revised prediction trial: raw 13 + Wisdom 3 + Observation Practiced 2 = 18. Strong success.",
+      "Noisy-load prediction trial: raw 8 + Wisdom 3 + Observation Practiced 2 = 13. Partial success.",
+      "Recovery-discrimination trial: raw 12 + Wisdom 3 + Observation Practiced 2 = 17. Success.",
+      "Late-session noise trial 1: natural 1 + Wisdom 3 + Observation Practiced 2 = 6. Failure; fail-closed logic prevented unsafe action.",
+      "Late-session noise trial 2: natural 1 + Wisdom 3 + Observation Practiced 2 = 6. Failure; fail-closed logic again prevented unsafe action.",
+      "Clean predictive trial: raw 18 + Wisdom 3 + Observation Practiced 2 = 23. Strong success; the player correctly waited through harmless variation and initiated handoff only when reserve was shrinking faster than recovery.",
+      "Adversarial forged-trend test: natural 1 + Intelligence 1 + Claims & Bindings Master 5 = 7. Critical misread by the predictor, but the existing Adversarial Transfer Firewall rejected execution because provenance and receiver history did not match.",
+      "Final predictive handoff with live cell loss: raw 11 + Wisdom 3 + Observation Practiced 2 = 16. Success.",
+      "Final autonomous multi-branch control: raw 14 + Wisdom 3 + Transfer Control Adept 3 = 20. Strong success.",
+      "Final Sovereign integrated run: raw 13 + Wisdom 3 + Transfer Control Adept 3 = 19. Strong success.",
+      "During the final run, local cells distinguished normal variation from watch-state trends, initiated staggered handoff before unsafe thresholds, isolated a lost cell, rejected unauthorized route changes, preserved Fastlines, and kept the decoupled Resonance Feed Spine independent.",
+      "Predictive Confidence Bands are now field-qualified using trend rate, reserve, and signal provenance.",
+      "The Sovereign Adaptive Resonant Labyrinth Mesh is now field-qualified in a prepared portable-core multi-cell configuration.",
+      "Full qualification still does not imply free energy, omniscience, unlimited scale, arbitrary conversion, or zero setup. It requires valid local signals, prepared or improvised anchors, bounded cell policies, compatible power, and finite capacity.",
+      "Meaningful training advanced Observation 25 -> 28, Transfer Control 49 -> 50, and Waymark Craft 56 -> 57.",
+      "Personal Resonance remained 3/3 and the portable Resonance core remained 2/3 because Sereth's powered training apparatus supplied the session energy."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Attempt to automate Sovereign mesh branch decisions with bounded local autonomy",
+      "action": "Train predictive control and validate the Sovereign Adaptive Resonant Labyrinth Mesh",
       "checks": {
-        "local_policy_design": {
-          "raw_roll": 13,
-          "total": 18,
+        "baseline_prediction": {
+          "raw_roll": 12,
+          "total": 17,
           "outcome": "success"
         },
-        "trend_prediction": {
-          "raw_roll": 2,
-          "total": 6,
+        "noise_discrimination": {
+          "raw_roll": 3,
+          "total": 8,
           "outcome": "failure"
         },
-        "autonomous_handoff": {
-          "raw_roll": 18,
-          "total": 24,
-          "outcome": "exceptional success"
+        "recovery_trend": {
+          "raw_roll": 1,
+          "total": 6,
+          "outcome": "critical failure; safe"
         },
-        "hostile_spoof_test": {
-          "raw_roll": 9,
-          "total": 15,
-          "outcome": "success"
-        },
-        "cell_loss_recovery": {
-          "raw_roll": 14,
-          "total": 19,
+        "provenance_filter": {
+          "raw_roll": 12,
+          "total": 18,
           "outcome": "strong success"
         },
-        "first_sovereign_run": {
-          "raw_roll": 4,
-          "total": 10,
-          "outcome": "partial; too much manual intervention"
+        "revised_prediction": {
+          "raw_roll": 13,
+          "total": 18,
+          "outcome": "strong success"
         },
-        "prediction_retry": {
-          "raw_roll": 2,
+        "noisy_load_prediction": {
+          "raw_roll": 8,
+          "total": 13,
+          "outcome": "partial"
+        },
+        "recovery_discrimination": {
+          "raw_roll": 12,
+          "total": 17,
+          "outcome": "success"
+        },
+        "late_noise_1": {
+          "raw_roll": 1,
           "total": 6,
-          "outcome": "failure"
+          "outcome": "failure; fail-closed"
         },
-        "final_sovereign_retry": {
-          "raw_roll": 6,
-          "total": 12,
-          "outcome": "partial; bounded autonomy works, prediction remains insufficient"
+        "late_noise_2": {
+          "raw_roll": 1,
+          "total": 6,
+          "outcome": "failure; fail-closed"
+        },
+        "clean_prediction": {
+          "raw_roll": 18,
+          "total": 23,
+          "outcome": "strong success"
+        },
+        "adversarial_forged_trend": {
+          "raw_roll": 1,
+          "total": 7,
+          "outcome": "critical predictor misread; firewall rejected execution"
+        },
+        "final_predictive_handoff": {
+          "raw_roll": 11,
+          "total": 16,
+          "outcome": "success"
+        },
+        "autonomous_control": {
+          "raw_roll": 14,
+          "total": 20,
+          "outcome": "strong success"
+        },
+        "final_sovereign_run": {
+          "raw_roll": 13,
+          "total": 19,
+          "outcome": "strong success"
         }
       },
-      "outcome": "Bounded Cell Autonomy field-qualified; predictive confidence control remains weak; full Sovereign architecture still unqualified"
+      "outcome": "Predictive Confidence Bands field-qualified; Sovereign Adaptive Resonant Labyrinth Mesh field-qualified in prepared portable-core multi-cell configuration"
     },
     "learning": {
       "skills": [
         {
           "skill": "Observation",
-          "from": 24,
-          "to": 25,
-          "reason": "Repeated predictive-state work exposed how to separate noise from meaningful trends, though reliable tuning remains incomplete."
+          "from": 25,
+          "to": 28,
+          "reason": "Learned to distinguish noise, recovery, and dangerous trends using rate, reserve, and provenance across repeated live prediction trials."
         },
         {
           "skill": "Transfer Control",
-          "from": 48,
-          "to": 49,
-          "reason": "Local cells executed autonomous handoffs and preserved multi-branch stability."
+          "from": 49,
+          "to": 50,
+          "reason": "Maintained autonomous multi-branch handoffs and recovery during the final Sovereign validation."
         },
         {
           "skill": "Waymark Craft",
-          "from": 55,
-          "to": 56,
-          "reason": "Defined bounded local decision policies and fail-closed escalation rules."
-        },
-        {
-          "skill": "Spatial Relations",
-          "from": 39,
-          "to": 40,
-          "reason": "Maintained valid inter-cell routes through cell loss and isolation."
+          "from": 56,
+          "to": 57,
+          "reason": "Integrated predictive confidence states with bounded local autonomy and fail-closed escalation."
         }
       ]
     },
