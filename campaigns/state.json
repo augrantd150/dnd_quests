@@ -149,7 +149,8 @@
         "Sovereign Adaptive Resonant Labyrinth Mesh",
         "Predictive Confidence Bands",
         "Predatory Resonance Intercept",
-        "Sovereign Predatory Resonant Labyrinth Mesh"
+        "Sovereign Predatory Resonant Labyrinth Mesh",
+        "Sovereign Predatory Resonant Labyrinth Mesh: Lethal Resolution Mode"
       ]
     },
     "reputation": {
@@ -1572,54 +1573,18 @@
       "Predatory Resonance Intercept is field-qualified for prepared compatible hostile-power flows under controlled conditions.",
       "The Sovereign Predatory Resonant Labyrinth Mesh is field-qualified in a controlled adversarial test configuration.",
       "This does not permit arbitrary remote draining of enemies, life-force theft, absorption of unknown magic, or bypassing source/receiver compatibility.",
-      "Meaningful counter-transfer training advanced Observation 28 -> 29, Transfer Control 50 -> 52, and Waymark Craft 57 -> 58."
+      "Meaningful counter-transfer training advanced Observation 28 -> 29, Transfer Control 50 -> 52, and Waymark Craft 57 -> 58.",
+      "The player proposed a lethal-resolution extension to the Sovereign Predatory Resonant Labyrinth Mesh.",
+      "The proposed lethal mode does not guarantee an automatic kill. It converts prepared containment, trap routing, captured hostile power, pressure, heat, momentum, and structural failure into deliberate destructive branches when valid source, receiver, capacity, geometry, and authorization conditions are met.",
+      "Lethal branches may include redirecting a contained enemy into prepared crushing, concussive, thermal, pressure, structural, or hostile-power return paths.",
+      "The mesh may use intercepted compatible hostile magic against the source only when a valid capture and reroute relationship exists.",
+      "The lethal mode remains subject to target durability, resistance, armor, counter-magic, escape, anchor destruction, overload limits, and finite power.",
+      "Lethal Resolution Mode is conceptual and unfield-qualified."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Field-qualify Predatory Resonance Intercept and Sovereign Predatory Resonant Labyrinth Mesh",
-      "checks": {
-        "architecture": {
-          "raw_roll": 17,
-          "total": 22,
-          "outcome": "strong success"
-        },
-        "compatible_capture": {
-          "raw_roll": 11,
-          "total": 17,
-          "outcome": "success"
-        },
-        "spoofed_provenance": {
-          "raw_roll": 1,
-          "total": 7,
-          "outcome": "critical misread; contained by independent receiver validation"
-        },
-        "unknown_effect": {
-          "raw_roll": 7,
-          "total": 12,
-          "outcome": "partial; rejected safely"
-        },
-        "overload_capture": {
-          "raw_roll": 3,
-          "total": 9,
-          "outcome": "failure"
-        },
-        "emergency_sink": {
-          "raw_roll": 19,
-          "total": 25,
-          "outcome": "exceptional success"
-        },
-        "storage_coupling": {
-          "raw_roll": 15,
-          "total": 21,
-          "outcome": "strong success"
-        },
-        "final_integrated": {
-          "raw_roll": 14,
-          "total": 20,
-          "outcome": "strong success"
-        }
-      },
-      "outcome": "hostile-power interception field-qualified under controlled conditions; compatible captured power recharged portable core to 3/3"
+      "provenance": "PLAYER",
+      "action": "Add lethal enemy-destruction capability to Sovereign Predatory Resonant Labyrinth Mesh",
+      "outcome": "Lethal Resolution Mode conceived; not yet field-qualified"
     },
     "learning": {
       "skills": [
