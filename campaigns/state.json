@@ -137,7 +137,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 223, 11:39",
+    "time": "Day 223, 11:43",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1234,38 +1234,20 @@
       "The practitioner immediately recognized that the player had solved a real flaw in the experiment rather than merely guessing from one trial.",
       "The practitioner then identified themself as Sereth Vale.",
       "Sereth stated that the contaminated saddle had been bothering them for two days and that the player found the cause faster than expected.",
-      "Sereth's identification is now directly confirmed by self-identification plus the accumulated Greyspan, Stonewake, Red Hollow, and High Warden provenance trail."
+      "Sereth's identification is now directly confirmed by self-identification plus the accumulated Greyspan, Stonewake, Red Hollow, and High Warden provenance trail.",
+      "The player directly told Sereth Vale that they wanted to learn from him.",
+      "Sereth did not dismiss the request because the player had already demonstrated real competence by diagnosing and correcting the contaminated High Warden test rig.",
+      "Sereth did not immediately accept the player as an apprentice either.",
+      "Sereth stated that technical power was not the main criterion he cared about; he wanted to know whether the player could recognize when not to transfer, when not to reinforce, and when a system should be allowed to fail locally instead of being 'saved.'",
+      "Sereth offered the player a practical evaluation rather than a formal promise of training.",
+      "The evaluation will use a live but controlled structural problem at High Warden. Sereth will provide the apparatus and observe; the player will be expected to diagnose the system and choose whether to intervene at all.",
+      "Sereth made clear that a correct refusal to use magic can count as success.",
+      "No long-term apprenticeship or time skip has begun."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Solve the High Warden failure-envelope test flaw",
-      "checks": {
-        "diagnosis": {
-          "raw_roll": 18,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 1,
-          "total": 22,
-          "outcome": "strong success"
-        },
-        "transfer_redesign": {
-          "raw_roll": 17,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
-          "total": 22,
-          "outcome": "strong success"
-        },
-        "waymark_geometry": {
-          "raw_roll": 15,
-          "ability": "Intelligence",
-          "ability_modifier": 1,
-          "training_bonus": 3,
-          "total": 19,
-          "outcome": "strong success"
-        }
-      },
-      "outcome": "identified torsional contamination in the rig, corrected it, produced repeatable fracture behavior, and directly confirmed the occupant as Sereth Vale"
+      "provenance": "NPC",
+      "action": "Ask Sereth Vale to teach the player",
+      "outcome": "Sereth conditionally agrees to evaluate the player through a live structural judgment test before deciding whether to teach"
     },
     "learning": {
       "skills": [
@@ -1297,11 +1279,12 @@
     "current_npc": {
       "name": "Sereth Vale",
       "role": "itinerant transfer engineer and structural specialist",
-      "disposition": "alert, interested, professionally respectful",
+      "disposition": "interested, testing, professionally respectful",
       "notes": [
         "Directly confirmed identity at High Warden.",
         "Recognized the player's correction to the failure-envelope test as technically valid.",
-        "Has not yet agreed to teach the player."
+        "Has offered a practical evaluation before agreeing to teach.",
+        "Values restraint and correct non-intervention as much as technical power."
       ]
     },
     "party": {
