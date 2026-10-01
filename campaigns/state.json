@@ -31,16 +31,16 @@
       "CHA": 10
     },
     "skills": {
-      "Observation": 29,
+      "Observation": 31,
       "Footwork": 16,
       "Knife Fighting": 11,
       "Stealth": 14,
       "Survival": 15,
       "Field Medicine": 9,
-      "Transfer Control": 54,
-      "Waymark Craft": 59,
-      "Spatial Relations": 41,
-      "Claims & Bindings": 74,
+      "Transfer Control": 56,
+      "Waymark Craft": 61,
+      "Spatial Relations": 43,
+      "Claims & Bindings": 75,
       "Pressure Transfer": 14,
       "Heat Transfer": 16
     },
@@ -58,11 +58,11 @@
       "waterskin",
       "small field notebook",
       "Ledger Shard",
-      "4 days coarse road rations",
+      "3 days coarse road rations",
       "wool blanket",
       "small waxed groundsheet",
       "2 bronze waymark nails",
-      "portable resonant core (2 charge units)"
+      "portable resonant core (1 charge unit)"
     ],
     "items_detail": {
       "Ledger Shard": {
@@ -115,7 +115,10 @@
         "Predatory Resonance Intercept",
         "Sovereign Predatory Resonant Labyrinth Mesh",
         "Lethal Resolution Mode",
-        "Sovereign Predatory Resonant Labyrinth Mesh — Lethal Resolution"
+        "Sovereign Predatory Resonant Labyrinth Mesh — Lethal Resolution",
+        "Apex Adversary Protocol",
+        "Compromised Cell Quarantine",
+        "State-Secret Fallback Routing"
       ],
       "field_qualifications": [
         "Distributed Defense Network: portable two-branch",
@@ -138,7 +141,9 @@
         "Predatory Resonance Intercept: prepared compatible hostile-power capture with fail-closed rejection",
         "Sovereign Predatory Resonant Labyrinth Mesh: controlled adversarial test configuration",
         "Lethal Resolution Mode: prepared destructive branches with independent safety separation",
-        "Sovereign Predatory Resonant Labyrinth Mesh — Lethal Resolution: portable-core controlled validation"
+        "Sovereign Predatory Resonant Labyrinth Mesh — Lethal Resolution: portable-core controlled validation",
+        "Apex Adversary Protocol: informed counter-practitioner red-team qualification",
+        "Legendary-Wizard Threat Profile: controlled surrogate stress qualification"
       ],
       "studied_concepts": [
         "Load Lattice",
@@ -191,7 +196,7 @@
   "scene": {
     "id": "opening-hanging-tree",
     "started": true,
-    "time": "Day 225, 00:34",
+    "time": "Day 225, 11:42",
     "weather": "cold rain after three wet days",
     "canonical_facts": [
       "Dunmarrow's gate closes in roughly forty minutes.",
@@ -1601,96 +1606,141 @@
       "The Sovereign Predatory Resonant Labyrinth Mesh with Lethal Resolution is field-qualified in a prepared portable-core controlled validation.",
       "This does not guarantee an automatic kill. Real targets may survive, resist, escape, destroy anchors, exceed available destructive capacity, or use unfamiliar counter-magic.",
       "The portable Resonance core supplied the final portable validation and decreased from 3/3 to 2/3. Personal Resonance remained 3/3.",
-      "Meaningful training advanced Transfer Control 52 -> 54, Waymark Craft 58 -> 59, Spatial Relations 40 -> 41, Pressure Transfer 13 -> 14, and Heat Transfer 15 -> 16."
+      "Meaningful training advanced Transfer Control 52 -> 54, Waymark Craft 58 -> 59, Spatial Relations 40 -> 41, Pressure Transfer 13 -> 14, and Heat Transfer 15 -> 16.",
+      "After resting, the player and Sereth Vale red-teamed the Lethal Sovereign Predatory Resonant Labyrinth Mesh against an adversary who fully understands its architecture.",
+      "Opening informed-adversary counter-read: natural 1 + Intelligence 1 + Waymark Craft Expert 4 = 6. Critical failure; Sereth predicted the player's default fallback route and defeated the first kill path.",
+      "The player redesigned fallback selection so local cells choose among multiple currently valid prepared branches using local one-use state rather than a single predictable default.",
+      "Redundancy and state-secret fallback redesign: raw 18 + Intelligence 1 + Waymark Craft Expert 4 = 23. Strong success.",
+      "Policy-injection defense: raw 4 + Intelligence 1 + Claims & Bindings Master 5 = 10. Failure.",
+      "Hardened policy retry: raw 19 + Intelligence 1 + Claims & Bindings Master 5 = 25. Exceptional success; current-state provenance and one-use local permissions prevented architecture knowledge from granting control.",
+      "High Warden then ran a legendary-wizard-grade surrogate threat profile. This was not a real legendary wizard and does not prove superiority over one.",
+      "Unknown-domain classification: raw 2 + Wisdom 3 + Observation Practiced 2 = 7. Failure; the mesh rejected rather than absorbed the unfamiliar magic.",
+      "Overload triage: raw 10 + Wisdom 3 + Transfer Control Adept 3 = 16. Success.",
+      "Anchor-assault resilience: raw 17 + Wisdom 3 + Spatial Relations Adept 3 = 23. Strong success.",
+      "Forged-friendly-identity test: natural 1 + Intelligence 1 + Claims & Bindings Master 5 = 7. Critical identification failure; contradictory identity state prevented lethal authorization, so the mesh lost tempo rather than attacking an uncertain target.",
+      "A permanent lethal-safety rule was established: identity uncertainty may deny an attack but can never authorize one.",
+      "Sudden hostile spatial-entry defense: raw 3 + Wisdom 3 + Spatial Relations Adept 3 = 9. Failure.",
+      "Emergency topology shift: raw 3 + Wisdom 3 + Waymark Craft Expert 4 = 10. Failure; one cell was treated as compromised.",
+      "The player learned Compromised Cell Quarantine: neighboring cells sever inter-cell relationships to a captured or corrupted cell and treat it as hostile terrain rather than contesting it through shared control state.",
+      "Counter-magic reroute after quarantine: raw 14 + Wisdom 3 + Transfer Control Adept 3 = 20. Strong success.",
+      "Lethal authorization under contradictory state: raw 7 + Intelligence 1 + Claims & Bindings Master 5 = 13. Partial; the player correctly withheld lethal execution.",
+      "First complete apex-adversary run: natural 1 + Wisdom 3 + Transfer Control Adept 3 = 7. Critical failure; lethal functions failed closed with no friendly harm.",
+      "Final apex-adversary run: raw 17 + Wisdom 3 + Transfer Control Adept 3 = 23. Strong success.",
+      "In the final run, the mesh survived an informed opponent predicting obvious routes, compromising a cell, spoofing identity, attacking anchors, and introducing unfamiliar high-output magic. It quarantined the lost cell, changed valid fallback routes, rejected unsafe interception, rebuilt a destructive path through independent cells, and obtained a clean lethal solution against the sacrificial target.",
+      "Apex Adversary Protocol is field-qualified against an informed counter-practitioner in controlled red-team conditions.",
+      "The architecture also passed a controlled legendary-wizard-grade surrogate stress profile, but has not been proven against an actual legendary wizard.",
+      "Meaningful training advanced Observation 29 -> 31, Transfer Control 54 -> 56 (Expert), Waymark Craft 59 -> 61, Spatial Relations 41 -> 43, and Claims & Bindings 74 -> 75.",
+      "The final portable validation consumed 1 Resonance-core charge: 2/3 -> 1/3. Personal Resonance remained 3/3.",
+      "One day of coarse road rations was consumed during the overnight rest and morning training: 4 days -> 3 days."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Field-qualify lethal resolution for the Sovereign Predatory Resonant Labyrinth Mesh",
+      "action": "Red-team lethal Sovereign mesh against an informed counter-practitioner and legendary-wizard-grade surrogate threat",
       "checks": {
-        "lethal_authorization": {
-          "raw_roll": 16,
-          "total": 22,
-          "outcome": "strong success"
-        },
-        "containment_to_lethal": {
-          "raw_roll": 12,
-          "total": 18,
-          "outcome": "strong success"
-        },
-        "structural_branch": {
-          "raw_roll": 15,
-          "total": 21,
-          "outcome": "strong success"
-        },
-        "pressure_branch": {
-          "raw_roll": 8,
-          "total": 12,
-          "outcome": "partial"
-        },
-        "thermal_branch": {
-          "raw_roll": 10,
-          "total": 14,
-          "outcome": "partial"
-        },
-        "hostile_power_return": {
-          "raw_roll": 9,
-          "total": 15,
-          "outcome": "success"
-        },
-        "counter_disruption": {
-          "raw_roll": 12,
-          "total": 17,
-          "outcome": "success"
-        },
-        "friendly_fire_first": {
+        "informed_opening": {
           "raw_roll": 1,
           "total": 6,
-          "outcome": "critical failure; lethal layer failed closed"
+          "outcome": "critical failure; predictable fallback defeated"
         },
-        "friendly_fire_retry": {
-          "raw_roll": 13,
-          "total": 18,
+        "fallback_redesign": {
+          "raw_roll": 18,
+          "total": 23,
           "outcome": "strong success"
         },
-        "final_portable_validation": {
-          "raw_roll": 20,
-          "total": 26,
+        "policy_injection": {
+          "raw_roll": 4,
+          "total": 10,
+          "outcome": "failure"
+        },
+        "policy_hardening": {
+          "raw_roll": 19,
+          "total": 25,
           "outcome": "exceptional success"
+        },
+        "unknown_domain": {
+          "raw_roll": 2,
+          "total": 7,
+          "outcome": "failure; safely rejected"
+        },
+        "overload_triage": {
+          "raw_roll": 10,
+          "total": 16,
+          "outcome": "success"
+        },
+        "anchor_assault": {
+          "raw_roll": 17,
+          "total": 23,
+          "outcome": "strong success"
+        },
+        "forged_friendly": {
+          "raw_roll": 1,
+          "total": 7,
+          "outcome": "critical identification failure; lethal authorization withheld"
+        },
+        "sudden_spatial_entry": {
+          "raw_roll": 3,
+          "total": 9,
+          "outcome": "failure"
+        },
+        "emergency_topology_shift": {
+          "raw_roll": 3,
+          "total": 10,
+          "outcome": "failure; cell quarantined"
+        },
+        "counter_magic_reroute": {
+          "raw_roll": 14,
+          "total": 20,
+          "outcome": "strong success"
+        },
+        "lethal_authorization": {
+          "raw_roll": 7,
+          "total": 13,
+          "outcome": "partial; correctly withheld fire"
+        },
+        "first_full_run": {
+          "raw_roll": 1,
+          "total": 7,
+          "outcome": "critical fail-closed"
+        },
+        "final_full_run": {
+          "raw_roll": 17,
+          "total": 23,
+          "outcome": "strong success"
         }
       },
-      "outcome": "Lethal Resolution Mode and the portable Sovereign Predatory lethal configuration field-qualified; portable core 3 -> 2"
+      "outcome": "Apex Adversary Protocol field-qualified against informed red-team opposition; legendary-wizard-grade surrogate profile passed; actual legendary-wizard performance remains unproven"
     },
     "learning": {
       "skills": [
         {
+          "skill": "Observation",
+          "from": 29,
+          "to": 31,
+          "reason": "Learned conservative classification and threat-state discrimination under unfamiliar high-output magic."
+        },
+        {
           "skill": "Transfer Control",
-          "from": 52,
-          "to": 54,
-          "reason": "Chained intercepted hostile power and structural transfer through destructive branches."
+          "from": 54,
+          "to": 56,
+          "reason": "Recovered destructive routing after cell compromise, overload, and counter-magic; crossed into Expert."
         },
         {
           "skill": "Waymark Craft",
-          "from": 58,
-          "to": 59,
-          "reason": "Built independent lethal authorization and friendly-route separation logic."
+          "from": 59,
+          "to": 61,
+          "reason": "Built state-secret fallback routing and hardened local permissions against an adversary who knew the architecture."
         },
         {
           "skill": "Spatial Relations",
-          "from": 40,
-          "to": 41,
-          "reason": "Maintained containment, escape denial, and destructive routing simultaneously."
+          "from": 41,
+          "to": 43,
+          "reason": "Maintained usable topology while severing and routing around a compromised cell."
         },
         {
-          "skill": "Pressure Transfer",
-          "from": 13,
-          "to": 14,
-          "reason": "Practiced bounded pressure-based destructive transfer."
-        },
-        {
-          "skill": "Heat Transfer",
-          "from": 15,
-          "to": 16,
-          "reason": "Practiced bounded thermal destructive transfer."
+          "skill": "Claims & Bindings",
+          "from": 74,
+          "to": 75,
+          "reason": "Hardened current-state authorization and learned to withhold lethal permission under contradictory identity evidence."
         }
       ]
     },
