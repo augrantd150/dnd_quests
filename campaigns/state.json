@@ -1371,78 +1371,68 @@
       "Final integrated check: raw 10 + Wisdom 3 + Transfer Control Practiced 2 = 15. The full Adaptive Resonant Labyrinth Mesh remained stable through simultaneous containment rerouting, one branch isolation, active Resonance feed, and a prepared Fastline traversal.",
       "The full architecture is now field-qualified under prepared, externally powered, supervised conditions.",
       "The system still does not create power, cannot feed from arbitrary physical energy without a learned conversion, and is not yet qualified as a portable self-powered battlefield deployment.",
-      "Meaningful instruction and live integration advanced Transfer Control 39 -> 41, Waymark Craft 49 -> 51, and Spatial Relations 32 -> 34."
+      "Meaningful instruction and live integration advanced Transfer Control 39 -> 41, Waymark Craft 49 -> 51, and Spatial Relations 32 -> 34.",
+      "Sereth Vale taught the player to correct the Adaptive Resonant Labyrinth Mesh by fully decoupling the personal Resonance Feed Spine from mutable maze topology.",
+      "First decoupling layout: raw 7 + INT 1 + Waymark 3 = 11. Partial; topology state still leaked into feed cutoff logic.",
+      "Sereth corrected the design: the feed controller tracks only source validity, receiver validity, capacity, one-way authorization, and overflow-to-sink behavior.",
+      "Decoupling retry: raw 13 + INT 1 + Waymark 3 = 17. Success.",
+      "Resonance attunement: raw 19 + WIS 3 + Transfer 2 = 24. The powered apparatus coupled cleanly into the decoupled feed spine.",
+      "The controlled feed restored 2 Resonance: 1/3 -> 3/3.",
+      "Labyrinth routing: raw 17 + WIS 3 + Spatial 2 = 22. Strong success.",
+      "Adaptive multi-domain control: raw 13 + WIS 3 + Transfer 2 = 18. Success.",
+      "Feed under reroute: raw 11 + INT 1 + Waymark 3 = 15. Success; maze state changed without altering feed authorization.",
+      "Fastline under feed: raw 18 + WIS 3 + Spatial 2 = 23. Strong success.",
+      "Final integrated check: raw 10 + WIS 3 + Transfer 2 = 15. Success.",
+      "The full Adaptive Resonant Labyrinth Mesh is now field-qualified under prepared externally powered supervised conditions.",
+      "It still does not create power and is not yet qualified as a portable self-powered battlefield system.",
+      "Progress: Transfer Control 39 -> 41, Waymark Craft 49 -> 51, Spatial Relations 32 -> 34."
     ],
     "last_resolution": {
       "provenance": "SYSTEM",
-      "action": "Learn and field-qualify the corrected Adaptive Resonant Labyrinth Mesh under Sereth Vale",
+      "action": "Learn and field-qualify corrected Adaptive Resonant Labyrinth Mesh",
       "checks": {
         "first_decoupling": {
           "raw_roll": 7,
-          "ability": "Intelligence",
-          "ability_modifier": 1,
-          "training_bonus": 3,
           "total": 11,
-          "outcome": "partial; topology state still leaked into feed cutoff logic"
+          "outcome": "partial"
         },
         "decoupling_retry": {
           "raw_roll": 13,
-          "ability": "Intelligence",
-          "ability_modifier": 1,
-          "training_bonus": 3,
           "total": 17,
           "outcome": "success"
         },
         "resonance_attunement": {
           "raw_roll": 19,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
           "total": 24,
           "outcome": "exceptional success"
         },
         "labyrinth_routing": {
           "raw_roll": 17,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
           "total": 22,
           "outcome": "strong success"
         },
         "adaptive_control": {
           "raw_roll": 13,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
           "total": 18,
           "outcome": "success"
         },
         "feed_under_reroute": {
           "raw_roll": 11,
-          "ability": "Intelligence",
-          "ability_modifier": 1,
-          "training_bonus": 3,
           "total": 15,
           "outcome": "success"
         },
         "fastline_under_feed": {
           "raw_roll": 18,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
           "total": 23,
           "outcome": "strong success"
         },
         "final_integrated": {
           "raw_roll": 10,
-          "ability": "Wisdom",
-          "ability_modifier": 3,
-          "training_bonus": 2,
           "total": 15,
           "outcome": "success"
         }
       },
-      "outcome": "full Adaptive Resonant Labyrinth Mesh field-qualified in prepared externally powered supervised conditions; Resonance restored to 3/3"
+      "outcome": "field-qualified in prepared externally powered supervised conditions; Resonance restored to 3/3"
     },
     "learning": {
       "skills": [
