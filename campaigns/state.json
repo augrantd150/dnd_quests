@@ -143,7 +143,9 @@
         "Resonance Feed Spine",
         "Decoupled Feed Architecture",
         "Sovereign Adaptive Resonant Labyrinth Mesh",
-        "Predictive Confidence Bands"
+        "Predictive Confidence Bands",
+        "Predatory Resonance Intercept",
+        "Sovereign Predatory Resonant Labyrinth Mesh"
       ]
     },
     "reputation": {
@@ -1542,84 +1544,20 @@
       "The Sovereign Adaptive Resonant Labyrinth Mesh is now field-qualified in a prepared portable-core multi-cell configuration.",
       "Full qualification still does not imply free energy, omniscience, unlimited scale, arbitrary conversion, or zero setup. It requires valid local signals, prepared or improvised anchors, bounded cell policies, compatible power, and finite capacity.",
       "Meaningful training advanced Observation 25 -> 28, Transfer Control 49 -> 50, and Waymark Craft 56 -> 57.",
-      "Personal Resonance remained 3/3 and the portable Resonance core remained 2/3 because Sereth's powered training apparatus supplied the session energy."
+      "Personal Resonance remained 3/3 and the portable Resonance core remained 2/3 because Sereth's powered training apparatus supplied the session energy.",
+      "The player proposed extending the field-qualified Sovereign Adaptive Resonant Labyrinth Mesh with a hostile-power interception layer.",
+      "The concept is called Predatory Resonance Intercept and the combined architecture may be called the Sovereign Predatory Resonant Labyrinth Mesh.",
+      "The intercept layer can only capture hostile magical power that enters a prepared coupling relationship the mesh can actually measure and accept.",
+      "Valid sources may include a hostile spell crossing a prepared node, an enemy magical construct drawing power through a detectable channel, or a compatible charged focus within a prepared capture relationship.",
+      "The intercept layer cannot arbitrarily drain a person's innate magical capacity, life force, or unknown magical reserve at range.",
+      "Captured hostile power must either be redirected into a compatible trap/receiver, dumped into a safe sink, or—only if compatibility is proven—stored in the portable Resonance core or fed to the player.",
+      "Unknown or incompatible hostile magic fails closed rather than being absorbed blindly.",
+      "The hostile-power interception layer is a studied concept only and is not yet field-qualified."
     ],
     "last_resolution": {
-      "provenance": "SYSTEM",
-      "action": "Train predictive control and validate the Sovereign Adaptive Resonant Labyrinth Mesh",
-      "checks": {
-        "baseline_prediction": {
-          "raw_roll": 12,
-          "total": 17,
-          "outcome": "success"
-        },
-        "noise_discrimination": {
-          "raw_roll": 3,
-          "total": 8,
-          "outcome": "failure"
-        },
-        "recovery_trend": {
-          "raw_roll": 1,
-          "total": 6,
-          "outcome": "critical failure; safe"
-        },
-        "provenance_filter": {
-          "raw_roll": 12,
-          "total": 18,
-          "outcome": "strong success"
-        },
-        "revised_prediction": {
-          "raw_roll": 13,
-          "total": 18,
-          "outcome": "strong success"
-        },
-        "noisy_load_prediction": {
-          "raw_roll": 8,
-          "total": 13,
-          "outcome": "partial"
-        },
-        "recovery_discrimination": {
-          "raw_roll": 12,
-          "total": 17,
-          "outcome": "success"
-        },
-        "late_noise_1": {
-          "raw_roll": 1,
-          "total": 6,
-          "outcome": "failure; fail-closed"
-        },
-        "late_noise_2": {
-          "raw_roll": 1,
-          "total": 6,
-          "outcome": "failure; fail-closed"
-        },
-        "clean_prediction": {
-          "raw_roll": 18,
-          "total": 23,
-          "outcome": "strong success"
-        },
-        "adversarial_forged_trend": {
-          "raw_roll": 1,
-          "total": 7,
-          "outcome": "critical predictor misread; firewall rejected execution"
-        },
-        "final_predictive_handoff": {
-          "raw_roll": 11,
-          "total": 16,
-          "outcome": "success"
-        },
-        "autonomous_control": {
-          "raw_roll": 14,
-          "total": 20,
-          "outcome": "strong success"
-        },
-        "final_sovereign_run": {
-          "raw_roll": 13,
-          "total": 19,
-          "outcome": "strong success"
-        }
-      },
-      "outcome": "Predictive Confidence Bands field-qualified; Sovereign Adaptive Resonant Labyrinth Mesh field-qualified in prepared portable-core multi-cell configuration"
+      "provenance": "PLAYER",
+      "action": "Extend Sovereign mesh with hostile magical-power interception",
+      "outcome": "Predatory Resonance Intercept conceived; combined Sovereign Predatory Resonant Labyrinth Mesh remains unfield-qualified"
     },
     "learning": {
       "skills": [
