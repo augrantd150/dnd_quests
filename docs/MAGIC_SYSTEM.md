@@ -536,3 +536,46 @@ The word **Sovereign** means operational independence from fixed infrastructure 
 Every source, receiver, conversion, anchor, branch, trap, and spatial route remains subject to causal limits, losses, capacity, and failure behavior.
 
 The architecture is currently conceptual and unfield-qualified.
+
+
+### Sovereign research trial — Day 224
+
+The first full attempt to field-qualify the Sovereign Adaptive Resonant Labyrinth Mesh did **not** achieve full qualification.
+
+Three advanced sub-systems were successfully field-qualified:
+
+#### Improvised Mesh Topology
+
+A reduced mesh may be built from imperfect anchors and mismatched field materials when every branch is re-measured for actual capacity and geometry rather than treated as interchangeable.
+
+#### Adversarial Transfer Firewall
+
+A prepared defensive control layer uses explicit provenance, authorization, source identity, receiver identity, and bounded permissions to reject hostile false receivers, source substitution, route-priority manipulation, and unauthorized branch changes.
+
+It does not infer moral intent; it validates whether the requested transfer relationship is actually authorized and causally valid.
+
+#### Distributed Cell Topology
+
+Large meshes should be partitioned into locally valid cells rather than controlled as one monolithic topology.
+
+Each cell maintains:
+- local anchors;
+- local capacity;
+- local authorization;
+- local fail-soft behavior;
+- isolation from neighboring failure;
+- explicit inter-cell routes.
+
+This reduces cascade risk and ambiguity at scale.
+
+#### Conversion result
+
+No direct heat-to-Resonance or pressure-to-Resonance conversion was established.
+
+The Sovereign architecture must therefore continue to use compatible magical sources or precharged Resonance storage until a valid conversion mechanism is discovered.
+
+#### Current status
+
+The full Sovereign Adaptive Resonant Labyrinth Mesh remains a **research prototype**.
+
+The final self-contained field trial stayed safe and functional but required too much direct manual stabilization to qualify as genuinely Sovereign.
