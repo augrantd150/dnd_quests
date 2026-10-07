@@ -1,395 +1,255 @@
 # Black Tithe 2 — Canonical Campaign State
 
-## Resume Point
+## Resume
 - **Campaign:** Campaign I — Ashes Owed
-- **Date:** Year 613 of the Consecrated Reckoning, **Day 5**
+- **Date:** Year 613, **Day 11, evening**
 - **Location:** Greywake Manor
-- Jon has just completed Greywake's **first weekly school session**. Eleven children attended. The lesson covered basic literacy, names, numbers, and simple arithmetic; Jon adapted reasonably well to mixed ability.
-- The rest of Day 5 is currently open unless the living world produces a development.
+- Jon has just finished archery practice and reached **Archery 1** after useful instruction from Sera Voss.
+- **Day 12 is Jon's second weekly school day.**
+- First Tithe is due on Day 28: **17 days remain**.
 
 ## GM Contract
-- Simulation-first. No plot armor. The world does not scale to Jon.
-- **Never choose Jon's actions, dialogue, attitude, movement, or decisions.** Simulate only consequences of what the player actually chooses.
-- Use a **real randomized d20** for genuinely uncertain checks. Never invent a roll. Do not roll for obvious actions or simple counting.
-- Main plotline: Jon may eventually overthrow the Black Synod and destroy the Tithe system. Failure, death, betrayal, joining the Synod, or attempting to seize power personally remain possible.
-- Keep one main plotline with a few persistent side plots. Optional mundane, absurd, strange, and supernatural sidequests are welcome; not everything secretly connects to the Tithe.
-- Do not manufacture mysteries or twists merely to create drama. Twists must arise from established secrets, agendas, evidence, and world state.
-- Keep the world **alive but not hyperactive**. Routine actions may be summarized once established. NPCs, neighboring powers, the Synod, and hidden actors pursue their own interests without Jon. Quiet days are allowed.
-- Canonical death. The world persists after PC death; succession is the reset mechanism.
-- Minecraft Story Mode-style “X will remember that” notifications are reserved for defining moments and must have later consequences.
-- Slow progression. No instant expertise, giant power jumps, or multi-week/month training skips.
-- Retreat, restraint, or non-intervention can be successful outcomes.
-- Magic must obey concrete constraints: source, quantity, state, receiver, coupling, capacity, direction, loss, consequence.
-- Preserve player knowledge vs. world truth. Do not reveal hidden nemesis state or secret NPC knowledge without discovery.
+- Simulation-first; no plot armor; world does not scale to Jon.
+- **Never choose Jon's actions/dialogue/movement/attitude.**
+- Every genuinely uncertain check uses a **real randomized d20**; never fabricate rolls. Do not roll for obvious actions.
+- Slow, use-based progression; no instant expertise or long training skips.
+- One main plot: eventual struggle against Black Synod/Tithe system. Side plots may be mundane/strange/supernatural and need not connect to it.
+- No twists/mysteries merely for drama; use established agendas/evidence/world state.
+- Living world, not hyperactive: summarize established routine; allow quiet days; NPCs and neighbors act independently.
+- Canonical death; succession preserves world/nemesis history.
+- “X will remember that” only for defining moments and must pay off.
+- Magic obeys concrete constraints; no convenient unlimited spellcasting.
+- Retreat/restraint/non-intervention can succeed.
+- Preserve player knowledge vs world truth; hidden Arch-Nemesis exists from Day 1 and progresses independently.
 
-## Progression System
-### Attributes
-Strength, Agility, Endurance, Intellect, Perception, Will, Presence. Change very slowly.
-
-### Skills
-0–10:
-- 0 untrained
-- 2 practiced
-- 4 professionally competent
-- 6 expert
-- 8 exceptional
-- 10 realistic upper edge of mastery
-
-### Knowledge
-Separate from skill. Learned through books, teachers, observation, experimentation, meaningful practice, field experience, and informative failure.
-
-### Relationships
-Persistent trust, respect, fear, loyalty, resentment, obligation, and shared history.
-
-### Reputation
-Group-specific, never one universal score.
-
-### Estate Development
-Agriculture, Infrastructure, Education, Military, Administration, Economy, Health, Intelligence, Political Influence.
-
-Typical uncertain resolution: **d20 + relevant Attribute + Skill + justified Knowledge/situational modifiers vs. world-based difficulty**. Secondary skills may provide small justified synergies; no unlimited stacking. NPCs develop under the same underlying logic. Estate capabilities must rest on actual people, resources, and institutions and can decline if those foundations are lost.
-
-Surface meaningful thresholds, not fractional XP spam.
-
-## Hidden Nemesis System
-- A hidden randomly generated Arch-Nemesis has existed since Day 1 and progresses independently.
-- Anyone who kills a player character may become another persistent nemesis.
-- Nemesis history persists across successor PCs.
-- Never reveal hidden nemesis identity/actions unless naturally discovered.
+## Progression
+Attributes: Strength, Agility, Endurance, Intellect, Perception, Will, Presence (slow-changing).
+Skills 0–10: 0 untrained, 2 practiced, 4 professional, 6 expert, 8 exceptional, 10 realistic mastery edge.
+Knowledge is separate and subject-specific. Relationships and reputation are persistent/group-specific.
+Estate tracks: Agriculture, Infrastructure, Education, Military, Administration, Economy, Health, Intelligence, Political Influence.
+Typical uncertainty: d20 + relevant Attribute + Skill + justified knowledge/situation vs world-based difficulty. NPCs use same logic.
 
 # Jon Vale
-- 25, male, newly inherited Lord of Greywake.
-- Defining trait: **power-hungry**. Opportunities for power should tempt him, but real power is costly, limited, counterable, and transformative.
-- Inventory:
-  - Uncle Edric's serviceable arming sword.
-  - Practical manor clothing.
-  - Personal cipher notebook.
-  - Wrapped **black iron pin** bearing an eye crossed by a vertical line.
-- Jon's 5-crown discretionary purse is manor operational cash allocated to him, not separate private wealth.
+- 25, male, Lord of Greywake; strongly **power-hungry**. Power must remain tempting, costly, limited, counterable.
+- Carries Edric's serviceable arming sword normally when appropriate.
+- Personal cipher notebook = sole known surviving written summary of Edric/Oren investigation + wall evidence. Crude cipher; skilled investigator with time/context might crack it.
+- Wrapped, heat-darkened **black iron pin** marked eye crossed by vertical line.
+- 5 crowns allocated as Jon's discretionary manor purse (not separate private wealth).
+- **Archery 1** achieved Day 11. Still novice; repeatable fundamentals, not combat proficiency.
+- Harvest: several meaningful sessions; novice but has learned technique/workflow/fatigue lessons.
+- Teaching: one weekly school session completed; no teaching skill threshold.
+- Magic: beginner training under Ilyra. Has detected prepared effects and produced/briefly maintained first crude magical structure; no full thaumaturgy skill threshold yet.
 
-### Cipher notebook
-Crude personal cipher using substitutions, altered symbols, reversed numbers, nonsense phrases, and a mental key. Casual readers see gibberish; a skilled investigator with time/context may crack it.
-
-It is the **sole known surviving written summary** of Edric and Oren's investigation because Jon destroyed the originals. It also records the factual evidence found in Edric's bedroom/wall, carefully separated from Jon's suspicions.
-
-### Current practical development
-- Several days of genuine introductory harvesting experience, including useful failures and one solid session. Still a novice.
-- One introductory solo archery session. No established Archery skill threshold yet.
-- First genuine teaching experience on Day 5. No instant teaching mastery.
-
-# Greywake Manor
-- Population: **73 souls**
-- Crumbling hall, muddy village, mill, neglected fields.
-- Granary: **67 usable sacks** before first Tithe payment.
-- Mara estimates roughly **48 sacks** needed for food + seed until the next meaningful harvest under ordinary conditions.
-- Manor breeding stock: 2 ewes + old ram + **Bramble**, an exceptional ram purchased from Harl.
-- Bramble is breeding stock, not intended for Tithe.
+# Greywake
+- 73 souls; crumbling hall, village, mill, neglected fields.
+- Granary before Tithe: 67 usable sacks. Mara estimates ~48 needed for food+seed until next meaningful harvest.
+- Breeding stock: 2 ewes + old ram + exceptional ram **Bramble**.
+- Tithe sheep: two young wethers from Sella Marrick.
 
 ## Cash
-Starting manor treasury: 31 crowns.
-- Bramble: -6
-- Two Tithe wethers from Sella Marrick: -4
-- Current manor cash: **21 crowns**
-Within those 21:
-- **12 reserved for Tithe**
-- **5 allocated as Jon's discretionary purse**
-- **4 otherwise unallocated manor cash**
-Do not double-count these categories.
+Start 31.
+- Bramble -6
+- Tithe wethers -4
+- grindstone smith fitting -1
+- Ilyra first weekly payment -1
+- Orren Cade mill inspection committed -1
+= **18 crowns after committed Day-11 expenses**.
+Allocation:
+- **12 reserved Tithe**
+- **5 Jon discretionary**
+- **1 crown effectively committed/remaining accounting margin depending on whether Cade payment has physically changed hands**.
+Important: do not double-count. Treat unallocated manor cash as exhausted once Cade is paid; reconcile timing explicitly if needed.
 
-# First Tithe
-Due in **23 days on Day 5**:
+## First Tithe — Day 28
 - 18 sacks winter grain
 - 2 healthy sheep
-- 12 silver crowns
+- 12 crowns
+- Coin and sheep ready; grain technically payable but leaves 49 sacks vs ~48 ordinary food/seed need, so margin is dangerous.
+- Goal is not merely paying but avoiding crippling Greywake afterward.
 
-Warning: failure or deliberate concealment incurs correction under Synod law. Issuer: Office of Temporal Obligation.
+# Estate Development
 
-### Readiness
-- **Sheep:** ready. Two ~18-month-old healthy-looking wethers bought from Widow Sella Marrick for **4 crowns total**; Greywake handles transport.
-- **Coin:** 12 crowns reserved.
-- **Grain:** technically ready but dangerously tight. Paying 18 from 67 leaves 49 against Mara's ~48-sack ordinary food/seed requirement.
-- Transport is manageable.
-- If the Synod demands exactly what it wrote and no serious setback occurs, Greywake can pay in full.
-- Main near-term economic problem is ensuring the grain payment does not cripple Greywake afterward.
+## Agriculture
+**Gerren Holt**, ~60, Greywake Agricultural Specialist. Household obligations reduced 15% while serving. Responsibilities: fields, drainage, harvest organization, experimentation, training.
+Memory: **Gerren will remember Jon valued his knowledge, not just labor.**
 
-# Agriculture and Infrastructure
-## Fields
-- **North Field:** healthiest/safest harvest; harvest underway.
-- **Low Field:** decent crop; waterlogging risk.
-- **Old East Field:** substantial neglected acreage, failed drainage, collapsed boundary; best major restoration target.
+Fields:
+- North Field: harvest underway and progressing.
+- Low Field: restored drainage tested successfully in rain. Initial Greywake channels worked; bottleneck discovered across Sella Marrick's boundary. Sella permitted clearing; obstruction removed; water receded substantially. Needs more rains before declaring fully solved.
+- Old East Field: neglected, failed drainage/boundary. Future major restoration target.
 
-## Gerren Holt — Agricultural Specialist
-About 60, experienced Greywake farmer; lean, sun-beaten, missing several teeth. Jon appointed him **Greywake Agricultural Specialist** and reduced his household assessed obligations by 15% while he serves.
+Gerren tested specialized harvest crews (cutters/binders/carriers coordinated) against conventional work. **Modest but real productivity improvement**; adopted for remainder of North Field. Jon chose sustainable pace rather than squeezing workers for faster completion. Goal is true labor efficiency/freeing future manpower.
 
-Responsibilities: fields, drainage, harvest organization, experimentation, training others.
+Gerren plans after harvest: proper East Field survey, restore drainage/acreage, teach younger farmers reasoning, assess millstream/machinery.
 
-Memory: **Gerren will remember that Jon valued his knowledge, not just his labor.**
+## Infrastructure / Tools
+Storehouse baseline Day 2: usable 9/12 sickles, 5/7 axes, 3/4 spades, 3/3 hammers, 1/2 saws; repairable tools + scrap iron/basic supplies.
+**Grindstone repaired and operational** after 1-crown smith fitting. Tool maintenance station/register now functioning; damaged sickles already being restored.
 
-### Completed initial project
-Six workers spent three days reopening Low Field drainage:
-- clogged old channels cleared
-- two disconnected trenches reconnected to larger runoff
-- standing water reduced
-- first proper rain will test whether restoration actually works
-Workers have returned to ordinary duties.
+## Mill / Economy
+Jon likes developing the mill as a revenue/labor-efficiency project.
+- Mara's early market inquiry: **two smaller holdings east of Greywake regularly haul grain elsewhere for milling**, suggesting possible outside demand.
+- Goal: improve mill efficiency, sell milling time, potentially later power threshing/other machinery.
+- Traveling millwright **Orren Cade** expected around **Day 15** to inspect stream, wheel, gearing, building and expansion potential.
+- Inspection cost authorized: **1 crown + meals/lodging**. No construction commitment yet.
 
-### Gerren's next plans
-1. Finish harvest using specialized crews: cutters, binders, carriers, threshers.
-2. Observe Low Field drainage during first meaningful rain.
-3. After harvest, properly survey Old East Field before requesting restoration labor.
-4. Measure/inspect millstream and wheel; long-term possibility of water-powered threshing with a qualified millwright.
-5. Teach two or three younger farmers the reasoning behind his methods so knowledge survives him.
+## Education
+Weekly school established. First session Day 5: 11 children ~7–14, mixed literacy; letters/names/numbers/simple reading/arithmetic. Need more writing surfaces/texts and future teachers.
+**Next school: Day 12.**
+Long-term policy: qualified literate/numerate watch members rotate teaching as civic duty.
 
-His production/labor estimates remain possibilities, not guarantees.
-
-## Storehouse
-Physical Day 2 inventory:
-- 9/12 sickles usable
-- 5/7 axes usable
-- 3/4 spades usable
-- 3/3 heavy hammers usable
-- 1/2 saws usable
-- basic carpentry tools, rope, nails, hinges, old horseshoes, scrap iron
-Several broken tools may be repairable.
-
-A partly disassembled **hand-operated grindstone assembly** was rediscovered. Stone intact; frame loose, pedal linkage partly disconnected, one iron fitting badly rusted.
-
-Jon ordered it repaired. Mara will have the carpenter inspect the frame and a competent iron worker inspect the linkage. Any meaningful new forging expense comes back to Jon before authorization. Mara is also establishing a tool maintenance register: tool, condition, repair, holder.
-
-# Education
-Jon established a **weekly school day**.
-
-Initial subjects: reading, writing, arithmetic, local geography, practical measurement, basic history. Religious instruction remains separate unless Jon chooses otherwise. Jon can teach only what he actually knows.
-
-### Day 5 first session
-- Eleven children attended, roughly ages 7–14, mixed literacy.
-- Jon began with letters, numbers, names, simple sentences/arithmetic.
-- He learned that knowing material and teaching it are different skills.
-- Several beginners could copy their names recognizably with guidance by midday.
-- School now needs more writing surfaces, basic texts, and eventually additional competent teachers.
-
-### Long-term policy
-Jon will teach personally for now. **Qualified militia/watch members will eventually take regular rotating teaching duty** once they are genuinely literate, numerate, competent, and patient enough. This is intended to create an institutional loop: education improves future recruits; educated watch members help sustain education.
-
-# Greywake Watch / Militia Foundation
-Publicly framed as an ordinary manor watch for bandits, theft, fires, emergencies, and local defense—not an anti-Synod army.
+# Watch / Defense
 
 ## Aldren Pike
-58, former professional sergeant from the Marrow Border fighting ~20 years ago. Badly damaged left leg; brace + walking stick. Cannot keep battlefield pace but can teach. Literate, owns battered books.
+58, former Marrow Border sergeant; damaged leg, brace/stick; literate, professional trainer. Teaches thinking discipline and loyalty to Greywake rather than blind obedience.
+Terms: reduced labor obligation, meals training days, authority over recruits during training; Jon may overrule afterward but not undermine publicly.
+Memories:
+- Jon accepted soldiers who think.
+- Jon trusted Aldren's professional judgment selecting recruits.
+- **Aldren will remember Jon valued his judgment over a convenient answer** when assessing Westmere scouts.
+Aldren must immediately report serious worries/trouble involving the scouts.
 
-Jon recruited him to develop smart, well-read fighters. Aldren refuses to teach blind obedience; he teaches loyalty to **Greywake**—people, households, fields, comrades, secrets, survival—while preserving judgment.
+Eight recruits: **Lysa Fen, Corren Bale, Renn Tal, Perrin Cole, Bram, Edda, Jory, Nell**. Still trainees, not soldiers.
+Useful traits: Lysa quick learner; Corren team-aware; Renn capable/confident but needs discipline; Perrin thoughtful; Bram physically useful; Edda steady; Jory initiative; Nell observant/questions.
+Not selected yet: Hobb Nerin (talented/selfish), Merek Doss (strong/poor judgment), Tessa Rook (observant but struggled under change/fatigue).
 
-Memory: **Aldren will remember that Jon accepted soldiers who think rather than demanding blind obedience.**
-Memory: **Aldren will remember that Jon trusted his professional judgment when choosing Greywake's first watch recruits.**
+### Day 5 field exercise
+Jon + Tomas + Aldren + Edda/Perrin/Lysa/Corren investigated tracks north of Sella's holding. Real rolls: recruits movement **5**, Jon observation **5**. Trainees moved noisily and revealed patrol. Contact made with three Westmere scouts. Lesson: spacing/stealth/observation weak; later reviewed with terrain model. This was a successful training event despite poor performance.
 
-Terms:
-- labor obligation reduced for training duties
-- meals on training days
-- authority over recruits during training; may send unsuitable recruits home
-- Jon may overrule afterward but will not undermine him publicly
-- wooden practice spears first; shields later; do not waste iron on unproven hands
+## East Field defense integration
+Tomas + Dain + Kell mapped Old East Field approaches. Found concealed drainage approach, useful observation rise, cover/sightline issues.
+Gerren recognized concealed approach as old main drain needed for agricultural restoration. Plan: integrate drainage restoration, selective vegetation clearing, boundaries and future observation position rather than agriculture/defense competing.
+Dain/Kell earned limited responsibility teaching tracking **under supervision**.
 
-## First eight recruits
-Selected after group cooperation, learning, judgment, and fatigue/observation tests:
-- **Lysa Fen** — learns quickly
-- **Corren Bale** — attentive to comrades, thoughtful
-- **Renn Tal** — capable/confident; needs arrogance disciplined without destroying confidence
-- **Perrin Cole** — quiet and initially underestimated; showed good judgment about purpose behind orders
-- **Bram** — physically useful; improved through testing
-- **Edda** — steady
-- **Jory** — useful initiative without needing to be center of attention
-- **Nell** — asks questions, observant under fatigue
+# Westmere Scouts
+**Dain Mercer, Sera Voss, Kell Anwick** — former scouts/foresters under late Lord Harven Westmere. Came to Greywake after refusing new Lord Osric Westmere's orders involving dissenting families.
 
-Not selected:
-- **Hobb Nerin:** talented and quick learner, but showed selfish/glory-seeking instincts and poor group orientation. Aldren told him to learn to care whether the person beside him succeeds. No automatic vendetta.
-- **Merek Doss:** very strong and potentially teachable, but poor judgment; invited to try again after maturing.
-- **Tessa Rook:** observant and learns from others, but struggled with changing conditions/fatigue; encouraged to return next intake.
+Independent accounts broadly aligned:
+- Harven died in supposed riding accident.
+- Brother **Osric Westmere** claimed succession.
+- Bellows, Carrow, Vennick families questioned succession.
+- Osric ordered fugitives located; Sera says Tomas Bellows was to be brought back “alive if convenient.”
+- Several household members objected; three named men-at-arms: Marek Dorr, Hew Talven, Old Bran.
+- Kell stayed behind briefly: two protesting men-at-arms disarmed/confined; **Old Bran escaped**, possibly toward daughter's charcoal-burner cottage west of Westmere Hall.
+No proof yet beyond their testimony.
 
-The eight have begun basic training. They are **not yet soldiers**.
+Jon initially gave one-night shelter, then delegated assessment to Aldren. Aldren: accepts them provisionally but does **not yet trust** them; Jon explicitly approved that standard.
+They may stay/work but have no sensitive authority or command. Tomas/Aldren observe them.
+Memory: **Dain/Sera/Kell will remember Jon gave shelter without immediately demanding service/surrender.**
+
+Traits observed:
+- Dain sociable, learns names quickly; capable scout.
+- Kell quiet, excellent fieldcraft; taught Lysa how to recover a lost trail rather than showing answer.
+- Sera capable archer/scout, guarded/stubborn. She once refused Tomas's proposed route because it was tactically poor; her alternative proved better. Aldren is watching whether she can disagree professionally rather than becoming habitually insubordinate.
+- Day 11 Sera gave Jon useful archery posture advice; helped his progress to Archery 1.
+
+## Osric / returned property
+Osric sent demand to detain scouts and return claimed Westmere property. Jon replied: they are peaceful guests under his protection, free to stay/leave; legitimate stolen goods will be returned with proof.
+Captain **Edran Holt** later produced issue-ledger proof for Westmere equipment, but no proof for missing dispatch case.
+Jon returned proven property: 3 bows, 3 quivers, 2 short swords, 1 hunting knife, 3 winter cloaks, field glass. Edran signed receipt and departed without taking scouts.
+The scouts are now under-equipped; Greywake cannot afford full new kit. Mara recommends gradual repair/reuse from existing stock.
+
+### Harven's missing dispatch case
+Osric particularly wants a leather dispatch case belonging to Harven. No proof scouts stole it.
+Scouts revealed **Old Bran received it from Harven two days before Harven died**. Kell overheard Harven say “Not in the hall” and something about keeping it until he returned. Contents unknown. Dain/Sera/Kell say they never saw inside.
+Jon explicitly decided: **the box is not his problem for now.**
+Do not force this lead back into play without natural cause.
 
 # Mara Venn
-41, severe and highly competent steward. Former merchant-house accounts worker in Dunmere; Edric hired her 11 years ago. Values accountability and sound administration. Conflicts with Brother Caldus.
+41, severe/competent steward; former Dunmere merchant-house accounts worker; Edric hired 11 years ago. Jon named her **right hand / eyes and ears**. She accepted on condition she challenges him rather than merely agreeing.
+Memories:
+- thanked for being Edric's friend
+- Jon actively seeks her counsel and made consultation habitual
+- Jon chose her as right hand knowing she'd challenge him
+- Jon is thinking beyond surviving first Tithe
+- **Mara will remember Jon gave her priority in magical training after she showed greater early aptitude.**
 
-Jon increasingly consults rather than merely orders her.
+She gathers ordinary political/economic intelligence through steward/merchant contacts, not conspicuous spying.
 
-Defining memories:
-- **Mara will remember Jon thanking her for being Edric's friend.**
-- **Mara will remember that Jon actively sought her counsel.**
-- **Mara will remember that Jon made consultation with his steward a habit.**
-- **Mara noticed Jon is thinking beyond merely surviving his first Tithe.**
-- **Mara will remember that Jon chose her as his right hand knowing she would challenge him.**
+# Ilyra Senn — Independent Magician
+Experienced practical thaumaturge found through Mara's inquiries. Independent of Synod: no Synod office/license/training oath/patronage found. Honest about limits; not a legendary archmage.
+Capabilities claimed/demonstrated domain: detection, wards, simple binding-breaking, charged materials, sympathetic searches, ritual medicine, limited force/heat/protection/disruption. Largest prior working: dismantled seven-point persistent house anchoring over two days.
+Not primarily battlefield specialist; can teach combat foundations later but recommends detection/control first.
 
-### Current role
-Jon explicitly named Mara his **right hand** and described her as his **eyes and ears**.
-She accepted on the condition that she remains willing to tell him when he is wrong. She continues accounts, stores, obligations, labor, correspondence, and now deliberately brings Jon relevant disputes, rumors, behavioral changes, political/economic information, and outside observations.
+Terms: **1 crown/week + room/board for first month for Jon + Mara together**, Mara receiving priority/additional instruction; unusual materials require approval. Reassess after four weeks.
+Jon explicitly ordered training for both, **Mara priority**.
 
-She will use ordinary steward/merchant contacts rather than behaving conspicuously like a spy.
+### Magical training evidence
+Aptitude/early real rolls:
+- Jon: detection 3, influence 4 initially; later detection 16; disturbance ward 9; flawed-ward diagnosis 11.
+- Mara: detection 12, influence 13; later detection 16; disturbance ward 16; flawed-ward diagnosis 7.
+Interpretation: Mara has shown stronger early sensitivity/consistency, but this is a **modest evidence-based advantage, not a predetermined ceiling**. Do not snowball early luck into permanent automatic bonuses.
+Current:
+- Jon has sensed prepared effects repeatedly, briefly maintained a crude disturbance ward, and correctly located a ward weakness but couldn't fully diagnose theory.
+- Mara has repeatably maintained beginner ward structure but can overtrust instinct; her Day-11 failure taught method over intuition.
+- Neither has full practical magic skill threshold yet.
+- Future path: detection/control/ward foundations, then safe combat-relevant magic as earned.
 
-## Search for magical expertise
-Jon ordered Mara to seek an **expert magician**.
-Requirements are non-negotiable:
-- competent
-- discreet
-- **completely independent of the Black Synod**
-Anyone employed by, trained directly under, dependent upon, or beholden to the Synod is excluded.
+# Edric / Main Investigation
+Lord **Edric Vale**, Jon's uncle/predecessor, died shortly before campaign; official fever. Four-day final illness: scratching in walls, mirrors removed, trusted Mara, asked if Jon arrived, named Jon heir, demanded sealed lead-lined coffin never reopened: **“Because I don't know whether what killed me dies when I do.”** Coffin remains sealed beneath chapel.
+Cause unknown: illness/poison/fear/supernatural all unresolved. Do not assume Synod causality.
 
-Mara will make quiet inquiries through merchants and Dunmere contacts, investigate candidates before revealing Jon's purpose, and bring credible candidates rather than instantly producing a convenient expert. Search is ongoing and may take time/cost money.
+## Bedroom wall
+Evidence: scratches around/behind headboard; previously removed/replaced skirting; scoring inside wall cavity; deliberately placed brittle root/nesting-like bundle + tiny pale possibly-bone fragments + black iron pin with eye-crossed-by-vertical-line symbol.
+Jon ordered bundle/fragments burned; permanently unavailable for analysis. Pin survived and Jon kept it. Same basic symbol appears on Tomas's old blackened key. Meaning/placer/causality unknown.
 
-# Lord Edric Vale
-Jon's uncle/predecessor. Died 12 days before Day 1; official cause fever. Final illness lasted four days.
+## Edric & Oren Vey records
+Oren Vey, Dunmere miller and Elara's father, was hanged by Synod last winter for alleged withholding of consecrated grain. He and Edric secretly investigated Tithe records.
+Cipher-preserved findings:
+- similar holdings receive unequal demands
+- resistance to Synod appointment correlated with harsher next Tithe
+- supplying soldiers correlated with unusually light demands
+- Tithe appears partly economic, partly obedience/reward/punishment
+- post-collection grain/livestock/coin sometimes redirected/disappears
+- repeated notation **BLACK ALLOCATION**, including Greywake
+- Edric: “Find where the Black Allocation goes.”
+- Edric: “Caldus does not know.”
+- Oren: “If they discover we copied these, neither of us survives.”
+Original ledgers/correspondence were burned by Jon after ciphering important material. Nobody witnessed. Uncopied details lost forever. Tomas knows he delivered records but not destruction. Elara believes records may exist.
 
-During illness:
-- delirious; complained something was scratching inside bedroom walls
-- demanded mirrors removed
-- trusted only Mara in room
-- became lucid before death and asked whether Jon had arrived
-- declared Jon heir
-- ordered lead-lined coffin and said it must never be reopened
-- explanation: **“Because I don't know whether what killed me dies when I do.”**
+# Other Persistent NPCs
+**Tomas Rook:** scarred Greywake huntsman; Edric sent him to steal Oren's records before Synod found them. Excellent tracker. Has old blackened iron key with eye-crossed-by-vertical-line mark. Now helps supervise Westmere scouts/tracking training.
 
-Buried beneath Greywake family chapel; coffin remains sealed.
+**Brother Caldus:** young Synod priest at Greywake; charming, loyalty uncertain; knew Edric; conflicts with Mara. “Caldus does not know” reflects Edric's belief at time of note only.
 
-Mara does not know whether Edric was poisoned, ill, frightened into delirium, or affected by something supernatural. Jon suspects Synod involvement but has no proof.
+**Elara Vey (17):** Oren's daughter. Carries unopened-to-Jon oilcloth letter labeled “For Edric Vale. His hands only.” She has not given it to Jon. Jon offered shelter despite distrust. Her status after original one-night arrangement has not been resolved on-screen; resolve naturally if relevant, never invent Jon's choice.
+Memory: Elara remembers the shelter offer.
 
-# Edric's Bedroom / Wall Evidence
-Jon and Mara systematically searched Edric's room.
+**Finn Marr (~19):** brought Elara; caught trespassing over eastern wall. Had 3 silver + black wax seal with eyeless-saint motif said to be Oren's. Jon released him with warning.
+Memory: Finn remembers warning + first chance.
 
-Established evidence:
-- desk/wardrobe/books mostly ordinary; investigation material appears previously removed
-- short irregular scratches in plaster around/behind headboard, including places ordinary furniture wear does not explain
-- skirting behind bed had been removed/replaced before; old tool marks on nails
-- narrow wall cavity showed scoring on inner plaster/timber
+**Harl Fenner (52):** tenant/shepherd, 17 mature ewes. Jon bought exceptional ram Bramble for 6 crowns and refused double-charging current rent. Next-year principle: ram + some crowns if ram not exceptional; exact crowns unfixed. Earlier breeding compact cancelled before commencement because Bramble stays manor-side; **tell Harl clearly if not already done on-screen**.
+Memory: Harl remembers Jon honoring agreements.
 
-Jon opened the previously disturbed section with Mara.
-
-Inside:
-- numerous grooves on inner plaster and supporting timber
-- palm-sized bundle of dark brittle material resembling dried roots/nesting fibers
-- tiny pale fragments mixed into it, **possibly bone but never identified**
-- thin black metal pin driven horizontally into timber
-- pin head stamped with **eye crossed by a vertical line**, same basic motif as Tomas Rook's old blackened key
-
-No attack or movement occurred. No established explanation exists for who placed these objects, what the bundle was, what the fragments were, what the symbol means, or whether any of it caused Edric's death.
-
-### Destruction
-At Jon's order, the dark bundle and pale fragments were taken outside and burned. They are permanently destroyed, sacrificing any later physical examination.
-
-The black metal pin survived the fire. Jon chose to **keep it**. It is wrapped and currently in his possession. The wall cavity remains physical evidence and was left exposed rather than immediately repaired.
-
-# Edric & Oren Vey Investigation
-Oren Vey, deceased miller of Dunmere, secretly investigated the Tithe with Edric. Oren was publicly hanged last winter, officially for withholding consecrated grain.
-
-## Ledger findings preserved in Jon's cipher
-### Political pattern
-- similar holdings receive different Tithe demands
-- a village resisting a Synod appointment received harsher demands next year
-- another holding received unusually light demands after its lord supplied soldiers
-- evidence suggests Tithe is partly economic and partly a reward/punishment mechanism for obedience/resistance
-
-### Black Allocation
-- some collected grain disappears from official inventories
-- livestock is redirected
-- coin appears under different offices
-- repeated notation: **BLACK ALLOCATION**
-- appears beside portions of Tithes from several settlements, including Greywake
-- Edric: **“Find where the Black Allocation goes.”**
-- Edric: **“Caldus does not know.”**
-- Oren: **“If they discover we copied these, neither of us survives.”**
-
-“Caldus does not know” only establishes Edric's belief at the time of writing; it does not prove Caldus's current innocence.
-
-## Original records destroyed
-Jon copied what he considered important into his cipher notebook, then burned both ledgers and loose correspondence page by page. Nobody witnessed the burning. Anything not copied is permanently lost. Tomas knows he delivered the records but does not know Jon destroyed them. Elara believes records may exist and does not know they were destroyed.
-
-# Persistent NPCs
-## Brother Caldus
-Young Synod priest assigned to Greywake; charming, loyalty uncertain; knew Edric; conflicts with Mara. Wanted to be present when Jon opened the Tithe. Do not assume guilt or innocence beyond evidence.
-
-## Tomas Rook
-Scarred huntsman; knew Edric. Edric sent him to Dunmere on the night Oren was hanged to steal Oren's records before the Synod found them. Tomas retrieved them **without Jon accompanying him** and delivered them to Jon.
-
-Tomas possesses an old blackened iron key marked with an **eye crossed by a vertical line**. Exact meaning remains unknown.
-
-## Finn Marr
-Young outsider, around 19 in appearance. Brought Elara to Greywake. Caught climbing Greywake's eastern wall instead of using the gate. Had 3 silver coins and a small black wax seal bearing an eyeless-saint motif, said to belong to Oren.
-
-Only proven Greywake offense: trespass.
-
-Jon released him with a warning.
-Memory: **Finn will remember Jon's warning—and that Jon gave him a first chance.**
-
-## Elara Vey
-17, from Dunmere, Oren's daughter. Came seeking Edric. Carries an oilcloth-wrapped letter labeled **“For Edric Vale. His hands only.”** Oren gave it to her before his arrest and told her to give it to Edric if anything happened.
-
-She has **not given it to Jon**.
-
-Jon told her he could not trust her coming from another manor but offered shelter. She agreed to stay **one night only**, without permanent allegiance/service/subjection.
-Memory: **Elara will remember that Jon offered her shelter despite distrusting her.**
-
-Her current whereabouts/status after that one-night arrangement should be resolved naturally if it becomes relevant; do not retroactively invent a choice by Jon.
-
-## Harl Fenner
-52, Greywake tenant farmer/shepherd; 17 mature ewes; missing tip of left index finger.
-
-Old annual rent: 6 crowns + 6 days manor labor + one fleece per ten sheep after shearing. Current year's 6 crowns had already been paid.
-
-Jon bought Harl's exceptional ram **Bramble** for 6 crowns, returning Harl's paid six crowns without reimposing current-year rent.
-
-Next-year principle: Harl owes a ram plus some crowns if the ram is not exceptional; Jon personally inspects. Exact crown amount not fixed.
-
-Earlier proposed breeding compact is cancelled before commencement because Jon wants Bramble kept at the manor. **Harl still needs to be clearly informed of this change if that has not happened on-screen.**
-
-Memory: Harl has reason to remember Jon speaking to him as a person, honoring agreements, and refusing to double-charge.
-
-## Widow Sella Marrick
-Greywake tenant with modest northern-edge flock. Sold Greywake two ~18-month-old wethers for **4 crowns total**, Greywake handling transport. Animals appeared healthy enough for Tithe purposes on visual/hands-on inspection, while subtle disease/parasites were beyond Jon's expertise.
-
-# Recent Routine / Jon's Experience
-Do not replay these as mandatory loops. They establish experience and can be summarized in future.
-
-### Harvest
-Jon personally worked several harvest sessions.
-- First sessions were poor and physically inefficient.
-- Gerren corrected grip, sweep, pacing, and explained how bad cutting creates downstream work for binders/carriers.
-- Jon later had a solid session and became useful labor, though still far below an experienced worker.
-- Fatigue from combining harvest and archery hurt a later session.
-- Jon learned practically that labor, training, recovery, and militia duties compete for the same human energy.
-
-### Archery
-Jon did one solo evening session with a manor hunting bow and practice arrows.
-- introductory form practice only
-- some late grouping improvement
-- fatigue limited usefulness
-- no instructor, no instant skill threshold
-
-### Rest
-Jon deliberately rested his arms on Day 4 rather than continuing physical training.
+**Widow Sella Marrick:** northern-edge tenant; sold two Tithe wethers for 4 crowns; later allowed drainage clearing across her boundary.
 
 # Strategic Direction
-Jon's emerging state-building approach:
-- survive first Tithe
-- improve agricultural efficiency and preserve breeding stock
-- repair/maintain tools
-- build local knowledge and literacy
-- create a disciplined, thinking watch
-- eventually use educated militia members as civic teachers
-- delegate through capable specialists rather than personally controlling every task
-- seek independent magical expertise
-- investigate Edric/Oren evidence without assuming conclusions
-- gain enough time and peace for Greywake to compound improvements
+Jon's emerging model: survive Tithe; raise productivity instead of squeezing tenants; preserve breeding stock; maintain tools; develop mill/revenue; restore East Field; educate children; build thinking watch/scouting capacity; delegate to specialists; learn independent magic; investigate Edric/Oren cautiously; seek time/peace for compounding growth.
+Mara's framing: build for ten years, survive the next month.
 
-Mara's warning remains apt: build for ten years, but survive the next month.
+# Unresolved / Near-Term
+- **Day 12:** second weekly school session.
+- North Field harvest continues at sustainable specialized pace.
+- Low Field drainage needs future-rain confirmation.
+- Orren Cade millwright expected ~Day 15 for 1-crown inspection.
+- Scouts need gradual replacement equipment but no spare manor budget for full outfitting.
+- Continue supervised scout/watch integration; monitor Sera's relationship to authority.
+- Continue Jon/Mara magic training; Mara priority.
+- First Tithe Day 28.
+- East Field post-harvest agricultural/defense survey and restoration planning.
+- Harl breeding-compact cancellation may still need explicit notice.
+- Edric/Oren/Black Allocation investigation remains main conspiracy thread.
+- Harven dispatch case/Old Bran is optional/unpursued unless naturally resurfacing.
 
-# Non-Canon / Rewound
-Never reintroduce as fact:
-- Jon following Tomas during retrieval of Oren's records
-- any cellar scene involving future Tithe ledger entries
-- any ledger entry listing Edric in Year 614 or Jon in Year 615
-- any claim Jon chose to ignore a summons from Caldus
-- any memories/consequences derived solely from those rewound scenes
+# Non-Canon / Never Reintroduce
+- Jon following Tomas during Oren-record retrieval.
+- Cellar/future-Tithe-ledger scene.
+- Ledger entries listing Edric Year 614 or Jon Year 615.
+- Claim Jon chose to ignore Caldus summons.
+- Consequences/memories solely from rewound scenes.
 
-# Continuity Reminders
-- Do not turn established routines into repetitive turn-by-turn chores. Once Jon has established “help harvest regularly” or similar behavior, summarize routine execution unless a meaningful check, choice, complication, relationship moment, threshold, or world development makes a scene worthwhile.
-- NPCs have lives, agendas, competencies, mistakes, and progress of their own.
-- Not every day needs danger. Not every strange event needs to connect to the Synod.
-- Conversely, do not freeze the world while Jon trains or manages the estate.
+# Continuity
+- Do not replay established routines turn-by-turn unless meaningful.
+- Do not skip a current day merely because no crisis exists; user explicitly prefers continued playthrough when they say “next,” while routine portions can be compressed naturally.
+- NPCs progress, err, disagree, and pursue interests independently.
+- Quiet days allowed; not every strange event connects to Synod.
